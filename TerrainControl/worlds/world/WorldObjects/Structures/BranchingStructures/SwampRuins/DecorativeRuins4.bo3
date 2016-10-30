@@ -406,7 +406,7 @@ Block(3,0,1,STEP:3)
 Block(3,0,2,SMOOTH_BRICK:1)
 Block(3,1,-2,SMOOTH_BRICK:2)
 Block(3,1,0,LEAVES:1)
-Block(3,2,-2,FLOWER_POT)
+RandomBlock(3,2,-2,FLOWER_POT,../../nbt/Misc/FlowerPot1.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot2.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot3.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot81.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot4.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot5.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot6.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot7.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot8.nbt,100)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

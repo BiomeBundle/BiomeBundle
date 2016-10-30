@@ -38,7 +38,7 @@ BiomeSize: 10
 #   50 rarity mean 1/11 chance than other
 # For isle biomes see the BiomeRarityWhenIsle setting below.
 # Doesn`t work on Ocean and River (frozen versions too) biomes when not added as normal biome.
-BiomeRarity: 97
+BiomeRarity: 98
 
 # The hexadecimal color value of this biome. Used in the output of the /tc map command,
 # and used in the input of BiomeMode: FromImage.
@@ -330,7 +330,7 @@ FoliageColorIsMultiplier: false
 #                 if that fails, it attempts to place Taiga2 (100% chance).
 # PlantType:      one of the plant types: Allium, AzureBluet, BlueOrchid, BrownMushroom, Dandelion, DeadBush, DoubleTallgrass, Fern, LargeFern, Lilac, OrangeTulip, OxeyeDaisy, Peony, PinkTulip, Poppy, RedMushroom, RedTulip, RoseBush, Sunflower, Tallgrass, WhiteTulip
 #                 or simply a BlockName
-# IceSpikeType:   one of the ice spike types: Basement,SmallSpike,HugeSpike
+# IceSpikeType:   one of the ice spike types: Basement,HugeSpike,SmallSpike
 # Object:         can be a any kind of custom object (bo2 or bo3) but without the file extension. You can
 #                 also use UseWorld to spawn one of the object in the WorldObjects folder and UseBiome to spawn
 #                 one of the objects in the BiomeObjects setting. When using BO2s for UseWorld, the BO2 must have
@@ -342,17 +342,17 @@ FoliageColorIsMultiplier: false
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-Vein(COAL_ORE,10,30,50.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,25.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
-Vein(GOLD_ORE,10,30,25.0,8,14,66,0,250,STONE,HARD_CLAY)
-Vein(REDSTONE_ORE,10,30,25.0,8,18,66,0,250,STONE,HARD_CLAY)
-Vein(LAPIS_ORE,10,30,25.0,8,12,66,0,250,STONE,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,25.0,4,12,66,0,250,STONE)
-Vein(EMERALD_ORE,10,20,25.0,4,12,66,0,250,STONE)
-Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
+Vein(COAL_ORE,10,30,75.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
+Vein(IRON_ORE,10,30,66.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
+Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE,HARD_CLAY)
+Vein(REDSTONE_ORE,10,30,50.0,8,18,66,0,250,STONE,HARD_CLAY)
+Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE,HARD_CLAY)
+Vein(DIAMOND_ORE,10,20,66.0,4,12,66,0,35,STONE)
+Vein(EMERALD_ORE,10,20,66.0,4,12,66,0,35,STONE)
+Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY)
+Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY)
+Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY)
+Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(COAL_ORE,12,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(IRON_ORE,8,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(GOLD_ORE,8,6,70.0,0,250,STONE,HARD_CLAY)

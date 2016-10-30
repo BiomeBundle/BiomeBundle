@@ -58,7 +58,7 @@ ReplaceToBiomeName: Tropical Savanna
 
 # List of biomes in which this biome will spawn as an isle.
 # For example, Mushroom Isles spawn inside the Ocean biome.
-IsleInBiome: Tropical Savanna Canyon, Tropical Savanna
+IsleInBiome: Tropical Savanna, Tropical Savanna Canyon Mid
 
 # Size of this biome when spawned as an ilse biome.
 # Valid values range from 0 to GenerationDepth.
@@ -101,10 +101,10 @@ BiomeSizeWhenBorder: 10
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: -0.7
+BiomeHeight: -1.2
 
 # Biome volatility.
-BiomeVolatility: 0.0
+BiomeVolatility: 0.6
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
@@ -114,22 +114,22 @@ SmoothRadius: 2
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain will rise before leveling off when it begins to increase in elevation.
 # If the value is less than 0, then it will cause the terrain to either increase to a lower height before leveling out or decrease in height if the value is a large enough negative.
-MaxAverageHeight: 0.0
+MaxAverageHeight: -0.2
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain (usually at the ottom of the ocean) will fall before leveling off when it begins to decrease in elevation. 
 # If the value is less than 0, then it will cause the terrain to either fall to a lesser depth before leveling out or increase in height if the value is a large enough negative.
-MaxAverageDepth: 0.0
+MaxAverageDepth: -0.2
 
 # Another type of noise. This noise is independent from biomes. The larger the values the more chaotic/volatile landscape generation becomes.
 # Setting the values to negative will have the opposite effect and make landscape generation calmer/gentler.
-Volatility1: -2.0
+Volatility1: -1.0
 
-Volatility2: 0.3
+Volatility2: -1.0
 
 # Adjust the weight of the corresponding volatility settings. This allows you to change how prevalent you want either of the volatility settings to be in the terrain.
 VolatilityWeight1: 2.5
 
-VolatilityWeight2: 0.45
+VolatilityWeight2: 2.45
 
 # Disable all noises except Volatility1 and Volatility2. Also disable default block chance from height.
 DisableBiomeHeight: false
@@ -140,7 +140,7 @@ DisableBiomeHeight: false
 # Example:
 #   CustomHeightControl:0.0,-2500.0,0.0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 # Makes empty layer above bedrock layer. 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 20.0, 50.0, 50.0, 70.0, 70.0, 50.0, 25.0, 25.0, 25.0, 15.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -330,7 +330,7 @@ FoliageColorIsMultiplier: true
 #                 if that fails, it attempts to place Taiga2 (100% chance).
 # PlantType:      one of the plant types: Allium, AzureBluet, BlueOrchid, BrownMushroom, Dandelion, DeadBush, DoubleTallgrass, Fern, LargeFern, Lilac, OrangeTulip, OxeyeDaisy, Peony, PinkTulip, Poppy, RedMushroom, RedTulip, RoseBush, Sunflower, Tallgrass, WhiteTulip
 #                 or simply a BlockName
-# IceSpikeType:   one of the ice spike types: Basement,SmallSpike,HugeSpike
+# IceSpikeType:   one of the ice spike types: Basement,HugeSpike,SmallSpike
 # Object:         can be a any kind of custom object (bo2 or bo3) but without the file extension. You can
 #                 also use UseWorld to spawn one of the object in the WorldObjects folder and UseBiome to spawn
 #                 one of the objects in the BiomeObjects setting. When using BO2s for UseWorld, the BO2 must have
@@ -343,17 +343,17 @@ FoliageColorIsMultiplier: true
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
 CustomStructure()
-Vein(COAL_ORE,10,30,50.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,25.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
-Vein(GOLD_ORE,10,30,25.0,8,14,66,0,250,STONE,HARD_CLAY)
-Vein(REDSTONE_ORE,10,30,25.0,8,18,66,0,250,STONE,HARD_CLAY)
-Vein(LAPIS_ORE,10,30,25.0,8,12,66,0,250,STONE,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,25.0,4,12,66,0,250,STONE)
-Vein(EMERALD_ORE,10,20,25.0,4,12,66,0,250,STONE)
-Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
+Vein(COAL_ORE,10,30,75.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
+Vein(IRON_ORE,10,30,66.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
+Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE,HARD_CLAY)
+Vein(REDSTONE_ORE,10,30,50.0,8,18,66,0,250,STONE,HARD_CLAY)
+Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE,HARD_CLAY)
+Vein(DIAMOND_ORE,10,20,66.0,4,12,66,0,35,STONE)
+Vein(EMERALD_ORE,10,20,66.0,4,12,66,0,35,STONE)
+Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY)
+Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY)
+Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY)
+Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(COAL_ORE,12,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(IRON_ORE,8,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(GOLD_ORE,8,6,70.0,0,250,STONE,HARD_CLAY)
@@ -431,7 +431,7 @@ MineshaftType: normal
 MineshaftRarity: 0.3
 
 # The type of the aboveground rare building in this biome. Can be desertPyramid, jungleTemple, swampHut, igloo or disabled.
-RareBuildingType: jungleTemple
+RareBuildingType: disabled
 
 
 #######################################################################

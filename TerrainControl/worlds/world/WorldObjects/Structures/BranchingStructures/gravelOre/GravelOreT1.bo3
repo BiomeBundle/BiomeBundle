@@ -108,9 +108,13 @@ OutsideSourceBlock: dontPlace
 # All the blocks used in the BO3 are listed here. Possible blocks:
 # Block(x,y,z,id[.data][,nbtfile.nbt)
 # RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
-# the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
-# fails, a 100% percent chance to have the contents of anotherchest.nbt.
+#  So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+#  the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
+#  fails, a 100% percent chance to have the contents of anotherchest.nbt.
+# MinecraftObject(x,y,z,name)
+#  Spawns an object in the Mojang NBT structure format. For example, 
+#  MinecraftObject(0,0,0,minecraft:igloo/igloo_bottom)
+#  spawns the bottom part of an igloo.
 Block(0,0,0,GRAVEL)
 
 #######################################################################
@@ -153,7 +157,7 @@ Block(0,0,0,GRAVEL)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,GravelOreT2,NORTH,20.0,GoldOreT1,NORTH,560.0,IronOreT1,NORTH,8130.0,CoalOreT1,NORTH,81490.0,120.0)
+WeightedBranch(0,0,0,GravelOreT2,NORTH,20.0,GoldOreT1,NORTH,3920.0,IronOreT1,NORTH,386130.0,CoalOreT1,NORTH,2.548589E7,120.0)
 Branch(0,1,0,GravelOreT3,NORTH,50.0)
 Branch(1,0,0,GravelOreT2,NORTH,50.0)
 Branch(0,0,1,GravelOreT2,NORTH,70.0)

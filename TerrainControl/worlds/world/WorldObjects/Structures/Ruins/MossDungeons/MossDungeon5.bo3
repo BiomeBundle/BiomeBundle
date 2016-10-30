@@ -816,7 +816,7 @@ RandomBlock(-2,-10,8,98,20,98:1,15,98:2,100)
 RandomBlock(-2,-10,9,COBBLESTONE,50,48,100)
 RandomBlock(-2,-9,-4,COBBLESTONE,50,48,100)
 RandomBlock(-2,-9,-3,98,20,98:1,15,98:2,100)
-RandomBlock(-2,-9,-2,CHEST:5,../../nbt/Chests/Chest16.nbt,2,CHEST:3,../../nbt/Chests/Chest17.nbt,2,JUKEBOX,../../nbt/Misc/RecordPlayer6.nbt,2,CHEST:3,../../nbt/Chests/Chest19.nbt,2,JUKEBOX,../../nbt/Misc/RecordPlayer2.nbt,2,JUKEBOX,../../nbt/Misc/RecordPlayer1.nbt,2,CHEST:3,../../nbt/Chests/Chest22.nbt,2,CHEST:3,../../nbt/Chests/Chest23.nbt,2,CHEST:3,../../nbt/Chests/Chest24.nbt,2,CHEST:3,../../nbt/Chests/Chest25.nbt,2,CHEST:3,../../nbt/Chests/Chest26.nbt,2,CHEST:3,../../nbt/Chests/Chest27.nbt,2,CHEST:3,../../nbt/Chests/Chest28.nbt,100)
+RandomBlock(-2,-9,-2,CHEST,../../nbt/Chests/Common1.nbt,25,CHEST,../../nbt/Chests/Common2.nbt,25,CHEST,../../nbt/Chests/Common3.nbt,25,CHEST,../../nbt/Chests/Common4.nbt,25,CHEST,../../nbt/Chests/Common5.nbt,25,CHEST,../../nbt/Chests/Common6.nbt,25,CHEST,../../nbt/Chests/Common7.nbt,25,CHEST,../../nbt/Chests/Common8.nbt,25,CHEST,../../nbt/Chests/Common9.nbt,25,CHEST,../../nbt/Chests/Common10.nbt,25,CHEST,../../nbt/Chests/Common11.nbt,25,CHEST,../../nbt/Chests/Common12.nbt,25,CHEST,../../nbt/Chests/Common13.nbt,25,CHEST,../../nbt/Chests/Common14.nbt,25,CHEST,../../nbt/Chests/Common15.nbt,100)
 Block(-2,-9,-1,AIR)
 RandomBlock(-2,-9,0,98,20,98:1,15,98:2,100)
 RandomBlock(-2,-9,1,98,20,98:1,15,98:2,100)
@@ -2027,7 +2027,7 @@ RandomBlock(3,-10,9,COBBLESTONE,50,48,100)
 RandomBlock(3,-9,-4,COBBLESTONE,50,48,100)
 RandomBlock(3,-9,-3,98,20,98:1,15,98:2,100)
 Block(3,-9,-2,AIR)
-RandomBlock(3,-9,-1,JUKEBOX,../../nbt/Misc/RecordPlayer8.nbt,2,JUKEBOX,../../nbt/Misc/RecordPlayer10.nbt,2,JUKEBOX,../../nbt/Misc/RecordPlayer4.nbt,2,CHEST:3,../../nbt/Chests/Chest4.nbt,2,CHEST:3,../../nbt/Chests/Chest5.nbt,2,CHEST:3,../../nbt/Chests/Chest6.nbt,2,CHEST:3,../../nbt/Chests/Chest7.nbt,2,CHEST:3,../../nbt/Chests/Chest8.nbt,2,CHEST:3,../../nbt/Chests/Chest9.nbt,2,CHEST:3,../../nbt/Chests/Chest10.nbt,2,CHEST:3,../../nbt/Chests/Chest11.nbt,2,CHEST:3,../../nbt/Chests/Chest12.nbt,2,CHEST:3,../../nbt/Chests/Chest13.nbt,2,CHEST:3,../../nbt/Chests/Chest14.nbt,2,CHEST:3,../../nbt/Chests/Chest15.nbt,100)
+RandomBlock(3,-9,-1,CHEST,../../nbt/Chests/Common1.nbt,25,CHEST,../../nbt/Chests/Common2.nbt,25,CHEST,../../nbt/Chests/Common3.nbt,25,CHEST,../../nbt/Chests/Common4.nbt,25,CHEST,../../nbt/Chests/Common5.nbt,25,CHEST,../../nbt/Chests/Common6.nbt,25,CHEST,../../nbt/Chests/Common7.nbt,25,CHEST,../../nbt/Chests/Common8.nbt,25,CHEST,../../nbt/Chests/Common9.nbt,25,CHEST,../../nbt/Chests/Common10.nbt,25,CHEST,../../nbt/Chests/Common11.nbt,25,CHEST,../../nbt/Chests/Common12.nbt,25,CHEST,../../nbt/Chests/Common13.nbt,25,CHEST,../../nbt/Chests/Common14.nbt,25,CHEST,../../nbt/Chests/Common15.nbt,100)
 RandomBlock(3,-9,0,98,20,98:1,15,98:2,100)
 RandomBlock(3,-9,1,98,20,98:1,15,98:2,100)
 Block(3,-9,2,AIR)
@@ -2966,7 +2966,7 @@ RandomBlock(7,2,6,98,20,98:1,15,98:2,100)
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
-
+BlockCheck(0,-1,0,GRASS,DIRT)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #

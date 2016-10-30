@@ -47,7 +47,7 @@ SpawnHeight: randomY
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 256
+MaxHeight: 90
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -534,7 +534,7 @@ Block(-5,7,2,AIR)
 Block(-5,7,3,AIR)
 Block(-5,7,4,AIR)
 Block(-5,7,5,AIR)
-RandomBlock(-5,7,6,CHEST:2,../../nbt/Chests/Chest1.nbt,6,CHEST:3,../../nbt/Chests/Chest2.nbt,6,CHEST:3,../../nbt/Chests/Chest3.nbt,6,CHEST:3,../../nbt/Chests/Chest4.nbt,6,CHEST:3,../../nbt/Chests/Chest5.nbt,6,CHEST:3,../../nbt/Chests/Chest6.nbt,6,CHEST:3,../../nbt/Chests/Chest7.nbt,6,CHEST:3,../../nbt/Chests/Chest8.nbt,6,CHEST:3,../../nbt/Chests/Chest9.nbt,6,CHEST:3,../../nbt/Chests/Chest10.nbt,6,CHEST:3,../../nbt/Chests/Chest11.nbt,6,CHEST:3,../../nbt/Chests/Chest12.nbt,6,CHEST:3,../../nbt/Chests/Chest13.nbt,6,CHEST:3,../../nbt/Chests/Chest14.nbt,6,CHEST:3,../../nbt/Chests/Chest15.nbt,6,145:1,100)
+RandomBlock(-5,7,6,CHEST,../../nbt/Chests/Rare1.nbt,25,CHEST,../../nbt/Chests/Rare2.nbt,25,CHEST,../../nbt/Chests/Rare3.nbt,25,CHEST,../../nbt/Chests/Rare4.nbt,25,CHEST,../../nbt/Chests/Rare5.nbt,25,CHEST,../../nbt/Chests/Rare6.nbt,25,CHEST,../../nbt/Chests/Rare7.nbt,25,CHEST,../../nbt/Chests/Rare8.nbt,25,CHEST,../../nbt/Chests/Rare9.nbt,25,CHEST,../../nbt/Chests/Rare10.nbt,25,CHEST,../../nbt/Chests/Rare11.nbt,25,CHEST,../../nbt/Chests/Rare12.nbt,25,CHEST,../../nbt/Chests/Rare13.nbt,25,CHEST,../../nbt/Chests/Rare14.nbt,25,CHEST,../../nbt/Chests/Rare15.nbt,100)
 Block(-5,7,7,COBBLESTONE)
 Block(-5,8,-8,COBBLESTONE)
 Block(-5,8,-7,AIR)
@@ -2429,7 +2429,6 @@ Block(7,6,-7,AIR)
 Block(7,6,-6,AIR)
 Block(7,6,-5,AIR)
 Block(7,6,-4,AIR)
-RandomBlock(7,6,-3,CHEST:2,../../nbt/Chests/Chest1.nbt,6,CHEST:3,../../nbt/Chests/Chest2.nbt,6,CHEST:3,../../nbt/Chests/Chest3.nbt,6,CHEST:3,../../nbt/Chests/Chest4.nbt,6,CHEST:3,../../nbt/Chests/Chest5.nbt,6,CHEST:3,../../nbt/Chests/Chest6.nbt,6,CHEST:3,../../nbt/Chests/Chest7.nbt,6,CHEST:3,../../nbt/Chests/Chest8.nbt,6,CHEST:3,../../nbt/Chests/Chest9.nbt,6,CHEST:3,../../nbt/Chests/Chest10.nbt,6,CHEST:3,../../nbt/Chests/Chest11.nbt,6,CHEST:3,../../nbt/Chests/Chest12.nbt,6,CHEST:3,../../nbt/Chests/Chest13.nbt,6,CHEST:3,../../nbt/Chests/Chest14.nbt,6,CHEST:3,../../nbt/Chests/Chest15.nbt,6,145:1,100)
 Block(7,6,-2,COBBLESTONE)
 Block(7,6,-1,COBBLESTONE)
 Block(7,6,0,COBBLESTONE)

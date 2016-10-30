@@ -215,7 +215,7 @@ SurfaceAndGroundControl:
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (GRASS,STAINED_CLAY:1,76,85),(RED_SANDSTONE,AIR)
+ReplacedBlocks: (GRASS,STAINED_CLAY:1,76,85)
 
 ################################
 # Water / Lava & Frozen States #
@@ -330,7 +330,7 @@ FoliageColorIsMultiplier: true
 #                 if that fails, it attempts to place Taiga2 (100% chance).
 # PlantType:      one of the plant types: Allium, AzureBluet, BlueOrchid, BrownMushroom, Dandelion, DeadBush, DoubleTallgrass, Fern, LargeFern, Lilac, OrangeTulip, OxeyeDaisy, Peony, PinkTulip, Poppy, RedMushroom, RedTulip, RoseBush, Sunflower, Tallgrass, WhiteTulip
 #                 or simply a BlockName
-# IceSpikeType:   one of the ice spike types: Basement,SmallSpike,HugeSpike
+# IceSpikeType:   one of the ice spike types: Basement,HugeSpike,SmallSpike
 # Object:         can be a any kind of custom object (bo2 or bo3) but without the file extension. You can
 #                 also use UseWorld to spawn one of the object in the WorldObjects folder and UseBiome to spawn
 #                 one of the objects in the BiomeObjects setting. When using BO2s for UseWorld, the BO2 must have
@@ -342,17 +342,17 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-Vein(COAL_ORE,10,30,50.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,25.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
-Vein(GOLD_ORE,10,30,25.0,8,14,66,0,250,STONE,HARD_CLAY)
-Vein(REDSTONE_ORE,10,30,25.0,8,18,66,0,250,STONE,HARD_CLAY)
-Vein(LAPIS_ORE,10,30,25.0,8,12,66,0,250,STONE,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,25.0,4,12,66,0,250,STONE)
-Vein(EMERALD_ORE,10,20,25.0,4,12,66,0,250,STONE)
-Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
+Vein(COAL_ORE,10,30,75.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
+Vein(IRON_ORE,10,30,66.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
+Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE,HARD_CLAY)
+Vein(REDSTONE_ORE,10,30,50.0,8,18,66,0,250,STONE,HARD_CLAY)
+Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE,HARD_CLAY)
+Vein(DIAMOND_ORE,10,20,66.0,4,12,66,0,35,STONE)
+Vein(EMERALD_ORE,10,20,66.0,4,12,66,0,35,STONE)
+Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY)
+Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY)
+Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY)
+Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(COAL_ORE,12,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(IRON_ORE,8,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(GOLD_ORE,8,6,70.0,0,250,STONE,HARD_CLAY)
@@ -367,7 +367,6 @@ Ore(HARD_CLAY,16,100,33.0,52,100,GRASS)
 Ore(SAND:1,16,100,33.0,52,100,GRASS)
 Ore(GRAVEL,3,16,75.0,64,256,GRASS)
 CustomObject(claydungeon1,claydungeon2,claydungeon3,claydungeon4,claydungeon5)
-SmallLake(WATER,4,7.0,8,120)
 UnderGroundLake(25,60,2,5.0,0,50)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
@@ -384,7 +383,7 @@ Grass(Fern,NotGrouped,4,50.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,4,50.0,GRASS,DIRT)
 Plant(LargeFern,10,90.0,30,128,GRASS,DIRT)
 Tree(5,HugeTaiga2,4,HugeTaiga1,15,Taiga1,16,Taiga2,50)
-CustomStructure()
+CustomStructure(DngStart,0.5)
 CustomObject(MesaRock1,MesaRock2,MesaRock3,MesaRock4,MesaRock5)
 
 #######################################################################
@@ -438,7 +437,7 @@ NetherFortressesEnabled: false
 VillageType: disabled
 
 # The mineshaft type in this biome. Can be normal, mesa or disabled.
-MineshaftType: normal
+MineshaftType: mesa
 
 # The mineshaft rarity from 0 to 100. 0 = no mineshafts, 1 = default rarity, 100 = a wooden chaos.
 # Note that mineshafts will never spawn, regardless of this setting, if 

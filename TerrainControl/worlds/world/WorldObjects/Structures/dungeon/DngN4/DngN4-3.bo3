@@ -47,7 +47,7 @@ SpawnHeight: randomY
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 256
+MaxHeight: 90
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -777,7 +777,7 @@ Block(1,5,5,AIR)
 Block(1,5,6,AIR)
 Block(1,5,7,AIR)
 Block(1,6,0,COBBLESTONE)
-RandomBlock(1,6,1,CHEST:3,../../nbt/Chests/Chest16.nbt,6,CHEST:3,../../nbt/Chests/Chest17.nbt,6,CHEST:3,../../nbt/Chests/Chest18.nbt,6,CHEST:3,../../nbt/Chests/Chest19.nbt,6,CHEST:3,../../nbt/Chests/Chest20.nbt,6,CHEST:3,../../nbt/Chests/Chest21.nbt,6,CHEST:3,../../nbt/Chests/Chest22.nbt,6,CHEST:3,../../nbt/Chests/Chest23.nbt,6,CHEST:3,../../nbt/Chests/Chest24.nbt,6,CHEST:3,../../nbt/Chests/Chest25.nbt,6,CHEST:3,../../nbt/Chests/Chest26.nbt,6,CHEST:3,../../nbt/Chests/Chest27.nbt,6,CHEST:3,../../nbt/Chests/Chest28.nbt,6,CHEST:3,../../nbt/Chests/Chest29.nbt,6,CHEST:3,../../nbt/Chests/Chest30.nbt,20,145:1,100)
+RandomBlock(1,6,1,CHEST,../../nbt/Chests/Epic1.nbt,25,CHEST,../../nbt/Chests/Epic2.nbt,25,CHEST,../../nbt/Chests/Epic3.nbt,25,CHEST,../../nbt/Chests/Epic4.nbt,25,CHEST,../../nbt/Chests/Epic5.nbt,25,CHEST,../../nbt/Chests/Epic6.nbt,25,CHEST,../../nbt/Chests/Epic7.nbt,25,CHEST,../../nbt/Chests/Epic8.nbt,25,CHEST,../../nbt/Chests/Epic9.nbt,25,CHEST,../../nbt/Chests/Epic10.nbt,25,CHEST,../../nbt/Chests/Epic11.nbt,25,CHEST,../../nbt/Chests/Epic12.nbt,25,CHEST,../../nbt/Chests/Epic13.nbt,25,CHEST,../../nbt/Chests/Epic14.nbt,25,CHEST,../../nbt/Chests/Epic15.nbt,100)
 Block(1,6,2,AIR)
 Block(1,6,3,AIR)
 Block(1,6,4,AIR)

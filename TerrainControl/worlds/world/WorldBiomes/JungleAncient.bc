@@ -330,7 +330,7 @@ FoliageColorIsMultiplier: true
 #                 if that fails, it attempts to place Taiga2 (100% chance).
 # PlantType:      one of the plant types: Allium, AzureBluet, BlueOrchid, BrownMushroom, Dandelion, DeadBush, DoubleTallgrass, Fern, LargeFern, Lilac, OrangeTulip, OxeyeDaisy, Peony, PinkTulip, Poppy, RedMushroom, RedTulip, RoseBush, Sunflower, Tallgrass, WhiteTulip
 #                 or simply a BlockName
-# IceSpikeType:   one of the ice spike types: Basement,SmallSpike,HugeSpike
+# IceSpikeType:   one of the ice spike types: Basement,HugeSpike,SmallSpike
 # Object:         can be a any kind of custom object (bo2 or bo3) but without the file extension. You can
 #                 also use UseWorld to spawn one of the object in the WorldObjects folder and UseBiome to spawn
 #                 one of the objects in the BiomeObjects setting. When using BO2s for UseWorld, the BO2 must have
@@ -342,17 +342,17 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-Vein(COAL_ORE,10,30,50.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,25.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
-Vein(GOLD_ORE,10,30,25.0,8,14,66,0,250,STONE,HARD_CLAY)
-Vein(REDSTONE_ORE,10,30,25.0,8,18,66,0,250,STONE,HARD_CLAY)
-Vein(LAPIS_ORE,10,30,25.0,8,12,66,0,250,STONE,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,25.0,4,12,66,0,250,STONE)
-Vein(EMERALD_ORE,10,20,25.0,4,12,66,0,250,STONE)
-Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
-Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY,STAINED_CLAY)
+Vein(COAL_ORE,10,30,75.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
+Vein(IRON_ORE,10,30,66.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
+Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE,HARD_CLAY)
+Vein(REDSTONE_ORE,10,30,50.0,8,18,66,0,250,STONE,HARD_CLAY)
+Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE,HARD_CLAY)
+Vein(DIAMOND_ORE,10,20,66.0,4,12,66,0,35,STONE)
+Vein(EMERALD_ORE,10,20,66.0,4,12,66,0,35,STONE)
+Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY)
+Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY)
+Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY)
+Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(COAL_ORE,12,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(IRON_ORE,8,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(GOLD_ORE,8,6,70.0,0,250,STONE,HARD_CLAY)
@@ -368,11 +368,11 @@ Ore(STAINED_CLAY:14,25,100,66.0,90,150,GRASS)
 Ore(STAINED_CLAY:14,15,80,100.0,100,200,GRASS)
 Ore(STAINED_CLAY:14,15,80,100.0,150,200,GRASS)
 Ore(STAINED_CLAY:14,15,60,80.0,52,256,GRASS)
-SmallLake(WATER,5,44.0,8,256)
+CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 Boulder(STONE,2,10.0,60,100,STAINED_CLAY:1)
 Tree(8,GroundBush,5,JungleTree,5,CocoaTree,10)
 CustomObject(rockyhole1,rockyhole2,rockyhole3,rockyhole4,rockyhole5)
-CustomStructure(JungleBranching,0.05,GravelOreT1,1.0,TotemBase,0.02,DngStart,0.05,WitchVillageBranching,0.3)
+CustomStructure(JungleBranching,0.05,GravelOreT1,1.0,TotemBase,0.02,DngStart,0.04,WitchVillageBranching,0.3)
 CustomObject(ancientjungle1,ancientjungle2,ancientjungle3,ancientjungle4)
 CustomObject(shroomjunglesmall1,shroomjunglemed1,shroomjunglemed2,shroomjunglelarge1,shroomjunglelarge2,shroomjunglelarge3)
 CustomObject(ShrubJungle1,ShrubJungle2,ShrubJungle3,ShrubJungle4,ShrubJungle5)
@@ -381,11 +381,11 @@ CustomObject(boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boul
 CustomObject(forestrock1,forestrock2,forestrock3,forestrock4)
 CustomObject(plainsrock4,plainsrock3,plainsrock2,plainsrock1)
 CustomObject(VolcanoMedium1,VolcanoMedium2,VolcanoMedium3,VolcanoMedium4,VolcanoMedium5,VolcanoSmall1,VolcanoSmall2)
+CustomObject(Volcano1,Volcano2)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
 CustomObject(mountain1R5,mountain2R5,mountain3R5,mountain4R5,mountain5R5,mountain6R5)
 Plant(RedMushroom,10,50.0,0,128,GRASS,DIRT)
 Plant(BrownMushroom,10,50.0,0,128,GRASS,DIRT)
-SmallLake(WATER,12,1.0,8,120)
 Ore(GRAVEL,10,60,75.0,64,128,GRASS)
 Ore(STONE,10,80,75.0,64,128,GRASS)
 Boulder(STONE,2,10.0,60,100,GRASS)
@@ -393,7 +393,7 @@ Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,8,1,100.0,DIRT,CLAY)
 AboveWaterRes(WATER_LILY,1,100.0)
-Reed(SUGAR_CANE_BLOCK,10,100.0,60,128,GRASS,DIRT,SAND)
+Reed(SUGAR_CANE_BLOCK,10,100.0,52,128,GRASS,DIRT,SAND)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

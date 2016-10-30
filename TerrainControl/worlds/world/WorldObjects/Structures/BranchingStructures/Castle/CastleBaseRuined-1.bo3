@@ -45,9 +45,9 @@ RotateRandomly: false
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 0
+MinHeight: 69
 
-MaxHeight: 256
+MaxHeight: 70
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -88,6 +88,7 @@ OutsideSourceBlock: placeAnyway
 # So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
+
 Block(-8,-24,-8,SMOOTH_BRICK)
 Block(-8,-24,-7,SMOOTH_BRICK)
 Block(-8,-24,-6,SMOOTH_BRICK)
@@ -2539,7 +2540,7 @@ Block(-2,-22,7,SMOOTH_BRICK)
 Block(-2,-21,-8,SMOOTH_BRICK)
 Block(-2,-21,-7,SMOOTH_BRICK)
 Block(-2,-21,-6,AIR)
-RandomBlock(-2,-21,-5,CHEST:3,../../nbt/Chests/Chest2.nbt,6,CHEST:3,../../nbt/Chests/Chest3.nbt,6,CHEST:3,../../nbt/Chests/Chest4.nbt,6,CHEST:3,../../nbt/Chests/Chest5.nbt,6,CHEST:3,../../nbt/Chests/Chest6.nbt,6,CHEST:3,../../nbt/Chests/Chest7.nbt,6,CHEST:3,../../nbt/Chests/Chest8.nbt,6,CHEST:3,../../nbt/Chests/Chest9.nbt,6,CHEST:3,../../nbt/Chests/Chest10.nbt,6,CHEST:3,../../nbt/Chests/Chest11.nbt,6,CHEST:3,../../nbt/Chests/Chest12.nbt,6,CHEST:3,../../nbt/Chests/Chest13.nbt,6,CHEST:3,../../nbt/Chests/Chest14.nbt,100)
+RandomBlock(-2,-21,-5,CHEST,../../nbt/Chests/Common1.nbt,25,CHEST,../../nbt/Chests/Common2.nbt,25,CHEST,../../nbt/Chests/Common3.nbt,25,CHEST,../../nbt/Chests/Common4.nbt,25,CHEST,../../nbt/Chests/Common5.nbt,25,CHEST,../../nbt/Chests/Common6.nbt,25,CHEST,../../nbt/Chests/Common7.nbt,25,CHEST,../../nbt/Chests/Common8.nbt,25,CHEST,../../nbt/Chests/Common9.nbt,25,CHEST,../../nbt/Chests/Common10.nbt,25,CHEST,../../nbt/Chests/Common11.nbt,25,CHEST,../../nbt/Chests/Common12.nbt,25,CHEST,../../nbt/Chests/Common13.nbt,25,CHEST,../../nbt/Chests/Common14.nbt,25,CHEST,../../nbt/Chests/Common15.nbt,100)
 Block(-2,-21,-4,AIR)
 Block(-2,-21,-3,DOUBLE_STEP:5)
 Block(-2,-21,-2,AIR)
@@ -2681,7 +2682,7 @@ Block(-2,-13,5,AIR)
 Block(-2,-13,6,SMOOTH_BRICK)
 Block(-2,-13,7,SMOOTH_BRICK)
 Block(-2,-12,-8,AIR)
-RandomBlock(-2,-12,-7,FLOWER_POT,../../nbt/Misc/FlowerPot1.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot2.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot3.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot81.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot4.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot5.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot6.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot7.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot8.nbt,100)
+RandomBlock(-2,-12,-7,FLOWER_POT,../../nbt/Misc/FlowerPot1.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot2.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot3.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot81.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot4.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot5.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot6.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot7.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot8.nbt,100)
 Block(-2,-12,-6,AIR)
 Block(-2,-12,-5,AIR)
 Block(-2,-12,-4,AIR)
@@ -5563,7 +5564,7 @@ Block(5,-8,7,SMOOTH_BRICK)
 Block(5,-7,-8,SMOOTH_BRICK)
 Block(5,-7,-7,SMOOTH_BRICK)
 Block(5,-7,-6,SMOOTH_BRICK)
-RandomBlock(5,-7,-5,CHEST:5,../../nbt/Chests/Chest29.nbt,2,CHEST:3,../../nbt/Chests/Chest30.nbt,2,JUKEBOX,../../nbt/Misc/RecordPlayer6.nbt,2,CHEST:3,../../nbt/Chests/Chest19.nbt,2,JUKEBOX,../../nbt/Misc/RecordPlayer2.nbt,2,JUKEBOX,../../nbt/Misc/RecordPlayer1.nbt,2,CHEST:3,../../nbt/Chests/Chest22.nbt,2,CHEST:3,../../nbt/Chests/Chest23.nbt,2,CHEST:3,../../nbt/Chests/Chest24.nbt,2,CHEST:3,../../nbt/Chests/Chest25.nbt,2,CHEST:3,../../nbt/Chests/Chest26.nbt,2,CHEST:3,../../nbt/Chests/Chest27.nbt,2,CHEST:3,../../nbt/Chests/Chest28.nbt,100)
+RandomBlock(5,-7,-5,CHEST,../../nbt/Chests/Rare1.nbt,25,CHEST,../../nbt/Chests/Rare2.nbt,25,CHEST,../../nbt/Chests/Rare3.nbt,25,CHEST,../../nbt/Chests/Rare4.nbt,25,CHEST,../../nbt/Chests/Rare5.nbt,25,CHEST,../../nbt/Chests/Rare6.nbt,25,CHEST,../../nbt/Chests/Rare7.nbt,25,CHEST,../../nbt/Chests/Rare8.nbt,25,CHEST,../../nbt/Chests/Rare9.nbt,25,CHEST,../../nbt/Chests/Rare10.nbt,25,CHEST,../../nbt/Chests/Rare11.nbt,25,CHEST,../../nbt/Chests/Rare12.nbt,25,CHEST,../../nbt/Chests/Rare13.nbt,25,CHEST,../../nbt/Chests/Rare14.nbt,25,CHEST,../../nbt/Chests/Rare15.nbt,100)
 Block(5,-7,-4,SMOOTH_BRICK)
 Block(5,-7,-3,SMOOTH_BRICK)
 Block(5,-7,-2,AIR)
@@ -5580,7 +5581,7 @@ Block(5,-6,-8,SMOOTH_BRICK)
 Block(5,-6,-7,SMOOTH_BRICK)
 Block(5,-6,-6,STEP:5)
 Block(5,-6,-5,AIR)
-RandomBlock(5,-6,-4,FLOWER_POT,../../nbt/Misc/FlowerPot1.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot2.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot3.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot81.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot4.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot5.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot6.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot7.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot8.nbt,100)
+RandomBlock(5,-6,-4,FLOWER_POT,../../nbt/Misc/FlowerPot1.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot2.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot3.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot81.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot4.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot5.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot6.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot7.nbt,20,FLOWER_POT,../../nbt/Misc/FlowerPot8.nbt,100)
 Block(5,-6,-3,STEP:5)
 Block(5,-6,-2,AIR)
 Block(5,-6,-1,AIR)
@@ -6160,7 +6161,7 @@ Block(7,-20,-4,LOG)
 Block(7,-20,-3,SMOOTH_BRICK)
 Block(7,-20,-2,LOG)
 Block(7,-20,-1,BOOKSHELF)
-RandomBlock(7,-20,0,CHEST:4,../../nbt/Chests/Chest16.nbt,2,CHEST:3,../../nbt/Chests/Chest17.nbt,2,CHEST:3,../../nbt/Chests/Chest18.nbt,2,CHEST:3,../../nbt/Chests/Chest19.nbt,2,CHEST:3,../../nbt/Chests/Chest20.nbt,2,CHEST:3,../../nbt/Chests/Chest21.nbt,2,CHEST:3,../../nbt/Chests/Chest22.nbt,2,CHEST:3,../../nbt/Chests/Chest23.nbt,2,CHEST:3,../../nbt/Chests/Chest24.nbt,2,CHEST:3,../../nbt/Chests/Chest25.nbt,2,CHEST:3,../../nbt/Chests/Chest26.nbt,2,CHEST:3,../../nbt/Chests/Chest27.nbt,2,CHEST:3,../../nbt/Chests/Chest28.nbt,2,CHEST:3,../../nbt/Chests/Chest29.nbt,2,CHEST:3,../../nbt/Chests/Chest30.nbt,100)
+RandomBlock(7,-20,0,CHEST,../../nbt/Chests/Epic1.nbt,25,CHEST,../../nbt/Chests/Epic2.nbt,25,CHEST,../../nbt/Chests/Epic3.nbt,25,CHEST,../../nbt/Chests/Epic4.nbt,25,CHEST,../../nbt/Chests/Epic5.nbt,25,CHEST,../../nbt/Chests/Epic6.nbt,25,CHEST,../../nbt/Chests/Epic7.nbt,25,CHEST,../../nbt/Chests/Epic8.nbt,25,CHEST,../../nbt/Chests/Epic9.nbt,25,CHEST,../../nbt/Chests/Epic10.nbt,25,CHEST,../../nbt/Chests/Epic11.nbt,25,CHEST,../../nbt/Chests/Epic12.nbt,25,CHEST,../../nbt/Chests/Epic13.nbt,25,CHEST,../../nbt/Chests/Epic14.nbt,25,CHEST,../../nbt/Chests/Epic15.nbt,100)
 Block(7,-20,1,LOG)
 Block(7,-20,2,SMOOTH_BRICK)
 Block(7,-20,3,LOG)

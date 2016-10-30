@@ -107,14 +107,16 @@ Block(0,1,0,COBBLE_WALL)
 # You can use "Solid" as a BlockName for matching all solid blocks or "All" to match all blocks that aren't air.
 
 # Examples:
-#   BlockCheck(0,-1,0,GRASS,DIRT)  Require grass or dirt just below the object
+#     Require grass or dirt just below the object
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
-BlockCheckNot(0,0,0,STATIONARY_WATER)  
-BlockCheck(0,-1,0,GRASS,DIRT)
+BlockCheckNot(0,0,0,STATIONARY_WATER) 
+BlockCheckNot(0,0,0,LOG) 
+BlockCheck(0,-1,0,GRASS,DIRT,GRAVEL)  
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
