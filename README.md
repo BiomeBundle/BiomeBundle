@@ -7,3 +7,5 @@ Delete previous TerrainControl Jar file
 
 Replace with contents of download
 
+Detailed installation instructions can be found at: https://sites.google.com/site/biomebundle/downloads
+
