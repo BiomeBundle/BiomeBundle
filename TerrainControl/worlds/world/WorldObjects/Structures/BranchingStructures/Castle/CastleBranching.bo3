@@ -28,7 +28,7 @@ SettingsMode: WriteDisable
 #######################################################################
 
 # This needs to be set to true to spawn the object in the Tree and Sapling resources.
-Tree: false
+Tree: true
 
 # The frequency of the BO3 from 1 to 200. Tries this many times to spawn this BO3 when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
@@ -36,18 +36,41 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 100.0
+Rarity: 25.0
 
 # If you set this to true, the BO3 will be placed with a random rotation.
-RotateRandomly: false
+RotateRandomly: true
 
-# The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
+# The spawn height of the BO3 - atMinY, randomY, highestBlock or highestSolidBlock.
 SpawnHeight: randomY
 
-# The height limits for the BO3.
-MinHeight: 64
+# The offset from the spawn height to spawn this BO3
+# Ex. SpawnHeight = highestSolidBlock, SpawnHeightOffset = 3; This object will spawn 3 blocks above the highest solid block
+SpawnHeightOffset: 0
 
-MaxHeight: 66
+# A random amount to offset the spawn location from the spawn offset height
+# Ex. SpawnHeightOffset = 3, SpawnHeightVariance = 3; This object will spawn 3 to 6 blocks above the original spot it would have spawned
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+# When in randomY mode used as the minimum Y or in atMinY mode as the actual Y to spawn this BO3 at.
+MinHeight: 70
+
+# When in randomY mode used as the maximum Y to spawn this BO3 at.
+MaxHeight: 70
+
+######################
+# Extrusion settings #
+######################
+
+# The style of extrusion you wish to use - BottomDown, TopUp, None (Default)
+ExtrudeMode: None
+
+# The blocks to extrude your BO3 through
+ExtrudeThroughBlocks: AIR
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -55,7 +78,7 @@ MaxHeight: 66
 MaxBranchDepth: 10
 
 # When spawned with the UseWorld keyword, this BO3 should NOT spawn in the following biomes.
-# If you writer.write the BO3 name directly in the BiomeConfigs, this will be ignored.
+# If you write the BO3 name directly in the BiomeConfigs, this will be ignored.
 ExcludedBiomes: All
 
 
@@ -85,10 +108,13 @@ OutsideSourceBlock: placeAnyway
 # All the blocks used in the BO3 are listed here. Possible blocks:
 # Block(x,y,z,id[.data][,nbtfile.nbt)
 # RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
-# the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
-# fails, a 100% percent chance to have the contents of anotherchest.nbt.
-
+#  So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+#  the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
+#  fails, a 100% percent chance to have the contents of anotherchest.nbt.
+# MinecraftObject(x,y,z,name)
+#  Spawns an object in the Mojang NBT structure format. For example, 
+#  MinecraftObject(0,0,0,minecraft:igloo/igloo_bottom)
+#  spawns the bottom part of an igloo.
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -130,4 +156,4 @@ OutsideSourceBlock: placeAnyway
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,CastleBase-1,NORTH,1,CastleBaseRuined-1,NORTH,1,CastleBaseRuined-2,NORTH,1,3)
+WeightedBranch(0,0,0,CastleBase-1,NORTH,1,CastleBaseRuined-1,NORTH,1,CastleBaseRuined-2,NORTH,1,Castle1,NORTH,1,Castle2,NORTH,1,Castle3,NORTH,1,6)

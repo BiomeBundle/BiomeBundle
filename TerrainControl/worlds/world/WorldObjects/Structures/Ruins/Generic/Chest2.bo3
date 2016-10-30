@@ -88,7 +88,7 @@ OutsideSourceBlock: placeAnyway
 # So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
-RandomBlock(0,0,0,CHEST:3,../../nbt/Chests/Chest16.nbt,2,CHEST:3,../../nbt/Chests/Chest17.nbt,2,CHEST:3,../../nbt/Chests/Chest18.nbt,2,CHEST:3,../../nbt/Chests/Chest19.nbt,2,CHEST:3,../../nbt/Chests/Chest20.nbt,2,CHEST:3,../../nbt/Chests/Chest21.nbt,2,CHEST:3,../../nbt/Chests/Chest22.nbt,2,CHEST:3,../../nbt/Chests/Chest23.nbt,2,CHEST:3,../../nbt/Chests/Chest24.nbt,2,CHEST:3,../../nbt/Chests/Chest25.nbt,2,CHEST:3,../../nbt/Chests/Chest26.nbt,2,CHEST:3,../../nbt/Chests/Chest27.nbt,2,CHEST:3,../../nbt/Chests/Chest28.nbt,2,CHEST:3,../../nbt/Chests/Chest29.nbt,2,CHEST:3,../../nbt/Chests/Chest30.nbt,20,25,100)
+RandomBlock(0,0,0,CHEST,../../nbt/Chests/Epic1.nbt,25,CHEST,../../nbt/Chests/Epic2.nbt,25,CHEST,../../nbt/Chests/Epic3.nbt,25,CHEST,../../nbt/Chests/Epic4.nbt,25,CHEST,../../nbt/Chests/Epic5.nbt,25,CHEST,../../nbt/Chests/Epic6.nbt,25,CHEST,../../nbt/Chests/Epic7.nbt,25,CHEST,../../nbt/Chests/Epic8.nbt,25,CHEST,../../nbt/Chests/Epic9.nbt,25,CHEST,../../nbt/Chests/Epic10.nbt,25,CHEST,../../nbt/Chests/Epic11.nbt,25,CHEST,../../nbt/Chests/Epic12.nbt,25,CHEST,../../nbt/Chests/Epic13.nbt,25,CHEST,../../nbt/Chests/Epic14.nbt,25,CHEST,../../nbt/Chests/Epic15.nbt,100)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                            BO3 checks                           | #

@@ -108,9 +108,13 @@ OutsideSourceBlock: dontPlace
 # All the blocks used in the BO3 are listed here. Possible blocks:
 # Block(x,y,z,id[.data][,nbtfile.nbt)
 # RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
-# the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
-# fails, a 100% percent chance to have the contents of anotherchest.nbt.
+#  So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+#  the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
+#  fails, a 100% percent chance to have the contents of anotherchest.nbt.
+# MinecraftObject(x,y,z,name)
+#  Spawns an object in the Mojang NBT structure format. For example, 
+#  MinecraftObject(0,0,0,minecraft:igloo/igloo_bottom)
+#  spawns the bottom part of an igloo.
 Block(0,0,0,GRAVEL)
 
 #######################################################################
@@ -153,11 +157,11 @@ Block(0,0,0,GRAVEL)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,BrickOreT1,NORTH,20.0,BrickOreT1,NORTH,560.0,CrackedOreT1,NORTH,8120.0,70.0)
+WeightedBranch(0,0,0,BrickOreT1,NORTH,20.0,BrickOreT1,NORTH,3900.0,CrackedOreT1,NORTH,382200.0,70.0)
 Branch(0,1,0,BrickRuinsOreT3,NORTH,50.0)
 Branch(1,0,0,BrickRuinsOreT2,NORTH,50.0)
 Branch(0,0,1,BrickRuinsOreT2,NORTH,70.0)
-WeightedBranch(1,1,0,BrickOreT1,NORTH,20.0,BrickOreT1,NORTH,560.0,CrackedOreT1,NORTH,8120.0,70.0)
+WeightedBranch(1,1,0,BrickOreT1,NORTH,20.0,BrickOreT1,NORTH,3900.0,CrackedOreT1,NORTH,382200.0,70.0)
 Branch(0,1,1,BrickRuinsOreT3,NORTH,50.0)
 Branch(-1,0,0,BrickRuinsOreT2,NORTH,50.0)
 Branch(0,0,-1,BrickRuinsOreT2,NORTH,70.0)
@@ -165,7 +169,7 @@ Branch(-1,1,0,BrickRuinsOreT3,NORTH,70.0)
 Branch(0,1,-1,BrickRuinsOreT3,NORTH,50.0)
 Branch(-1,0,2,BrickRuinsOreT3,NORTH,50.0)
 Branch(-1,0,1,BrickRuinsOreT3,NORTH,50.0)
-WeightedBranch(0,1,-1,BrickOreT1,NORTH,20.0,BrickOreT1,NORTH,560.0,CrackedOreT1,NORTH,8120.0,70.0)
+WeightedBranch(0,1,-1,BrickOreT1,NORTH,20.0,BrickOreT1,NORTH,3900.0,CrackedOreT1,NORTH,382200.0,70.0)
 Branch(2,0,-2,BrickRuinsOreT3,NORTH,50.0)
 Branch(-2,0,3,BrickRuinsOreT3,NORTH,50.0)
-WeightedBranch(-4,0,-3,BrickOreT1,NORTH,20.0,BrickOreT1,NORTH,560.0,CrackedOreT1,NORTH,8120.0,70.0)
+WeightedBranch(-4,0,-3,BrickOreT1,NORTH,20.0,BrickOreT1,NORTH,3900.0,CrackedOreT1,NORTH,382200.0,70.0)

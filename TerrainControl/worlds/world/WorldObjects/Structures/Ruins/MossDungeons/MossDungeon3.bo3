@@ -1336,7 +1336,7 @@ Block(1,2,-1,AIR)
 Block(1,2,0,AIR)
 Block(1,2,1,AIR)
 Block(1,2,2,AIR)
-RandomBlock(1,2,4,145:1,5,CHEST:3,../../nbt/Chests/Chest4.nbt,2,CHEST:3,../../nbt/Chests/Chest5.nbt,2,CHEST:3,../../nbt/Chests/Chest6.nbt,2,CHEST:3,../../nbt/Chests/Chest7.nbt,2,CHEST:3,../../nbt/Chests/Chest8.nbt,2,CHEST:3,../../nbt/Chests/Chest9.nbt,2,CHEST:3,../../nbt/Chests/Chest10.nbt,2,CHEST:3,../../nbt/Chests/Chest11.nbt,2,CHEST:3,../../nbt/Chests/Chest12.nbt,2,CHEST:3,../../nbt/Chests/Chest13.nbt,2,CHEST:3,../../nbt/Chests/Chest14.nbt,2,CHEST:3,../../nbt/Chests/Chest15.nbt,100)
+RandomBlock(1,2,4,CHEST,../../nbt/Chests/Common1.nbt,25,CHEST,../../nbt/Chests/Common2.nbt,25,CHEST,../../nbt/Chests/Common3.nbt,25,CHEST,../../nbt/Chests/Common4.nbt,25,CHEST,../../nbt/Chests/Common5.nbt,25,CHEST,../../nbt/Chests/Common6.nbt,25,CHEST,../../nbt/Chests/Common7.nbt,25,CHEST,../../nbt/Chests/Common8.nbt,25,CHEST,../../nbt/Chests/Common9.nbt,25,CHEST,../../nbt/Chests/Common10.nbt,25,CHEST,../../nbt/Chests/Common11.nbt,25,CHEST,../../nbt/Chests/Common12.nbt,25,CHEST,../../nbt/Chests/Common13.nbt,25,CHEST,../../nbt/Chests/Common14.nbt,25,CHEST,../../nbt/Chests/Common15.nbt,100)
 RandomBlock(1,2,5,COBBLESTONE,50,48,1003)
 RandomBlock(1,3,-7,98,20,98:1,15,98:2,100)
 RandomBlock(1,3,-6,98,20,98:1,15,98:2,100)
@@ -2336,7 +2336,7 @@ RandomBlock(7,3,1,98,20,98:1,15,98:2,100)
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
-
+BlockCheck(0,-1,0,GRASS,DIRT)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #

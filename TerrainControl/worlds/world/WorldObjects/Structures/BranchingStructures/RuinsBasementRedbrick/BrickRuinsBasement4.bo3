@@ -305,7 +305,7 @@ Block(-1,2,2,AIR)
 Block(-1,2,3,AIR)
 RandomBlock(0,-5,-4,45,10,45,100)
 RandomBlock(0,-5,-3,45,10,45,100)
-RandomBlock(0,-5,-2,25,30,CHEST:3,../../nbt/Chests/Chest2.nbt,2,CHEST:3,../../nbt/Chests/Chest3.nbt,2,CHEST:3,../../nbt/Chests/Chest4.nbt,2,CHEST:3,../../nbt/Chests/Chest5.nbt,2,CHEST:3,../../nbt/Chests/Chest6.nbt,2,CHEST:3,../../nbt/Chests/Chest7.nbt,2,CHEST:3,../../nbt/Chests/Chest8.nbt,2,CHEST:3,../../nbt/Chests/Chest9.nbt,2,CHEST:3,../../nbt/Chests/Chest10.nbt,2,CHEST:3,../../nbt/Chests/Chest11.nbt,2,CHEST:3,../../nbt/Chests/Chest12.nbt,2,CHEST:3,../../nbt/Chests/Chest13.nbt,2,CHEST:3,../../nbt/Chests/Chest14.nbt,100)
+RandomBlock(0,-5,-2,CHEST,../../nbt/Chests/Common1.nbt,25,CHEST,../../nbt/Chests/Common2.nbt,25,CHEST,../../nbt/Chests/Common3.nbt,25,CHEST,../../nbt/Chests/Common4.nbt,25,CHEST,../../nbt/Chests/Common5.nbt,25,CHEST,../../nbt/Chests/Common6.nbt,25,CHEST,../../nbt/Chests/Common7.nbt,25,CHEST,../../nbt/Chests/Common8.nbt,25,CHEST,../../nbt/Chests/Common9.nbt,25,CHEST,../../nbt/Chests/Common10.nbt,25,CHEST,../../nbt/Chests/Common11.nbt,25,CHEST,../../nbt/Chests/Common12.nbt,25,CHEST,../../nbt/Chests/Common13.nbt,25,CHEST,../../nbt/Chests/Common14.nbt,25,CHEST,../../nbt/Chests/Common15.nbt,100)
 RandomBlock(0,-5,0,45,10,45,100)
 Block(0,-5,1,DIRT)
 RandomBlock(0,-5,2,45,10,45,100)
@@ -603,13 +603,15 @@ Block(5,2,0,AIR)
 # You can use "Solid" as a BlockName for matching all solid blocks or "All" to match all blocks that aren't air.
 
 # Examples:
-#   BlockCheck(0,-1,0,GRASS,DIRT)  Require grass or dirt just below the object
+#     Require grass or dirt just below the object
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,AIR)        Require any type of AIR just below the object
 #   BlockCheck(0,-1,0,AIR:0)      Require white AIR just below the object
 #   BlockCheckNot(0,0,0,AIR:0)   Require that there is no white AIR below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
 BlockCheckNot(0,0,0,STATIONARY_WATER) 
+BlockCheckNot(0,0,0,LOG) 
+BlockCheck(0,-1,0,GRASS,DIRT,GRAVEL) 
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #
