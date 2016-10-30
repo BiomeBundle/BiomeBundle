@@ -1,4 +1,4 @@
-﻿# BiomeBundle3.1-1.10.2
+﻿# BiomeBundle (v3) for Bukkit 1.10
 
 Locate your plugins folder
 
