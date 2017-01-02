@@ -109,7 +109,8 @@ RandomBlock(0,0,0,48,70,4,100)
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
-#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
+#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
+BlockCheckNot(0,-1,0,17,17:1,17:2,17:3,162,162:1,18,18:1,18:2,18:3,161,161:1)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

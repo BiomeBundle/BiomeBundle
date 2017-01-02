@@ -57,10 +57,10 @@ SpawnHeightVariance: 0
 ##############################
 
 # When in randomY mode used as the minimum Y or in atMinY mode as the actual Y to spawn this BO3 at.
-MinHeight: 70
+MinHeight: 66
 
 # When in randomY mode used as the maximum Y to spawn this BO3 at.
-MaxHeight: 70
+MaxHeight: 66
 
 ######################
 # Extrusion settings #
@@ -7059,7 +7059,7 @@ Block(6,-16,-5,98)
 Block(6,-16,-4,AIR)
 Block(6,-16,-3,AIR)
 Block(6,-16,-2,AIR)
-RandomBlockBlock(6,-16,-1,CHEST,../../nbt/Chests/Rare1.nbt,25,CHEST,../../nbt/Chests/Rare2.nbt,25,CHEST,../../nbt/Chests/Rare3.nbt,25,CHEST,../../nbt/Chests/Rare4.nbt,25,CHEST,../../nbt/Chests/Rare5.nbt,25,CHEST,../../nbt/Chests/Rare6.nbt,25,CHEST,../../nbt/Chests/Rare7.nbt,25,CHEST,../../nbt/Chests/Rare8.nbt,25,CHEST,../../nbt/Chests/Rare9.nbt,25,CHEST,../../nbt/Chests/Rare10.nbt,25,CHEST,../../nbt/Chests/Rare11.nbt,25,CHEST,../../nbt/Chests/Rare12.nbt,25,CHEST,../../nbt/Chests/Rare13.nbt,25,CHEST,../../nbt/Chests/Rare14.nbt,25,CHEST,../../nbt/Chests/Rare15.nbt,100)
+RandomBlock(6,-16,-1,CHEST,../../nbt/Chests/Rare1.nbt,25,CHEST,../../nbt/Chests/Rare2.nbt,25,CHEST,../../nbt/Chests/Rare3.nbt,25,CHEST,../../nbt/Chests/Rare4.nbt,25,CHEST,../../nbt/Chests/Rare5.nbt,25,CHEST,../../nbt/Chests/Rare6.nbt,25,CHEST,../../nbt/Chests/Rare7.nbt,25,CHEST,../../nbt/Chests/Rare8.nbt,25,CHEST,../../nbt/Chests/Rare9.nbt,25,CHEST,../../nbt/Chests/Rare10.nbt,25,CHEST,../../nbt/Chests/Rare11.nbt,25,CHEST,../../nbt/Chests/Rare12.nbt,25,CHEST,../../nbt/Chests/Rare13.nbt,25,CHEST,../../nbt/Chests/Rare14.nbt,25,CHEST,../../nbt/Chests/Rare15.nbt,100)
 Block(6,-16,0,AIR)
 Block(6,-16,1,AIR)
 Block(6,-16,2,AIR)

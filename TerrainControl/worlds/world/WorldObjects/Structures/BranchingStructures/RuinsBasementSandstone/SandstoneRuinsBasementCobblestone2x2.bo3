@@ -94,11 +94,11 @@ Block(0,-1,-1,SANDSTONE)
 Block(0,-1,0,SANDSTONE)
 Block(0,0,-1,SANDSTONE)
 Block(0,0,0,SANDSTONE)
-RandomBlock(0,1,-1,24:2,33,98:1,33,98:2,33,AIR,0)
+RandomBlock(0,1,-1,24:2,33,24:1,33,24:2,33,AIR,0)
 Block(1,-2,0,SANDSTONE)
 Block(1,-1,0,SANDSTONE)
 Block(1,0,0,SANDSTONE)
-Block(1,1,0,GRAVEL)
+Block(1,1,0,24:1)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

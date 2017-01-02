@@ -89,7 +89,7 @@ OutsideSourceBlock: placeAnyway
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
 Block(-11,3,0,WOOD_STAIRS:4)
-Block(-11,4,0,WOOD_STAIRS)
+Block(-11,4,0,WOOD_STAIRS:0)
 Block(-10,1,0,WOOD_STAIRS:4)
 Block(-10,2,0,WOOD)
 Block(-10,3,0,WOOD)
@@ -170,7 +170,7 @@ Block(-4,-1,0,WOOD:1)
 Block(-4,-1,1,SPRUCE_WOOD_STAIRS:7)
 Block(-4,0,-2,SPRUCE_WOOD_STAIRS:6)
 Block(-4,0,-1,WOOD:1)
-Block(-4,0,0,WOOD_STAIRS)
+Block(-4,0,0,WOOD_STAIRS:0)
 Block(-4,0,1,WOOD:1)
 Block(-4,0,2,SPRUCE_WOOD_STAIRS:7)
 Block(-4,1,-2,WOOD:1)

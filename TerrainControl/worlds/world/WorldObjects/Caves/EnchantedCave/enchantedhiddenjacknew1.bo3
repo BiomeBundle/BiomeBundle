@@ -45,7 +45,7 @@ RotateRandomly: true
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 22
+MinHeight: 10
 
 MaxHeight: 30
 
@@ -126,7 +126,7 @@ Block(2,0,0,LEAVES:0)
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 BlockCheck(0,1,0,AIR)
 BlockCheck(0,0,0,AIR)
-BlockCheck(0,-1,0,DIRT,DIRT:2)
+BlockCheck(0,-1,0,DIRT:1,DIRT:2,110,GRASS)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

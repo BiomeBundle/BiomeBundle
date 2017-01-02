@@ -45,9 +45,9 @@ RotateRandomly: true
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 10
+MinHeight: 11
 
-MaxHeight: 26
+MaxHeight: 15
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -88,24 +88,24 @@ OutsideSourceBlock: placeAnyway
 # So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
-Block(-2,0,0,MYCEL)
-Block(-2,0,1,DIRT:2)
-Block(-1,0,-1,DIRT:2)
-Block(-1,0,0,DIRT:2)
-Block(-1,0,1,DIRT:2)
-Block(0,0,-1,MYCEL)
-Block(0,0,0,DIRT:2)
-Block(0,0,1,DIRT:2)
-Block(1,0,0,DIRT:2)
-Block(-2,-1,0,DIRT)
-Block(-2,-1,1,DIRT)
-Block(-1,-1,-1,DIRT)
-Block(-1,-1,0,DIRT)
-Block(-1,-1,1,DIRT)
-Block(0,-1,-1,DIRT)
-Block(0,-1,0,DIRT)
-Block(0,-1,1,DIRT)
-Block(1,-1,0,DIRT)
+Block(-2,-1,0,MYCEL)
+Block(-2,-1,1,DIRT:2)
+Block(-1,-1,-1,DIRT:2)
+Block(-1,-1,0,DIRT:2)
+Block(-1,-1,1,DIRT:2)
+Block(0,-1,-1,MYCEL)
+Block(0,-1,0,DIRT:2)
+Block(0,-1,1,DIRT:2)
+Block(1,-1,0,DIRT:2)
+Block(-2,-2,0,DIRT)
+Block(-2,-2,1,DIRT)
+Block(-1,-2,-1,DIRT)
+Block(-1,-2,0,DIRT)
+Block(-1,-2,1,DIRT)
+Block(0,-2,-1,DIRT)
+Block(0,-2,0,DIRT)
+Block(0,-2,1,DIRT)
+Block(1,-2,0,DIRT)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -129,7 +129,7 @@ Block(1,-1,0,DIRT)
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 BlockCheck(0,1,0,AIR)
 BlockCheck(0,0,0,AIR)
-BlockCheck(0,-1,0,STONE)
+BlockCheck(0,-1,0,STONE,DIRT,STONE:1,STONE:2,DIRT,SANDSTONE)
 LightCheck(0,0,0,0,2)
 #######################################################################
 # +-----------------------------------------------------------------+ #

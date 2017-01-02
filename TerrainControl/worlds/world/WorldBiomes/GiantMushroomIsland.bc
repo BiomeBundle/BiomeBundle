@@ -25,11 +25,14 @@ ResourceInheritance: true
 
 # Biome size from 0 to GenerationDepth. Defines in which biome layer this biome will be generated (see GenerationDepth).
 # Higher numbers give a smaller biome, lower numbers a larger biome.
-# Note: only applies to biomes spawned as part of a BiomeGroup (see WorldConfig).
-# For biomes spawned as isles, borders or rivers other settings are available.
-# Isle biomes:   BiomeSizeWhenIsle (see below)
-# Border biomes: BiomeSizeWhenBorder (see below)
-# River biomes:  RiverSize (see WorldConfig)
+# How this setting is used depends on the value of BiomeMode in the WorldConfig.
+# It will be used for:
+# - normal biomes, ice biomes, isle biomes and border biomes when BiomeMode is set to BeforeGroups
+# - biomes spawned as part of a BiomeGroup when BiomeMode is set to Normal.
+#   For biomes spawned as isles, borders or rivers other settings are available.
+#   Isle biomes:   BiomeSizeWhenIsle (see below)
+#   Border biomes: BiomeSizeWhenBorder (see below)
+#   River biomes:  RiverSize (see WorldConfig)
 BiomeSize: 6
 
 # Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
@@ -60,13 +63,13 @@ ReplaceToBiomeName: MushroomIsland
 # For example, Mushroom Isles spawn inside the Ocean biome.
 IsleInBiome: Ocean, Deep Ocean
 
-# Size of this biome when spawned as an ilse biome.
+# Size of this biome when spawned as an isle biome in BiomeMode: Normal.
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* islands. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenIsle number must be larger than the BiomeSize of the other biome.
 BiomeSizeWhenIsle: 6
 
-# Rarity of this biome when spawned as an ilse biome.
+# Rarity of this biome when spawned as an isle biome in BiomeMode: Normal.
 BiomeRarityWhenIsle: 5
 
 ######################
@@ -85,7 +88,7 @@ BiomeIsBorder:
 # For example, the Beach biome will never spawn next to an Extreme Hills biome.
 NotBorderNear: 
 
-# Size of this biome when spawned as a border biome.
+# Size of this biome when spawned as a border biome in BiomeMode: Normal.
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* borders. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenBorder number must be larger than the BiomeSize of the other biome.
@@ -101,24 +104,24 @@ BiomeSizeWhenBorder: 6
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: -2.1
+BiomeHeight: -2.3
 
 # Biome volatility.
-BiomeVolatility: 0.1
+BiomeVolatility: 0.6
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
 # So if two biomes next to each other have both a smooth radius of 2, the
 # resulting smooth area will be (2 + 1 + 2) * 4 = 20 blocks wide.
-SmoothRadius: 5
+SmoothRadius: 4
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain will rise before leveling off when it begins to increase in elevation.
 # If the value is less than 0, then it will cause the terrain to either increase to a lower height before leveling out or decrease in height if the value is a large enough negative.
-MaxAverageHeight: 0.0
+MaxAverageHeight: -0.2
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain (usually at the ottom of the ocean) will fall before leveling off when it begins to decrease in elevation. 
 # If the value is less than 0, then it will cause the terrain to either fall to a lesser depth before leveling out or increase in height if the value is a large enough negative.
-MaxAverageDepth: 0.0
+MaxAverageDepth: -0.2
 
 # Another type of noise. This noise is independent from biomes. The larger the values the more chaotic/volatile landscape generation becomes.
 # Setting the values to negative will have the opposite effect and make landscape generation calmer/gentler.
@@ -343,19 +346,19 @@ FoliageColorIsMultiplier: true
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
 CustomStructure()
-Vein(COAL_ORE,10,30,75.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,66.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
+Vein(COAL_ORE,10,30,100.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
+Vein(IRON_ORE,10,30,70.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
 Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE,HARD_CLAY)
 Vein(REDSTONE_ORE,10,30,50.0,8,18,66,0,250,STONE,HARD_CLAY)
 Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,66.0,4,12,66,0,35,STONE)
-Vein(EMERALD_ORE,10,20,66.0,4,12,66,0,35,STONE)
+Vein(DIAMOND_ORE,10,20,33.0,4,12,66,0,35,STONE)
+Vein(EMERALD_ORE,10,20,33.0,4,12,66,0,35,STONE)
 Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY)
-Ore(COAL_ORE,12,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
+Ore(COAL_ORE,12,15,100.0,0,250,STONE,DIRT,HARD_CLAY)
+Ore(IRON_ORE,8,15,80.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(GOLD_ORE,8,6,70.0,0,250,STONE,HARD_CLAY)
 Ore(REDSTONE_ORE,8,8,70.0,0,250,STONE,HARD_CLAY)
 Ore(DIAMOND_ORE,8,4,70.0,0,250,STONE)
@@ -381,7 +384,7 @@ Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY)
-Ore(COAL_ORE,12,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
+Ore(COAL_ORE,12,15,100.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(IRON_ORE,4,16,40.0,0,250,STONE,GRAVEL,DIRT,HARD_CLAY,STAINED_CLAY)
 Ore(GOLD_ORE,8,6,70.0,0,250,STONE,HARD_CLAY)
 Ore(REDSTONE_ORE,8,8,70.0,0,250,STONE,HARD_CLAY)
@@ -400,7 +403,7 @@ CustomObject(MushroomTree1,MushroomTree2,MushroomTree3,MushroomTree4)
 Ore(DIRT,32,20,100.0,0,128,STONE)
 Ore(GRAVEL,32,10,100.0,0,128,STONE)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
-UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 Tree(1,HugeMushroom,100)
 AboveWaterRes(WATER_LILY,1,100.0)

@@ -91,8 +91,8 @@ OutsideSourceBlock: placeAnyway
 Block(0,-2,0,SANDSTONE)
 Block(0,-1,0,SANDSTONE)
 Block(0,0,0,SANDSTONE)
-Block(0,1,0,GRAVEL)
-Block(0,2,0,GRAVEL)
+Block(0,1,0,24:1)
+Block(0,2,0,24:1)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

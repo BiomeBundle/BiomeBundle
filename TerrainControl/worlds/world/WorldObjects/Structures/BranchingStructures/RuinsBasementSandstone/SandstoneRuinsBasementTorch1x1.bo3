@@ -91,7 +91,7 @@ OutsideSourceBlock: placeAnyway
 Block(0,-2,0,SANDSTONE)
 Block(0,-1,0,SANDSTONE)
 Block(0,0,0,SANDSTONE)
-Block(0,1,0,COBBLE_WALL)
+Block(0,1,0,85)
 Block(0,2,0,REDSTONE_TORCH_ON:5)
 
 #######################################################################

@@ -993,7 +993,7 @@ RandomBlock(-1,-3,5,COBBLESTONE,50,48,100)
 RandomBlock(-1,-3,6,COBBLESTONE,50,48,100)
 RandomBlock(-1,-2,-7,COBBLESTONE,50,48,100)
 Block(-1,-2,-6,AIR)
-RandomBlock(-1,-2,-5,145:1,20,145:2,20,skull,20,39,100)
+RandomBlock(-1,-2,-5,145:6,20,145:6,20,skull,20,39,100)
 Block(-1,-2,-4,AIR)
 Block(-1,-2,-3,AIR)
 Block(-1,-2,-2,AIR)
@@ -2099,7 +2099,10 @@ RandomBlock(6,0,5,COBBLESTONE,50,48,100)
 # BlockCheck(x,y,z,BlockName[,BlockName[,...]]) - one of the blocks must be at the location
 # BlockCheckNot(x,y,z,BlockName[,BlockName[,...]]) - all the blocks must not be at the location
 # LightCheck(x,y,z,minLightLevel,maxLightLevel) - light must be between min and max (inclusive)
-
+BlockCheck(7,-1,6,Solid)
+BlockCheck(7,-1,-7,Solid)
+Blockcheck(6,-1,6,Solid)
+BlockCheck(6,-1,-7,Solid)
 # You can use "Solid" as a BlockName for matching all solid blocks or "All" to match all blocks that aren't air.
 
 # Examples:

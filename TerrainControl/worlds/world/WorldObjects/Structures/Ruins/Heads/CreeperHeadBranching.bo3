@@ -130,4 +130,4 @@ Block(0,0,0,AIR)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,CreeperHead1,SOUTH,20,CreeperHead1,EAST,20,CreeperHead1,WEST,20,CreeperHead1,NORTH,20,80)
+WeightedBranch(0,0,0,CreeperHead1,NORTH,100)

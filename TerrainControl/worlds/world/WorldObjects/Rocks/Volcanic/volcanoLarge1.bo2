@@ -1,6 +1,6 @@
 [META]
 version=2.0
-spawnOnBlockType=9,1,2,3
+spawnOnBlockType=9,1,2,3,12
 spawnSunlight=True
 spawnDarkness=True
 spawnWater=True

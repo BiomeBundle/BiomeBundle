@@ -66,7 +66,7 @@ ExcludedBiomes: All
 #######################################################################
 
 # The block(s) the BO3 should spawn in.
-SourceBlocks: STONE,DIRT,GRASS,GRAVEL
+SourceBlocks: STONE:1,STONE:3,STONE:5,DIRT:1,STONE,DIRT,GRASS,GRAVEL
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.

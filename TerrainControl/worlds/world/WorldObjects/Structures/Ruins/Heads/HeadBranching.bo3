@@ -130,4 +130,4 @@ BlockCheck(0,-1,0,GRASS,DIRT,GRAVEL,HARD_CLAY,DIRT:2,STONE)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,VillagerHead1,SOUTH,1,VillagerHead2,EAST,1,VillagerHeadPristine2,EAST,1,VillagerHeadPristine3,WEST,1,VillagerHeadPristine5,NORTH,1,VillagerHeadPristine6,NORTH,1,VillagerHeadPristine7,NORTH,1,7)
+WeightedBranch(0,0,0,VillagerHead1,NORTH,1,VillagerHead2,NORTH,1,VillagerHeadPristine2,NORTH,1,VillagerHeadPristine3,NORTH,1,VillagerHeadPristine5,NORTH,1,VillagerHeadPristine6,NORTH,1,VillagerHeadPristine7,NORTH,1,7)

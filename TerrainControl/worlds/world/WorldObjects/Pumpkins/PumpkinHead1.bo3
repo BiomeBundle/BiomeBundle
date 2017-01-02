@@ -36,7 +36,7 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 1.0
+Rarity: 0.7
 
 # If you set this to true, the BO3 will be placed with a random rotation.
 RotateRandomly: true

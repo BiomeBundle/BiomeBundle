@@ -90,8 +90,8 @@ OutsideSourceBlock: placeAnyway
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
 Block(0,-2,0,SANDSTONE)
 Block(0,-1,0,SANDSTONE)
-Block(0,0,0,GRAVEL)
-Block(0,1,0,COBBLE_WALL)
+Block(0,0,0,24:1)
+Block(0,1,0,85)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

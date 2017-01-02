@@ -88,8 +88,8 @@ OutsideSourceBlock: placeAnyway
 # So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
-Block(-2,1,0,SPRUCE_WOOD_STAIRS)
-Block(-2,2,0,SPRUCE_WOOD_STAIRS)
+Block(-2,1,0,SPRUCE_WOOD_STAIRS:0)
+Block(-2,2,0,SPRUCE_WOOD_STAIRS:0)
 Block(-2,3,0,SPRUCE_WOOD_STAIRS:4)
 Block(-1,0,-1,SPRUCE_WOOD_STAIRS:6)
 Block(-1,0,0,WOOD_STEP:1)

@@ -136,4 +136,4 @@ BlockCheck(0,-1,0,SAND,SANDSTONE)
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
 Branch(-1,0,1,SandstoneRuinsBasementWall1x1,NORTH,30,SandstoneRuinsBasementTorch1x1,NORTH,30)
-Branch(1,0,-1,SandstoneRuinsBasementWall1x1,NORTH,30,SandstoneRuinsBasementTorch1x1,NORTH,30,SandstoneRuinsBasementGravel1x1,NORTH,30)
+Branch(1,0,-1,SandstoneRuinsBasementWall1x1,NORTH,30,SandstoneRuinsBasementTorch1x1,NORTH,30,SandstoneRuinsBasementgravel1x1,NORTH,30)

@@ -110,7 +110,10 @@ OutsideSourceBlock: placeAnyway
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
-BlockCheck(0,-1,0,GRASS,DIRT)
+BlockCheck(8,-1,9,GRASS,DIRT,DIRT:2,STONE,GRAVEL,CLAY,HARD_CLAY,SAND,COBBLESTONE)
+BlockCheck(8,-1,-4,GRASS,DIRT,DIRT:2,STONE,GRAVEL,CLAY,HARD_CLAY,SAND,COBBLESTONE)
+BlockCheck(-7,-1,9,GRASS,DIRT,DIRT:2,STONE,GRAVEL,CLAY,HARD_CLAY,SAND,COBBLESTONE)
+BlockCheck(-7,-1,-4,GRASS,DIRT,DIRT:2,STONE,GRAVEL,CLAY,HARD_CLAY,SAND,COBBLESTONE)
 
 
 #######################################################################

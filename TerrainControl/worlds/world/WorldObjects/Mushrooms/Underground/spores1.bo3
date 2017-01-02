@@ -45,7 +45,7 @@ RotateRandomly: true
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 15
+MinHeight: 10
 
 MaxHeight: 21
 

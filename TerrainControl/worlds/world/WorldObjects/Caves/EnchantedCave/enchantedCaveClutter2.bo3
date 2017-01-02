@@ -45,7 +45,7 @@ RotateRandomly: false
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 22
+MinHeight: 10
 
 MaxHeight: 30
 
@@ -232,8 +232,8 @@ Block(2,-1,0,COBBLESTONE)
 Block(2,-1,1,MOSSY_COBBLESTONE)
 Block(2,0,0,COBBLESTONE)
 Block(2,0,1,MOSSY_COBBLESTONE)
-Block(2,1,0,COBBLESTONE_STAIRS)
-Block(2,1,1,COBBLESTONE_STAIRS)
+Block(2,1,0,COBBLESTONE_STAIRS:0)
+Block(2,1,1,COBBLESTONE_STAIRS:0)
 Block(2,2,0,AIR)
 Block(2,2,1,AIR)
 Block(2,3,0,AIR)
@@ -260,9 +260,9 @@ Block(2,3,1,AIR)
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 BlockCheck(0,1,0,AIR)
 BlockCheck(0,0,0,AIR)
-BlockCheck(0,-1,0,STONE)
-BlockCheck(0,-2,0,STONE)
-BlockCheck(0,-3,0,STONE)
+BlockCheck(0,-1,0,STONE,DIRT,DIRT:1,DIRT:2,110,GRAVEL,GRASS)
+BlockCheck(0,-2,0,STONE,DIRT,DIRT:1,DIRT:2,110,GRAVEL,GRASS)
+BlockCheck(0,-3,0,STONE,DIRT,DIRT:1,DIRT:2,110,GRAVEL,GRASS)
 LightCheck(0,0,0,0,2)
 #######################################################################
 # +-----------------------------------------------------------------+ #

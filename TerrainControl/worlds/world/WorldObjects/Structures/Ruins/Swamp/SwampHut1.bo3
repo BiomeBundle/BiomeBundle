@@ -282,7 +282,7 @@ Block(-1,2,2,VINE:1)
 Block(-1,2,3,LOG_2:1)
 Block(-1,3,-4,WOOD_STEP:13)
 Block(-1,3,-3,WOOD:1)
-Block(-1,3,-2,SPRUCE_WOOD_STAIRS)
+Block(-1,3,-2,SPRUCE_WOOD_STAIRS:0)
 Block(-1,3,-1,WOOD:1)
 Block(-1,3,0,TRAP_DOOR:8)
 Block(-1,3,1,WOOD:1)
@@ -644,7 +644,7 @@ Block(5,9,0,WOOD_STEP:1)
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
-
+BlockCheck(0,-1,0,GRASS,DIRT,DIRT:2,STONE,GRAVEL)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #

@@ -129,4 +129,4 @@ OutsideSourceBlock: placeAnyway
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,pebblecave1,NORTH,20,pebblecave3,NORTH,20,volcano1,NORTH,1,volcano2,NORTH,1,42)
+WeightedBranch(0,0,0,pebblecave1,NORTH,20,pebblecave3,NORTH,20,Ships,NORTH,20,60)

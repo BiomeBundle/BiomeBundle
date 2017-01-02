@@ -100,7 +100,7 @@ Block(0,-1,0,SANDSTONE)
 Block(0,-1,1,SANDSTONE)
 Block(0,0,-1,SANDSTONE)
 Block(0,0,0,SAND)
-Block(0,0,1,GRAVEL)
+Block(0,0,1,24:1)
 Block(0,1,0,SAND)
 Block(1,-2,0,SANDSTONE)
 Block(1,-2,1,SANDSTONE)
@@ -108,7 +108,7 @@ Block(1,-1,0,SANDSTONE)
 Block(1,-1,1,SANDSTONE)
 Block(1,0,0,SANDSTONE)
 Block(1,0,1,SANDSTONE)
-Block(1,1,1,GRAVEL)
+Block(1,1,1,24:1)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

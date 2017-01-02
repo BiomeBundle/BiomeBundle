@@ -25,11 +25,14 @@ ResourceInheritance: true
 
 # Biome size from 0 to GenerationDepth. Defines in which biome layer this biome will be generated (see GenerationDepth).
 # Higher numbers give a smaller biome, lower numbers a larger biome.
-# Note: only applies to biomes spawned as part of a BiomeGroup (see WorldConfig).
-# For biomes spawned as isles, borders or rivers other settings are available.
-# Isle biomes:   BiomeSizeWhenIsle (see below)
-# Border biomes: BiomeSizeWhenBorder (see below)
-# River biomes:  RiverSize (see WorldConfig)
+# How this setting is used depends on the value of BiomeMode in the WorldConfig.
+# It will be used for:
+# - normal biomes, ice biomes, isle biomes and border biomes when BiomeMode is set to BeforeGroups
+# - biomes spawned as part of a BiomeGroup when BiomeMode is set to Normal.
+#   For biomes spawned as isles, borders or rivers other settings are available.
+#   Isle biomes:   BiomeSizeWhenIsle (see below)
+#   Border biomes: BiomeSizeWhenBorder (see below)
+#   River biomes:  RiverSize (see WorldConfig)
 BiomeSize: 9
 
 # Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
@@ -47,7 +50,7 @@ BiomeColor: #507050
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.
-ReplaceToBiomeName: Caverns
+ReplaceToBiomeName: Roofed Forest
 
 ####################
 # Isle biomes only #
@@ -60,13 +63,13 @@ ReplaceToBiomeName: Caverns
 # For example, Mushroom Isles spawn inside the Ocean biome.
 IsleInBiome: Caverns
 
-# Size of this biome when spawned as an ilse biome.
+# Size of this biome when spawned as an isle biome in BiomeMode: Normal.
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* islands. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenIsle number must be larger than the BiomeSize of the other biome.
 BiomeSizeWhenIsle: 9
 
-# Rarity of this biome when spawned as an ilse biome.
+# Rarity of this biome when spawned as an isle biome in BiomeMode: Normal.
 BiomeRarityWhenIsle: 98
 
 ######################
@@ -85,7 +88,7 @@ BiomeIsBorder:
 # For example, the Beach biome will never spawn next to an Extreme Hills biome.
 NotBorderNear: 
 
-# Size of this biome when spawned as a border biome.
+# Size of this biome when spawned as a border biome in BiomeMode: Normal.
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* borders. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenBorder number must be larger than the BiomeSize of the other biome.
@@ -347,18 +350,18 @@ Ore(DIRT,25,25,20.0,50,100,STONE)
 Ore(DIRT,25,25,20.0,70,85,STONE)
 CustomObject(cavepocket1,cavepocket2,cavepocket3,cavepocket9)
 CustomObject(HangingRockMedium1,HangingRockMedium2,Rock2,PodzolPatch1,PodzolPatch2,hiddenjacknew1,hiddenjacknew2,MushroomTree1-Copy,MushroomTree2-Copy,GrassPatch1,CaveClutter1,CaveClutter2,CaveClutter3,HangingRockSmall1-Copy)
-Vein(COAL_ORE,10,30,75.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,66.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
+Vein(COAL_ORE,10,30,100.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
+Vein(IRON_ORE,10,30,70.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
 Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE,HARD_CLAY)
 Vein(REDSTONE_ORE,10,30,50.0,8,18,66,0,250,STONE,HARD_CLAY)
 Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,66.0,4,12,66,0,35,STONE)
-Vein(EMERALD_ORE,10,20,66.0,4,12,66,0,35,STONE)
+Vein(DIAMOND_ORE,10,20,33.0,4,12,66,0,35,STONE)
+Vein(EMERALD_ORE,10,20,33.0,4,12,66,0,35,STONE)
 Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY)
-Ore(COAL_ORE,12,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
+Ore(COAL_ORE,12,15,100.0,0,250,STONE,DIRT,HARD_CLAY)
+Ore(IRON_ORE,8,15,80.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(GOLD_ORE,8,6,70.0,0,250,STONE,HARD_CLAY)
 Ore(REDSTONE_ORE,8,8,70.0,0,250,STONE,HARD_CLAY)
 Ore(DIAMOND_ORE,8,4,70.0,0,250,STONE)
@@ -371,7 +374,7 @@ CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOa
 Dungeon(8,100.0,0,128)
 Ore(GRAVEL,25,25,25.0,50,100,STONE)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
-UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 Tree(1,Taiga2,66,BigTree,10,Tree,100)
 CustomStructure(GravelOreT1,1.0)

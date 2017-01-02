@@ -45,7 +45,7 @@ RotateRandomly: true
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 22
+MinHeight: 10
 
 MaxHeight: 45
 
@@ -120,8 +120,8 @@ RandomBlock(-1,0,0,MOB_SPAWNER,../../Structures/nbt/Spawner/Witch.nbt,5,AIR,100)
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 BlockCheck(0,1,0,AIR)
 BlockCheck(0,0,0,AIR)
-BlockCheck(0,-1,0,STONE)
-BlockCheck(0,-2,0,STONE)
+BlockCheck(0,-1,0,STONE,DIRT,DIRT:1,DIRT:2,110,GRAVEL,GRASS)
+BlockCheck(0,-2,0,STONE,DIRT,DIRT:1,DIRT:2,110,GRAVEL,GRASS)
 LightCheck(0,0,0,0,2)
 #######################################################################
 # +-----------------------------------------------------------------+ #

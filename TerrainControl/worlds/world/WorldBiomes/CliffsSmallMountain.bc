@@ -25,12 +25,15 @@ ResourceInheritance: true
 
 # Biome size from 0 to GenerationDepth. Defines in which biome layer this biome will be generated (see GenerationDepth).
 # Higher numbers give a smaller biome, lower numbers a larger biome.
-# Note: only applies to biomes spawned as part of a BiomeGroup (see WorldConfig).
-# For biomes spawned as isles, borders or rivers other settings are available.
-# Isle biomes:   BiomeSizeWhenIsle (see below)
-# Border biomes: BiomeSizeWhenBorder (see below)
-# River biomes:  RiverSize (see WorldConfig)
-BiomeSize: 9
+# How this setting is used depends on the value of BiomeMode in the WorldConfig.
+# It will be used for:
+# - normal biomes, ice biomes, isle biomes and border biomes when BiomeMode is set to BeforeGroups
+# - biomes spawned as part of a BiomeGroup when BiomeMode is set to Normal.
+#   For biomes spawned as isles, borders or rivers other settings are available.
+#   Isle biomes:   BiomeSizeWhenIsle (see below)
+#   Border biomes: BiomeSizeWhenBorder (see below)
+#   River biomes:  RiverSize (see WorldConfig)
+BiomeSize: 11
 
 # Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
 # Example for normal biome :
@@ -47,7 +50,7 @@ BiomeColor: #C2FFAE
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.
-ReplaceToBiomeName: DesertTropical
+ReplaceToBiomeName: Jungle
 
 ####################
 # Isle biomes only #
@@ -58,15 +61,15 @@ ReplaceToBiomeName: DesertTropical
 
 # List of biomes in which this biome will spawn as an isle.
 # For example, Mushroom Isles spawn inside the Ocean biome.
-IsleInBiome: CliffsSmallPlateau, CliffsSmallPlateau2, CliffsSmallPlateau3, DesertTropicalPlateau
+IsleInBiome: CliffsSmallPlateau2
 
-# Size of this biome when spawned as an ilse biome.
+# Size of this biome when spawned as an isle biome in BiomeMode: Normal.
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* islands. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenIsle number must be larger than the BiomeSize of the other biome.
 BiomeSizeWhenIsle: 9
 
-# Rarity of this biome when spawned as an ilse biome.
+# Rarity of this biome when spawned as an isle biome in BiomeMode: Normal.
 BiomeRarityWhenIsle: 99
 
 ######################
@@ -85,7 +88,7 @@ BiomeIsBorder:
 # For example, the Beach biome will never spawn next to an Extreme Hills biome.
 NotBorderNear: 
 
-# Size of this biome when spawned as a border biome.
+# Size of this biome when spawned as a border biome in BiomeMode: Normal.
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* borders. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenBorder number must be larger than the BiomeSize of the other biome.
@@ -101,7 +104,7 @@ BiomeSizeWhenBorder: 9
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: 1.2
+BiomeHeight: -0.5
 
 # Biome volatility.
 BiomeVolatility: 0.3
@@ -110,7 +113,7 @@ BiomeVolatility: 0.3
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
 # So if two biomes next to each other have both a smooth radius of 2, the
 # resulting smooth area will be (2 + 1 + 2) * 4 = 20 blocks wide.
-SmoothRadius: 2
+SmoothRadius: 6
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain will rise before leveling off when it begins to increase in elevation.
 # If the value is less than 0, then it will cause the terrain to either increase to a lower height before leveling out or decrease in height if the value is a large enough negative.
@@ -140,7 +143,7 @@ DisableBiomeHeight: false
 # Example:
 #   CustomHeightControl:0.0,-2500.0,0.0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 # Makes empty layer above bedrock layer. 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 10.0, 20.0, 30.0, 40.0, 40.0, 40.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 10.0, 20.0, 30.0, 40.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -225,7 +228,7 @@ ReplacedBlocks: (STONE,STAINED_CLAY:1,52,200)
 UseWorldWaterLevel: true
 
 # Set water level. Every empty between this levels will be fill water or another block from WaterBlock.
-WaterLevelMax: 73
+WaterLevelMax: 52
 
 WaterLevelMin: 0
 
@@ -342,15 +345,15 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-Vein(COAL_ORE,10,30,75.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,66.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
+Vein(COAL_ORE,10,30,100.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
+Vein(IRON_ORE,10,30,70.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
 Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE,HARD_CLAY)
 Vein(REDSTONE_ORE,10,30,50.0,8,18,66,0,250,STONE,HARD_CLAY)
 Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,66.0,4,12,66,0,35,STONE)
-Vein(EMERALD_ORE,10,20,66.0,4,12,66,0,35,STONE)
-Ore(COAL_ORE,12,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,70.0,0,250,STONE,DIRT,HARD_CLAY)
+Vein(DIAMOND_ORE,10,20,33.0,4,12,66,0,35,STONE)
+Vein(EMERALD_ORE,10,20,33.0,4,12,66,0,35,STONE)
+Ore(COAL_ORE,12,15,100.0,0,250,STONE,DIRT,HARD_CLAY)
+Ore(IRON_ORE,8,15,80.0,0,250,STONE,DIRT,HARD_CLAY)
 Ore(GOLD_ORE,8,6,70.0,0,250,STONE,HARD_CLAY)
 Ore(REDSTONE_ORE,8,8,70.0,0,250,STONE,HARD_CLAY)
 Ore(DIAMOND_ORE,8,4,70.0,0,250,STONE)
@@ -361,8 +364,8 @@ Ore(STONE:3,32,20,100.0,0,58,STONE)
 Ore(STONE:1,32,20,100.0,0,58,STONE)
 UnderGroundLake(25,60,2,5.0,0,50)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
-UnderWaterOre(GRAVEL,8,1,100.0,DIRT,CLAY)
-CustomStructure(LargeCave1,0.09,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.1,DngStart,0.04,WitchVillageBranching,0.3,StandingStonesBranching,0.05,CastleBranching,0.13,DecorativeRuins0,0.1)
+UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE)
+CustomStructure(LargeCave1,0.09,DngStart,0.04)
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOak7,ShrubOak8,ShrubOak9,ShrubOak10,ShrubOak11,ShrubOak12,ShrubOak13,ShrubOak14,ShrubOak15,ShrubOak16,ShrubOak17,ShrubOak18)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
 CustomObject(plainsrock4,plainsrock3,plainsrock2,plainsrock1,boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
