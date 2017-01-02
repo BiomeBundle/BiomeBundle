@@ -1,0 +1,20 @@
+﻿Biome Bundle V4 for Forge 1.10.2
+
+
+Single Player 
+
+Download and install the latest recommended forge for 1.10.2 and run Minecraft once to make sure that everything works.
+
+Put the downloaded TerrainControl .jar in .minecraft/mods and the TerrainControl folder in .minecraft/config
+
+On the normal world creation screen ensure to name your world 'world'
+
+And click 'more world options', changing 'World Type' to 'Terrain Control'
+
+Servers
+
+Put the downloaded TerrainControl .jar in .minecraft/mods and the TerrainControl folder in .minecraft/config.
+
+Go to the server properties file and set level-type to TerrainControl (without a space between Terrain and Control) and ensure level-name is set to world.
+
+If you have already generated any chunks with vanilla or other world settings, delete the level.dat of your main world to get one with the correct level type.
