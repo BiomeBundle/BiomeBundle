@@ -5,9 +5,9 @@ Biome Bundle is a set of configuration and structure files created to work with 
 ##Single Player 
 
 1. Download and install the latest recommended forge for 1.10.2 and run Minecraft once to make sure that everything works.
-2. Put the downloaded TerrainControl .jar in .minecraft/mods and the TerrainControl folder in .minecraft/config
-3. On the normal world creation screen ensure to name your world 'world'
-4. And click 'more world options', changing 'World Type' to 'Terrain Control'
+2. Put the downloaded TerrainControl .jar in .minecraft/mods and the TerrainControl folder in .minecraft/config.
+3. On the normal world creation screen ensure to name your world 'world'.
+4. And click 'more world options', changing 'World Type' to 'Terrain Control'.
 
 ##Servers
 
