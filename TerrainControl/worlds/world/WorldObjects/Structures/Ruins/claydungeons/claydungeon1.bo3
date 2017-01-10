@@ -39,7 +39,7 @@ Frequency: 1
 Rarity: 0.06
 
 # If you set this to true, the BO3 will be placed with a random rotation.
-RotateRandomly: false
+RotateRandomly: true
 
 # The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
 SpawnHeight: highestSolidBlock
@@ -2306,15 +2306,15 @@ Block(7,0,6,HARD_CLAY)
 
 # Examples:
 #   BlockCheck(0,-1,0,GRASS,DIRT)  Require grass or dirt just below the object
-#   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
+#   BlockCheck(0,-1,0,solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,AIR)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
-BlockCheck(7,-1,6,Solid)
-BlockCheck(7,-1,-7,Solid)
-Blockcheck(6,-1,6,Solid)
-BlockCheck(6,-1,-7,Solid)
+BlockCheck(7,-1,6,HARD_CLAY,STAINED_CLAY:0,STAINED_CLAY:1,STAINED_CLAY:2,STAINED_CLAY:3,STAINED_CLAY:4,STAINED_CLAY:5,STAINED_CLAY:6,STAINED_CLAY:7,STAINED_CLAY:8,STAINED_CLAY:9,STAINED_CLAY:10,STAINED_CLAY:11,STAINED_CLAY:12,STAINED_CLAY:13,STAINED_CLAY:14,STAINED_CLAY:15,SAND,SAND:1,DIRT,DIRT:2,CLAY)
+BlockCheck(7,-1,-7,HARD_CLAY,STAINED_CLAY:0,STAINED_CLAY:1,STAINED_CLAY:2,STAINED_CLAY:3,STAINED_CLAY:4,STAINED_CLAY:5,STAINED_CLAY:6,STAINED_CLAY:7,STAINED_CLAY:8,STAINED_CLAY:9,STAINED_CLAY:10,STAINED_CLAY:11,STAINED_CLAY:12,STAINED_CLAY:13,STAINED_CLAY:14,STAINED_CLAY:15,SAND,SAND:1,DIRT,DIRT:2,CLAY)
+Blockcheck(6,-1,6,HARD_CLAY,STAINED_CLAY:0,STAINED_CLAY:1,STAINED_CLAY:2,STAINED_CLAY:3,STAINED_CLAY:4,STAINED_CLAY:5,STAINED_CLAY:6,STAINED_CLAY:7,STAINED_CLAY:8,STAINED_CLAY:9,STAINED_CLAY:10,STAINED_CLAY:11,STAINED_CLAY:12,STAINED_CLAY:13,STAINED_CLAY:14,STAINED_CLAY:15,SAND,SAND:1,DIRT,DIRT:2,CLAY)
+BlockCheck(6,-1,-7,HARD_CLAY,STAINED_CLAY:0,STAINED_CLAY:1,STAINED_CLAY:2,STAINED_CLAY:3,STAINED_CLAY:4,STAINED_CLAY:5,STAINED_CLAY:6,STAINED_CLAY:7,STAINED_CLAY:8,STAINED_CLAY:9,STAINED_CLAY:10,STAINED_CLAY:11,STAINED_CLAY:12,STAINED_CLAY:13,STAINED_CLAY:14,STAINED_CLAY:15,SAND,SAND:1,DIRT,DIRT:2,CLAY)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #

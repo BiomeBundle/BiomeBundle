@@ -2956,10 +2956,10 @@ RandomBlock(7,2,6,98,20,98:1,15,98:2,100)
 # BlockCheck(x,y,z,BlockName[,BlockName[,...]]) - one of the blocks must be at the location
 # BlockCheckNot(x,y,z,BlockName[,BlockName[,...]]) - all the blocks must not be at the location
 # LightCheck(x,y,z,minLightLevel,maxLightLevel) - light must be between min and max (inclusive)
-BlockCheck(7,-1,6,Solid)
-BlockCheck(7,-1,-7,Solid)
-Blockcheck(6,-1,6,Solid)
-BlockCheck(6,-1,-7,Solid)
+BlockCheck(7,-1,6,GRASS,DIRT,SAND,SAND:1)
+BlockCheck(7,-1,-7,GRASS,DIRT,SAND,SAND:1)
+Blockcheck(6,-1,6,GRASS,DIRT,SAND,SAND:1)
+BlockCheck(6,-1,-7,GRASS,DIRT,SAND,SAND:1)
 # You can use "Solid" as a BlockName for matching all solid blocks or "All" to match all blocks that aren't air.
 
 # Examples:

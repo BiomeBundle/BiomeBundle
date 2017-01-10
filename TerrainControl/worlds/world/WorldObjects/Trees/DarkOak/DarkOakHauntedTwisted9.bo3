@@ -36,7 +36,7 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 15.0
+Rarity: 4.0
 
 # If you set this to true, the BO3 will be placed with a random rotation.
 RotateRandomly: true
@@ -373,14 +373,14 @@ Block(5,-1,-7,LOG_2:1)
 # You can use "Solid" as a BlockName for matching all solid blocks or "All" to match all blocks that aren't air.
 
 # Examples:
-#   MinHeight: 61  Require grass or dirt just below the object
+#     Require grass or dirt just below the object
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
 BlockCheck(0,-1,0,GRASS,DIRT,DIRT:2)
-MinHeight: 61
+
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #

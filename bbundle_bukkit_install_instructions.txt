@@ -1,0 +1,15 @@
+Biome Bundle V4 for Forge 1.10.2
+
+Biome Bundle is a set of configuration and structure files created to work with Terrain Control. For more detailed installation instructions visit: https://sites.google.com/site/biomebundle/downloads
+
+Tutorial for setting up a Spigot server http://minecraft.gamepedia.com/Tutorials/Setting_up_a_Spigot_server
+
+Set up the server in the normal way, download the correct Biome Bundle for your version of Minecraft and put the provided terrain control .jar and TerrainControl folder into the server's plugins folder.
+
+After you have installed it, you must then activate it for your world. If you don't have a multiworld management plugin like Multiverse, the final step is to add the following to your bukkit.yml to enable Terrain Control for the default world:
+
+worlds:
+
+  world:
+
+    generator: TerrainControl

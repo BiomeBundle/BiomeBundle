@@ -400,7 +400,7 @@ BiomeObjects:
 # regardless of these settings.
 # Disables strongholds for this biome. If there is no suitable biome nearby,
 # Minecraft will ignore this setting.
-StrongholdsEnabled: true
+StrongholdsEnabled: false
 
 # Whether an Ocean Monument can be placed in this biome.
 OceanMonumentsEnabled: false

@@ -33,7 +33,7 @@ ResourceInheritance: true
 #   Isle biomes:   BiomeSizeWhenIsle (see below)
 #   Border biomes: BiomeSizeWhenBorder (see below)
 #   River biomes:  RiverSize (see WorldConfig)
-BiomeSize: 10
+BiomeSize: 9
 
 # Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
 # Example for normal biome :
@@ -50,7 +50,7 @@ BiomeColor: #4D552B
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.
-ReplaceToBiomeName: Jungle
+ReplaceToBiomeName: Forest
 
 ####################
 # Isle biomes only #
@@ -104,7 +104,7 @@ BiomeSizeWhenBorder: 10
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: -2.15
+BiomeHeight: -1.9
 
 # Biome volatility.
 BiomeVolatility: 0.4
@@ -212,7 +212,7 @@ GroundBlock: DIRT
 
 # Alternatively, you can use Mesa, MesaForest or MesaBryce to get blocks
 # like the blocks found in the Mesa biomes.
-SurfaceAndGroundControl: STAINED_CLAY:14, DIRT, -4.0, GRASS, STONE, 0.0, STAINED_CLAY:14, DIRT, 0.5, HARD_CLAY, DIRT, 1.0, STAINED_CLAY:14, DIRT, 1.5, GRASS, DIRT, 10.0 
+SurfaceAndGroundControl: GRASS, STONE, 0.0, HARD_CLAY, DIRT, 1.5, GRASS, DIRT, 10.0 
 
 # Replace Variable: (blockFrom,blockTo[:blockDataTo][,minHeight,maxHeight])
 # Example :
@@ -345,30 +345,30 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-Vein(COAL_ORE,10,30,100.0,12,18,75,0,250,STONE,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,70.0,12,18,66,0,250,STONE,DIRT,HARD_CLAY)
+Vein(COAL_ORE,10,30,70.0,18,24,75,0,250,STONE,DIRT,HARD_CLAY)
+Vein(IRON_ORE,10,30,70.0,18,24,66,0,250,STONE,DIRT,HARD_CLAY)
 Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE,HARD_CLAY)
-Vein(REDSTONE_ORE,10,30,50.0,8,18,66,0,250,STONE,HARD_CLAY)
+Vein(REDSTONE_ORE,10,30,50.0,16,18,66,0,250,STONE,HARD_CLAY)
 Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE,HARD_CLAY)
 Vein(DIAMOND_ORE,10,20,33.0,4,12,66,0,35,STONE)
-Vein(EMERALD_ORE,10,20,33.0,4,12,66,0,35,STONE)
+Vein(EMERALD_ORE,10,20,15.0,4,12,66,0,35,STONE)
 Ore(DIRT,32,20,50.0,0,250,STONE,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,250,STONE,HARD_CLAY)
 Ore(SAND,8,10,50.0,0,250,STONE,HARD_CLAY)
-Ore(COAL_ORE,12,15,100.0,0,250,STONE,DIRT,HARD_CLAY)
+Ore(COAL_ORE,12,15,80.0,0,250,STONE,DIRT,HARD_CLAY)
+Ore(COAL_ORE,12,15,50.0,0,52,STONE,DIRT,HARD_CLAY)
 Ore(IRON_ORE,8,15,80.0,0,250,STONE,DIRT,HARD_CLAY)
-Ore(GOLD_ORE,8,6,70.0,0,250,STONE,HARD_CLAY)
-Ore(REDSTONE_ORE,8,8,70.0,0,250,STONE,HARD_CLAY)
-Ore(DIAMOND_ORE,8,4,70.0,0,250,STONE)
-Ore(LAPIS_ORE,8,8,70.0,0,250,STONE,HARD_CLAY)
-Ore(EMERALD_ORE,8,4,70.0,0,250,STONE)
+Ore(IRON_ORE,8,15,50.0,0,52,STONE,DIRT,HARD_CLAY)
+Ore(GOLD_ORE,8,6,40.0,0,250,STONE,HARD_CLAY)
+Ore(REDSTONE_ORE,12,8,50.0,0,250,STONE,HARD_CLAY)
+Ore(DIAMOND_ORE,8,4,50.0,0,250,STONE)
+Ore(LAPIS_ORE,8,8,30.0,0,250,STONE,HARD_CLAY)
+Ore(EMERALD_ORE,8,4,15.0,0,52,STONE)
 Ore(STONE:5,32,20,100.0,0,58,STONE)
 Ore(STONE:3,32,20,100.0,0,58,STONE)
 Ore(STONE:1,32,20,100.0,0,58,STONE)
-CustomObject(VolcanoHardClay1,VolcanoHardClay2)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-CustomObject(JungleRainforest1,JungleRainforest2,JungleRainforest3,JungleRainforest4,JungleRainforest5,JungleRainforest6,JungleRainforest7,JungleRainforest8,JungleRainforest9,JungleRainforest10)
 Tree(10,GroundBush,25,CocoaTree,15)
 Ore(SAND,7,8,70.0,50,53,STONE,HARD_CLAY,STAINED_CLAY,GRAVEL)
 Ore(SAND,3,8,70.0,50,52,STONE,HARD_CLAY,STAINED_CLAY,GRAVEL)
