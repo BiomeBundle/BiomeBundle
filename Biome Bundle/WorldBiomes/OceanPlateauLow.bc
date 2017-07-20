@@ -104,7 +104,7 @@ BiomeSizeWhenBorder: 7
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: -2.3
+BiomeHeight: -1.94
 
 # Biome volatility.
 BiomeVolatility: 2.0
@@ -178,7 +178,7 @@ RiverVolatility: 0.1
 
 # Works the same as WaterLevelMax (scroll down), but is used where a river is generated in this biome
 # Can be used to create elevated rivers
-RiverWaterLevel: 52
+RiverWaterLevel: 63
 
 # Works the same as CustomHeightControl (scroll up), but is used where a river is generated in this biome
 RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
@@ -218,7 +218,7 @@ SurfaceAndGroundControl:
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (GRAVEL,SAND,50,53),(GRAVEL,GRASS,54,68),(GRAVEL,STONE,69,150)
+ReplacedBlocks: (GRAVEL,SAND,61,64),(GRAVEL,GRASS,65,79),(GRAVEL,STONE,80,161)
 
 ################################
 # Water / Lava & Frozen States #
@@ -228,7 +228,7 @@ ReplacedBlocks: (GRAVEL,SAND,50,53),(GRAVEL,GRASS,54,68),(GRAVEL,STONE,69,150)
 UseWorldWaterLevel: true
 
 # Set water level. Every empty between this levels will be fill water or another block from WaterBlock.
-WaterLevelMax: 63
+WaterLevelMax: 74
 
 WaterLevelMin: 0
 
@@ -346,33 +346,17 @@ FoliageColorIsMultiplier: true
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
 CustomStructure()
-Vein(COAL_ORE,10,30,70.0,18,24,75,0,250,STONE:0,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,70.0,18,24,66,0,250,STONE:0,DIRT,HARD_CLAY)
-Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE:0,HARD_CLAY)
-Vein(REDSTONE_ORE,10,30,50.0,16,18,66,0,250,STONE:0,HARD_CLAY)
-Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE:0,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,33.0,4,12,66,0,35,STONE:0)
-Vein(EMERALD_ORE,10,20,15.0,4,12,66,0,35,STONE:0)
-Ore(DIRT,32,20,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(GRAVEL,32,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(CLAY,8,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(SAND,8,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(COAL_ORE,12,15,80.0,0,250,STONE:0,DIRT,HARD_CLAY)
-Ore(COAL_ORE,12,15,50.0,0,52,STONE:0,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,80.0,0,250,STONE:0,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,50.0,0,52,STONE:0,DIRT,HARD_CLAY)
-Ore(GOLD_ORE,8,6,40.0,0,250,STONE:0,HARD_CLAY)
-Ore(REDSTONE_ORE,12,8,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(DIAMOND_ORE,8,4,50.0,0,250,STONE:0)
-Ore(LAPIS_ORE,8,8,30.0,0,250,STONE:0,HARD_CLAY)
-Ore(EMERALD_ORE,8,4,15.0,0,52,STONE:0)
-Ore(STONE:5,32,20,100.0,0,58,STONE:0)
-Ore(STONE:3,32,20,100.0,0,58,STONE:0)
-Ore(STONE:1,32,20,100.0,0,58,STONE:0)
+Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(STONE:5,32,20,100.0,0,69,STONE:0)
+Ore(STONE:3,32,20,100.0,0,69,STONE:0)
+Ore(STONE:1,32,20,100.0,0,69,STONE:0)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-SmallLake(LAVA,2,1.0,8,120)
-UnderGroundLake(25,60,2,5.0,0,50)
+SmallLake(LAVA,2,1.0,19,131)
+UnderGroundLake(25,60,2,5.0,0,61)
 Dungeon(8,100.0,0,128)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
@@ -383,9 +367,9 @@ CustomObject(OakWoodland1,OakWoodland3,OakWoodland9,OakWoodland10)
 CustomObject(boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
 CustomObject(forestrock1,forestrock2,forestrock3,forestrock4)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
-Ore(GRASS,15,15,100.0,69,80,GRAVEL)
+Ore(GRASS,15,15,100.0,80,91,GRAVEL)
 Tree(1,SwampTree,50,Tree,100)
-Boulder(STONE,2,10.0,60,100,GRAVEL)
+Boulder(STONE,2,10.0,71,111,GRAVEL)
 Liquid(WATER,20,100.0,8,128,STONE:0)
 Plant(LargeFern,5,100.0,30,128,GRASS)
 Plant(Poppy,4,50.0,0,128,GRASS)
@@ -399,7 +383,7 @@ Plant(DoubleTallgrass,1,50.0,0,128,GRASS)
 Plant(PUMPKIN,1,3.0,0,128,GRASS)
 Plant(OxeyeDaisy,20,50.0,30,128,GRASS)
 Plant(AzureBluet,20,50.0,30,128,GRASS)
-Reed(SUGAR_CANE_BLOCK,6,100.0,0,128,GRASS,DIRT,SAND)
+Reed(SUGAR_CANE_BLOCK,6,100.0,0,139,GRASS,DIRT,SAND)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -441,6 +425,9 @@ BiomeObjects:
 # Disables strongholds for this biome. If there is no suitable biome nearby,
 # Minecraft will ignore this setting.
 StrongholdsEnabled: true
+
+# Whether a Woodland Mansion can be placed in this biome.
+WoodLandMansionsEnabled: false
 
 # Whether an Ocean Monument can be placed in this biome.
 OceanMonumentsEnabled: false
@@ -495,22 +482,26 @@ RareBuildingType: disabled
 # The monsters (skeletons, zombies, etc.) that spawn in this biome
 # For instance [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
-SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}]
+# Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
+SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
 # For instance [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
-SpawnCreatures: [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "Cow", "weight": 8, "min": 4, "max": 4}, {"mob": "EntityHorse", "weight": 1, "min": 2, "max": 6}]
+# Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
+SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "horse", "weight": 1, "min": 2, "max": 6}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 # For instance [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
-SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
+# Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
+SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
 # The ambient creatures (only bats in vanila) that spawn in this biome
 # For instance [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
-SpawnAmbientCreatures: [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
+# Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
+SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
 # Forge Biome Dictionary ID used by other mods to identify a biome and place
 # modded blocks, items and mobs in it.

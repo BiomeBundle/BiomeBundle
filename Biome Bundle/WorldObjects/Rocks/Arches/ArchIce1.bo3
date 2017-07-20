@@ -31,8 +31,8 @@ RotateRandomly: true
 # The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
 SpawnHeight: highestBlock
 # The height limits for the BO3.
-MinHeight: 30
-MaxHeight: 52
+MinHeight: 41
+MaxHeight: 63
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
 # maximum branch depth for this objects.

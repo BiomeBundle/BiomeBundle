@@ -99,7 +99,7 @@ BiomeSizeWhenBorder: 4
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: 0.1
+BiomeHeight: 0.44
 
 # Biome volatility.
 BiomeVolatility: 0.2
@@ -173,7 +173,7 @@ RiverVolatility: 0.1
 
 # Works the same as WaterLevelMax (scroll down), but is used where a river is generated in this biome
 # Can be used to create elevated rivers
-RiverWaterLevel: 52
+RiverWaterLevel: 63
 
 # Works the same as CustomHeightControl (scroll up), but is used where a river is generated in this biome
 RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
@@ -223,7 +223,7 @@ ReplacedBlocks: None
 UseWorldWaterLevel: true
 
 # Set water level. Every empty between this levels will be fill water or another block from WaterBlock.
-WaterLevelMax: 63
+WaterLevelMax: 74
 
 WaterLevelMin: 0
 
@@ -341,17 +341,11 @@ FoliageColorIsMultiplier: true
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-SmallLake(LAVA,2,1.0,8,120)
-UnderGroundLake(25,60,2,5.0,0,50)
+SmallLake(LAVA,2,1.0,19,131)
+UnderGroundLake(25,60,2,5.0,0,61)
 Dungeon(8,100.0,0,128)
-Ore(DIRT,32,20,100.0,0,128,STONE:0)
-Ore(GRAVEL,32,10,100.0,0,128,STONE:0)
-Ore(COAL_ORE,16,20,100.0,0,128,STONE:0)
-Ore(IRON_ORE,8,20,100.0,0,64,STONE:0)
-Ore(GOLD_ORE,8,2,100.0,0,32,STONE:0)
-Ore(REDSTONE_ORE,7,8,100.0,0,16,STONE:0)
-Ore(DIAMOND_ORE,7,1,100.0,0,16,STONE:0)
-Ore(LAPIS_ORE,7,1,100.0,0,16,STONE:0)
+Ore(DIRT,32,20,100.0,0,139,STONE:0)
+Ore(GRAVEL,32,10,100.0,0,139,STONE:0)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
@@ -402,6 +396,9 @@ BiomeObjects:
 # Minecraft will ignore this setting.
 StrongholdsEnabled: false
 
+# Whether a Woodland Mansion can be placed in this biome.
+WoodLandMansionsEnabled: false
+
 # Whether an Ocean Monument can be placed in this biome.
 OceanMonumentsEnabled: false
 
@@ -436,21 +433,25 @@ RareBuildingType: disabled
 # The monsters (skeletons, zombies, etc.) that spawn in this biome
 # For instance [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
-SpawnMonsters: [{"mob": "Ghast", "weight": 50, "min": 4, "max": 4}, {"mob": "PigZombie", "weight": 100, "min": 4, "max": 4}, {"mob": "LavaSlime", "weight": 2, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 1, "min": 4, "max": 4}]
+# Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
+SpawnMonsters: [{"mob": "ghast", "weight": 50, "min": 4, "max": 4}, {"mob": "zombie_pigman", "weight": 100, "min": 4, "max": 4}, {"mob": "magma_cube", "weight": 2, "min": 4, "max": 4}, {"mob": "enderman", "weight": 1, "min": 4, "max": 4}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
 # For instance [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
+# Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
 SpawnCreatures: []
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 # For instance [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
+# Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
 SpawnWaterCreatures: []
 
 # The ambient creatures (only bats in vanila) that spawn in this biome
 # For instance [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
+# Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
 SpawnAmbientCreatures: []
 
 # Forge Biome Dictionary ID used by other mods to identify a biome and place

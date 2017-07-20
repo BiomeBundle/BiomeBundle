@@ -45,9 +45,9 @@ RotateRandomly: true
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 61
+MinHeight: 72
 
-MaxHeight: 72
+MaxHeight: 83
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -462,7 +462,7 @@ Block(5,0,3,LOG_2:13)
 # You can use "Solid" as a BlockName for matching all solid blocks or "All" to match all blocks that aren't air.
 
 # Examples:
-#   MinHeight: 61  Require grass or dirt just below the object
+#   MinHeight: 72  Require grass or dirt just below the object
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object

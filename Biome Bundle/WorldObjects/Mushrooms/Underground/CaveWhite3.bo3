@@ -45,9 +45,9 @@ RotateRandomly: true
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 92
+MinHeight: 103
 
-MaxHeight: 95
+MaxHeight: 106
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
