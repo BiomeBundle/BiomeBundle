@@ -9,7 +9,6 @@ Currently it does the following:
 
 Plans:
 - Finish the Water Level update, needs tuning in a two account, two computer setup to see side-by-side-by-s
-- Add underground lava lakes at Y=10 like vanilla
 - Look at cave generation and tune for more room between bedrock and ground
 - Refactor for inheritance to allow for more modularity
 
