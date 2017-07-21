@@ -218,7 +218,7 @@ SurfaceAndGroundControl:
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (GRAVEL,SAND,62,64),(DIRT,SANDSTONE,62,64),(DIRT,STONE,65,93),(GRAVEL,GRASS,65,122),(STONE,HARD_CLAY,123,211),(GRAVEL,HARD_CLAY,123,211),(DIRT,HARD_CLAY,123,211)
+ReplacedBlocks: (GRAVEL,SAND,62,64),(DIRT,SANDSTONE,62,64),(DIRT,STONE,65,93),(GRAVEL,GRASS,65,122),(STONE,HARD_CLAY,123,211),(GRAVEL,HARD_CLAY,123,211),(DIRT,HARD_CLAY,123,211),(AIR,LAVA,1,10)
 
 ################################
 # Water / Lava & Frozen States #

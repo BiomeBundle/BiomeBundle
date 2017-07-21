@@ -213,7 +213,7 @@ SurfaceAndGroundControl: MesaForest
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: None
+ReplacedBlocks: (AIR,LAVA,1,10)
 
 ################################
 # Water / Lava & Frozen States #

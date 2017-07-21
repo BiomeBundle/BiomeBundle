@@ -213,7 +213,7 @@ SurfaceAndGroundControl: Mesa
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (HARD_CLAY,SAND:1,81,83),(STAINED_CLAY,SAND:1,81,83),(COAL_ORE,SAND:1,81,83),(IRON_ORE,SAND:1,81,83),(LAPIS_ORE,SAND:1,81,83),(GOLD_ORE,SAND:1,81,83),(DIAMOND_ORE,SAND:1,81,83),(REDSTONE_ORE,SAND:1,81,83),(EMERALD_ORE,SAND:1,81,83)
+ReplacedBlocks: (HARD_CLAY,SAND:1,81,83),(STAINED_CLAY,SAND:1,81,83),(COAL_ORE,SAND:1,81,83),(IRON_ORE,SAND:1,81,83),(LAPIS_ORE,SAND:1,81,83),(GOLD_ORE,SAND:1,81,83),(DIAMOND_ORE,SAND:1,81,83),(REDSTONE_ORE,SAND:1,81,83),(EMERALD_ORE,SAND:1,81,83),(AIR,LAVA,1,10)
 
 ################################
 # Water / Lava & Frozen States #

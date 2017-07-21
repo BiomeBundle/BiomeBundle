@@ -218,7 +218,7 @@ SurfaceAndGroundControl: STAINED_CLAY:14, STAINED_CLAY:14, -0.8
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (DIRT,STAINED_CLAY:14,63,255),(STONE,HARD_CLAY,63,255),(DIRT,HARD_CLAY,91,161)
+ReplacedBlocks: (DIRT,STAINED_CLAY:14,63,255),(STONE,HARD_CLAY,63,255),(DIRT,HARD_CLAY,91,161),(AIR,LAVA,1,10)
 
 ################################
 # Water / Lava & Frozen States #

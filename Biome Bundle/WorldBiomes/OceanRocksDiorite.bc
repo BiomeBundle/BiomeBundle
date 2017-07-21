@@ -218,7 +218,7 @@ SurfaceAndGroundControl: STONE:3, STONE:3, -3.0, PRISMARINE, PRISMARINE, -2.0, S
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (DIRT,STONE:3,63,211),(SAND,STONE:3,66,211),(STONE,PRISMARINE,41,71)
+ReplacedBlocks: (DIRT,STONE:3,63,211),(SAND,STONE:3,66,211),(STONE,PRISMARINE,41,71),(AIR,LAVA,1,10)
 
 ################################
 # Water / Lava & Frozen States #
