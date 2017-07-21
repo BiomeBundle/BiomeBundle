@@ -376,8 +376,8 @@ AboveWaterRes(WATER_LILY,1,100.0)
 Plant(RedMushroom,2,50.0,0,128,MYCEL,DIRT)
 Plant(BrownMushroom,2,50.0,0,128,MYCEL,DIRT)
 Plant(PUMPKIN,1,3.0,0,128,GRASS)
-Liquid(WATER,20,100.0,8,128,STONE:0)
-Liquid(LAVA,10,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Liquid(LAVA,10,100.0,19,139,STONE:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

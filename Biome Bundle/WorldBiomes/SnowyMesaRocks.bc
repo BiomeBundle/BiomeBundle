@@ -357,7 +357,7 @@ UnderGroundLake(25,60,2,5.0,0,61)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Boulder(ICE,2,15.0,0,255,DIRT,STONE:0,HARD_CLAY)
 
 #######################################################################

@@ -364,7 +364,7 @@ CustomObject(JunglePalm1,JunglePalm2,JunglePalm3,JunglePalm4,JunglePalm5,JungleP
 Tree(10,GroundBush,10,CocoaTree,2)
 Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 CustomStructure(RiverRocks,0.5,GravelOreRiverT1,1.0)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
 Plant(MELON_BLOCK,1,100.0,0,128,GRASS,DIRT,DIRT:2)

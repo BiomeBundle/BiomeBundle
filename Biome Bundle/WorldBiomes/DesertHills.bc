@@ -357,8 +357,8 @@ UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 CustomObject(DesertRockSmall4,DesertRockSmall3,DesertRockSmall2)
 Reed(SUGAR_CANE_BLOCK,50,100.0,0,139,GRASS,DIRT,SAND)
 Cactus(CACTUS,10,100.0,0,139,SAND)
-Liquid(WATER,20,100.0,8,128,STONE:0)
-Liquid(LAVA,10,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Liquid(LAVA,10,100.0,19,139,STONE:0)
 Well(SANDSTONE,STEP:1,WATER,1,0.1,13,139,SAND)
 
 #######################################################################

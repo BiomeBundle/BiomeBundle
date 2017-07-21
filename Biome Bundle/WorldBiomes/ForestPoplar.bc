@@ -380,7 +380,7 @@ Plant(BrownMushroom,3,5.0,0,128,GRASS,DIRT)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Grass(LONG_GRASS:1,NotGrouped,100,100.0,GRASS,DIRT)
 
 #######################################################################

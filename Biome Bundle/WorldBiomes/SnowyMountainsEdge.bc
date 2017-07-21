@@ -367,7 +367,7 @@ UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 Grass(DeadBush,NotGrouped,4,100.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Plant(SNOW,60,100.0,52,128,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
 
 #######################################################################

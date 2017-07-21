@@ -358,7 +358,7 @@ Plant(Peony,1,100.0,0,128,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,15,100.0,GRASS,DIRT)
 CustomStructure(GravelOreT1,1.0)
 Plant(PUMPKIN,1,3.0,0,128,GRASS)
-Liquid(WATER,40,100.0,8,160,STONE)
+Liquid(WATER,40,100.0,19,171,STONE)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
 
 #######################################################################

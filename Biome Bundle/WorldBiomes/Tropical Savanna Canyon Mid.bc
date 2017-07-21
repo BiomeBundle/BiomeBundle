@@ -361,12 +361,12 @@ CustomObject(AcaciaSavanna9,AcaciaSavanna8,AcaciaSavanna7,AcaciaSavanna6,AcaciaS
 CustomObject(BigStoneRock3,BigStoneRock2,BigStoneRock1)
 Tree(1,Acacia,50,Tree,100)
 Boulder(STONE,2,10.0,71,111,GRASS)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Grass(LONG_GRASS,Grouped,10,10.0,GRASS,DIRT)
 Plant(LargeFern,10,100.0,30,128,GRASS,DIRT)
 CustomStructure(JaggedCliffs1,10.0)
 Plant(Dandelion,4,100.0,0,128,GRASS,DIRT)
-Liquid(WATER,20,100.0,8,128,STONE:0,SAND,DIRT,HARD_CLAY,STAINED_CLAY,SAND:1)
+Liquid(WATER,20,100.0,19,139,STONE:0,SAND,DIRT,HARD_CLAY,STAINED_CLAY,SAND:1)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

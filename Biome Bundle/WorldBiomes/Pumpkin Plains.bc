@@ -372,8 +372,8 @@ Plant(RED_ROSE,10,100.0,0,256,GRASS,DIRT,SOIL)
 Grass(Tallgrass,NotGrouped,15,100.0,GRASS,DIRT)
 Grass(LONG_GRASS:1,NotGrouped,40,100.0,GRASS,DIRT)
 Grass(DoubleTallgrass,NotGrouped,4,100.0,GRASS,DIRT)
-Liquid(WATER,20,100.0,8,128,STONE:0)
-Liquid(LAVA,10,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Liquid(LAVA,10,100.0,19,139,STONE:0)
 CustomStructure(Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.2,LargeCave1,0.09,StandingStonesBranching,0.1,CastleBranching,0.2,DngStart,0.05,WitchVillageBranching,0.1)
 
 #######################################################################

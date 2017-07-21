@@ -360,7 +360,7 @@ CustomObject(plainsrock4,plainsrock3,plainsrock2,plainsrock1,boulder9,boulder8,b
 CustomObject(BigStoneRock3,BigStoneRock2,BigStoneRock1)
 Tree(5,BigTree,5,Tree,10)
 Boulder(STONE,2,10.0,71,111,GRASS)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Grass(LONG_GRASS,Grouped,10,50.0,GRASS,DIRT)
 Plant(LargeFern,8,50.0,30,128,GRASS,DIRT)
 Plant(Fern,15,50.0,30,128,GRASS,DIRT)

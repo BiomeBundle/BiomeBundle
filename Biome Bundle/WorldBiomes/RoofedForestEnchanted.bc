@@ -376,7 +376,7 @@ Plant(RoseBush,1,100.0,0,128,GRASS,DIRT)
 Plant(Peony,1,100.0,0,128,GRASS,DIRT)
 Grass(DoubleTallgrass,NotGrouped,4,100.0,GRASS,DIRT,MYCEL)
 Grass(Tallgrass,NotGrouped,200,100.0,GRASS,DIRT,MYCEL)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Ore(GRAVEL,5,30,100.0,75,139,GRASS)
 
 #######################################################################

@@ -372,7 +372,7 @@ CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,Undergr
 Tree(10,SwampTree,20,Tree,20)
 Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Vines(100,80.0,61,161)
 Plant(MELON_BLOCK,1,100.0,0,128,GRASS,DIRT,DIRT:2)
 

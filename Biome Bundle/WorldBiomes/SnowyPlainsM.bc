@@ -366,8 +366,8 @@ UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
 Grass(DeadBush,NotGrouped,4,100.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
-Liquid(WATER,20,100.0,8,128,STONE:0)
-Liquid(LAVA,10,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Liquid(LAVA,10,100.0,19,139,STONE:0)
 Plant(SNOW,100,50.0,52,128,GRASS,DIRT,LEAVES)
 
 #######################################################################

@@ -373,8 +373,8 @@ Plant(YELLOW_FLOWER,7,100.0,0,128,GRASS,DIRT,SOIL)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
 Plant(PUMPKIN,3,3.0,0,256,GRASS)
-Liquid(WATER,20,100.0,8,128,STONE:0)
-Liquid(LAVA,10,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Liquid(LAVA,10,100.0,19,139,STONE:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

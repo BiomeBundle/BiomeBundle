@@ -373,7 +373,7 @@ CustomStructure(TotemBase,0.1,Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -369,7 +369,7 @@ CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOa
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOak7,ShrubOak16,ShrubOak17,ShrubOak18)
 Tree(40,GroundBush,35,Tree,5)
 Grass(Fern,NotGrouped,10,100.0,GRASS,DIRT)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Boulder(STONE,2,10.0,71,111,GRASS)
 Boulder(GRAVEL,2,10.0,71,111,GRASS)
 Grass(LONG_GRASS,Grouped,10,100.0,GRASS,DIRT)

@@ -367,7 +367,7 @@ Tree(5,Tree,20,GroundBush,60)
 Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
 Plant(BlueOrchid,2,100.0,0,128,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Reed(SUGAR_CANE_BLOCK,10,100.0,63,139,GRASS,DIRT,SAND)
 
 #######################################################################

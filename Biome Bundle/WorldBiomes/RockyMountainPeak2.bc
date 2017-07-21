@@ -371,7 +371,7 @@ CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 Plant(SNOW,80,100.0,135,250,GRASS,DIRT,STONE:0,LEAVES,ICE,SNOW_BLOCK)
 Plant(SNOW,80,100.0,135,250,GRASS,DIRT,STONE:0,LEAVES,ICE,SNOW_BLOCK)
-Liquid(WATER,20,100.0,8,250,STONE:0)
+Liquid(WATER,20,100.0,19,255,STONE:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

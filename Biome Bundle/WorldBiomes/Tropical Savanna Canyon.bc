@@ -362,7 +362,7 @@ UnderWaterOre(DIRT,8,1,100.0,HARD_CLAY)
 CustomObject(JunglePalm1,JunglePalm2,JunglePalm3,JunglePalm4,JunglePalm5,JunglePalm6,JunglePalm7,JunglePalm8,JunglePalm9)
 Reed(SUGAR_CANE_BLOCK,15,100.0,0,139,GRASS,DIRT,SAND,SAND:1,GRAVEL)
 Cactus(CACTUS,15,100.0,63,139,SAND,DIRT,HARD_CLAY,STAINED_CLAY,SAND:1)
-Liquid(WATER,20,100.0,8,128,STONE:0,SAND,DIRT,HARD_CLAY,STAINED_CLAY,SAND:1)
+Liquid(WATER,20,100.0,19,139,STONE:0,SAND,DIRT,HARD_CLAY,STAINED_CLAY,SAND:1)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

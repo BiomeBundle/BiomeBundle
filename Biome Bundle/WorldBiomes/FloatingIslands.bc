@@ -378,7 +378,7 @@ Plant(DoubleTallgrass,3,100.0,90,95,GRASS,DIRT,SOIL)
 Grass(LONG_GRASS:1,NotGrouped,20,100.0,GRASS,DIRT)
 Plant(PUMPKIN,1,3.0,0,256,GRASS)
 Vines(50,100.0,75,255)
-Liquid(WATER,100,100.0,127,256,STONE:0)
+Liquid(WATER,100,100.0,139,255,STONE:0)
 Tree(5,HugeMushroom,3,BigTree,33,Birch,10,Tree,15)
 
 #######################################################################

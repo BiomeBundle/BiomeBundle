@@ -358,8 +358,8 @@ CustomObject(OakForestLarge5,OakForestLarge4,OakForestLarge3,OakForestLarge2,Oak
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
 Ore(STONE,25,45,100.0,75,255,GRAVEL)
 SmallLake(LAVA,2,1.0,19,131)
-Liquid(LAVA,10,100.0,8,128,STONE:0)
-Liquid(LAVA,10,100.0,8,128,GRAVEL)
+Liquid(LAVA,10,100.0,19,139,STONE:0)
+Liquid(LAVA,10,100.0,19,139,GRAVEL)
 Grass(LONG_GRASS:1,NotGrouped,20,100.0,GRASS,DIRT)
 Tree(25,GroundBush,25,BigTree,10,Tree,15)
 

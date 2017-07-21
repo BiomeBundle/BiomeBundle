@@ -357,7 +357,7 @@ CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOa
 CustomObject(OakForestLarge1,OakForestLarge2,OakForestLarge3,OakForestLarge4,OakForestLarge5)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
 Boulder(STONE,2,10.0,71,111,GRASS)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 UnderGroundLake(25,60,2,5.0,0,61)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE:0)

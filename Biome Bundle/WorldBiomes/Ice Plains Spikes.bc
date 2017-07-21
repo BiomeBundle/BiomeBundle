@@ -362,8 +362,8 @@ IceSpike(PACKED_ICE,Basement,1,50.0,71,139,ICE,DIRT,SNOW_BLOCK)
 CustomObject(IceSpikeSmall1,IceSpikeSmall2,IceSpikeSmall3,IceSpikeLarge1,IceSpikeLarge2,IceSpikeMedium1,IceSpikeMedium2,IceSpikeMedium3)
 Plant(Poppy,3,100.0,0,128,GRASS,DIRT)
 Plant(PUMPKIN,1,3.0,0,128,GRASS)
-Liquid(WATER,20,100.0,8,128,STONE:0)
-Liquid(LAVA,10,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Liquid(LAVA,10,100.0,19,139,STONE:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

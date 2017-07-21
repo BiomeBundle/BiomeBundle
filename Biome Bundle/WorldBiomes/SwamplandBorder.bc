@@ -368,7 +368,7 @@ Plant(RED_ROSE,2,100.0,0,256,GRASS,DIRT,SOIL)
 Plant(YELLOW_FLOWER,2,100.0,0,256,GRASS,DIRT,SOIL)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
 Plant(PUMPKIN,1,3.0,0,256,GRASS)
-Liquid(WATER,20,100.0,8,256,STONE:0)
+Liquid(WATER,20,100.0,19,255,STONE:0)
 Tree(1,SwampTree,100)
 
 #######################################################################

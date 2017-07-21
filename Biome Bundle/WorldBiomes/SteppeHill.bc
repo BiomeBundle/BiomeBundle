@@ -371,7 +371,7 @@ Boulder(STONE,2,10.0,63,111,GRASS)
 Grass(Tallgrass,NotGrouped,15,100.0,GRASS,DIRT)
 Plant(LargeFern,10,100.0,30,128,GRASS,DIRT)
 Plant(Fern,10,100.0,30,128,GRASS,DIRT)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Plant(BrownMushroom,1,10.0,0,128,GRASS,DIRT)
 
 #######################################################################

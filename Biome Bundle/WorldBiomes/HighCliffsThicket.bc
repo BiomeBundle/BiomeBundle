@@ -364,7 +364,7 @@ CustomObject(SpruceFirDead2,SpruceFirDead1,SpruceFir9,SpruceFir8,SpruceFir7,Spru
 CustomObject(SpruceFirSmall3,SpruceFirSmall2,SpruceFirSmall1,SpruceFirSmall15,SpruceFirSmall14,SpruceFirSmall13,SpruceFirSmall12,SpruceFirSmall11,SpruceFirSmall10,SpruceFirSmall9,SpruceFirSmall8,SpruceFirSmall7,SpruceFirSmall6,SpruceFirSmall5,SpruceFirSmall4)
 Plant(RedMushroom,3,25.0,0,128,GRASS,DIRT)
 Plant(BrownMushroom,3,25.0,0,128,GRASS,DIRT)
-Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
 Boulder(STONE,1,5.0,0,255,GRASS,DIRT,STONE:0)
 Grass(Fern,NotGrouped,10,100.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)

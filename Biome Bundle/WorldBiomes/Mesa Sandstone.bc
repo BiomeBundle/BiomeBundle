@@ -360,8 +360,8 @@ Grass(DeadBush,NotGrouped,2,100.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
 Tree(1,Acacia,33)
 Reed(SUGAR_CANE_BLOCK,5,100.0,0,139,GRASS,DIRT,SAND)
 Cactus(CACTUS,10,100.0,0,139,SAND)
-Liquid(WATER,20,100.0,8,128,STONE:0)
-Liquid(LAVA,10,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Liquid(LAVA,10,100.0,19,139,STONE:0)
 CustomObject(baobab1,baobab2,baobab3)
 
 #######################################################################

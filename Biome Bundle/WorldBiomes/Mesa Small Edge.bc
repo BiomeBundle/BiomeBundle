@@ -366,8 +366,8 @@ Grass(Tallgrass,NotGrouped,12,75.0,GRASS,DIRT)
 Tree(1,Acacia,33,Tree,50)
 Reed(SUGAR_CANE_BLOCK,5,100.0,62,63,GRASS,DIRT,SAND)
 Cactus(CACTUS,3,50.0,62,63,SAND)
-Liquid(WATER,20,100.0,8,128,STONE:0)
-Liquid(LAVA,10,100.0,8,128,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Liquid(LAVA,10,100.0,19,139,STONE:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
