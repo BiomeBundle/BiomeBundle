@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 CustomStructure()
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -360,15 +361,15 @@ Ore(PACKED_ICE,15,80,100.0,161,211,STONE:0)
 Ore(PACKED_ICE,15,60,80.0,63,255,STONE:0)
 CustomObject(SpruceFirSmall3,SpruceFirSmall2,SpruceFirSmall1,SpruceFirSmall15,SpruceFirSmall14,SpruceFirSmall13,SpruceFirSmall12,SpruceFirSmall11,SpruceFirSmall10,SpruceFirSmall9,SpruceFirSmall8,SpruceFirSmall7,SpruceFirSmall6,SpruceFirSmall5,SpruceFirSmall4)
 CustomObject(SpruceFirSmall3,SpruceFirSmall2,SpruceFirSmall1,SpruceFirSmall15,SpruceFirSmall14,SpruceFirSmall13,SpruceFirSmall12,SpruceFirSmall11,SpruceFirSmall10,SpruceFirSmall9,SpruceFirSmall8,SpruceFirSmall7,SpruceFirSmall6,SpruceFirSmall5,SpruceFirSmall4)
-Plant(Poppy,4,100.0,0,128,GRASS,DIRT)
-Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
-Plant(Lilac,1,100.0,0,128,GRASS,DIRT)
-Plant(RoseBush,1,100.0,0,128,GRASS,DIRT)
-Plant(Peony,1,100.0,0,128,GRASS,DIRT)
+Plant(Poppy,4,100.0,0,139,GRASS,DIRT)
+Plant(Dandelion,2,100.0,0,139,GRASS,DIRT)
+Plant(Lilac,1,100.0,0,139,GRASS,DIRT)
+Plant(RoseBush,1,100.0,0,139,GRASS,DIRT)
+Plant(Peony,1,100.0,0,139,GRASS,DIRT)
 Liquid(WATER,20,100.0,19,139,STONE:0)
 Ore(GRAVEL,5,30,100.0,75,139,GRASS)
-Plant(SNOW,80,90.0,30,128,GRASS,DIRT)
-Plant(SNOW,80,45.0,30,128,GRASS,DIRT)
+Plant(SNOW,80,90.0,41,139,GRASS,DIRT)
+Plant(SNOW,80,45.0,41,139,GRASS,DIRT)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

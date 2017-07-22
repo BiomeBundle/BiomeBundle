@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 CustomStructure()
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -354,10 +355,10 @@ Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
 Ore(GRASS,20,100,90.0,80,83,STONE:0)
-Plant(SNOW,80,50.0,50,250,GRASS,DIRT,STONE:0,STAINED_CLAY)
-Plant(SNOW,80,50.0,70,250,GRASS,DIRT,STONE:0,STAINED_CLAY)
-Plant(SNOW,80,50.0,90,250,GRASS,DIRT,STONE:0,STAINED_CLAY)
-Plant(SNOW,80,50.0,110,250,GRASS,DIRT,STONE:0,STAINED_CLAY)
+Plant(SNOW,80,50.0,61,255,GRASS,DIRT,STONE:0,STAINED_CLAY)
+Plant(SNOW,80,50.0,81,255,GRASS,DIRT,STONE:0,STAINED_CLAY)
+Plant(SNOW,80,50.0,101,255,GRASS,DIRT,STONE:0,STAINED_CLAY)
+Plant(SNOW,80,50.0,121,255,GRASS,DIRT,STONE:0,STAINED_CLAY)
 CustomObject(OakForestSmall1,OakForestSmall2,OakForestSmall3,OakForestSmall4,OakForestSmall5,OakForestSmall6,OakForestSmall8,OakForestSmall9)
 
 #######################################################################

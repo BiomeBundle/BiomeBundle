@@ -345,11 +345,11 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 CustomObject(SpruceBaldCypress1,SpruceBaldCypress2,SpruceBaldCypress3,SpruceBaldCypress4,SpruceBaldCypress5,SpruceBaldCypress6)
 Tree(100,OakCypress1,1,OakCypress2,1,OakCypress3,1,OakCypress4,1,OakCypress5,1)
 CustomStructure(RiverRocks,0.5,GravelOreRiverT1,1.0)
 UnderGroundLake(25,60,2,5.0,0,61)
-Dungeon(8,100.0,0,128)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)

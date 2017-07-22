@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: false
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -365,12 +366,12 @@ UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 Boulder(STONE,1,5.0,0,255,GRASS,DIRT,STONE:0)
-Plant(SNOW,10,45.0,30,128,GRASS,DIRT,LEAVES,STONE:0,GRAVEL)
+Plant(SNOW,10,45.0,41,139,GRASS,DIRT,LEAVES,STONE:0,GRAVEL)
 Grass(GRAVEL,NotGrouped,4,25.0,GRASS,DIRT)
 Grass(Fern,NotGrouped,20,100.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Plant(LargeFern,10,100.0,30,128,GRASS,DIRT)
-Plant(OxeyeDaisy,10,100.0,30,128,GRASS,DIRT)
+Plant(LargeFern,10,100.0,41,139,GRASS,DIRT)
+Plant(OxeyeDaisy,10,100.0,41,139,GRASS,DIRT)
 CustomStructure(TotemBase,0.1,Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.2,LargeCave1,0.09,DngStart,0.05,WitchVillageBranching,0.1,proceduralrocks0,10.0,CastleBranching,0.2)
 CustomObject(boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
 CustomObject(forestrock1,forestrock2,forestrock3,forestrock4)

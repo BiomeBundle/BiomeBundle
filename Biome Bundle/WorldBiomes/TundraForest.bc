@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: false
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -370,12 +371,12 @@ CustomObject(OakIceTreeSmall2,OakIceTreeSmall1,OakIceTree1,OakIceTree2,OakIceTre
 CustomStructure(Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.2,LargeCave1,0.09,DngStart,0.05,WitchVillageBranching,0.1,StandingStonesBranching,0.1)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
-Plant(OxeyeDaisy,20,50.0,30,128,GRASS,DIRT)
+Plant(OxeyeDaisy,20,50.0,41,139,GRASS,DIRT)
 Grass(LONG_GRASS,Grouped,10,10.0,GRASS,DIRT)
-Plant(LargeFern,20,75.0,30,128,GRASS,DIRT)
-Plant(Fern,20,75.0,30,128,GRASS,DIRT)
-Plant(SNOW,80,60.0,70,250,GRASS,DIRT,LEAVES,STONE:0,GRAVEL)
-Plant(SNOW,80,60.0,100,250,GRASS,DIRT,LEAVES,STONE:0,GRAVEL)
+Plant(LargeFern,20,75.0,41,139,GRASS,DIRT)
+Plant(Fern,20,75.0,41,139,GRASS,DIRT)
+Plant(SNOW,80,60.0,81,255,GRASS,DIRT,LEAVES,STONE:0,GRAVEL)
+Plant(SNOW,80,60.0,111,255,GRASS,DIRT,LEAVES,STONE:0,GRAVEL)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

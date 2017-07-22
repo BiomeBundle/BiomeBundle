@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -360,7 +361,7 @@ UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE:0)
 CustomStructure(GravelOreT1,1.0,JaggedCliffs1,40.0)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
-Plant(SNOW,80,90.0,135,250,GRASS,DIRT,STONE:0,LEAVES)
+Plant(SNOW,80,90.0,146,255,GRASS,DIRT,STONE:0,LEAVES)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

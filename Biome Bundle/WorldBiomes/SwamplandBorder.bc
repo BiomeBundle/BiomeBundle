@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: false
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -357,17 +358,16 @@ CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,S
 SurfacePatch(DIRT:2,LONG_GRASS:1,62,63,GRASS)
 CustomObject(WaterBlock)
 UnderGroundLake(25,60,2,5.0,0,61)
-Dungeon(8,100.0,0,256)
 CustomStructure(RiverRocks,1.0,SwampBranching,0.2)
 Ore(DIRT,32,20,100.0,0,255,STONE:0)
 Ore(GRAVEL,32,10,100.0,0,255,STONE:0)
 Ore(CLAY,32,80,100.0,76,255,STONE:0,DIRT)
 UnderWaterOre(CLAY,8,10,50.0,DIRT,HARD_CLAY,STONE:0)
 UnderWaterOre(DIRT,4,7,20.0,CLAY)
-Plant(RED_ROSE,2,100.0,0,256,GRASS,DIRT,SOIL)
-Plant(YELLOW_FLOWER,2,100.0,0,256,GRASS,DIRT,SOIL)
+Plant(Poppy,2,100.0,0,255,GRASS,DIRT,SOIL)
+Plant(Dandelion,2,100.0,0,255,GRASS,DIRT,SOIL)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
-Plant(PUMPKIN,1,3.0,0,256,GRASS)
+Plant(PUMPKIN,1,3.0,0,255,GRASS)
 Liquid(WATER,20,100.0,19,255,STONE:0)
 Tree(1,SwampTree,100)
 

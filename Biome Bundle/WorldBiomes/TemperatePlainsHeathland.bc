@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -368,11 +369,11 @@ CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOa
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOak7,ShrubOak16,ShrubOak17,ShrubOak18)
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOak7,ShrubOak16,ShrubOak17,ShrubOak18)
 CustomObject(OakFallenTree1,OakFallenTree2,OakFallenTree3,OakFallenTree4)
-Plant(RED_ROSE,2,100.0,0,128,GRASS,DIRT,SOIL)
-Plant(YELLOW_FLOWER,7,100.0,0,128,GRASS,DIRT,SOIL)
+Plant(Poppy,2,100.0,0,139,GRASS,DIRT,SOIL)
+Plant(Dandelion,7,100.0,0,139,GRASS,DIRT,SOIL)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
-Plant(PUMPKIN,3,3.0,0,256,GRASS)
+Plant(PUMPKIN,3,3.0,0,255,GRASS)
 Liquid(WATER,20,100.0,19,139,STONE:0)
 Liquid(LAVA,10,100.0,19,139,STONE:0)
 

@@ -345,17 +345,18 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
 Ore(STONE:3,25,25,100.0,75,139,GRASS)
 Tree(100,OakCypress1,1,OakCypress2,1,OakCypress3,1,OakCypress4,1,OakCypress5,1)
-Plant(Poppy,4,100.0,0,128,GRASS,DIRT)
-Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
-Plant(Lilac,1,100.0,0,128,GRASS,DIRT)
-Plant(RoseBush,1,100.0,0,128,GRASS,DIRT)
-Plant(Peony,1,100.0,0,128,GRASS,DIRT)
+Plant(Poppy,4,100.0,0,139,GRASS,DIRT)
+Plant(Dandelion,2,100.0,0,139,GRASS,DIRT)
+Plant(Lilac,1,100.0,0,139,GRASS,DIRT)
+Plant(RoseBush,1,100.0,0,139,GRASS,DIRT)
+Plant(Peony,1,100.0,0,139,GRASS,DIRT)
 Liquid(WATER,40,100.0,19,171,STONE)
 Grass(Tallgrass,NotGrouped,15,100.0,GRASS,DIRT)
 Liquid(WATER,20,100.0,19,139,STONE:0)

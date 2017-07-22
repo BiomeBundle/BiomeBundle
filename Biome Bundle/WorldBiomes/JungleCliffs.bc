@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -364,13 +365,13 @@ CustomObject(JungleForest1,JungleForest2,JungleForest3,JungleForest4,JungleFores
 CustomObject(ShrubJungle1,ShrubJungle2,ShrubJungle3,ShrubJungle4,ShrubJungle5)
 CustomObject(ShrubJungle1,ShrubJungle2,ShrubJungle3,ShrubJungle4,ShrubJungle5)
 Tree(15,GroundBush,10,JungleTree,5,CocoaTree,10)
-Plant(Poppy,4,100.0,0,128,GRASS,DIRT)
-Plant(Dandelion,4,100.0,0,128,GRASS,DIRT)
+Plant(Poppy,4,100.0,0,139,GRASS,DIRT)
+Plant(Dandelion,4,100.0,0,139,GRASS,DIRT)
 Grass(Fern,NotGrouped,10,100.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Plant(PUMPKIN,1,3.0,0,128,GRASS)
+Plant(PUMPKIN,1,3.0,0,139,GRASS)
 Liquid(WATER,20,100.0,19,139,STONE:0)
-Plant(MELON_BLOCK,1,100.0,0,128,GRASS,DIRT,DIRT:2)
+Plant(MELON_BLOCK,1,100.0,0,139,GRASS,DIRT,DIRT:2)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

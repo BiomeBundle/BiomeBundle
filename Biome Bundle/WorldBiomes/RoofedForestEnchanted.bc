@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -369,11 +370,11 @@ CustomObject(ShrubDark1,ShrubDark2,ShrubDark3,ShrubDark4,ShrubDark5,ShrubDark6,S
 CustomObject(ShrubDark1,ShrubDark2,ShrubDark3,ShrubDark4,ShrubDark5,ShrubDark6,ShrubDark7)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 Tree(20,HugeMushroom,10,DarkOak,10)
-Plant(Poppy,4,100.0,0,128,GRASS,DIRT)
-Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
-Plant(Lilac,1,100.0,0,128,GRASS,DIRT)
-Plant(RoseBush,1,100.0,0,128,GRASS,DIRT)
-Plant(Peony,1,100.0,0,128,GRASS,DIRT)
+Plant(Poppy,4,100.0,0,139,GRASS,DIRT)
+Plant(Dandelion,2,100.0,0,139,GRASS,DIRT)
+Plant(Lilac,1,100.0,0,139,GRASS,DIRT)
+Plant(RoseBush,1,100.0,0,139,GRASS,DIRT)
+Plant(Peony,1,100.0,0,139,GRASS,DIRT)
 Grass(DoubleTallgrass,NotGrouped,4,100.0,GRASS,DIRT,MYCEL)
 Grass(Tallgrass,NotGrouped,200,100.0,GRASS,DIRT,MYCEL)
 Liquid(WATER,20,100.0,19,139,STONE:0)

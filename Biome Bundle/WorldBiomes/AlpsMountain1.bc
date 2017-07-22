@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -360,15 +361,14 @@ CustomObject(StoneMountain01,StoneMountain02,StoneMountain03,StoneMountain04,Sto
 CustomObject(StoneMountain01,StoneMountain02,StoneMountain03,StoneMountain04,StoneMountain05,StoneMountain06)
 CustomObject(StoneMountain01,StoneMountain02,StoneMountain03,StoneMountain04,StoneMountain05,StoneMountain06)
 CustomObject(StoneMountain01,StoneMountain02,StoneMountain03,StoneMountain04,StoneMountain05,StoneMountain06)
-Dungeon(8,100.0,0,128)
 Ore(ICE,15,100,100.0,161,255,GRAVEL,STONE:0)
 Ore(ICE,15,100,100.0,211,255,GRAVEL,STONE:0)
 Ore(STONE,10,80,100.0,0,255,GRAVEL)
 Ore(GRAVEL,10,40,100.0,111,255,STONE:0)
 Ore(STONE,10,80,75.0,111,255,GRASS)
-Plant(SNOW,80,90.0,75,250,GRASS,DIRT,STONE:0,GRAVEL)
-Plant(SNOW,80,45.0,75,250,GRASS,DIRT,STONE:0,GRAVEL)
-Plant(SNOW,40,25.0,52,74,GRASS,DIRT,STONE:0,GRAVEL)
+Plant(SNOW,80,90.0,86,255,GRASS,DIRT,STONE:0,GRAVEL)
+Plant(SNOW,80,45.0,86,255,GRASS,DIRT,STONE:0,GRAVEL)
+Plant(SNOW,40,25.0,63,85,GRASS,DIRT,STONE:0,GRAVEL)
 CustomStructure(GravelOreT1,1.0,JaggedCliffs1,100.0)
 
 #######################################################################

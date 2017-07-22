@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 CustomStructure()
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -358,8 +359,8 @@ Ore(SANDSTONE,25,100,10.0,51,77,SAND)
 Ore(DIRT,20,100,10.0,51,77,SAND)
 Ore(STONE,20,100,90.0,66,74,SAND)
 Ore(STONE,20,50,90.0,61,65,SAND)
-Plant(LargeFern,20,75.0,63,128,GRASS,DIRT)
-Plant(Fern,20,75.0,63,128,GRASS,DIRT)
+Plant(LargeFern,20,75.0,74,139,GRASS,DIRT)
+Plant(Fern,20,75.0,74,139,GRASS,DIRT)
 Grass(DeadBush,NotGrouped,4,75.0,GRASS,DIRT)
 Boulder(STONE,2,10.0,74,111,GRASS)
 Tree(1,Acacia,50,Tree,100)

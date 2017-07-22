@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(DIRT,25,25,20.0,61,111,STONE:0)
 Ore(DIRT,25,25,20.0,81,96,STONE:0)
@@ -367,7 +368,6 @@ CustomObject(TallWideDarkOakTree1,TallWideDarkOakTree2,TallWideDarkOakTree3,Tall
 CustomObject(ShrubDark1,ShrubDark2,ShrubDark3,ShrubDark4,ShrubDark5,ShrubDark6,ShrubDark7)
 CustomObject(ShrubDark1,ShrubDark2,ShrubDark3,ShrubDark4,ShrubDark5,ShrubDark6,ShrubDark7)
 CustomObject(ShrubDark1,ShrubDark2,ShrubDark3,ShrubDark4,ShrubDark5,ShrubDark6,ShrubDark7)
-Dungeon(8,100.0,0,128)
 Ore(GRAVEL,25,25,25.0,61,111,STONE:0)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
@@ -375,15 +375,15 @@ UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 CustomStructure(GravelOreT1,1.0)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
-Plant(Dandelion,4,100.0,0,128,GRASS,DIRT)
+Plant(Dandelion,4,100.0,0,139,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Plant(PUMPKIN,1,3.0,0,128,GRASS)
-Plant(Tallgrass,10,100.0,70,85,DIRT,DIRT:2)
-Plant(DoubleTallgrass,10,100.0,70,85,DIRT,DIRT:2)
-Plant(Tallgrass,4,100.0,90,92,GRASS)
-Plant(DoubleTallgrass,4,100.0,90,92,GRASS)
-Plant(PUMPKIN,1,50.0,90,92,GRASS)
-Plant(BrownMushroom,4,100.0,90,92,GRASS)
+Plant(PUMPKIN,1,3.0,0,139,GRASS)
+Plant(Tallgrass,10,100.0,81,96,DIRT,DIRT:2)
+Plant(DoubleTallgrass,10,100.0,81,96,DIRT,DIRT:2)
+Plant(Tallgrass,4,100.0,101,103,GRASS)
+Plant(DoubleTallgrass,4,100.0,101,103,GRASS)
+Plant(PUMPKIN,1,50.0,101,103,GRASS)
+Plant(BrownMushroom,4,100.0,101,103,GRASS)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -345,6 +345,7 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+Dungeon(8,100.0,0,160)
 CustomStructure()
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -362,13 +363,13 @@ Ore(GRAVEL,15,15,50.0,75,139,GRASS)
 CustomObject(ShrubSpruce1,ShrubSpruce2,ShrubSpruce3,ShrubSpruce4,ShrubSpruce5,ShrubSpruce6,ShrubSpruce7)
 CustomObject(SpruceFirDead2,SpruceFirDead1,SpruceFir9,SpruceFir8,SpruceFir7,SpruceFir6,SpruceFir5,SpruceFir4,SpruceFir3,SpruceFir21,SpruceFir20,SpruceFir2,SpruceFir19,SpruceFir18,SpruceFir17,SpruceFir16,SpruceFir15,SpruceFir14,SpruceFir13,SpruceFir12,SpruceFir11,SpruceFir10,SpruceFir1)
 CustomObject(SpruceFirSmall3,SpruceFirSmall2,SpruceFirSmall1,SpruceFirSmall15,SpruceFirSmall14,SpruceFirSmall13,SpruceFirSmall12,SpruceFirSmall11,SpruceFirSmall10,SpruceFirSmall9,SpruceFirSmall8,SpruceFirSmall7,SpruceFirSmall6,SpruceFirSmall5,SpruceFirSmall4)
-Plant(RedMushroom,3,25.0,0,128,GRASS,DIRT)
-Plant(BrownMushroom,3,25.0,0,128,GRASS,DIRT)
+Plant(RedMushroom,3,25.0,0,139,GRASS,DIRT)
+Plant(BrownMushroom,3,25.0,0,139,GRASS,DIRT)
 Liquid(WATER,20,100.0,19,139,STONE:0)
 Boulder(STONE,1,5.0,0,255,GRASS,DIRT,STONE:0)
 Grass(Fern,NotGrouped,10,100.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Plant(LargeFern,15,100.0,30,128,GRASS,DIRT)
+Plant(LargeFern,15,100.0,41,139,GRASS,DIRT)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
