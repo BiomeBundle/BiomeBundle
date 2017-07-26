@@ -224,6 +224,8 @@ BiomeObjects:
 
 StrongholdsEnabled: true
 
+WoodLandMansionsEnabled: false
+
 OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
@@ -245,11 +247,11 @@ RareBuildingType: disabled
 
 SpawnMonsters: []
 
-SpawnCreatures: [{"mob": "MushroomCow", "weight": 8, "min": 4, "max": 8}]
+SpawnCreatures: [{"mob": "mooshroom", "weight": 8, "min": 4, "max": 8}]
 
-SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
-SpawnAmbientCreatures: [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
+SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
 BiomeDictId: MUSHROOM, BEACH
 

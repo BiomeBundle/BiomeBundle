@@ -208,6 +208,8 @@ BiomeObjects:
 
 StrongholdsEnabled: false
 
+WoodLandMansionsEnabled: false
+
 OceanMonumentsEnabled: true
 
 NetherFortressesEnabled: false

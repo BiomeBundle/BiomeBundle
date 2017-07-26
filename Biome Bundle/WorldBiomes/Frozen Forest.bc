@@ -208,8 +208,6 @@ CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 CustomObject(IceSpikeSmall1,IceSpikeSmall2,IceSpikeSmall3,IceSpikeMedium1,IceSpikeMedium2,IceSpikeMedium3,IceSpikeLarge1,IceSpikeLarge2)
 Plant(SNOW,60,100.0,52,128,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
-Plant(SNOW:1,40,50.0,52,128,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
-Plant(SNOW:2,20,25.0,52,80,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
 Boulder(STONE,2,10.0,60,100,GRASS)
 Grass(LONG_GRASS:1,NotGrouped,8,25.0,GRASS,DIRT)
 Liquid(WATER,20,100.0,8,128,STONE:0)
@@ -242,6 +240,8 @@ BiomeObjects:
 
 StrongholdsEnabled: true
 
+WoodLandMansionsEnabled: false
+
 OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
@@ -261,13 +261,13 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
 
-SpawnCreatures: [{"mob": "Rabbit", "weight": 10, "min": 2, "max": 3}, {"mob": "PolarBear", "weight": 1, "min": 1, "max": 2}, {"mob": "Wolf", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: [{"mob": "rabbit", "weight": 10, "min": 2, "max": 3}, {"mob": "polar_bear", "weight": 1, "min": 1, "max": 2}, {"mob": "wolf", "weight": 8, "min": 4, "max": 4}]
 
-SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
-SpawnAmbientCreatures: [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
+SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
 BiomeDictId: COLD, FOREST
 

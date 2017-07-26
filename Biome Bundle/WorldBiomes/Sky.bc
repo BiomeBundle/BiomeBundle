@@ -204,6 +204,8 @@ BiomeObjects:
 
 StrongholdsEnabled: false
 
+WoodLandMansionsEnabled: false
+
 OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
@@ -223,7 +225,7 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "Enderman", "weight": 10, "min": 4, "max": 4}]
+SpawnMonsters: [{"mob": "enderman", "weight": 10, "min": 4, "max": 4}]
 
 SpawnCreatures: []
 

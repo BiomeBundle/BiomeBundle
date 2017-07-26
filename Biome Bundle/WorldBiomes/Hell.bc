@@ -204,6 +204,8 @@ BiomeObjects:
 
 StrongholdsEnabled: false
 
+WoodLandMansionsEnabled: false
+
 OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: true
@@ -223,7 +225,7 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "Ghast", "weight": 50, "min": 4, "max": 4}, {"mob": "PigZombie", "weight": 100, "min": 4, "max": 4}, {"mob": "LavaSlime", "weight": 2, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 1, "min": 4, "max": 4}]
+SpawnMonsters: [{"mob": "ghast", "weight": 50, "min": 4, "max": 4}, {"mob": "zombie_pigman", "weight": 100, "min": 4, "max": 4}, {"mob": "magma_cube", "weight": 2, "min": 4, "max": 4}, {"mob": "enderman", "weight": 1, "min": 4, "max": 4}]
 
 SpawnCreatures: []
 
