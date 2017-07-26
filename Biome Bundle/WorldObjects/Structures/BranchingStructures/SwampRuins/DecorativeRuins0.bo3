@@ -137,9 +137,9 @@ BlockCheck(-3,-1,-3,GRASS,DIRT,DIRT:2,STONE,GRAVEL,CLAY,HARD_CLAY,SAND,COBBLESTO
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
 
 WeightedBranch(0,-1,0,DecorativeRuinsPath1,NORTH,100,100)
-WeightedBranch(8,0,2,DecorativeRuins1,NORTH,10,DecorativeRuins2,NORTH,10,DecorativeRuins3,NORTH,10,50)
-WeightedBranch(-6,0,-2,DecorativeRuins4,NORTH,10,DecorativeRuins5,NORTH,10,DecorativeRuins6,NORTH,10,50)
-WeightedBranch(16,0,0,DecorativeRuins7,NORTH,10,DecorativeRuins8,NORTH,10,DecorativeRuins9,NORTH,10,50)
-WeightedBranch(-2,0,-14,DecorativeRuins10,NORTH,10,DecorativeRuins11,NORTH,10,DecorativeRuins12,NORTH,10,50)
-WeightedBranch(4,0,-8,DecorativeRuins13,NORTH,10,DecorativeRuins14,NORTH,10,StoneShrineBranching,NORTH,10,50)
+WeightedBranch(8,0,2,DecorativeRuins1,NORTH,33,DecorativeRuins2,NORTH,33,DecorativeRuins3,NORTH,34,100)
+WeightedBranch(-6,0,-2,DecorativeRuins4,NORTH,33,DecorativeRuins5,NORTH,33,DecorativeRuins6,NORTH,34,100)
+WeightedBranch(16,0,0,DecorativeRuins7,NORTH,33,DecorativeRuins8,NORTH,33,DecorativeRuins9,NORTH,34,100)
+WeightedBranch(-2,0,-14,DecorativeRuins10,NORTH,33,DecorativeRuins11,NORTH,33,DecorativeRuins12,NORTH,34,100)
+WeightedBranch(4,0,-8,DecorativeRuins13,NORTH,33,DecorativeRuins14,NORTH,33,StoneShrineBranching,NORTH,34,100)
 

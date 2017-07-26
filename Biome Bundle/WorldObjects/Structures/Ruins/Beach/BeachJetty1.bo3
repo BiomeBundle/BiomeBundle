@@ -267,4 +267,4 @@ Block(1,3,-7,LOG:3)
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
 WeightedBranch(-4,0,3,BeachHutWest6x6,NORTH,1,BeachHutWest8x11,NORTH,1,BeachHutWest9x8,NORTH,1,BeachHutWest10x8,NORTH,1,4)
-WeightedBranch(-1,0,-5,VikingShip1,NORTH,1,VikingShip2,NORTH,1,VikingShip3,NORTH,1,3)
+WeightedBranch(-1,0,-5,VikingShip1,NORTH,33,VikingShip2,NORTH,33,VikingShip3,NORTH,34,100)

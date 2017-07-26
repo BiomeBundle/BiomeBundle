@@ -66,11 +66,11 @@ ExcludedBiomes: All
 #######################################################################
 
 # The block(s) the BO3 should spawn in.
-SourceBlocks: AIR
+SourceBlocks: GRASS,DIRT,GRAVEL,SAND,SAND:1,SANDSTONE,STONE,STONE:1,STONE:3,STONE:5,DIRT:1,CLAY,HARD_CLAY,38,38:1,38:2,38:3,38:4,38:5,38:6,38:7,38:8,39,40,175,175:1,175:2,175:3,175:4,175:5,31,31:1,31:2,32,COAL_ORE,IRON_ORE,GOLD_ORE,REDSTONE_ORE,DIAMOND_ORE,LAPIS_ORE,EMERALD_ORE,106,AIR
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
-MaxPercentageOutsideSourceBlock: 100
+MaxPercentageOutsideSourceBlock: 10
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: placeAnyway
@@ -3983,7 +3983,7 @@ RandomBlock(-2,-12,-4,COBBLESTONE,50,48,100)
 RandomBlock(-2,-12,-3,COBBLESTONE,50,48,100)
 Block(-2,-12,-2,98)
 Block(-2,-12,-1,98)
-Block(-2,-12,0,SAND)
+Block(-2,-12,0,GRAVEL)
 Block(-2,-12,1,98)
 Block(-2,-12,2,98)
 RandomBlock(-2,-12,3,COBBLESTONE,50,48,100)
@@ -4947,11 +4947,11 @@ RandomBlock(0,-12,-6,COBBLESTONE,50,48,100)
 RandomBlock(0,-12,-5,COBBLESTONE,50,48,100)
 RandomBlock(0,-12,-4,COBBLESTONE,50,48,100)
 RandomBlock(0,-12,-3,COBBLESTONE,50,48,100)
-Block(0,-12,-2,SAND)
+Block(0,-12,-2,GRAVEL)
 Block(0,-12,-1,TNT)
 Block(0,-12,0,TNT)
 Block(0,-12,1,TNT)
-Block(0,-12,2,SAND)
+Block(0,-12,2,GRAVEL)
 RandomBlock(0,-12,3,COBBLESTONE,50,48,100)
 RandomBlock(0,-12,4,COBBLESTONE,50,48,100)
 RandomBlock(0,-12,5,COBBLESTONE,50,48,100)
@@ -5915,7 +5915,7 @@ RandomBlock(2,-12,-4,COBBLESTONE,50,48,100)
 RandomBlock(2,-12,-3,COBBLESTONE,50,48,100)
 Block(2,-12,-2,98)
 Block(2,-12,-1,98)
-Block(2,-12,0,SAND)
+Block(2,-12,0,GRAVEL)
 Block(2,-12,1,98)
 Block(2,-12,2,98)
 RandomBlock(2,-12,3,COBBLESTONE,50,48,100)

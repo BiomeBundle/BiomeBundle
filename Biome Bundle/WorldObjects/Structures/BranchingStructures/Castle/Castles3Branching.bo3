@@ -57,7 +57,7 @@ SpawnHeightVariance: 0
 ##############################
 
 # When in randomY mode used as the minimum Y or in atMinY mode as the actual Y to spawn this BO3 at.
-MinHeight: 60
+MinHeight: 66
 
 # When in randomY mode used as the maximum Y to spawn this BO3 at.
 MaxHeight: 80
@@ -156,4 +156,4 @@ OutsideSourceBlock: placeAnyway
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,-4,0,Castle1,NORTH,5,Castle2,NORTH,5,Castle3,NORTH,5)
+WeightedBranch(0,-4,0,Castle1,NORTH,33,Castle2,NORTH,33,Castle3,NORTH,34,100)

@@ -133,4 +133,4 @@ BlockCheck(0,-1,0,GRASS,DIRT,STONE,GRAVEL)
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
 
-WeightedBranch(0,0,0,proceduralrocks1,NORTH,20,proceduralrocks2,NORTH,20,proceduralrocks3,NORTH,20,60)
+WeightedBranch(0,0,0,proceduralrocks1,NORTH,33,proceduralrocks2,NORTH,33,proceduralrocks3,NORTH,34,100)

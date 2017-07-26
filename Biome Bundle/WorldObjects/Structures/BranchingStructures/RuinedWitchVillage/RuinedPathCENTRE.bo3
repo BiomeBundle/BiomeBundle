@@ -1559,9 +1559,9 @@ BlockCheckNot(0,0,0,STATIONARY_WATER)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(-8,0,0,RuinedPathWEST,NORTH,90,RuinedPathEND,NORTH,50,140)
-WeightedBranch(0,0,-8,RuinedPathNORTH,NORTH,90,RuinedPathEND,NORTH,50,140)
-WeightedBranch(0,0,8,RuinedPathSOUTH,NORTH,90,RuinedPathEND,NORTH,50,140)
-WeightedBranch(8,0,0,RuinedPathEAST,NORTH,90,RuinedPathEND,NORTH,50,140)
+WeightedBranch(-8,0,0,RuinedPathWEST,NORTH,50,RuinedPathEND,NORTH,50,100)
+WeightedBranch(0,0,-8,RuinedPathNORTH,NORTH,50,RuinedPathEND,NORTH,50,100)
+WeightedBranch(0,0,8,RuinedPathSOUTH,NORTH,50,RuinedPathEND,NORTH,50,100)
+WeightedBranch(8,0,0,RuinedPathEAST,NORTH,50,RuinedPathEND,NORTH,50,100)
 WeightedBranch(0,1,0,Centre1,NORTH,25,Centre2,NORTH,25,Centre3,NORTH,25,Centre4,NORTH,25,100)
 Branch(0,-1,0,PathPatch,NORTH,100)

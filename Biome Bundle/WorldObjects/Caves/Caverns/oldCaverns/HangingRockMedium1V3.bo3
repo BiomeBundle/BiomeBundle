@@ -18,7 +18,7 @@ Description: No description given
 Version: 3
 
 # The settings mode, WriteAll, WriteWithoutComments or WriteDisable. See WorldConfig.
-SettingsMode: WriteDisable
+SettingsMode: WriteWithoutComments
 
 
 #######################################################################

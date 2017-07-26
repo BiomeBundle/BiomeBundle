@@ -1388,19 +1388,17 @@ Block(6,0,3,174)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(9,0,17,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(-7,0,1,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(9,0,9,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(9,0,-21,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(-9,0,9,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(0,0,9,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(-9,0,-9,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(0,0,-9,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(12,0,0,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(-10,0,0,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(12,0,8,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(15,0,-4,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(-10,0,18,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(0,0,8,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(-13,0,-11,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
-WeightedBranch(-2,0,-13,IceRubble1,NORTH,10,IceRubble2,NORTH,10,IceRubble3,NORTH,10,IceRubble4,NORTH,10,IceRubble5,NORTH,10,IceRubble6,NORTH,10,IcebergPatch1,NORTH,10,IcebergPatch2,NORTH,10,IcebergPatch3,NORTH,10,130)
+
+WeightedBranch(-7,0,1,IceRubble1,NORTH,12,IceRubble2,NORTH,12,IceRubble3,NORTH,12,IceRubble4,NORTH,12,IceRubble5,NORTH,12,IceRubble6,NORTH,12,IcebergPatch1,NORTH,12,IcebergPatch2,NORTH,12,IcebergPatch3,NORTH,14,100)
+
+
+WeightedBranch(-9,0,5,IceRubble1,NORTH,12,IceRubble2,NORTH,12,IceRubble3,NORTH,12,IceRubble4,NORTH,12,IceRubble5,NORTH,12,IceRubble6,NORTH,12,IcebergPatch1,NORTH,12,IcebergPatch2,NORTH,12,IcebergPatch3,NORTH,14,100)
+WeightedBranch(0,0,9,IceRubble1,NORTH,12,IceRubble2,NORTH,12,IceRubble3,NORTH,12,IceRubble4,NORTH,12,IceRubble5,NORTH,12,IceRubble6,NORTH,12,IcebergPatch1,NORTH,12,IcebergPatch2,NORTH,12,IcebergPatch3,NORTH,14,100)
+WeightedBranch(-3,0,-9,IceRubble1,NORTH,12,IceRubble2,NORTH,12,IceRubble3,NORTH,12,IceRubble4,NORTH,12,IceRubble5,NORTH,12,IceRubble6,NORTH,12,IcebergPatch1,NORTH,12,IcebergPatch2,NORTH,12,IcebergPatch3,NORTH,14,100)
+WeightedBranch(0,0,-9,IceRubble1,NORTH,12,IceRubble2,NORTH,12,IceRubble3,NORTH,12,IceRubble4,NORTH,12,IceRubble5,NORTH,12,IceRubble6,NORTH,12,IcebergPatch1,NORTH,12,IcebergPatch2,NORTH,12,IcebergPatch3,NORTH,14,100)
+
+
+
+
+
+WeightedBranch(0,0,8,IceRubble1,NORTH,12,IceRubble2,NORTH,12,IceRubble3,NORTH,12,IceRubble4,NORTH,12,IceRubble5,NORTH,12,IceRubble6,NORTH,12,IcebergPatch1,NORTH,12,IcebergPatch2,NORTH,12,IcebergPatch3,NORTH,14,100)

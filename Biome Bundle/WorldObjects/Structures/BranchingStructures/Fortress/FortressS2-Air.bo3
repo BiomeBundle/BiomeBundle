@@ -173,4 +173,4 @@ Block(-5,-18,-6,WEB)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(-1,12,1,FortressE2-1,NORTH,50,FortressE2-2,NORTH,50,100)
+WeightedBranch(-1,12,1,FortressE2-1,NORTH,50,FortressE2-2,NORTH,100,100)
