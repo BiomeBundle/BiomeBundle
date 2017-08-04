@@ -40,7 +40,7 @@ BiomeRarityWhenIsle: 98
 
 BiomeIsBorder: IcyMountains
 
-NotBorderNear: IcyMountainPeak1, IcyMountainPeak2
+NotBorderNear: IcyMountainPeak1, IcyMountainPeak2, Snowy Cliffs, SnowyExtremeHills, SnowyMesa, Cold Plains, Arctic, Ice Plains, SnowyMountains, ColdForestFirThicket, Cold Taiga, Frozen Forest, SnowyPlainsM, SnowyLonePeak, Glacier, SnowyCliff, SnowyCliffM
 
 BiomeSizeWhenBorder: 10
 
@@ -177,6 +177,8 @@ Ore(SNOW_BLOCK,10,55,50.0,101,161,GRASS)
 Boulder(STONE,2,10.0,71,111,GRASS)
 Boulder(GRAVEL,2,10.0,71,111,GRASS)
 UnderGroundLake(25,60,2,5.0,0,61)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE:0)
 Grass(LONG_GRASS,NotGrouped,10,10.0,GRASS,DIRT)

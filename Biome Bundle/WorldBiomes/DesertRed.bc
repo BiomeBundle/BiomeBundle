@@ -53,7 +53,7 @@ BiomeSizeWhenBorder: 5
 
 BiomeHeight: -1.56
 
-BiomeVolatility: 1.0
+BiomeVolatility: 0.7
 
 SmoothRadius: 12
 
@@ -94,6 +94,7 @@ RiverHeight: -2.0
 
 RiverVolatility: 0.1
 
+
 RiverWaterLevel: 63
 
 RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
@@ -112,6 +113,7 @@ SurfaceBlock: GRAVEL
 GroundBlock: HARD_CLAY
 
 SurfaceAndGroundControl: 
+
 
 ReplacedBlocks: (GRAVEL,SAND:1,63,66),(GRAVEL,SAND,67,76),(GRAVEL,HARD_CLAY,77,111),(AIR,LAVA,1,10)
 
@@ -172,12 +174,19 @@ Ore(STONE:1,32,20,100.0,0,69,STONE:0)
 Ore(SAND:1,15,75,100.0,63,91,GRAVEL)
 Ore(SAND,5,25,100.0,63,91,GRAVEL)
 Ore(SANDSTONE,5,25,100.0,63,91,GRAVEL)
-UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL,SAND)
+UnderGroundLake(25,60,2,5.0,0,61)
+UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
+UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE:0)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(VolcanoHardClay1,VolcanoHardClay2)
 CustomObject(claydungeon1,claydungeon2,claydungeon3,claydungeon4,claydungeon5)
 Grass(DeadBush,NotGrouped,4,10.0,SAND,HARD_CLAY,STAINED_CLAY,SANDSTONE:0)
 CustomStructure(RedDesertBranching,0.1)
-CustomObject(orangerock1,orangerock2,orangerock3,orangerock4,orangerock5,orangerock6,orangerock7)
+<<<<<<< HEAD
+CustomObject(ClayRockSmall1,ClayRockSmall2,ClayRockSmall3,ClayRockSmall4,ClayRockSmall5,ClayRockSmall6)
+CustomObject(ClayRockSmall1,ClayRockSmall2,ClayRockSmall3,ClayRockSmall4,ClayRockSmall5,ClayRockSmall6)
+CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
 Cactus(CACTUS,10,100.0,0,139,SAND)
 Well(SANDSTONE,STEP:1,WATER,1,0.1,13,139,SAND)
@@ -212,9 +221,9 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: sandstone
+VillageType: savanna
 
-MineshaftType: normal
+MineshaftType: mesa
 
 MineshaftRarity: 0.3
 

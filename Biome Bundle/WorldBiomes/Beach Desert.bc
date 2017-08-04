@@ -51,6 +51,7 @@ BiomeSizeWhenBorder: 10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+
 BiomeHeight: -1.9
 
 BiomeVolatility: 0.0
@@ -169,9 +170,10 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(ShrubPalm1,ShrubPalm2)
 CustomObject(DesertRockSmall1,DesertRockSmall2,DesertRockSmall3,DesertRockSmall4)
-CustomStructure(Beachbranching,0.5,DngStart,0.05)
+CustomStructure(Beachbranching,0.4,DngStart,0.05)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

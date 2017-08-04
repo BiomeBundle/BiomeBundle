@@ -51,6 +51,7 @@ BiomeSizeWhenBorder: 7
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+
 BiomeHeight: -1.56
 
 BiomeVolatility: 3.5
@@ -61,7 +62,7 @@ MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -2.0
+Volatility1: -1.5
 
 Volatility2: 2.0
 
@@ -71,7 +72,7 @@ VolatilityWeight2: 3.45
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 3.0, 4.0, 5.0, 6.0, 7.0, 7.5, -1.0, -2.0, -3.0, -4.0, -5.0, -7.0, -9.0, -11.0, -20.0, -30.0, -40.0, -50.0, -60.0, -70.0, -100.0, -100.0, -100.0, -100.0, 0.0, 0.0, 0.0, 0.0, 0.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 3.0, 4.0, 5.0, 5.5, 6.0, 6.5, -1.0, -2.0, -3.0, -4.0, -5.0, -7.0, -9.0, -11.0, -20.0, -30.0, -40.0, -50.0, -60.0, -70.0, -100.0, -100.0, -100.0, -100.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -175,7 +176,11 @@ Ore(STONE,15,80,100.0,111,211,GRASS)
 Ore(STONE,15,80,100.0,161,211,GRASS)
 Ore(STONE,15,60,80.0,63,255,GRASS)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-UnderGroundLake(25,60,2,5.0,0,61)
+UnderGroundLake(25,60,2,5.0,0,50)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 CustomStructure(DngStart,0.05,TotemBase,0.1,GravelOreT1,1.0,JaggedCliffs1,5.0)
 CustomObject(Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(BlackSpruceL1,BlackSpruceL2,BlackSpruceL3,BlackSpruceM1,BlackSpruceM2,BlackSpruceS1,BlackSpruceS2,BlackSpruceS3,BlackSpruceS4)
@@ -193,7 +198,6 @@ Plant(Peony,2,5.0,0,139,GRASS,DIRT)
 Plant(RedMushroom,3,5.0,0,139,GRASS,DIRT)
 Plant(BrownMushroom,3,5.0,0,139,GRASS,DIRT)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
-Liquid(WATER,20,100.0,19,139,STONE:0)
 Grass(Fern,NotGrouped,30,50.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,20,50.0,GRASS,DIRT)
 Plant(LargeFern,15,50.0,41,139,GRASS,DIRT)

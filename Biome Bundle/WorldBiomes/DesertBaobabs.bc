@@ -18,7 +18,7 @@ ResourceInheritance: true
 
 BiomeSize: 8
 
-BiomeRarity: 95
+BiomeRarity: 96
 
 BiomeColor: #FA9418
 
@@ -28,7 +28,7 @@ ReplaceToBiomeName: Desert
 # Isle biomes only #
 ####################
 
-IsleInBiome: Desert, Savanna, Tropical Savanna, Mesa Sandstone
+IsleInBiome: Desert, Savanna, Tropical Savanna, Mesa Sandstone, Mesa
 
 BiomeSizeWhenIsle: 5
 
@@ -169,7 +169,8 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
-CustomStructure(SandVillageBranching,0.35)
+CustomStructure(SandVillageBranching,0.25)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(DesertRockSmall2,DesertRockSmall1)
 CustomObject(VolcanoSandstone1,VolcanoSandstone2)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)

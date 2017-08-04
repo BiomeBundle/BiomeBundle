@@ -84,7 +84,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverRocky
+RiverBiome: RiverAlpine
 
 #######################
 # ImprovedRivers:true #
@@ -173,6 +173,8 @@ Ore(DIRT,32,10,100.0,0,121,STONE:0)
 Ore(GRAVEL,32,10,100.0,0,255,STONE:0)
 Ore(GRAVEL,20,10,100.0,111,255,STONE:0)
 Ore(STONE,25,40,75.0,111,255,GRASS)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 CustomStructure(JaggedCliffs1,100.0,GravelOreT1,1.0)

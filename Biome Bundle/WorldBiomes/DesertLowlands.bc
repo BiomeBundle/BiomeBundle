@@ -51,6 +51,7 @@ BiomeSizeWhenBorder: 5
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+
 BiomeHeight: -2.26
 
 BiomeVolatility: 0.2
@@ -173,8 +174,9 @@ Ore(SAND,5,70,100.0,48,49,GRAVEL)
 Ore(SAND,5,100,100.0,49,50,GRAVEL)
 Ore(GRASS,5,100,100.0,50,51,GRAVEL)
 Ore(GRASS,5,70,100.0,52,61,GRAVEL)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(SmallLake1,SandSmallLake2,SandSmallLake3,SandSmallLake4,SandSmallLake5,SandSmallLake6,SandSmallLake7,SandSmallLake8,SandSmallLake9,SandSmallLake10,SandSmallLake11,SandSmallLake12)
-CustomStructure(DesertBranching,0.1,VanillaDesertTemple,0.1,SandRuinsPath1,0.1)
+CustomStructure(SandRuinsPath1,0.1)
 UnderWaterOre(CLAY,8,10,50.0,DIRT)
 UnderWaterOre(DIRT,4,7,20.0,CLAY)
 Plant(Poppy,2,100.0,0,139,GRASS,DIRT,SOIL)
@@ -235,7 +237,7 @@ RareBuildingType: disabled
 
 SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
 
-SpawnCreatures: []
+SpawnCreatures: [{"mob": "rabbit", "weight": 4, "min": 2, "max": 3}]
 
 SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 

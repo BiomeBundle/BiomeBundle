@@ -16,13 +16,14 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+
+BiomeSize: 11
 
 BiomeRarity: 100
 
 BiomeColor: #537B09
 
-ReplaceToBiomeName: Desert
+ReplaceToBiomeName: Savanna
 
 ####################
 # Isle biomes only #
@@ -30,7 +31,7 @@ ReplaceToBiomeName: Desert
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 10
+BiomeSizeWhenIsle: 11
 
 BiomeRarityWhenIsle: 100
 
@@ -40,9 +41,9 @@ BiomeRarityWhenIsle: 100
 
 BiomeIsBorder: Desert Cliffs
 
-NotBorderNear: DesertCanyon, DesertMountain
+NotBorderNear: 
 
-BiomeSizeWhenBorder: 10
+BiomeSizeWhenBorder: 11
 
 
 #######################################################################
@@ -53,21 +54,21 @@ BiomeSizeWhenBorder: 10
 
 BiomeHeight: -1.56
 
-BiomeVolatility: 0.8
+BiomeVolatility: 0.6
 
-SmoothRadius: 4
+SmoothRadius: 2
 
-MaxAverageHeight: 1.0
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
 Volatility1: -2.0
 
-Volatility2: -1.0
+Volatility2: -2.5
 
-VolatilityWeight1: 2.5
+VolatilityWeight1: 2.0
 
-VolatilityWeight2: 2.45
+VolatilityWeight2: 2.5
 
 DisableBiomeHeight: false
 
@@ -84,7 +85,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverDesert
+RiverBiome: RiverRocky
 
 #######################
 # ImprovedRivers:true #
@@ -107,13 +108,14 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 StoneBlock: STONE
 
-SurfaceBlock: GRASS
+SurfaceBlock: SAND:1
 
-GroundBlock: STONE
+GroundBlock: RED_SANDSTONE
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: (STONE,SANDSTONE,63,151),(AIR,LAVA,1,10)
+ReplacedBlocks: (STONE,RED_SANDSTONE,63,250),(SAND,STAINED_CLAY:4,81,84),(RED_SANDSTONE,STAINED_CLAY:4,81,84),(SAND,STAINED_CLAY:4,92,93),(RED_SANDSTONE,STAINED_CLAY:4,92,93),(AIR,LAVA,1,10)
+
 
 ################################
 # Water / Lava & Frozen States #
@@ -162,29 +164,32 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
-Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+CustomStructure()
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
-SurfacePatch(SAND,AIR,72,211,GRASS)
-CustomStructure(DesertBranching,0.1,VanillaDesertTemple,0.1,SandRuinsPath1,0.1)
-CustomObject(DesertRockSmall4,DesertRockSmall3,DesertRockSmall2,DesertRockSmall1)
-Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
-Cactus(CACTUS,10,33.0,0,139,SAND)
-Ore(SANDSTONE,5,25,100.0,71,76,SAND)
-Well(SANDSTONE,STEP:1,WATER,1,0.1,13,139,SAND)
-CustomObject(AcaciaSavanna13,AcaciaSavanna12,AcaciaSavanna11,AcaciaSavanna10,AcaciaSavanna1)
-Tree(3,Acacia,20,Birch,5,Tree,10)
-Tree(20,Acacia,20)
-Boulder(STONE,2,10.0,71,111,GRASS)
-Grass(LONG_GRASS,Grouped,10,50.0,GRASS,DIRT)
-Plant(LargeFern,15,100.0,41,139,GRASS,DIRT)
-Grass(Tallgrass,NotGrouped,4,100.0,GRASS,DIRT)
-Grass(DoubleTallgrass,NotGrouped,2,100.0,GRASS,DIRT)
-Plant(Dandelion,4,100.0,0,139,GRASS,DIRT)
+Ore(DIRT:1,20,25,90.0,61,64,SAND)
+Ore(GRASS,20,100,90.0,62,64,SAND)
+SurfacePatch(GRASS,AIR,62,64,SAND)
+CustomObject(AcaciaSavanna9,AcaciaSavanna8,AcaciaSavanna7,AcaciaSavanna6,AcaciaSavanna5,AcaciaSavanna4,AcaciaSavanna3,AcaciaSavanna2,AcaciaSavanna18,AcaciaSavanna17,AcaciaSavanna16,AcaciaSavanna15,AcaciaSavanna14,AcaciaSavanna13,AcaciaSavanna12,AcaciaSavanna11,AcaciaSavanna10,AcaciaSavanna1)
+CustomObject(AcaciaSavanna9,AcaciaSavanna8,AcaciaSavanna7,AcaciaSavanna6,AcaciaSavanna5,AcaciaSavanna4,AcaciaSavanna3,AcaciaSavanna2,AcaciaSavanna18,AcaciaSavanna17,AcaciaSavanna16,AcaciaSavanna15,AcaciaSavanna14,AcaciaSavanna13,AcaciaSavanna12,AcaciaSavanna11,AcaciaSavanna10,AcaciaSavanna1)
+CustomObject(AcaciaSavanna9,AcaciaSavanna8,AcaciaSavanna7,AcaciaSavanna6,AcaciaSavanna5,AcaciaSavanna4,AcaciaSavanna3,AcaciaSavanna2,AcaciaSavanna18,AcaciaSavanna17,AcaciaSavanna16,AcaciaSavanna15,AcaciaSavanna14,AcaciaSavanna13,AcaciaSavanna12,AcaciaSavanna11,AcaciaSavanna10,AcaciaSavanna1)
+CustomObject(ShrubAcacia1,ShrubAcacia1,ShrubAcacia2,ShrubAcacia3,ShrubAcacia4,ShrubAcacia5,ShrubAcacia6,ShrubAcacia7)
+CustomObject(ShrubAcacia1,ShrubAcacia1,ShrubAcacia2,ShrubAcacia3,ShrubAcacia4,ShrubAcacia5,ShrubAcacia6,ShrubAcacia7)
+CustomObject(ShrubAcacia1,ShrubAcacia1,ShrubAcacia2,ShrubAcacia3,ShrubAcacia4,ShrubAcacia5,ShrubAcacia6,ShrubAcacia7)
+Tree(1,Acacia,10)
+Grass(Tallgrass,NotGrouped,15,33.0,GRASS,DIRT)
+Plant(LargeFern,25,70.0,41,139,GRASS,DIRT)
+Plant(Fern,20,75.0,41,139,GRASS,DIRT)
+Plant(OxeyeDaisy,10,75.0,41,139,GRASS,DIRT)
+Plant(AzureBluet,10,75.0,41,139,GRASS,DIRT)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Plant(BrownMushroom,1,10.0,0,139,GRASS,DIRT)
+CustomObject(SandOasis1,SandOasis2,SandOasis3,SandOasis4,SandOasis5)
+CustomObject(SandSmallLake1,SandSmallLake2,SandSmallLake3,SandSmallLake4,SandSmallLake5,SandSmallLake6,SandSmallLake7,SandSmallLake8,SandSmallLake9,SandSmallLake10,SandSmallLake11,SandSmallLake12)
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -216,9 +221,9 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: savanna
 
-MineshaftType: normal
+MineshaftType: mesa
 
 MineshaftRarity: 0.3
 
@@ -233,7 +238,7 @@ RareBuildingType: disabled
 
 SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
 
-SpawnCreatures: []
+SpawnCreatures: [{"mob": "rabbit", "weight": 4, "min": 2, "max": 3}]
 
 SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
@@ -241,5 +246,5 @@ SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
 BiomeDictId: 
 
-InheritMobsBiomeName: Desert
+InheritMobsBiomeName: Savanna
 

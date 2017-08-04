@@ -188,6 +188,9 @@ Ore(HARD_CLAY,50,50,100.0,83,255,STONE:0)
 Ore(GRASS,25,60,100.0,75,81,STONE:0)
 Tree(25,GroundBush,25)
 Liquid(WATER,20,100.0,19,139,STONE:0)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+UnderGroundLake(25,60,2,5.0,0,39)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
 CustomStructure()
 
@@ -240,7 +243,7 @@ SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "z
 
 SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}]
 
-SpawnWaterCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
 SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 

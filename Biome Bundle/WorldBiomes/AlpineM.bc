@@ -115,6 +115,7 @@ SurfaceAndGroundControl:
 
 ReplacedBlocks: (DIRT,STONE,116,211),(AIR,LAVA,1,10)
 
+
 ################################
 # Water / Lava & Frozen States #
 ################################
@@ -169,6 +170,8 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS,GRAVEL)
 UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS,GRAVEL)
@@ -185,7 +188,7 @@ Plant(OxeyeDaisy,10,75.0,41,139,GRASS,DIRT)
 Plant(AzureBluet,10,75.0,41,139,GRASS,DIRT)
 SmallLake(ICE,2,1.0,16,31)
 CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5)
-CustomStructure(Bricktowerbranching,0.1,RedbrickHouseBranching,0.2,GravelOreT1,1.0,CaveMine1,0.09,LargeCave1,0.09,DecorativeRuins0,0.1)
+CustomStructure(Bricktowerbranching,0.15,RedbrickHouseBranching,0.25,GravelOreT1,1.0,CaveMine1,0.09,LargeCave1,0.09,DecorativeRuins0,0.1)
 Tree(1,HugeTaiga2,8,HugeTaiga1,30,Taiga1,33,Taiga2,100)
 
 #######################################################################

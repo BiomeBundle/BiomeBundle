@@ -113,7 +113,9 @@ GroundBlock: DIRT
 
 SurfaceAndGroundControl: 
 
+
 ReplacedBlocks: (STONE,STAINED_CLAY:14,63,161),(DIRT,HARD_CLAY,63,161),(GRASS,HARD_CLAY,94,161),(AIR,LAVA,1,10)
+
 
 ################################
 # Water / Lava & Frozen States #
@@ -174,6 +176,13 @@ Ore(STAINED_CLAY:14,25,100,66.0,101,161,GRASS)
 Ore(STAINED_CLAY:14,15,80,100.0,111,211,GRASS)
 Ore(STAINED_CLAY:14,15,80,100.0,161,211,GRASS)
 Ore(STAINED_CLAY:14,15,60,80.0,63,255,GRASS)
+
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+UnderGroundLake(25,60,2,5.0,0,50)
+Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 Boulder(STONE,2,10.0,71,111,STAINED_CLAY:1)
 Tree(8,GroundBush,5,JungleTree,5,CocoaTree,10)
@@ -249,7 +258,11 @@ SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "z
 
 SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}]
 
+<<<<<<< HEAD
 SpawnWaterCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}]
+=======
+SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
+>>>>>>> df47a4b22dc0ac0f30f390ce731615542fc7cae2
 
 SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 

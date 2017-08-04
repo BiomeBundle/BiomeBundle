@@ -111,9 +111,9 @@ SurfaceBlock: SAND:1
 
 GroundBlock: HARD_CLAY
 
-SurfaceAndGroundControl: SAND:1, HARD_CLAY, -0.8, HARD_CLAY, HARD_CLAY, 2.0 
+SurfaceAndGroundControl: SAND:1, HARD_CLAY, -0.8, HARD_CLAY, HARD_CLAY, 2.0, GRASS, DIRT, 4.0 
 
-ReplacedBlocks: (STONE,HARD_CLAY,63,161),(AIR,LAVA,1,10)
+ReplacedBlocks: (STONE,HARD_CLAY,52,150),(AIR,LAVA,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -170,11 +170,31 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(VolcanoHardClay1,VolcanoHardClay2)
 CustomObject(MesaRock1,MesaRock2,MesaRock3,MesaRock4,MesaRock5)
 CustomObject(claydungeon1,claydungeon2,claydungeon3,claydungeon4,claydungeon5)
 Grass(DeadBush,NotGrouped,2,100.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
+
 Cactus(CACTUS,10,100.0,0,139,SAND)
+CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
+UnderGroundLake(25,60,2,5.0,0,50)
+Ore(DIRT,32,20,100.0,0,139,STONE:0)
+Ore(GRAVEL,32,10,100.0,0,139,STONE:0)
+UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
+UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
+CustomObject(MesaRock1,MesaRock2,MesaRock3,MesaRock4,MesaRock5)
+CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5,SpruceFirSmall6,SpruceFirSmall7,SpruceFirSmall8)
+CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5,SpruceFirSmall6,SpruceFirSmall7,SpruceFirSmall8)
+CustomObject(ShrubSpruce1,ShrubSpruce2,ShrubSpruce3,ShrubSpruce4,ShrubSpruce5,ShrubSpruce6,ShrubSpruce7)
+CustomObject(ShrubSpruce1,ShrubSpruce2,ShrubSpruce3,ShrubSpruce4,ShrubSpruce5,ShrubSpruce6,ShrubSpruce7)
+CustomObject(SpruceFirDead2,SpruceFirDead1)
+Boulder(STONE,2,30.0,0,255,GRASS,DIRT,STONE:0)
+Grass(Fern,NotGrouped,20,100.0,GRASS,DIRT)
+Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
+Plant(LargeFern,5,100.0,41,139,GRASS,DIRT)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

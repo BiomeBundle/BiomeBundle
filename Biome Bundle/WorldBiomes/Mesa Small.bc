@@ -51,27 +51,28 @@ BiomeSizeWhenBorder: 6
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.31
 
-BiomeVolatility: 0.3
+BiomeHeight: 0.04
 
-SmoothRadius: 8
+BiomeVolatility: 0.4
+
+SmoothRadius: 4
 
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -9.0
+Volatility1: -2.0
 
-Volatility2: -4.5
+Volatility2: -2.5
 
-VolatilityWeight1: 2.5
+VolatilityWeight1: 2.0
 
-VolatilityWeight2: 3.45
+VolatilityWeight2: 2.5
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -5.0, -10.0, -10.0, -10.0, -5.0, -750.0, -750.0, -500.0, -500.0, -500.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -169,12 +170,15 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
-CustomStructure(DngStart,0.05,RedbrickHouseBranching,0.2,ugcamp,0.2,CastleBranching,0.2)
+CustomStructure(DngStart,0.05)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+Ore(DIRT:1,20,100,50.0,97,98,HARD_CLAY,STAINED_CLAY)
 CustomObject(claydungeon1,claydungeon2,claydungeon3,claydungeon4,claydungeon5)
 UnderGroundLake(25,60,2,5.0,0,61)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
-Tree(1,Acacia,33,Tree,50)
+Tree(10,Acacia,10)
 Reed(SUGAR_CANE_BLOCK,5,100.0,0,139,GRASS,DIRT,SAND)
 Cactus(CACTUS,10,100.0,0,139,SAND)
 Liquid(WATER,20,100.0,19,139,STONE:0)

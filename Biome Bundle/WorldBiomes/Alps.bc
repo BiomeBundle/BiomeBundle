@@ -51,6 +51,7 @@ BiomeSizeWhenBorder: 5
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+
 BiomeHeight: -1.73
 
 BiomeVolatility: 0.4
@@ -84,7 +85,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverRocky
+RiverBiome: RiverAlpine
 
 #######################
 # ImprovedRivers:true #
@@ -169,12 +170,14 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(ShrubSpruce3,ShrubSpruce4,SpruceFir10,SpruceFir11,SpruceFir12,SpruceFir13)
 CustomObject(ShrubSpruce1,ShrubSpruce2,SpruceFir14,SpruceFir15,SpruceFir16,SpruceFir17,SpruceFir18,SpruceFir19)
 CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5,SpruceFirSmall6,SpruceFirSmall7,SpruceFirSmall8)
 CustomObject(boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
-CustomStructure(DngStart,0.05,Bricktowerbranching,0.1,RedbrickHouseBranching,0.2,GravelOreT1,1.0,CaveMine1,0.09,LargeCave1,0.09,BrickRuinsPath1,0.1,RiverRocks,0.5)
+CustomStructure(DngStart,0.05,Bricktowerbranching,0.15,RedbrickHouseBranching,0.25,GravelOreT1,1.0,CaveMine1,0.09,LargeCave1,0.09,BrickRuinsPath1,0.1,RiverRocks,0.5)
 Ore(STONE,10,100,50.0,101,161,GRASS)
 Ore(STONE,10,100,50.0,86,101,GRASS)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)

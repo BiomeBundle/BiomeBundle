@@ -174,7 +174,10 @@ Ore(GRASS,25,100,100.0,71,131,GRAVEL)
 Ore(STONE,5,55,100.0,91,131,STAINED_CLAY)
 Ore(HARD_CLAY,5,35,100.0,91,131,GRAVEL)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-UnderGroundLake(25,60,2,5.0,0,61)
+UnderGroundLake(25,60,2,5.0,0,50)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
@@ -184,7 +187,6 @@ Plant(Poppy,4,100.0,0,139,GRASS,DIRT)
 Plant(Dandelion,4,100.0,0,139,GRASS,DIRT)
 Grass(Fern,NotGrouped,20,100.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Liquid(WATER,20,100.0,19,139,STONE:0)
 Boulder(STONE,2,10.0,71,111,GRASS)
 Boulder(HARD_CLAY,2,10.0,71,111,GRASS)
 Plant(LargeFern,10,100.0,41,139,GRASS,DIRT)
@@ -244,5 +246,5 @@ SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
 BiomeDictId: 
 
-InheritMobsBiomeName: Mesa
+InheritMobsBiomeName: Forest
 

@@ -16,9 +16,9 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+BiomeSize: 9
 
-BiomeRarity: 95
+BiomeRarity: 92
 
 BiomeColor: #00C42C
 
@@ -28,7 +28,7 @@ ReplaceToBiomeName: Plains
 # Isle biomes only #
 ####################
 
-IsleInBiome: Birch Forest, TemperatePlains, Forest, TemperatePlainsM, TemperateLowlands, Plains, Sunflower Plains, Ocean Island, Flower Forest, Redwood Forest, RockyPlains, ForestGrandFir, TemperatePlainsMeadow, TemperatePlainsMeadowM, ForestFir, RockyHills
+IsleInBiome: Birch Forest, TemperatePlains, Forest, TemperatePlainsM, TemperateLowlands, Plains, Sunflower Plains, Ocean Island, Flower Forest, Redwood Forest, RockyPlains, ForestGrandFir, TemperatePlainsMeadow, TemperatePlainsMeadowM, RockyHills
 
 BiomeSizeWhenIsle: 10
 
@@ -172,11 +172,13 @@ Ore(STONE:1,32,20,100.0,0,69,STONE:0)
 UnderGroundLake(25,60,2,5.0,0,61)
 Ore(DIRT,32,20,100.0,0,255,STONE:0)
 Ore(GRAVEL,32,10,100.0,0,255,STONE:0)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE:0)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4)
-CustomStructure(DngStart,0.05,Bricktowerbranching,0.1,GravelOreT1,1.0,BrickRuinsPath1,0.5,StandingStonesBranching,0.2,CastleBranching,0.25,RedbrickHouseBranching,0.5)
+CustomStructure(DngStart,0.05,Bricktowerbranching,0.15,GravelOreT1,1.0,BrickRuinsPath1,0.5,StandingStonesBranching,0.2,CastleBranching,0.255,RedbrickHouseBranching,0.5)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 Plant(Poppy,2,100.0,0,255,GRASS,DIRT,SOIL)

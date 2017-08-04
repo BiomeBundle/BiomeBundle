@@ -82,7 +82,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverTropical
+RiverBiome: RiverDesert
 
 #######################
 # ImprovedRivers:true #
@@ -167,6 +167,8 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(SmallLake1,SandSmallLake2,SandSmallLake3,SandSmallLake4,SandSmallLake5,SandSmallLake6,SandSmallLake7,SandSmallLake8,SandSmallLake9,SandSmallLake10,SandSmallLake11,SandSmallLake12)
 Ore(GRASS,20,45,50.0,63,67,SAND)
 Reed(SUGAR_CANE_BLOCK,20,100.0,61,139,GRASS,DIRT,SAND)
@@ -181,7 +183,7 @@ Grass(Fern,NotGrouped,4,100.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,4,100.0,GRASS,DIRT)
 Plant(LargeFern,10,90.0,41,139,GRASS,DIRT)
 CustomObject(DesertRockMedium4,DesertRockMedium3,DesertRockMedium2,DesertRockMedium1,DesertRockLarge4,DesertRockLarge3,DesertRockLarge2,DesertRockLarge1,DesertRockSmall4,DesertRockSmall3,DesertRockSmall2,DesertRockSmall1,DesertRockMedium5)
-CustomStructure(DesertBranching,0.1,VanillaDesertTemple,0.1,SandRuinsPath1,0.1)
+CustomStructure(DesertBranching,0.1,VanillaDesertTemple,0.1,SandRuinsPath1,0.1,SandstoneDngStart,0.05)
 Well(SANDSTONE,STEP:1,WATER,1,0.1,13,139,SAND)
 
 #######################################################################

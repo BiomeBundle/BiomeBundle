@@ -175,6 +175,8 @@ Ore(GRASS,12,100,100.0,63,111,GRAVEL)
 Plant(SNOW,80,90.0,86,255,GRASS,DIRT,LEAVES)
 Plant(SNOW,80,45.0,86,255,GRASS,DIRT,LEAVES)
 Plant(SNOW,40,25.0,63,85,GRASS,DIRT,LEAVES)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

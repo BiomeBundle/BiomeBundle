@@ -18,7 +18,7 @@ ResourceInheritance: true
 
 BiomeSize: 8
 
-BiomeRarity: 95
+BiomeRarity: 98
 
 BiomeColor: #00C42C
 
@@ -28,7 +28,7 @@ ReplaceToBiomeName: SwamplandSpooky
 # Isle biomes only #
 ####################
 
-IsleInBiome: Birch Forest, Forest, ForestHills, TemperatePlainsM, TemperateLowlands, Plains, Sunflower Plains, Ocean Island, Flower Forest, RockyPlains, SwamplandSpooky, RoofedForestEnchanted
+IsleInBiome: Birch Forest, Forest, ForestHills, TemperatePlainsM, Plains, Sunflower Plains, Ocean Island, Flower Forest, RockyPlains, SwamplandSpooky, RoofedForestEnchanted, ForestEnchanted, RockyHills
 
 BiomeSizeWhenIsle: 10
 
@@ -173,6 +173,7 @@ CustomStructure(GravelOreT1,1.0,WitchMansion,0.35)
 UnderGroundLake(25,60,2,5.0,0,61)
 Ore(DIRT,32,20,100.0,0,255,STONE:0)
 Ore(GRAVEL,32,10,100.0,0,255,STONE:0)
+SmallLake(LAVA,6,33.0,1,8)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE:0)
 CustomObject(OakFallenTree1,OakFallenTree2,OakFallenTree3,OakFallenTree4)

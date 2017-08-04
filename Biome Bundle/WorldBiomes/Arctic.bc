@@ -176,6 +176,8 @@ Ore(PACKED_ICE,16,25,75.0,63,139,SNOW_BLOCK)
 Ore(ICE,16,50,100.0,63,139,SNOW_BLOCK)
 Ore(PACKED_ICE,12,10,75.0,63,139,SNOW_BLOCK)
 Ore(ICE,12,25,100.0,63,139,SNOW_BLOCK)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 CustomStructure(snowyclutterlarge1,1.0,snowyclutterlarge2,1.0,snowyclutterlarge3,2.0,snowyclutterlarge4,2.0,snowyclutterlarge5,3.0,snowyclutterlarge6,3.0)
 CustomObject(SnowFlake1,SnowFlake2,SnowFlake3,SnowFlake4,SnowFlake5,SnowFlake6,SnowFlake7,SnowFlake8)
 IceSpike(PACKED_ICE,HugeSpike,2,5.0,63,69,ICE,SNOW_BLOCK)
@@ -230,7 +232,7 @@ RareBuildingType: disabled
 
 SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
 
-SpawnCreatures: []
+SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "wolf", "weight": 8, "min": 4, "max": 4}]
 
 SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 

@@ -51,7 +51,11 @@ BiomeSizeWhenBorder: 6
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+<<<<<<< HEAD
 BiomeHeight: -1.94
+=======
+BiomeHeight: -2.3
+>>>>>>> df47a4b22dc0ac0f30f390ce731615542fc7cae2
 
 BiomeVolatility: 0.8
 
@@ -169,10 +173,13 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
+Liquid(WATER,20,100.0,8,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+Liquid(LAVA,10,100.0,8,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 CustomObject(OakMangroveTree1,OakMangroveTree2,OakMangroveTree3,OakMangroveTree4,OakMangroveTree5,OakMangroveTree6)
 CustomObject(OakMangroveTree1,OakMangroveTree2,OakMangroveTree3,OakMangroveTree4,OakMangroveTree5,OakMangroveTree6)
-UnderGroundLake(25,60,2,5.0,0,61)
+UnderGroundLake(25,60,2,5.0,0,50)
+SmallLake(LAVA,6,33.0,1,8)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
@@ -194,6 +201,7 @@ Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
 Liquid(WATER,20,100.0,19,139,STONE:0)
 SmallLake(LAVA,2,1.0,16,31)
 Plant(MELON_BLOCK,1,100.0,0,139,GRASS,DIRT,DIRT:2)
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

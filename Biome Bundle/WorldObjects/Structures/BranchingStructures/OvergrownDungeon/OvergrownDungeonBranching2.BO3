@@ -130,4 +130,4 @@ OutsideSourceBlock: placeAnyway
 
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,20,0,OvergrownDungeon3,NORTH,1,OvergrownDungeon4,NORTH,2,OvergrownDungeon5,NORTH,3,3)
+WeightedBranch(0,20,0,OvergrownDungeon4,NORTH,50,OvergrownDungeon5,NORTH,50,100)

@@ -28,7 +28,8 @@ ReplaceToBiomeName: Desert
 # Isle biomes only #
 ####################
 
-IsleInBiome: DesertRed
+
+IsleInBiome: DesertRed, ForestDry
 
 BiomeSizeWhenIsle: 9
 
@@ -51,7 +52,7 @@ BiomeSizeWhenBorder: 9
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -0.16
+BiomeHeight: 1.34
 
 BiomeVolatility: 0.4
 
@@ -71,7 +72,7 @@ VolatilityWeight2: 1.45
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1000.0, -1000.0, -1500.0, -1500.0, -1500.0, -1500.0, -1500.0, -1500.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -170,6 +171,16 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+SmallLake(WATER,2,10.0,111,121)
+SmallLake(SAND,2,10.0,111,121)
+CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
+SurfacePatch(SAND:1,AIR,114,121,HARD_CLAY,STAINED_CLAY,GRAVEL,DIRT)
+UnderGroundLake(25,60,2,5.0,0,50)
+UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
+UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE:0)
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -201,9 +212,15 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
+<<<<<<< HEAD
 VillageType: disabled
 
 MineshaftType: normal
+=======
+VillageType: savanna
+
+MineshaftType: mesa
+>>>>>>> df47a4b22dc0ac0f30f390ce731615542fc7cae2
 
 MineshaftRarity: 0.3
 

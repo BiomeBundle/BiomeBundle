@@ -66,11 +66,11 @@ ExcludedBiomes: All
 #######################################################################
 
 # The block(s) the BO3 should spawn in.
-SourceBlocks: AIR
+SourceBlocks: GRASS,DIRT,GRAVEL,SAND,SAND:1,SANDSTONE,STONE,STONE:1,STONE:3,STONE:5,DIRT:1,CLAY,HARD_CLAY,38,38:1,38:2,38:3,38:4,38:5,38:6,38:7,38:8,39,40,175,175:1,175:2,175:3,175:4,175:5,31,31:1,31:2,32,COAL_ORE,IRON_ORE,GOLD_ORE,REDSTONE_ORE,DIAMOND_ORE,LAPIS_ORE,EMERALD_ORE,106,AIR
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
-MaxPercentageOutsideSourceBlock: 100
+MaxPercentageOutsideSourceBlock: 10
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: placeAnyway
@@ -1166,7 +1166,7 @@ RandomBlock(-8,-10,-6,COBBLESTONE,50,48,100)
 RandomBlock(-8,-10,-5,COBBLESTONE,50,48,100)
 Block(-8,-10,-4,SMOOTH_BRICK)
 Block(-8,-10,-3,AIR)
-RandomBlock(-8,-10,-2,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,50,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,100)
+RandomBlock(-8,-10,-2,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,50,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
 Block(-8,-10,-1,AIR)
 Block(-8,-10,0,SMOOTH_BRICK)
 Block(-8,-10,1,SMOOTH_BRICK)
@@ -7685,7 +7685,7 @@ Block(5,-12,2,AIR)
 Block(5,-12,3,AIR)
 Block(5,-12,4,AIR)
 Block(5,-12,5,AIR)
-RandomBlock(5,-12,6,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,50,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,100)
+RandomBlock(5,-12,6,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,50,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,100)
 Block(5,-12,7,SMOOTH_BRICK)
 RandomBlock(5,-12,8,COBBLESTONE,50,48,100)
 RandomBlock(5,-12,9,COBBLESTONE,50,48,100)
@@ -8686,7 +8686,7 @@ RandomBlock(7,-12,-5,COBBLESTONE,50,48,100)
 RandomBlock(7,-12,-4,COBBLESTONE,50,48,100)
 Block(7,-12,-3,SMOOTH_BRICK)
 Block(7,-12,-2,SMOOTH_BRICK)
-RandomBlock(7,-12,-1,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,50,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,100)
+RandomBlock(7,-12,-1,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,50,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
 Block(7,-12,0,SMOOTH_BRICK)
 Block(7,-12,1,SMOOTH_BRICK)
 Block(7,-12,2,SMOOTH_BRICK)
