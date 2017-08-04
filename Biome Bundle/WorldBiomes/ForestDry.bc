@@ -84,7 +84,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverRocky
+RiverBiome: RiverClay
 
 #######################
 # ImprovedRivers:true #
@@ -176,10 +176,21 @@ Ore(HARD_CLAY,15,15,80.0,51,255,DIRT:1)
 Ore(SAND:1,15,15,80.0,51,255,DIRT:1)
 Ore(STAINED_CLAY:1,15,15,80.0,51,255,DIRT:1)
 SmallLake(LAVA,2,7.0,19,131)
-CustomObject(rockyhole1,rockyhole2,rockyhole3,rockyhole4,rockyhole5)
 UnderGroundLake(25,60,2,5.0,0,61)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+SurfacePatch(SAND:1,AIR,63,111,DIRT:1)
+CustomObject(ClayRockSmall1,ClayRockSmall2,ClayRockSmall3,ClayRockSmall4,ClayRockSmall5,ClayRockSmall6)
+CustomObject(ClayRockSmall1,ClayRockSmall2,ClayRockSmall3,ClayRockSmall4,ClayRockSmall5,ClayRockSmall6)
+CustomObject(rockyhole1,rockyhole2,rockyhole3,rockyhole4,rockyhole5)
+CustomObject(VolcanoHardClay1,VolcanoHardClay2)
+CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
+CustomObject(OakForestSmall9,OakForestSmall8,OakForestSmall6,OakForestSmall5,OakForestSmall4,OakForestSmall3,OakForestSmall2,OakForestSmall13,OakForestSmall12,OakForestSmall11,OakForestSmall10,OakForestSmall1)
+CustomObject(OakForestLarge5,OakForestLarge4,OakForestLarge3,OakForestLarge2,OakForestLarge1)
+CustomObject(OakForestMedium2,OakForestMedium1)
+CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOak7,ShrubOak8,ShrubOak9,ShrubOak10,ShrubOak11,ShrubOak12,ShrubOak13,ShrubOak14,ShrubOak15,ShrubOak16,ShrubOak17,ShrubOak18)
 CustomObject(claydungeon1,claydungeon2,claydungeon3,claydungeon4,claydungeon5)
-CustomStructure(TotemBase,0.1,Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.2,LargeCave1,0.09,DngStart,0.05,WitchVillageBranching,0.1)
+CustomStructure(TotemBase,0.1,Bricktowerbranching,0.15,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.25,LargeCave1,0.09,DngStart,0.05,WitchVillageBranching,0.1)
 Grass(LONG_GRASS:1,NotGrouped,75,25.0,GRASS,DIRT,DIRT:1)
 Grass(DeadBush,NotGrouped,4,25.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
 CustomObject(OakDead1,OakDead2,OakDead3,OakDead4,OakDead5,OakDead6)
@@ -195,7 +206,6 @@ Cactus(CACTUS,10,100.0,0,139,SAND)
 Plant(LargeFern,12,20.0,41,139,GRASS,DIRT)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
 Tree(10,larchmed1,1,GroundBush,2,larchmed2,1,larchmed3,1)
-CustomObject(orangerock1,orangerock2,orangerock3,orangerock4,orangerock5,orangerock6,orangerock7)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

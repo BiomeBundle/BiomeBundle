@@ -171,6 +171,10 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+Vein(AIR,15,17,75.0,10,15,100,141,149,STONE:0,SAND,DIRT,CLAY,WATER,COAL_ORE,IRON_ORE,GOLD_ORE,DIAMOND_ORE,LAPIS_ORE,GRAVEL)
+Vein(AIR,10,20,25.0,10,25,20,131,151,STONE:0,SAND,DIRT,CLAY,WATER,COAL_ORE,IRON_ORE,GOLD_ORE,DIAMOND_ORE,LAPIS_ORE,GRAVEL)
 CustomObject(BaseCave1,BaseCave2,BaseCave3,RoofCave1,RoofCave2)
 CustomObject(HangingRockFloatingIsland1,HangingRockFloatingIsland2,HangingRockFloatingIsland3)
 CustomObject(HangingRockMedium1V2,HangingRockMedium2V2,HangingRockMedium3V2,HangingRockMedium4V2,HangingRockMedium5V2,HangingRockMedium5V2)
@@ -227,7 +231,7 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: wood
+VillageType: disabled
 
 MineshaftType: normal
 

@@ -133,5 +133,5 @@ LightCheck(0,0,0,0,2)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(-8,0,0,StoneShrine1,NORTH,1,StoneShrine2,NORTH,1,StoneShrine3,NORTH,1,ECPathCENTRE,NORTH,1,4)
-WeightedBranch(0,0,0,Spores1,NORTH,1,Spores2,NORTH,1,Spores3,NORTH,1,Spores4,NORTH,1,Spores5,NORTH,1,Spores6,NORTH,1,6)
+WeightedBranch(-8,0,0,StoneShrine1,NORTH,25,StoneShrine2,NORTH,25,StoneShrine3,NORTH,25,ECPathCENTRE,NORTH,25,100)
+WeightedBranch(0,0,0,Spores1,NORTH,17,Spores2,NORTH,17,Spores3,NORTH,17,Spores4,NORTH,17,Spores5,NORTH,17,Spores6,NORTH,15,100)

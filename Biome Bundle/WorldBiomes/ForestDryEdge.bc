@@ -40,7 +40,7 @@ BiomeRarityWhenIsle: 100
 
 BiomeIsBorder: ForestFirThicket, ForestDry, ForestPlateauPinyon
 
-NotBorderNear: Rocks
+NotBorderNear: Rocks, DesertSmallRed, RedMountain
 
 BiomeSizeWhenBorder: 12
 
@@ -173,8 +173,10 @@ SurfacePatch(DIRT:1,AIR,63,77,SAND)
 UnderGroundLake(25,60,2,5.0,0,61)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS,SAND:1)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS,SAND:1)
-CustomStructure(Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.2,LargeCave1,0.09)
+CustomStructure(Bricktowerbranching,0.15,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.25,LargeCave1,0.09)
 Ore(STONE,15,100,100.0,63,255,GRASS,SAND:1)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5)
 Plant(Poppy,4,5.0,0,139,GRASS,DIRT)
 Plant(Dandelion,4,5.0,0,139,GRASS,DIRT)

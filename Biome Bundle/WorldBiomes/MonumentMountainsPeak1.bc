@@ -173,6 +173,8 @@ Boulder(STONE,2,10.0,71,111,GRASS)
 Ore(STONE,15,35,90.0,71,76,GRASS)
 UnderGroundLake(25,60,2,5.0,0,61)
 Liquid(WATER,40,100.0,19,171,STONE:0)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE:0)
 Tree(2,BigTree,10,GroundBush,40,Tree,20)
@@ -212,7 +214,8 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: taiga
+
+VillageType: disabled
 
 MineshaftType: normal
 

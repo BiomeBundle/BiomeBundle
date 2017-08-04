@@ -65,9 +65,9 @@ Volatility1: -1.0
 
 Volatility2: -1.0
 
-VolatilityWeight1: 6.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 5.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -188,6 +188,11 @@ Liquid(WATER,20,100.0,19,139,STONE:0)
 Ore(GRAVEL,5,30,100.0,75,139,GRASS)
 Plant(SNOW,80,90.0,41,139,GRASS,DIRT)
 Plant(SNOW,80,45.0,41,139,GRASS,DIRT)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+UnderGroundLake(25,60,2,5.0,0,39)
+Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

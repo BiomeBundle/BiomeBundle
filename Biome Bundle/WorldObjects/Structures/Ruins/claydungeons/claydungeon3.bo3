@@ -66,11 +66,11 @@ ExcludedBiomes: All
 #######################################################################
 
 # The block(s) the BO3 should spawn in.
-SourceBlocks: AIR
+SourceBlocks: STONE:1,STONE:3,STONE:5,DIRT:1,DIRT,SAND,GRASS,DIRT:2,HARD_CLAY,STAINED_CLAY,CLAY,SANDSTONE,RED_SANDSTONE,SAND:1,AIR,STONE,GRAVEL,LONG_GRASS,LONG_GRASS:1,LONG_GRASS:2,DEAD_BUSH,YELLOW_FLOWER,RED_ROSE,BROWN_MUSHROOM,RED_MUSHROOM,RED_ROSE:1,RED_ROSE:2,RED_ROSE:3,RED_ROSE:4,RED_ROSE:5,RED_ROSE:6,RED_ROSE:7,RED_ROSE:8,DOUBLE_PLANT,DOUBLE_PLANT:1,DOUBLE_PLANT:2,DOUBLE_PLANT:3,DOUBLE_PLANT:4,DOUBLE_PLANT:5,IRON_ORE,GOLD_ORE,LAPIS_ORE,COAL_ORE,DIAMOND_ORE,REDSTONE_ORE,EMERALD_ORE,STATIONARY_WATER
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
-MaxPercentageOutsideSourceBlock: 100
+MaxPercentageOutsideSourceBlock: 15
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: placeAnyway

@@ -168,6 +168,7 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 SmallLake(LAVA,2,1.0,19,131)
 UnderGroundLake(25,60,2,5.0,0,61)
@@ -233,7 +234,7 @@ SpawnMonsters: []
 
 SpawnCreatures: [{"mob": "mooshroom", "weight": 8, "min": 4, "max": 8}]
 
-SpawnWaterCreatures: []
+SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
 SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 

@@ -51,6 +51,7 @@ BiomeSizeWhenBorder: 9
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+
 BiomeHeight: -1.46
 
 BiomeVolatility: 0.8
@@ -174,6 +175,8 @@ Ore(STAINED_CLAY:1,16,50,100.0,76,83,SAND,SANDSTONE:0)
 Ore(STAINED_CLAY:1,16,100,100.0,79,83,SAND,SANDSTONE:0)
 Ore(STAINED_CLAY:1,16,100,100.0,80,83,SAND,SANDSTONE:0)
 Ore(GRASS,16,100,100.0,80,83,SAND)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 CustomObject(MesaRock1,MesaRock2,MesaRock3,MesaRock4,MesaRock5)
 
 #######################################################################

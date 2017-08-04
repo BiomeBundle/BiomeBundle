@@ -57,7 +57,7 @@ BiomeVolatility: 0.1
 
 SmoothRadius: 4
 
-MaxAverageHeight: 0.5
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
@@ -173,6 +173,8 @@ Ore(GRASS,15,75,100.0,71,255,GRAVEL)
 Ore(STONE,25,100,100.0,71,255,GRAVEL)
 Ore(DIRT,15,75,100.0,71,255,GRAVEL)
 UnderGroundLake(25,60,2,5.0,0,61)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
@@ -185,7 +187,7 @@ Grass(LONG_GRASS,Grouped,10,10.0,GRASS,DIRT)
 Plant(LargeFern,10,100.0,41,139,GRASS,DIRT)
 CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5,SpruceFirSmall6,SpruceFirSmall7,SpruceFirSmall8)
 CustomObject(rockyhole1,rockyhole2,rockyhole3,rockyhole4,rockyhole5)
-CustomStructure(Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.2,LargeCave1,0.09)
+CustomStructure(Bricktowerbranching,0.15,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.25,LargeCave1,0.09)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 

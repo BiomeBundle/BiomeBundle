@@ -161,6 +161,7 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+
 Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -171,19 +172,25 @@ Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
 Ore(SAND,7,8,70.0,61,64,STONE:0,HARD_CLAY,STAINED_CLAY,GRAVEL)
 Ore(SAND,3,8,70.0,61,63,STONE:0,HARD_CLAY,STAINED_CLAY,GRAVEL)
-Tree(10,GroundBush,25,CocoaTree,15)
-UnderGroundLake(25,60,2,5.0,0,61)
+Tree(20,GroundBush,25,CocoaTree,15)
+UnderGroundLake(25,60,2,5.0,0,50)
+
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+
 UnderWaterOre(CLAY,8,10,50.0,DIRT)
 UnderWaterOre(DIRT,4,7,20.0,CLAY)
 CustomStructure(GravelOreT1,1.0)
 Plant(Poppy,2,100.0,0,139,GRASS,DIRT,SOIL)
 Plant(Dandelion,2,100.0,0,139,GRASS,DIRT,SOIL)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
+
 Plant(PUMPKIN,1,3.0,0,139,GRASS)
-Liquid(WATER,20,100.0,19,139,STONE:0)
-Liquid(LAVA,10,100.0,19,139,STONE:0)
 Reed(SUGAR_CANE_BLOCK,10,100.0,63,139,GRASS,DIRT,SAND)
 Plant(MELON_BLOCK,1,100.0,0,139,GRASS,DIRT,DIRT:2)
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

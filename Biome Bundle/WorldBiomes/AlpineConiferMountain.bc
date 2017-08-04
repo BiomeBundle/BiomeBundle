@@ -57,9 +57,9 @@ BiomeVolatility: 1.3
 
 SmoothRadius: 4
 
-MaxAverageHeight: -0.5
+MaxAverageHeight: 0.0
 
-MaxAverageDepth: -0.5
+MaxAverageDepth: 0.0
 
 Volatility1: -1.2
 
@@ -84,7 +84,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 4.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverForestConifer
+RiverBiome: RiverAlpine
 
 #######################
 # ImprovedRivers:true #
@@ -114,6 +114,7 @@ GroundBlock: STONE
 SurfaceAndGroundControl: 
 
 ReplacedBlocks: (DIRT,STONE,116,211),(AIR,LAVA,1,10)
+
 
 ################################
 # Water / Lava & Frozen States #
@@ -171,6 +172,8 @@ Ore(ICE,12,100,100.0,111,255,GRAVEL,STONE:0)
 Ore(STONE,12,100,100.0,106,121,DIRT)
 Liquid(WATER,40,100.0,19,161,STONE:0)
 Plant(SNOW,80,60.0,81,139,GRASS,DIRT,LEAVES,STONE:0,GRAVEL)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
 CustomStructure()
 
 #######################################################################
@@ -220,7 +223,7 @@ RareBuildingType: disabled
 
 SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
 
-SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "wolf", "weight": 8, "min": 4, "max": 4}]
 
 SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 

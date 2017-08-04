@@ -163,6 +163,11 @@ FoliageColorIsMultiplier: true
 
 Dungeon(8,100.0,0,160)
 CustomStructure(RiverRocks,0.5)
+CustomStructure(RiverRocks,0.5)
+SmallLake(LAVA,6,33.0,1,8)
+UnderGroundLake(25,60,2,5.0,0,50)
+Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

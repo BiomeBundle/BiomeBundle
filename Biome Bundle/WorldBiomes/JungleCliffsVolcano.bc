@@ -175,6 +175,11 @@ CustomObject(VolcanoMedium1,VolcanoMedium2,VolcanoMedium3,volcmed1,volcmed2,volc
 SmallLake(LAVA,20,15.0,19,131)
 Liquid(LAVA,100,100.0,19,139,STONE:0,HARD_CLAY,STAINED_CLAY)
 Plant(MELON_BLOCK,1,100.0,0,139,GRASS,DIRT,DIRT:2)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+UnderGroundLake(25,60,2,5.0,0,50)
+Liquid(WATER,20,100.0,8,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

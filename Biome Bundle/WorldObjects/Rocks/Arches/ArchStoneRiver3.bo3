@@ -1078,19 +1078,18 @@ BlockCheck(0,-1,0,Solid)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(9,0,17,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(-7,0,1,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(9,0,9,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(9,0,-21,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(-9,0,9,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(0,0,9,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(-9,0,-9,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(0,0,-9,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(12,0,0,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(-10,0,0,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(12,0,8,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(15,0,-4,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(-10,0,18,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(0,0,8,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(-13,0,-11,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
-WeightedBranch(-2,0,-13,Rubble1,NORTH,10,Rubble2,NORTH,10,Rubble3,NORTH,10,Rubble4,NORTH,10,Rubble5,NORTH,10,Rubble6,NORTH,10,100)
+
+
+WeightedBranch(-7,0,1,Rubble1,NORTH,17,Rubble2,NORTH,17,Rubble3,NORTH,17,Rubble4,NORTH,17,Rubble5,NORTH,17,Rubble6,NORTH,15,100)
+
+
+WeightedBranch(-9,0,5,Rubble1,NORTH,17,Rubble2,NORTH,17,Rubble3,NORTH,17,Rubble4,NORTH,17,Rubble5,NORTH,17,Rubble6,NORTH,15,100)
+WeightedBranch(0,0,9,Rubble1,NORTH,17,Rubble2,NORTH,17,Rubble3,NORTH,17,Rubble4,NORTH,17,Rubble5,NORTH,17,Rubble6,NORTH,15,100)
+WeightedBranch(-3,0,-9,Rubble1,NORTH,17,Rubble2,NORTH,17,Rubble3,NORTH,17,Rubble4,NORTH,17,Rubble5,NORTH,17,Rubble6,NORTH,15,100)
+WeightedBranch(0,0,-9,Rubble1,NORTH,17,Rubble2,NORTH,17,Rubble3,NORTH,17,Rubble4,NORTH,17,Rubble5,NORTH,17,Rubble6,NORTH,15,100)
+
+
+
+
+
+WeightedBranch(0,0,8,Rubble1,NORTH,17,Rubble2,NORTH,17,Rubble3,NORTH,17,Rubble4,NORTH,17,Rubble5,NORTH,17,Rubble6,NORTH,15,100)

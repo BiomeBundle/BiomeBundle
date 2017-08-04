@@ -36,7 +36,7 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 10.0
+Rarity: 100.0
 
 # If you set this to true, the BO3 will be placed with a random rotation.
 RotateRandomly: false
@@ -57,10 +57,11 @@ SpawnHeightVariance: 0
 ##############################
 
 # When in randomY mode used as the minimum Y or in atMinY mode as the actual Y to spawn this BO3 at.
-MinHeight: 63
+
+MinHeight: 61
 
 # When in randomY mode used as the maximum Y to spawn this BO3 at.
-MaxHeight: 76
+MaxHeight: 86
 
 ######################
 # Extrusion settings #
@@ -93,7 +94,7 @@ SourceBlocks: STONE:1,STONE:3,STONE:5,DIRT:1,GRASS,DIRT,STONE,GRAVEL,SAND,CLAY,H
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
-MaxPercentageOutsideSourceBlock: 10
+MaxPercentageOutsideSourceBlock: 30
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: placeAnyway
@@ -2896,7 +2897,7 @@ Block(-13,0,-10,STONE)
 Block(-13,0,-9,STONE)
 Block(-13,0,-8,STONE)
 Block(-13,0,-7,WOOD:2)
-RandomBlock(-13,0,-6,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_corridor.nbt,100)
+RandomBlock(-13,0,-6,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_corridor.nbt,100)
 Block(-13,0,-5,AIR)
 Block(-13,0,-4,AIR)
 Block(-13,0,-3,AIR)
@@ -9313,8 +9314,7 @@ Block(5,0,6,GRASS)
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
-BlockCheck(0,-1,0,GRASS,DIRT,GRAVEL,SAND,SANDSTONE,DIRT:1,DIRT:2)
-BlockCheck(0,-1,0,GRASS,GRAVEL)
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

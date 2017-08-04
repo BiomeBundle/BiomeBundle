@@ -51,17 +51,17 @@ BiomeSizeWhenBorder: 7
 
 BiomeHeight: -0.96
 
-BiomeVolatility: 0.8
+BiomeVolatility: 0.9
 
-SmoothRadius: 6
+SmoothRadius: 4
 
-MaxAverageHeight: -0.2
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -0.5
+Volatility1: -1.0
 
-Volatility2: 0.0
+Volatility2: -1.0
 
 VolatilityWeight1: 2.5
 
@@ -168,12 +168,15 @@ Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
 UnderGroundLake(25,60,2,5.0,0,61)
+CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
+SmallLake(LAVA,6,33.0,1,8)
+Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 CustomObject(OakWoodland1,OakWoodland2,OakWoodland3,OakWoodland4,OakWoodland5,OakWoodland6,OakWoodland7,OakWoodland8,OakWoodland9)
 CustomObject(OakForestSmall9,OakForestSmall8,OakForestSmall6,OakForestSmall5,OakForestSmall4)
 CustomObject(OakForestLarge5,OakForestLarge4,OakForestLarge3,OakForestLarge2,OakForestLarge1)
-CustomObject(plainsrock4,plainsrock3,plainsrock2,plainsrock1,boulder9,boulder8,boulder7)
 Plant(Poppy,4,100.0,0,139,GRASS,DIRT)
 Plant(Dandelion,2,100.0,0,139,GRASS,DIRT)
 Plant(Lilac,2,100.0,0,139,GRASS,DIRT)
@@ -188,7 +191,7 @@ Grass(Fern,NotGrouped,10,75.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
 Plant(LargeFern,10,50.0,41,139,GRASS,DIRT)
 Boulder(STONE,2,30.0,0,255,GRASS,DIRT,STONE:0)
-CustomStructure(TotemBase,0.1,Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.2,LargeCave1,0.09)
+CustomStructure(TotemBase,0.1,Bricktowerbranching,0.15,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.25,LargeCave1,0.09)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
