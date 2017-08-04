@@ -187,7 +187,6 @@ Tree(2,BigTree,2,GroundBush,4,Tree,2)
 Grass(Fern,NotGrouped,4,50.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,4,50.0,GRASS,DIRT)
 Grass(DoubleTallgrass,NotGrouped,4,50.0,GRASS,DIRT)
-<<<<<<< HEAD
 Plant(LargeFern,10,90.0,41,139,GRASS,DIRT)
 Plant(PUMPKIN,1,3.0,0,139,GRASS)
 Plant(Sunflower,15,25.0,0,139,GRASS,DIRT)

@@ -183,7 +183,7 @@ CustomObject(VolcanoHardClay1,VolcanoHardClay2)
 CustomObject(claydungeon1,claydungeon2,claydungeon3,claydungeon4,claydungeon5)
 Grass(DeadBush,NotGrouped,4,10.0,SAND,HARD_CLAY,STAINED_CLAY,SANDSTONE:0)
 CustomStructure(RedDesertBranching,0.1)
-<<<<<<< HEAD
+
 CustomObject(ClayRockSmall1,ClayRockSmall2,ClayRockSmall3,ClayRockSmall4,ClayRockSmall5,ClayRockSmall6)
 CustomObject(ClayRockSmall1,ClayRockSmall2,ClayRockSmall3,ClayRockSmall4,ClayRockSmall5,ClayRockSmall6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)

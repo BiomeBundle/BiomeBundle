@@ -121,11 +121,8 @@ ReplacedBlocks: (STONE,GRAVEL,63,63),(STONE,SAND,62,62),(AIR,LAVA,1,10)
 
 UseWorldWaterLevel: false
 
-<<<<<<< HEAD
+
 WaterLevelMax: 63
-=======
-WaterLevelMax: 52
->>>>>>> df47a4b22dc0ac0f30f390ce731615542fc7cae2
 
 WaterLevelMin: 0
 

@@ -212,15 +212,9 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-<<<<<<< HEAD
-VillageType: disabled
-
-MineshaftType: normal
-=======
 VillageType: savanna
 
 MineshaftType: mesa
->>>>>>> df47a4b22dc0ac0f30f390ce731615542fc7cae2
 
 MineshaftRarity: 0.3
 

@@ -175,7 +175,7 @@ CustomObject(BigStoneRock3,BigStoneRock2,BigStoneRock1)
 CustomObject(AcaciaSavanna9,AcaciaSavanna8,AcaciaSavanna7,AcaciaSavanna6,AcaciaSavanna5,AcaciaSavanna4,AcaciaSavanna3,AcaciaSavanna2,AcaciaSavanna18,AcaciaSavanna17,AcaciaSavanna16,AcaciaSavanna15,AcaciaSavanna14,AcaciaSavanna13,AcaciaSavanna12,AcaciaSavanna11,AcaciaSavanna10,AcaciaSavanna1)
 CustomObject(ShrubAcacia1,ShrubAcacia1,ShrubAcacia2,ShrubAcacia3,ShrubAcacia4,ShrubAcacia5,ShrubAcacia6,ShrubAcacia7)
 Tree(1,Acacia,10)
-<<<<<<< HEAD
+
 Boulder(STONE,2,10.0,71,111,GRASS)
 Liquid(WATER,20,100.0,19,139,STONE:0)
 Liquid(LAVA,10,100.0,19,139,STONE:0)

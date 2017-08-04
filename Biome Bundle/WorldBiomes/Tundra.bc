@@ -242,11 +242,7 @@ RareBuildingType: disabled
 
 SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
 
-<<<<<<< HEAD
-SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "wolf", "weight": 8, "min": 4, "max": 4}]
-=======
 SpawnCreatures: [{"mob": "sheep", "weight": 7, "min": 4, "max": 4}, {"mob": "pig", "weight": 5, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "horse", "weight": 15, "min": 2, "max": 6}, {"mob": "rabbit", "weight": 4, "min": 2, "max": 3}, {"mob": "wolf", "weight": 8, "min": 4, "max": 4}]
->>>>>>> df47a4b22dc0ac0f30f390ce731615542fc7cae2
 
 SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
@@ -254,9 +250,5 @@ SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
 BiomeDictId: COLD, CONIFEROUS, SNOWY
 
-<<<<<<< HEAD
-InheritMobsBiomeName: Cold Plains
-=======
 InheritMobsBiomeName: Plains
->>>>>>> df47a4b22dc0ac0f30f390ce731615542fc7cae2
 
