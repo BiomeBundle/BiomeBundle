@@ -63,9 +63,9 @@ ExtrudeMode: None
 ExtrudeThroughBlocks: AIR
 
 # The height limits for the BO3.
-MinHeight: 5
+MinHeight: 16
 
-MaxHeight: 60
+MaxHeight: 71
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the

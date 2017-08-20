@@ -51,7 +51,7 @@ BiomeSizeWhenBorder: 9
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -2.2
+BiomeHeight: -1.86
 
 BiomeVolatility: 0.4
 
@@ -94,7 +94,7 @@ RiverHeight: -2.0
 
 RiverVolatility: 0.1
 
-RiverWaterLevel: 52
+RiverWaterLevel: 63
 
 RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
@@ -113,7 +113,7 @@ GroundBlock: DIRT
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: None
+ReplacedBlocks: (AIR,LAVA,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -121,7 +121,7 @@ ReplacedBlocks: None
 
 UseWorldWaterLevel: true
 
-WaterLevelMax: 63
+WaterLevelMax: 74
 
 WaterLevelMin: 0
 
@@ -161,42 +161,27 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+Dungeon(8,100.0,0,160)
 CustomStructure(RiverRocks,1.0)
-Vein(COAL_ORE,10,30,70.0,18,24,75,0,250,STONE:0,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,70.0,18,24,66,0,250,STONE:0,DIRT,HARD_CLAY)
-Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE:0,HARD_CLAY)
-Vein(REDSTONE_ORE,10,30,50.0,16,18,66,0,250,STONE:0,HARD_CLAY)
-Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE:0,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,33.0,4,12,66,0,35,STONE:0)
-Vein(EMERALD_ORE,10,20,15.0,4,12,66,0,35,STONE:0)
-Ore(DIRT,32,20,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(GRAVEL,32,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(CLAY,8,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(SAND,8,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(COAL_ORE,12,15,80.0,0,250,STONE:0,DIRT,HARD_CLAY)
-Ore(COAL_ORE,12,15,50.0,0,52,STONE:0,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,80.0,0,250,STONE:0,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,50.0,0,52,STONE:0,DIRT,HARD_CLAY)
-Ore(GOLD_ORE,8,6,40.0,0,250,STONE:0,HARD_CLAY)
-Ore(REDSTONE_ORE,12,8,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(DIAMOND_ORE,8,4,50.0,0,250,STONE:0)
-Ore(LAPIS_ORE,8,8,30.0,0,250,STONE:0,HARD_CLAY)
-Ore(EMERALD_ORE,8,4,15.0,0,52,STONE:0)
+Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(STONE:5,32,20,100.0,0,69,STONE:0)
+Ore(STONE:3,32,20,100.0,0,69,STONE:0)
+Ore(STONE:1,32,20,100.0,0,69,STONE:0)
+Ore(SAND,20,45,50.0,62,64,GRASS)
+Reed(SUGAR_CANE_BLOCK,20,100.0,91,139,GRASS,DIRT,SAND)
+Cactus(CACTUS,10,100.0,91,139,SAND)
+Ore(GRASS,25,25,100.0,71,76,SAND)
+Ore(DIRT,5,15,100.0,71,76,SAND)
 SmallLake(LAVA,6,33.0,1,8)
-Ore(STONE:5,32,20,100.0,0,58,STONE:0)
-Ore(STONE:3,32,20,100.0,0,58,STONE:0)
-Ore(STONE:1,32,20,100.0,0,58,STONE:0)
-Ore(SAND,20,45,50.0,51,53,GRASS)
-Reed(SUGAR_CANE_BLOCK,20,100.0,80,128,GRASS,DIRT,SAND)
-Cactus(CACTUS,10,100.0,80,128,SAND)
-Ore(GRASS,25,25,100.0,60,65,SAND)
-Ore(DIRT,5,15,100.0,60,65,SAND)
 Tree(9,Tree,50,BigTree,1)
-Liquid(WATER,20,100.0,8,128,STONE:0)
-Boulder(STONE,2,15.0,0,256,GRASS,DIRT,STONE:0)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Boulder(STONE,2,15.0,0,255,GRASS,DIRT,STONE:0)
 Grass(Fern,NotGrouped,4,100.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,4,100.0,GRASS,DIRT)
-Plant(LargeFern,10,90.0,30,128,GRASS,DIRT)
+Plant(LargeFern,10,90.0,41,139,GRASS,DIRT)
 CustomObject(OakForestMedium2,OakForestMedium1)
 CustomObject(OakForestLarge5,OakForestLarge4,OakForestLarge3,OakForestLarge2,OakForestLarge1)
 

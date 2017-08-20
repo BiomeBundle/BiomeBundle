@@ -30,6 +30,7 @@ RotateRandomly: false
 
 SpawnHeight: randomY
 
+# Replaced MinHeight: 30
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0
@@ -38,9 +39,9 @@ SpawnHeightVariance: 0
 # Height Limits for the BO3. #
 ##############################
 
-MinHeight: 19
+MinHeight: 30
 
-MaxHeight: 20
+MaxHeight: 31
 
 ######################
 # Extrusion settings #

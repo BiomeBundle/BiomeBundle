@@ -158,6 +158,7 @@ BlockCheckNot(0,-1,0,LOG,LOG:1,LOG:2,LOG:3,LOG_2,LOG_2:1,LEAVES,LEAVES:1,LEAVES:
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
+
 Branch(0,1,0,BrickRuinsOreT3,NORTH,50.0)
 Branch(1,0,0,BrickRuinsOreT2,NORTH,50.0)
 Branch(0,0,1,BrickRuinsOreT2,NORTH,70.0)
@@ -168,6 +169,7 @@ Branch(-1,1,0,BrickRuinsOreT3,NORTH,70.0)
 Branch(0,1,-1,BrickRuinsOreT3,NORTH,50.0)
 Branch(-1,0,2,BrickRuinsOreT3,NORTH,50.0)
 Branch(-1,0,1,BrickRuinsOreT3,NORTH,50.0)
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

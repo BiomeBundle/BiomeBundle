@@ -51,7 +51,7 @@ BiomeSizeWhenBorder: 8
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -2.15
+BiomeHeight: -1.94
 
 BiomeVolatility: 0.9
 
@@ -94,7 +94,7 @@ RiverHeight: -2.0
 
 RiverVolatility: -0.01
 
-RiverWaterLevel: 52
+RiverWaterLevel: 63
 
 RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
@@ -113,7 +113,7 @@ GroundBlock: SAND
 
 SurfaceAndGroundControl: AIR, RED_SANDSTONE, -0.1, GRASS, SAND:1, 0.4, RED_SANDSTONE, RED_SANDSTONE, 0.55, GRASS, SAND:1, 0.8, RED_SANDSTONE, RED_SANDSTONE, 0.95 
 
-ReplacedBlocks: (STONE,HARD_CLAY,52,91)
+ReplacedBlocks: (STONE,HARD_CLAY,52,91),(AIR,LAVA,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -121,7 +121,7 @@ ReplacedBlocks: (STONE,HARD_CLAY,52,91)
 
 UseWorldWaterLevel: false
 
-WaterLevelMax: 52
+WaterLevelMax: 63
 
 WaterLevelMin: 0
 
@@ -161,42 +161,27 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+Dungeon(8,100.0,0,160)
 CustomStructure()
-Vein(COAL_ORE,10,30,70.0,18,24,75,0,250,STONE:0,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,70.0,18,24,66,0,250,STONE:0,DIRT,HARD_CLAY)
-Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE:0,HARD_CLAY)
-Vein(REDSTONE_ORE,10,30,50.0,16,18,66,0,250,STONE:0,HARD_CLAY)
-Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE:0,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,33.0,4,12,66,0,35,STONE:0)
-Vein(EMERALD_ORE,10,20,15.0,4,12,66,0,35,STONE:0)
-Ore(DIRT,32,20,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(GRAVEL,32,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(CLAY,8,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(SAND,8,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(COAL_ORE,12,15,80.0,0,250,STONE:0,DIRT,HARD_CLAY)
-Ore(COAL_ORE,12,15,50.0,0,52,STONE:0,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,80.0,0,250,STONE:0,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,50.0,0,52,STONE:0,DIRT,HARD_CLAY)
-Ore(GOLD_ORE,8,6,40.0,0,250,STONE:0,HARD_CLAY)
-Ore(REDSTONE_ORE,12,8,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(DIAMOND_ORE,8,4,50.0,0,250,STONE:0)
-Ore(LAPIS_ORE,8,8,30.0,0,250,STONE:0,HARD_CLAY)
-Ore(EMERALD_ORE,8,4,15.0,0,52,STONE:0)
+Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(STONE:5,32,20,100.0,0,69,STONE:0)
+Ore(STONE:3,32,20,100.0,0,69,STONE:0)
+Ore(STONE:1,32,20,100.0,0,69,STONE:0)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
 SmallLake(LAVA,6,33.0,1,8)
-Ore(STONE:5,32,20,100.0,0,58,STONE:0)
-Ore(STONE:3,32,20,100.0,0,58,STONE:0)
-Ore(STONE:1,32,20,100.0,0,58,STONE:0)
 CustomObject(BigStoneRock3,BigStoneRock2,BigStoneRock1,MesaRock1,MesaRock2,MesaRock3,MesaRock4,MesaRock5)
-Ore(GRASS,3,30,75.0,53,54,GRAVEL,SAND,SAND:1)
+Ore(GRASS,3,30,75.0,64,65,GRAVEL,SAND,SAND:1)
 UnderWaterOre(SAND,7,4,100.0,HARD_CLAY)
 UnderWaterOre(GRAVEL,8,1,100.0,HARD_CLAY)
 UnderWaterOre(CLAY,8,1,100.0,HARD_CLAY)
 UnderWaterOre(DIRT,8,1,100.0,HARD_CLAY)
 CustomObject(JunglePalm1,JunglePalm2,JunglePalm3,JunglePalm4,JunglePalm5,JunglePalm6,JunglePalm7,JunglePalm8,JunglePalm9)
-Reed(SUGAR_CANE_BLOCK,15,100.0,0,128,GRASS,DIRT,SAND,SAND:1,GRAVEL)
-Cactus(CACTUS,15,100.0,52,128,SAND,DIRT,HARD_CLAY,STAINED_CLAY,SAND:1)
-Liquid(WATER,20,100.0,8,128,STONE:0,SAND,DIRT,HARD_CLAY,STAINED_CLAY,SAND:1)
+Reed(SUGAR_CANE_BLOCK,15,100.0,0,139,GRASS,DIRT,SAND,SAND:1,GRAVEL)
+Cactus(CACTUS,15,100.0,63,139,SAND,DIRT,HARD_CLAY,STAINED_CLAY,SAND:1)
+Liquid(WATER,20,100.0,19,139,STONE:0,SAND,DIRT,HARD_CLAY,STAINED_CLAY,SAND:1)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

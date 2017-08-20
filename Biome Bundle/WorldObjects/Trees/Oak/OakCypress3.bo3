@@ -30,6 +30,7 @@ RotateRandomly: true
 
 SpawnHeight: highestSolidBlock
 
+#Replaced MinHeight: 62
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0
@@ -38,7 +39,7 @@ SpawnHeightVariance: 0
 # Height Limits for the BO3. #
 ##############################
 
-MinHeight: 51
+MinHeight: 62
 
 MaxHeight: 255
 

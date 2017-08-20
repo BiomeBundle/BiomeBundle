@@ -57,10 +57,11 @@ SpawnHeightVariance: 0
 ##############################
 
 # When in randomY mode used as the minimum Y or in atMinY mode as the actual Y to spawn this BO3 at.
-MinHeight: 66
+
+MinHeight: 77
 
 # When in randomY mode used as the maximum Y to spawn this BO3 at.
-MaxHeight: 80
+MaxHeight: 91
 
 ######################
 # Extrusion settings #
