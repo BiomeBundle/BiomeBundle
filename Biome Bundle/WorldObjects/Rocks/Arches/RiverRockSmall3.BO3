@@ -46,9 +46,9 @@ SpawnHeight: randomY
 # The height limits for the BO3. Can be combined with randomY to spawn the BO3 at a random height
 # between MinHeight and MaxHeight. Can be combined with highestBlock to make sure that the BO3 spawns
 # only between MinHeight and MaxHeight.
-MinHeight: 47
+MinHeight: 58
 
-MaxHeight: 47
+MaxHeight: 58
 
 # This settings is disabled for MCW.
 ExcludedBiomes: All

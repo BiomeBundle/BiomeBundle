@@ -49,7 +49,7 @@ BiomeSizeWhenBorder: 8
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: 0.1
+BiomeHeight: 0.44
 
 BiomeVolatility: 0.2
 
@@ -92,7 +92,7 @@ RiverHeight: -1.0
 
 RiverVolatility: 0.3
 
-RiverWaterLevel: 63
+RiverWaterLevel: 74
 
 RiverCustomHeightControl: -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0
 
@@ -119,7 +119,7 @@ ReplacedBlocks: None
 
 UseWorldWaterLevel: true
 
-WaterLevelMax: 52
+WaterLevelMax: 63
 
 WaterLevelMin: 0
 
@@ -159,29 +159,23 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+Dungeon(8,100.0,0,160)
 Ore(DIRT,33,10,100.0,0,255,STONE:0)
 Ore(GRAVEL,33,8,100.0,0,255,STONE:0)
-Ore(STONE:1,33,10,100.0,0,79,STONE:0)
-Ore(STONE:3,33,10,100.0,0,79,STONE:0)
-Ore(STONE:5,33,10,100.0,0,79,STONE:0)
-Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
-Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
-Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
-Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
-Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
-Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
-UnderGroundLake(25,60,2,5.0,0,49)
-Liquid(WATER,20,100.0,8,128,STONE:0)
-Liquid(LAVA,10,100.0,8,128,STONE:0)
-SmallLake(WATER,4,7.0,8,119)
-SmallLake(LAVA,2,1.0,8,119)
+Ore(STONE:1,33,10,100.0,0,90,STONE:0)
+Ore(STONE:3,33,10,100.0,0,90,STONE:0)
+Ore(STONE:5,33,10,100.0,0,90,STONE:0)
+UnderGroundLake(25,60,2,5.0,0,60)
+Liquid(WATER,20,100.0,19,139,STONE:0)
+Liquid(LAVA,10,100.0,19,139,STONE:0)
+SmallLake(WATER,4,7.0,19,130)
+SmallLake(LAVA,2,1.0,19,130)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
-Dungeon(8,100.0,0,128)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
-Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
-Plant(PUMPKIN,1,3.0,0,128,GRASS)
+Plant(Dandelion,2,100.0,0,139,GRASS,DIRT)
+Plant(PUMPKIN,1,3.0,0,139,GRASS)
 CustomObject(UseWorld)
 
 #######################################################################

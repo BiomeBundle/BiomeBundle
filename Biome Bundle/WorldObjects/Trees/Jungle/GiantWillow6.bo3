@@ -38,9 +38,10 @@ SpawnHeightVariance: 0
 # Height Limits for the BO3. #
 ##############################
 
-MinHeight: 51
+#Replaced MinHeight: 62
+MinHeight: 62
 
-MaxHeight: 199
+MaxHeight: 210
 
 ######################
 # Extrusion settings #

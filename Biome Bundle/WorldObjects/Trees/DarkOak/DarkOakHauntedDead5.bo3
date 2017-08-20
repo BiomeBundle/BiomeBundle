@@ -30,6 +30,7 @@ RotateRandomly: true
 
 SpawnHeight: highestSolidBlock
 
+
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0
@@ -38,9 +39,9 @@ SpawnHeightVariance: 0
 # Height Limits for the BO3. #
 ##############################
 
-MinHeight: 61
+MinHeight: 72
 
-MaxHeight: 72
+MaxHeight: 83
 
 ######################
 # Extrusion settings #
@@ -267,6 +268,22 @@ Block(5,1,3,LOG_2:1)
 # |                            BO3 checks                           | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
+
+
+# Require a condition at a certain location in order for the BO3 to be spawned.
+# BlockCheck(x,y,z,BlockName[,BlockName[,...]]) - one of the blocks must be at the location
+# BlockCheckNot(x,y,z,BlockName[,BlockName[,...]]) - all the blocks must not be at the location
+# LightCheck(x,y,z,minLightLevel,maxLightLevel) - light must be between min and max (inclusive)
+
+# You can use "Solid" as a BlockName for matching all solid blocks or "All" to match all blocks that aren't air.
+
+# Examples:
+#   MinHeight: 72  Require grass or dirt just below the object
+#   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
+#   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
+#   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
+#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 BlockCheck(0,-1,0,GRASS,DIRT,STONE)
 

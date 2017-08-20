@@ -51,7 +51,7 @@ BiomeSizeWhenBorder: 8
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.0
+BiomeHeight: -0.66
 
 BiomeVolatility: 0.8
 
@@ -94,7 +94,7 @@ RiverHeight: -2.0
 
 RiverVolatility: 0.1
 
-RiverWaterLevel: 52
+RiverWaterLevel: 63
 
 RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
@@ -113,7 +113,7 @@ GroundBlock: STONE:3
 
 SurfaceAndGroundControl: STONE:3, STONE:3, -3.0, PRISMARINE, PRISMARINE, -2.0, STONE:3, STONE:3, -1.0, PRISMARINE, PRISMARINE, 0.0, STONE:3, STONE:3, 1.0, PRISMARINE, PRISMARINE, 2.0, STONE:3, STONE:3, 3.0 
 
-ReplacedBlocks: (DIRT,STONE:3,52,200),(SAND,STONE:3,55,200),(STONE,PRISMARINE,30,60)
+ReplacedBlocks: (DIRT,STONE:3,63,211),(SAND,STONE:3,66,211),(STONE,PRISMARINE,41,71),(AIR,LAVA,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -121,7 +121,7 @@ ReplacedBlocks: (DIRT,STONE:3,52,200),(SAND,STONE:3,55,200),(STONE,PRISMARINE,30
 
 UseWorldWaterLevel: false
 
-WaterLevelMax: 52
+WaterLevelMax: 63
 
 WaterLevelMin: 0
 
@@ -161,27 +161,13 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+Dungeon(8,100.0,0,160)
 CustomStructure(RiverRocks,0.5)
-Vein(COAL_ORE,10,30,70.0,18,24,75,0,250,STONE:0,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,70.0,18,24,66,0,250,STONE:0,DIRT,HARD_CLAY)
-Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE:0,HARD_CLAY)
-Vein(REDSTONE_ORE,10,30,50.0,16,18,66,0,250,STONE:0,HARD_CLAY)
-Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE:0,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,33.0,4,12,66,0,35,STONE:0)
-Vein(EMERALD_ORE,10,20,15.0,4,12,66,0,35,STONE:0)
-Ore(COAL_ORE,12,15,80.0,0,250,STONE:0,DIRT,HARD_CLAY)
-Ore(COAL_ORE,12,15,50.0,0,52,STONE:0,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,80.0,0,250,STONE:0,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,50.0,0,52,STONE:0,DIRT,HARD_CLAY)
-Ore(GOLD_ORE,8,6,40.0,0,250,STONE:0,HARD_CLAY)
-Ore(REDSTONE_ORE,12,8,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(DIAMOND_ORE,8,4,50.0,0,250,STONE:0)
-Ore(LAPIS_ORE,8,8,30.0,0,250,STONE:0,HARD_CLAY)
-Ore(EMERALD_ORE,8,4,15.0,0,52,STONE:0)
+CustomStructure(RiverRocks,0.5)
 SmallLake(LAVA,6,33.0,1,8)
-UnderGroundLake(25,60,2,5.0,0,39)
-Liquid(WATER,20,100.0,8,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
-Liquid(LAVA,10,100.0,8,54,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+UnderGroundLake(25,60,2,5.0,0,50)
+Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
+Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
