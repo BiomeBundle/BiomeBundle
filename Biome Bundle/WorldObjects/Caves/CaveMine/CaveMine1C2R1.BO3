@@ -38,9 +38,9 @@ SpawnHeightVariance: 0
 # Height Limits for the BO3. #
 ##############################
 
-MinHeight: 23
+MinHeight: 0
 
-MaxHeight: 27
+MaxHeight: 256
 
 ######################
 # Extrusion settings #
@@ -66,6 +66,68 @@ SourceBlocks: STONE:1,STONE:3,STONE:5,DIRT:1,STONE,DIRT,SAND,GRAVEL,CLAY,GRASS,O
 MaxPercentageOutsideSourceBlock: 100
 
 OutsideSourceBlock: dontPlace
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
 
 
 #######################################################################
@@ -9088,7 +9150,28 @@ Block(7,34,8,STONE)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
-# |                         EntityFunctions                         | #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
 

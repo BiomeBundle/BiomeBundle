@@ -65,13 +65,13 @@ Volatility1: -1.0
 
 Volatility2: -2.0
 
-VolatilityWeight1: 3.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 3.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -120.0, -150.0, -150.0, -100.0, -25.0, -25.0, -250.0, -300.0, -400.0, -500.0, -500.0, -500.0, -500.0, -500.0, -500.0, -500.0, -500.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -120.0, -150.0, -150.0, -100.0, -25.0, -25.0, -250.0, -300.0, -400.0, -500.0, -500.0, -500.0, -500.0, -500.0, -500.0, -500.0, -500.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -238,13 +245,13 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: wood
 
 MineshaftType: normal
 
 MineshaftRarity: 0.3
 
-RareBuildingType: disabled
+RareBuildingType: swampHut
 
 
 #######################################################################

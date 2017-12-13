@@ -22,7 +22,7 @@ BiomeRarity: 99
 
 BiomeColor: #056621
 
-ReplaceToBiomeName: Extreme Hills
+ReplaceToBiomeName: Cold Taiga
 
 ####################
 # Isle biomes only #
@@ -51,19 +51,19 @@ BiomeSizeWhenBorder: 8
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -0.41
+BiomeHeight: -0.8
 
-BiomeVolatility: 0.7
+BiomeVolatility: 1.0
 
 SmoothRadius: 4
 
-MaxAverageHeight: -0.5
+MaxAverageHeight: 0.0
 
-MaxAverageDepth: -0.5
+MaxAverageDepth: 0.0
 
-Volatility1: -1.2
+Volatility1: -0.5
 
-Volatility2: -1.2
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -71,7 +71,7 @@ VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 4.0, 3.0, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -138,9 +138,9 @@ CooledLavaBlock: STATIONARY_LAVA
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeTemperature: 0.2
+BiomeTemperature: 0.0
 
-BiomeWetness: 0.5
+BiomeWetness: 0.1
 
 SkyColor: #7BA5FF
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -170,7 +177,7 @@ Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
 Ore(DIRT:2,25,35,50.0,75,139,GRASS)
-CustomStructure(Bricktowerbranching,0.15,RedbrickHouseBranching,0.25,GravelOreT1,1.0,CaveMine1,0.09,LargeCave1,0.09)
+CustomStructure(Bricktowerbranching,0.1,RedbrickHouseBranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,LargeCave1,0.09)
 UnderGroundLake(25,60,2,5.0,0,61)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
 SmallLake(LAVA,6,33.0,1,8)
@@ -178,7 +185,7 @@ UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 Ore(GRAVEL,15,15,50.0,75,139,GRASS)
 CustomObject(ShrubSpruce1,ShrubSpruce2,ShrubSpruce3,ShrubSpruce4,ShrubSpruce5,ShrubSpruce6,ShrubSpruce7)
-Tree(1,Taiga1,10,Taiga2,10)
+Tree(6,SkinnyPine1,2,SkinnyPine2,2,SkinnyPine3,2,SkinnyPine4,2,SkinnyPine5,2,SkinnyPine6,2,SkinnyPine7,2,SkinnyPine8,2)
 Plant(SNOW,40,45.0,41,139,GRASS,DIRT,LEAVES,STONE:0,GRAVEL)
 Plant(SNOW,80,90.0,41,139,GRASS,DIRT)
 Plant(SNOW,80,45.0,41,139,GRASS,DIRT)

@@ -28,7 +28,7 @@ ReplaceToBiomeName: SwamplandSpooky
 # Isle biomes only #
 ####################
 
-IsleInBiome: Birch Forest, Forest, ForestHills, TemperatePlainsM, Plains, Sunflower Plains, Ocean Island, Flower Forest, RockyPlains, SwamplandSpooky, RoofedForestEnchanted, ForestEnchanted, RockyHills
+IsleInBiome: Birch Forest, Flower Forest, RockyPlains, SwamplandSpooky, RoofedForestEnchanted, ForestEnchanted, RockyHills, RoofedForestFlat
 
 BiomeSizeWhenIsle: 10
 
@@ -51,23 +51,23 @@ BiomeSizeWhenBorder: 10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.76
+BiomeHeight: -1.762
 
-BiomeVolatility: 0.1
+BiomeVolatility: -0.1
 
-SmoothRadius: 12
+SmoothRadius: 4
 
-MaxAverageHeight: 0.0
+MaxAverageHeight: -0.2
 
-MaxAverageDepth: 0.0
+MaxAverageDepth: -0.3
 
-Volatility1: -10.0
+Volatility1: -1.0
 
-Volatility2: -7.5
+Volatility2: -1.0
 
 VolatilityWeight1: 2.5
 
-VolatilityWeight2: 3.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)

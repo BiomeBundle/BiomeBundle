@@ -53,17 +53,17 @@ BiomeSizeWhenBorder: 5
 
 BiomeHeight: -0.26
 
-BiomeVolatility: 0.6
+BiomeVolatility: 1.6
 
-SmoothRadius: 6
+SmoothRadius: 4
 
-MaxAverageHeight: -0.2
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: 0.2
+Volatility1: -0.5
 
-Volatility2: 1.5
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -71,7 +71,7 @@ VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -500.0, -750.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -175,7 +182,6 @@ CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,S
 Ore(STONE,24,100,100.0,63,211,GRAVEL)
 Ore(DIRT,12,50,75.0,63,211,GRAVEL)
 Ore(GRASS,12,50,75.0,63,211,GRAVEL)
-CustomObject(HangingRockMedium1V4,HangingRockMedium2V4,HangingRockMedium3V4,HangingRockMedium4V4,HangingRockMedium5V4,HangingRockMedium6V4,HangingRockSmall1V4,HangingRockSmall2V4,HangingRockSmall3V4,HangingRockSmall4V4,HangingRockSmall5V4,HangingRockSmall6V4)
 CustomObject(JungleForest1,JungleForest2,JungleForest3,JungleForest4,JungleForest5,JungleForest6,JungleForest7,JungleForest8)
 CustomObject(ShrubJungle1,ShrubJungle2,ShrubJungle3,ShrubJungle4,ShrubJungle5)
 IceSpike(STONE,SmallSpike,2,50.0,98,101,GRAVEL)
@@ -230,13 +236,13 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: wood
 
 MineshaftType: normal
 
 MineshaftRarity: 0.3
 
-RareBuildingType: disabled
+RareBuildingType: jungleTemple
 
 
 #######################################################################

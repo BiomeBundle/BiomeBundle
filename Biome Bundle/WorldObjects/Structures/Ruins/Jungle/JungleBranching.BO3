@@ -67,7 +67,7 @@ ExcludedBiomes: All
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-# The block(s) the BO3 should spawn in.
+# The B(s) the BO3 should spawn in.
 SourceBlocks: STONE:1,STONE:3,STONE:5,DIRT:1,DIRT,SAND,GRASS,DIRT:2,HARD_CLAY,159,CLAY,SANDSTONE,179,SAND:1,AIR,STONE,GRAVEL,31,31:1,31:2,32,37,38,39,40,38,38:1,38:2,38:3,38:4,38:5,38:6,38:7,38:8,39,40,175,175:1,175:2,175:3,175:4,175:5,31,31:1,31:2,32,IRON_ORE,GOLD_ORE,LAPIS_ORE,COAL_ORE,DIAMOND_ORE,REDSTONE_ORE,EMERALD_ORE
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
@@ -84,9 +84,9 @@ OutsideSourceBlock: placeAnyway
 #######################################################################
 
 # All the blocks used in the BO3 are listed here. Possible blocks:
-# Block(x,y,z,id[.data][,nbtfile.nbt)
-# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-# So RandomBlock(0,0,0,CHEST,chest.nbt,20,CHEST,anotherchest.nbt,100) will spawn a chest at
+# B(x,y,z,id[.data][,nbtfile.nbt)
+# RB(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+# So RB(0,0,0,CHEST,chest.nbt,20,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
 
@@ -129,6 +129,6 @@ OutsideSourceBlock: placeAnyway
 # rotation - NORTH, SOUTH, EAST or WEST.
 # IndividualChance - The chance each branch has to spawn, assumed to be 100 when left blank
 
-# WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
+# WBR(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,JungleBlue,NORTH,6,JungleBrown,NORTH,6,JungleGreen,NORTH,6,JungleGrey,NORTH,6,JungleYellow,NORTH,6,RuinsBasement1,NORTH,6,RuinsBasement2,NORTH,6,RuinsBasement3,NORTH,6,RuinsBasement4,NORTH,6,cavespiderden1,NORTH,6,MossDungeon1,NORTH,6,MossDungeon2,NORTH,6,MossDungeon3,NORTH,6,MossDungeon4,NORTH,6,MossDungeon5,NORTH,6,HeadBranching,NORTH,4,JungleTemple,NORTH,6,100)
+WBR(0,0,0,JungleBlue,NORTH,7,JungleBrown,NORTH,7,JungleGreen,NORTH,7,JungleGrey,NORTH,7,JungleYellow,NORTH,7,cavespiderden1,NORTH,7,MossDungeon1,NORTH,7,MossDungeon2,NORTH,7,MossDungeon3,NORTH,7,MossDungeon4,NORTH,7,MossDungeon5,NORTH,7,HeadBranching,NORTH,16,JungleTemple,NORTH,7,100)

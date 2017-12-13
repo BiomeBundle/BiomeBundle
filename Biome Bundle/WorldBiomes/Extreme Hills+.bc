@@ -53,15 +53,15 @@ BiomeHeight: -0.26
 
 BiomeVolatility: 0.7
 
-SmoothRadius: 12
+SmoothRadius: 3
 
-MaxAverageHeight: -0.2
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -0.85
+Volatility1: -0.5
 
-Volatility2: 0.1
+Volatility2: -2.0
 
 VolatilityWeight1: 2.5
 
@@ -160,6 +160,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -184,7 +191,7 @@ Liquid(LAVA,10,100.0,19,139,STONE:0)
 CustomObject(HangingRockMedium1,HangingRockMedium2,HangingRockMedium3,HangingRockMedium4,HangingRockMedium5,HangingRockMedium6,HangingRockSmall1,HangingRockSmall2,HangingRockSmall3,HangingRockSmall4,HangingRockSmall5,HangingRockSmall6)
 CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5,SpruceFirSmall6,SpruceFirSmall7,SpruceFirSmall8)
 CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5,SpruceFirSmall6,SpruceFirSmall7,SpruceFirSmall8)
-CustomStructure(Bricktowerbranching,0.15,GravelOreT1,1.0,BrickRuinsPath1,0.1,CaveMine1,0.09,LargeCave1,0.09)
+CustomStructure(Bricktowerbranching,0.1,GravelOreT1,1.0,BrickRuinsPath1,0.1,CaveMine1,0.09,LargeCave1,0.09)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -216,11 +223,11 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: true
 
-VillageType: disabled
+VillageType: taiga
 
 MineshaftType: normal
 
-MineshaftRarity: 1.0
+MineshaftRarity: 0.3
 
 RareBuildingType: disabled
 

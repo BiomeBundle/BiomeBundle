@@ -39,7 +39,7 @@ Frequency: 1
 Rarity: 100.0
 
 # If you set this to true, the BO3 will be placed with a random rotation.
-RotateRandomly: false
+RotateRandomly: true
 
 # The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
 SpawnHeight: randomY
@@ -65,7 +65,7 @@ ExcludedBiomes: All
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-# The block(s) the BO3 should spawn in.
+# The B(s) the BO3 should spawn in.
 SourceBlocks: AIR
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
@@ -83,12 +83,12 @@ OutsideSourceBlock: placeAnyway
 #######################################################################
 
 # All the blocks used in the BO3 are listed here. Possible blocks:
-# Block(x,y,z,id[.data][,nbtfile.nbt)
-# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+# B(x,y,z,id[.data][,nbtfile.nbt)
+# RB(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+# So RB(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
-RandomBlock(0,0,0,CHEST,../../nbt/Chests/Epic1.nbt,25,CHEST,../../nbt/Chests/Epic2.nbt,25,CHEST,../../nbt/Chests/Epic3.nbt,25,CHEST,../../nbt/Chests/Epic4.nbt,25,CHEST,../../nbt/Chests/Epic5.nbt,25,CHEST,../../nbt/Chests/Epic6.nbt,25,CHEST,../../nbt/Chests/Epic7.nbt,25,CHEST,../../nbt/Chests/Epic8.nbt,25,CHEST,../../nbt/Chests/Epic9.nbt,25,CHEST,../../nbt/Chests/Epic10.nbt,25,CHEST,../../nbt/Chests/Epic11.nbt,25,CHEST,../../nbt/Chests/Epic12.nbt,25,CHEST,../../nbt/Chests/Epic13.nbt,25,CHEST,../../nbt/Chests/Epic14.nbt,25,CHEST,../../nbt/Chests/Epic15.nbt,100)
+RB(0,0,0,CHEST,../../nbt/Chests/Epic1.nbt,25,CHEST,../../nbt/Chests/Epic2.nbt,25,CHEST,../../nbt/Chests/Epic3.nbt,25,CHEST,../../nbt/Chests/Epic4.nbt,25,CHEST,../../nbt/Chests/Epic5.nbt,25,CHEST,../../nbt/Chests/Epic6.nbt,25,CHEST,../../nbt/Chests/Epic7.nbt,25,CHEST,../../nbt/Chests/Epic8.nbt,25,CHEST,../../nbt/Chests/Epic9.nbt,25,CHEST,../../nbt/Chests/Epic10.nbt,25,CHEST,../../nbt/Chests/Epic11.nbt,25,CHEST,../../nbt/Chests/Epic12.nbt,25,CHEST,../../nbt/Chests/Epic13.nbt,25,CHEST,../../nbt/Chests/Epic14.nbt,25,CHEST,../../nbt/Chests/Epic15.nbt,100)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                            BO3 checks                           | #
@@ -128,5 +128,5 @@ BlockCheck(0,-1,0,GRASS,DIRT,GRAVEL,SAND,SANDSTONE,DIRT:1,DIRT:2)
 # IndividualChance - The chance each branch has to spawn, assumed to be 100 when left blank
 
 # Weighted Branches spawn branches with a dependent chance of spawning.
-# WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
+# WBR(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank

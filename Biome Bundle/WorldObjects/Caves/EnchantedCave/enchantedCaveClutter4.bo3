@@ -30,7 +30,6 @@ RotateRandomly: true
 
 SpawnHeight: randomY
 
-
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0
@@ -75,14 +74,14 @@ OutsideSourceBlock: placeAnyway
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-RandomBlock(0,6,0,CHEST,../../Structures/nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../Structures/nbt/VanillaLoot/desert_pyramid.nbt,100)
-Block(0,5,0,OBSIDIAN)
-Block(0,4,0,OBSIDIAN)
-Block(0,3,0,OBSIDIAN)
-Block(0,2,0,OBSIDIAN)
-Block(0,1,0,OBSIDIAN)
-Block(0,0,0,OBSIDIAN)
-RandomBlock(-1,0,0,MOB_SPAWNER,../../Structures/nbt/Spawner/Witch.nbt,5,AIR,100)
+RB(0,6,0,CHEST,../../Structures/nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../Structures/nbt/VanillaLoot/desert_pyramid.nbt,100)
+B(0,5,0,OBSIDIAN)
+B(0,4,0,OBSIDIAN)
+B(0,3,0,OBSIDIAN)
+B(0,2,0,OBSIDIAN)
+B(0,1,0,OBSIDIAN)
+B(0,0,0,OBSIDIAN)
+RB(-1,0,0,MOB_SPAWNER,../../Structures/nbt/Spawner/Witch.nbt,5,AIR,100)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

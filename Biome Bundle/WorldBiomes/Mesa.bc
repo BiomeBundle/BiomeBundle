@@ -63,9 +63,9 @@ Volatility1: -10.0
 
 Volatility2: -7.5
 
-VolatilityWeight1: 1.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 1.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -160,6 +160,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -173,7 +180,7 @@ CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cav
 SmallLake(LAVA,6,33.0,1,8)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
-CustomStructure(DngStart,0.05,LargeCave1,0.5,RedbrickHouseBranching,0.25,ugcamp,0.2,CastleBranching,0.25)
+CustomStructure(DngStart,0.03,LargeCave1,0.5,RedbrickHouseBranching,0.1,ugcamp,0.1,CastleBranching,0.1)
 Grass(DeadBush,NotGrouped,7,100.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
 CustomObject(claydungeon1,claydungeon2,claydungeon3,claydungeon4,claydungeon5)
 CustomObject(AcaciaSavanna9,AcaciaSavanna8,AcaciaSavanna7,AcaciaSavanna6,AcaciaSavanna5,AcaciaSavanna4,AcaciaSavanna3,AcaciaSavanna2,AcaciaSavanna18,AcaciaSavanna17,AcaciaSavanna16,AcaciaSavanna15,AcaciaSavanna14,AcaciaSavanna13,AcaciaSavanna12,AcaciaSavanna11,AcaciaSavanna10,AcaciaSavanna1)

@@ -38,9 +38,9 @@ BiomeRarityWhenIsle: 98
 # Border biomes only #
 ######################
 
-BiomeIsBorder: Highlands, TemperateLonePeak, RockyMountains, MonumentMountains
+BiomeIsBorder: Highlands, TemperateLonePeak, RockyMountains
 
-NotBorderNear: TemperateHills, Ocean Island, ForestMountainRange, ForestMountain, TropicalPillars, TemperatePlainsM, RockyMountainPeak1, RockyMountainPeak2, ForestPlateau, Rocks, ForestPeak, MonumentMountainsPeak1, MonumentMountainsPeak2, ForestBaldCypressSmall, MesaPaintedCanyon, Monument
+NotBorderNear: TemperateHills, Ocean Island, ForestMountainRange, ForestMountain, TropicalPillars, TemperatePlainsM, RockyMountainPeak1, RockyMountainPeak2, ForestPlateau, Rocks, ForestPeak, ForestBaldCypressSmall, ForestPlateauThicket
 
 BiomeSizeWhenBorder: 10
 
@@ -53,7 +53,7 @@ BiomeSizeWhenBorder: 10
 
 BiomeHeight: -1.46
 
-BiomeVolatility: 0.15
+BiomeVolatility: 0.8
 
 SmoothRadius: 4
 
@@ -65,9 +65,9 @@ Volatility1: -1.0
 
 Volatility2: -1.0
 
-VolatilityWeight1: 1.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 1.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -172,6 +179,7 @@ Ore(STONE:1,32,20,100.0,0,69,STONE:0)
 Ore(GRAVEL,15,55,90.0,71,101,GRASS)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
 SmallLake(LAVA,6,33.0,1,8)
+CustomObject(giantboulder1,giantboulder2,giantboulder3,giantboulder4,giantboulder5,giantboulder6,giantboulder7,giantboulder8,giantboulder9)
 CustomObject(OakWoodland3,OakWoodland4,OakWoodland5,OakWoodland7,OakWoodland8,OakWoodland9)
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4)
 CustomObject(OakDead1,OakDead2,OakDead3,OakDead4)
@@ -221,7 +229,7 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: wood
 
 MineshaftType: normal
 

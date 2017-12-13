@@ -16,13 +16,13 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 9
+BiomeSize: 10
 
 BiomeRarity: 100
 
 BiomeColor: #D94515
 
-ReplaceToBiomeName: Extreme Hills
+ReplaceToBiomeName: Ice Plains Spikes
 
 ####################
 # Isle biomes only #
@@ -38,9 +38,9 @@ BiomeRarityWhenIsle: 100
 # Border biomes only #
 ######################
 
-BiomeIsBorder: SnowyMesa, Glacier
+BiomeIsBorder: SnowyMesa
 
-NotBorderNear: SnowyMesaRocks, SnowyMesaForest, SnowyCliffM, IcyMountainPeak1, IcyMountainPeak2, GlacierM, IceWall, Frozen Forest, SnowyPlains, SnowyPlainsEdge, IcyMountains
+NotBorderNear: IcyMountainPeak1
 
 BiomeSizeWhenBorder: 10
 
@@ -51,19 +51,19 @@ BiomeSizeWhenBorder: 10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.31
+BiomeHeight: -1.6
 
-BiomeVolatility: 0.0
+BiomeVolatility: 0.3
 
-SmoothRadius: 2
+SmoothRadius: 4
 
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -2.0
+Volatility1: -0.5
 
-Volatility2: -2.0
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -109,11 +109,11 @@ StoneBlock: STONE
 
 SurfaceBlock: GRASS
 
-GroundBlock: HARD_CLAY
+GroundBlock: SNOW_BLOCK
 
-SurfaceAndGroundControl: 
+SurfaceAndGroundControl: MesaBryce
 
-ReplacedBlocks: (STAINED_CLAY,ICE,63,255),(HARD_CLAY,SNOW_BLOCK,63,255),(AIR,LAVA,1,10)
+ReplacedBlocks: (STAINED_CLAY,ICE,63,255),(HARD_CLAY,SNOW_BLOCK,63,255),(AIR,LAVA,1,10),(SAND,ICE,63,255)
 
 ################################
 # Water / Lava & Frozen States #
@@ -138,7 +138,7 @@ CooledLavaBlock: STATIONARY_LAVA
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeTemperature: 0.2
+BiomeTemperature: 0.0
 
 BiomeWetness: 0.5
 
@@ -162,37 +162,32 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
-CustomStructure()
-Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
+CustomStructure(DngStart,0.03,SnowyMesaBearCave,0.2)
+Ore(DIRT,32,20,50.0,0,64,STONE:0,HARD_CLAY)
+Ore(GRAVEL,32,10,50.0,0,64,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
-Ore(GRAVEL,3,16,75.0,75,255,GRASS)
-Ore(SNOW_BLOCK,3,16,75.0,75,255,GRASS)
-Ore(PACKED_ICE,3,16,75.0,75,255,GRASS)
+UnderGroundLake(25,60,2,5.0,0,61)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
 SmallLake(LAVA,6,33.0,1,8)
-CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-Tree(7,HugeTaiga2,8,HugeTaiga1,22,Taiga1,22,Taiga2,55)
-UnderGroundLake(25,60,2,5.0,0,61)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
-Boulder(STONE,2,10.0,71,111,GRASS)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)
 Liquid(WATER,20,100.0,19,139,STONE:0)
-Boulder(HARD_CLAY,2,15.0,0,255,DIRT,STONE:0,HARD_CLAY)
-Plant(Poppy,4,10.0,0,139,GRASS,DIRT)
-Plant(Dandelion,2,10.0,0,139,GRASS,DIRT)
-Plant(Lilac,2,10.0,0,139,GRASS,DIRT)
-Plant(RoseBush,2,10.0,0,139,GRASS,DIRT)
-Plant(Peony,2,10.0,0,139,GRASS,DIRT)
-Grass(Fern,NotGrouped,4,100.0,GRASS,DIRT)
-Grass(Tallgrass,NotGrouped,4,100.0,GRASS,DIRT)
-Plant(LargeFern,5,100.0,41,139,GRASS,DIRT)
-Plant(SNOW,40,25.0,63,111,GRASS,DIRT,LEAVES,STONE:0)
+Boulder(PACKED_ICE,2,15.0,0,255,DIRT,STONE:0,HARD_CLAY)
+IceSpike(PACKED_ICE,HugeSpike,3,1.2,71,139,ICE,DIRT,SNOW_BLOCK,HARD_CLAY,STAINED_CLAY)
+IceSpike(PACKED_ICE,SmallSpike,3,40.33,71,139,ICE,DIRT,SNOW_BLOCK,HARD_CLAY,STAINED_CLAY)
+IceSpike(PACKED_ICE,Basement,2,50.0,71,139,ICE,DIRT,SNOW_BLOCK,HARD_CLAY,STAINED_CLAY)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -224,13 +219,13 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: taiga
 
 MineshaftType: normal
 
 MineshaftRarity: 0.3
 
-RareBuildingType: disabled
+RareBuildingType: igloo
 
 
 #######################################################################
@@ -239,15 +234,15 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: []
 
-SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}, {"mob": "wolf", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: []
 
-SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: []
 
-SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
+SpawnAmbientCreatures: []
 
 BiomeDictId: 
 
-InheritMobsBiomeName: Extreme Hills
+InheritMobsBiomeName: Ice Plains Spikes
 

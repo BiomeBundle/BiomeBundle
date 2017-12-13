@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 7
+BiomeSize: 6
 
 BiomeRarity: 70
 
@@ -51,19 +51,19 @@ BiomeSizeWhenBorder: 8
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.71
+BiomeHeight: -1.8
 
-BiomeVolatility: 0.3
+BiomeVolatility: 0.2
 
-SmoothRadius: 8
+SmoothRadius: 4
 
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -1.0
+Volatility1: -0.5
 
-Volatility2: -1.0
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: false
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -178,7 +185,7 @@ UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,6,1,100.0,DIRT,GRASS)
 Ore(STONE,15,15,100.0,63,255,GRASS)
 Ore(GRAVEL,15,15,100.0,63,255,GRASS)
-Ore(SNOW_BLOCK,15,100,100.0,63,255,GRASS)
+Ore(SNOW_BLOCK,15,100,100.0,70,255,GRASS)
 Boulder(ICE,2,66.0,63,111,GRASS)
 CustomObject(OakForestSmall3,OakForestSmall2,OakForestSmall11,OakForestSmall10,OakForestSmall1)
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak15,ShrubOak16,ShrubOak17,ShrubOak18)
@@ -186,12 +193,12 @@ CustomObject(OakDying2,OakDying1)
 CustomObject(OakForestMedium1)
 CustomObject(BigStoneRock3,BigStoneRock2,BigStoneRock1)
 CustomObject(plainsrock4,plainsrock3,plainsrock2,plainsrock1,boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
-CustomStructure(DngStart,0.05,GravelOreT1,1.0)
+CustomStructure(GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.1,LargeCave1,0.09,DngStart,0.03,WitchVillageBranching,0.1,StandingStonesBranching,0.1)
 CustomObject(OakIceTreeSmall2,OakIceTreeSmall1,OakIceTree1,OakIceTree2,OakIceTree3,OakIceTree4)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 CustomObject(IceSpikeSmall1,IceSpikeSmall2,IceSpikeSmall3,IceSpikeMedium1,IceSpikeMedium2,IceSpikeMedium3,IceSpikeLarge1,IceSpikeLarge2)
-Plant(SNOW,60,100.0,63,139,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
+Plant(SNOW,60,100.0,65,139,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
 Boulder(STONE,2,10.0,71,111,GRASS)
 Grass(LONG_GRASS:1,NotGrouped,8,25.0,GRASS,DIRT)
 Liquid(WATER,20,100.0,19,139,STONE:0)

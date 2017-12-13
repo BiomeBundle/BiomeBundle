@@ -51,23 +51,23 @@ BiomeSizeWhenBorder: 6
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: 1.14
+BiomeHeight: 0.4
 
-BiomeVolatility: 1.0
+BiomeVolatility: 1.8
 
-SmoothRadius: 6
+SmoothRadius: 8
 
-MaxAverageHeight: -0.1
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -1.5
+Volatility1: -1.0
 
-Volatility2: -0.75
+Volatility2: -1.0
 
-VolatilityWeight1: 1.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 1.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -185,8 +192,8 @@ UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 Boulder(STONE,2,30.0,0,255,GRASS,DIRT,STONE:0)
-Tree(7,HugeTaiga2,8,HugeTaiga1,33,Taiga1,33,Taiga2,66)
-CustomStructure()
+Tree(5,SkinnyPine1,2,SkinnyPine2,2,SkinnyPine3,2,SkinnyPine4,2,SkinnyPine5,2,SkinnyPine6,2,SkinnyPine7,2,SkinnyPine8,2,HugeTaiga2,8,HugeTaiga1,22,Taiga1,22,Taiga2,55)
+CustomStructure(GravelOreT1,1.0)
 Plant(RedMushroom,8,50.0,0,139,GRASS,DIRT)
 Plant(BrownMushroom,8,50.0,0,139,GRASS,DIRT)
 Grass(Fern,NotGrouped,10,100.0,GRASS,DIRT)

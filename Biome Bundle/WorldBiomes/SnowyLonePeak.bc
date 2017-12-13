@@ -16,19 +16,19 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+BiomeSize: 8
 
-BiomeRarity: 97
+BiomeRarity: 90
 
 BiomeColor: #000000
 
-ReplaceToBiomeName: Ice Plains
+ReplaceToBiomeName: Ice Plains Spikes
 
 ####################
 # Isle biomes only #
 ####################
 
-IsleInBiome: SnowyPlains, SnowyPlainsM
+IsleInBiome: Ice Plains
 
 BiomeSizeWhenIsle: 10
 
@@ -51,19 +51,19 @@ BiomeSizeWhenBorder: 10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: 0.84
+BiomeHeight: -1.8
 
-BiomeVolatility: 0.8
+BiomeVolatility: 2.5
 
-SmoothRadius: 6
+SmoothRadius: 4
 
-MaxAverageHeight: -0.3
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -1.0
+Volatility1: -0.5
 
-Volatility2: -2.0
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -203,7 +210,7 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: taiga
 
 MineshaftType: normal
 
@@ -218,13 +225,13 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: []
 
-SpawnCreatures: [{"mob": "rabbit", "weight": 10, "min": 2, "max": 3}, {"mob": "polar_bear", "weight": 1, "min": 1, "max": 2}]
+SpawnCreatures: []
 
-SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: []
 
-SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
+SpawnAmbientCreatures: []
 
 BiomeDictId: 
 

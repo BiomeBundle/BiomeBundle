@@ -40,9 +40,9 @@ SpawnHeightVariance: 0
 # Height Limits for the BO3. #
 ##############################
 # When in randomY mode used as the minimum Y or in atMinY mode as the actual Y to spawn this BO3 at.
-MinHeight: 59
+MinHeight: 0
 # When in randomY mode used as the maximum Y to spawn this BO3 at.
-MaxHeight: 63
+MaxHeight: 256
 ######################
 # Extrusion settings #
 ######################
@@ -1155,7 +1155,7 @@ Block(2,6,1,REDSTONE_WIRE)
 Block(2,6,2,REDSTONE_WIRE)
 Block(2,6,3,REDSTONE_WIRE)
 Block(2,6,4,REDSTONE_WIRE)
-Block(2,6,5,REDSTONE_LAMP_OFF)
+Block(2,6,5,REDSTONE_LAMP_ON)
 Block(2,6,6,WOOD:1)
 Block(2,6,7,WOOD:1)
 Block(2,6,8,WOOD:1)
@@ -1303,7 +1303,7 @@ Block(3,3,12,LOG:1)
 Block(3,4,-12,LOG:1)
 Block(3,4,-11,50)
 Block(3,4,-6,DARK_OAK_FENCE)
-Block(3,4,4,REDSTONE_LAMP_OFF)
+Block(3,4,4,REDSTONE_LAMP_ON)
 Block(3,4,11,50)
 Block(3,4,12,LOG:1)
 Block(3,5,-13,STAINED_CLAY:13)

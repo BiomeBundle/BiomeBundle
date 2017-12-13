@@ -28,7 +28,6 @@ ReplaceToBiomeName: Desert
 # Isle biomes only #
 ####################
 
-
 IsleInBiome: DesertRed, ForestDry
 
 BiomeSizeWhenIsle: 9
@@ -52,27 +51,27 @@ BiomeSizeWhenBorder: 9
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: 1.34
+BiomeHeight: -0.1
 
-BiomeVolatility: 0.4
+BiomeVolatility: 1.8
 
-SmoothRadius: 4
+SmoothRadius: 8
 
-MaxAverageHeight: 1.0
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
 Volatility1: -1.0
 
-Volatility2: -0.5
+Volatility2: -1.0
 
-VolatilityWeight1: 1.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 1.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1000.0, -1000.0, -1500.0, -1500.0, -1500.0, -1500.0, -1500.0, -1500.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1000.0, -1000.0, -1500.0, -1500.0, -1500.0, -1500.0, -1500.0, -1500.0, -1500.0, -1500.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -112,9 +111,9 @@ SurfaceBlock: HARD_CLAY
 
 GroundBlock: HARD_CLAY
 
-SurfaceAndGroundControl: MesaForest
+SurfaceAndGroundControl: 
 
-ReplacedBlocks: (AIR,LAVA,1,10)
+ReplacedBlocks: (AIR,LAVA,1,10),(HARD_CLAY,STAINED_CLAY:1,61,71),(HARD_CLAY,STAINED_CLAY,72,72),(HARD_CLAY,STAINED_CLAY:1,73,75),(HARD_CLAY,STAINED_CLAY,76,76),(HARD_CLAY,STAINED_CLAY:1,77,82),(HARD_CLAY,STAINED_CLAY,83,85),(HARD_CLAY,STAINED_CLAY:12,86,90),(HARD_CLAY,STAINED_CLAY:4,91,94),(HARD_CLAY,STAINED_CLAY:14,95,97),(HARD_CLAY,STAINED_CLAY,98,99),(HARD_CLAY,STAINED_CLAY:14,100,106),(HARD_CLAY,STAINED_CLAY,109,111),(HARD_CLAY,STAINED_CLAY:1,112,115),(HARD_CLAY,STAINED_CLAY:7,116,118),(HARD_CLAY,STAINED_CLAY:1,119,255)
 
 ################################
 # Water / Lava & Frozen States #
@@ -163,11 +162,18 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomStructure()
-Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(DIRT,32,20,50.0,0,64,STONE:0,HARD_CLAY)
+Ore(GRAVEL,32,10,50.0,0,64,STONE:0,HARD_CLAY)
+Ore(CLAY,8,10,50.0,0,64,STONE:0,HARD_CLAY)
+Ore(SAND,8,10,50.0,0,64,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
@@ -180,7 +186,6 @@ SurfacePatch(SAND:1,AIR,114,121,HARD_CLAY,STAINED_CLAY,GRAVEL,DIRT)
 UnderGroundLake(25,60,2,5.0,0,50)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE:0)
-
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

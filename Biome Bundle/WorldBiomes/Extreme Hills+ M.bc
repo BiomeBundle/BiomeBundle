@@ -63,9 +63,9 @@ Volatility1: 0.0
 
 Volatility2: 0.0
 
-VolatilityWeight1: 0.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 0.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -160,6 +160,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomStructure()
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 SmallLake(LAVA,2,1.0,19,131)
@@ -213,11 +220,11 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: true
 
-VillageType: disabled
+VillageType: taiga
 
 MineshaftType: normal
 
-MineshaftRarity: 1.0
+MineshaftRarity: 0.3
 
 RareBuildingType: disabled
 

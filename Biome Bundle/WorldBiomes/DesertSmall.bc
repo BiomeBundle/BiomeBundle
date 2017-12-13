@@ -65,9 +65,9 @@ Volatility1: -1.5
 
 Volatility2: -1.5
 
-VolatilityWeight1: 1.0
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 1.0
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -184,7 +191,7 @@ Grass(Fern,NotGrouped,4,100.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,4,100.0,GRASS,DIRT)
 Plant(LargeFern,5,100.0,41,139,GRASS,DIRT)
 CustomObject(DesertRockSmall4,DesertRockSmall3)
-CustomStructure(DesertBranching,0.1,VanillaDesertTemple,0.1,SandRuinsPath1,0.1,DesertMoundHouseBranching,0.1,SandDesertBranching,0.04)
+CustomStructure(DesertBranching,0.05,VanillaDesertTemple,0.05,SandRuinsPath1,0.1,DesertMoundHouseBranching,0.05,SandDesertBranching,0.05)
 Well(SANDSTONE,STEP:1,WATER,1,0.1,13,139,SAND)
 CustomObject(baobab1,baobab2,baobab3)
 CustomObject(SandOasis1,SandOasis2,SandOasis3,SandOasis4,SandOasis5)

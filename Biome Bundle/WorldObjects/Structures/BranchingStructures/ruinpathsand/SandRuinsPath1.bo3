@@ -47,7 +47,7 @@ SpawnHeight: highestSolidBlock
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 111
+MaxHeight: 256
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -65,7 +65,7 @@ ExcludedBiomes: All
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-# The block(s) the BO3 should spawn in.
+# The B(s) the BO3 should spawn in.
 SourceBlocks: SAND
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
@@ -83,32 +83,32 @@ OutsideSourceBlock: dontPlace
 #######################################################################
 
 # All the blocks used in the BO3 are listed here. Possible blocks:
-# Block(x,y,z,id[.data][,nbtfile.nbt)
-# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+# B(x,y,z,id[.data][,nbtfile.nbt)
+# RB(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+# So RB(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
-RandomBlock(-2,-1,-1,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(-2,-1,0,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(-2,-1,1,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(-1,-1,-2,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(-1,-1,-1,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(-1,-1,0,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(-1,-1,1,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(-1,-1,2,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(0,-1,-2,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(0,-1,-1,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(0,-1,0,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(0,-1,1,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(0,-1,2,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(1,-1,-2,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(1,-1,-1,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(1,-1,0,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(1,-1,1,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(1,-1,2,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(2,-1,-1,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(2,-1,0,SANDSTONE,33,DIRT,33,SAND,100)
-RandomBlock(2,-1,1,SANDSTONE,33,DIRT,33,SAND,100)
+RB(-2,-1,-1,SANDSTONE,33,DIRT,33,SAND,100)
+RB(-2,-1,0,SANDSTONE,33,DIRT,33,SAND,100)
+RB(-2,-1,1,SANDSTONE,33,DIRT,33,SAND,100)
+RB(-1,-1,-2,SANDSTONE,33,DIRT,33,SAND,100)
+RB(-1,-1,-1,SANDSTONE,33,DIRT,33,SAND,100)
+RB(-1,-1,0,SANDSTONE,33,DIRT,33,SAND,100)
+RB(-1,-1,1,SANDSTONE,33,DIRT,33,SAND,100)
+RB(-1,-1,2,SANDSTONE,33,DIRT,33,SAND,100)
+RB(0,-1,-2,SANDSTONE,33,DIRT,33,SAND,100)
+RB(0,-1,-1,SANDSTONE,33,DIRT,33,SAND,100)
+RB(0,-1,0,SANDSTONE,33,DIRT,33,SAND,100)
+RB(0,-1,1,SANDSTONE,33,DIRT,33,SAND,100)
+RB(0,-1,2,SANDSTONE,33,DIRT,33,SAND,100)
+RB(1,-1,-2,SANDSTONE,33,DIRT,33,SAND,100)
+RB(1,-1,-1,SANDSTONE,33,DIRT,33,SAND,100)
+RB(1,-1,0,SANDSTONE,33,DIRT,33,SAND,100)
+RB(1,-1,1,SANDSTONE,33,DIRT,33,SAND,100)
+RB(1,-1,2,SANDSTONE,33,DIRT,33,SAND,100)
+RB(2,-1,-1,SANDSTONE,33,DIRT,33,SAND,100)
+RB(2,-1,0,SANDSTONE,33,DIRT,33,SAND,100)
+RB(2,-1,1,SANDSTONE,33,DIRT,33,SAND,100)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -153,5 +153,5 @@ Branch(0,-1,4,SandRuinsPathS,NORTH,100)
 Branch(0,-1,-4,SandRuinsPathN,NORTH,100)
 
 # Weighted Branches spawn branches with a dependent chance of spawning.
-# WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
+# WBR(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank

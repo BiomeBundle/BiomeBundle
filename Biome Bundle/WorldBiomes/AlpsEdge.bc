@@ -16,13 +16,13 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+BiomeSize: 9
 
 BiomeRarity: 100
 
 BiomeColor: #9D9D9D
 
-ReplaceToBiomeName: Forest
+ReplaceToBiomeName: Extreme Hills
 
 ####################
 # Isle biomes only #
@@ -51,9 +51,9 @@ BiomeSizeWhenBorder: 11
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.565
+BiomeHeight: -1.8
 
-BiomeVolatility: 0.3
+BiomeVolatility: 0.5
 
 SmoothRadius: 4
 
@@ -63,7 +63,7 @@ MaxAverageDepth: 0.0
 
 Volatility1: -0.5
 
-Volatility2: -0.1
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -115,7 +115,6 @@ SurfaceAndGroundControl:
 
 ReplacedBlocks: (AIR,LAVA,1,10)
 
-
 ################################
 # Water / Lava & Frozen States #
 ################################
@@ -141,7 +140,7 @@ CooledLavaBlock: STATIONARY_LAVA
 
 BiomeTemperature: 0.2
 
-BiomeWetness: 0.5
+BiomeWetness: 0.1
 
 SkyColor: #7BA5FF
 
@@ -163,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -182,7 +188,7 @@ CustomObject(ShrubSpruce1,ShrubSpruce2,ShrubSpruce3,ShrubSpruce4,ShrubSpruce5,Sh
 CustomObject(ShrubSpruce1,ShrubSpruce2,ShrubSpruce3,ShrubSpruce4,ShrubSpruce5,ShrubSpruce6,ShrubSpruce7)
 CustomObject(ShrubSpruce1,ShrubSpruce2,ShrubSpruce3,ShrubSpruce4,ShrubSpruce5,ShrubSpruce6,ShrubSpruce7)
 CustomObject(boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
-CustomStructure(Bricktowerbranching,0.15,RedbrickHouseBranching,0.25,GravelOreT1,1.0,CaveMine1,0.09,LargeCave1,0.09)
+CustomStructure(Bricktowerbranching,0.1,RedbrickHouseBranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,LargeCave1,0.09)
 Ore(STONE,10,75,50.0,101,161,GRASS)
 Ore(STONE,20,45,50.0,86,101,GRASS)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)

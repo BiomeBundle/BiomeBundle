@@ -67,7 +67,7 @@ ExcludedBiomes: All
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-# The block(s) the BO3 should spawn in.
+# The B(s) the BO3 should spawn in.
 SourceBlocks: AIR
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
@@ -84,28 +84,28 @@ OutsideSourceBlock: placeAnyway
 #######################################################################
 
 # All the blocks used in the BO3 are listed here. Possible blocks:
-# Block(x,y,z,id[.data][,nbtfile.nbt)
-# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+# B(x,y,z,id[.data][,nbtfile.nbt)
+# RB(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+# So RB(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
 
-Block(-8,0,-1,174)
-Block(-8,0,0,174)
-Block(-8,0,1,174)
-Block(-8,0,2,174)
-Block(-8,1,-1,174)
-Block(-8,1,0,174)
-Block(-8,1,1,174)
-Block(-8,1,2,174)
-Block(-8,2,-1,174)
-Block(-8,2,0,174)
-Block(-8,2,1,174)
-Block(-8,2,2,174)
-Block(-8,3,-1,SNOW_BLOCK)
-Block(-8,3,0,SNOW_BLOCK)
-Block(-8,3,1,SNOW_BLOCK)
-Block(-8,3,2,SNOW_BLOCK)
+B(-8,0,-1,174)
+B(-8,0,0,174)
+B(-8,0,1,174)
+B(-8,0,2,174)
+B(-8,1,-1,174)
+B(-8,1,0,174)
+B(-8,1,1,174)
+B(-8,1,2,174)
+B(-8,2,-1,174)
+B(-8,2,0,174)
+B(-8,2,1,174)
+B(-8,2,2,174)
+B(-8,3,-1,SNOW_BLOCK)
+B(-8,3,0,SNOW_BLOCK)
+B(-8,3,1,SNOW_BLOCK)
+B(-8,3,2,SNOW_BLOCK)
 
 
 #######################################################################
@@ -145,5 +145,5 @@ Block(-8,3,2,SNOW_BLOCK)
 # rotation - NORTH, SOUTH, EAST or WEST.
 # IndividualChance - The chance each branch has to spawn, assumed to be 100 when left blank
 
-# WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
+# WBR(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank

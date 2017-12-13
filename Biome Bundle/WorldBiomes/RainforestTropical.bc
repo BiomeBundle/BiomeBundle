@@ -65,9 +65,9 @@ Volatility1: -0.8
 
 Volatility2: -0.4
 
-VolatilityWeight1: 1.0
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 1.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -188,7 +195,7 @@ Ore(SAND,7,8,70.0,61,64,STONE:0,HARD_CLAY,STAINED_CLAY,GRAVEL)
 Ore(SAND,3,8,70.0,61,63,STONE:0,HARD_CLAY,STAINED_CLAY,GRAVEL)
 UnderWaterOre(CLAY,8,10,50.0,DIRT)
 UnderWaterOre(DIRT,4,7,20.0,CLAY)
-CustomStructure(TotemBase,0.1,JungleBranching,0.2,GravelOreT1,1.0,OvergrownDungeonBranching,0.2)
+CustomStructure(TotemBase,0.1,JungleBranching,0.2,GravelOreT1,1.0,OvergrownDungeonBranching,0.1)
 Plant(Poppy,2,100.0,0,139,GRASS,DIRT,SOIL)
 Plant(Dandelion,2,100.0,0,139,GRASS,DIRT,SOIL)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
@@ -226,13 +233,13 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: wood
 
 MineshaftType: normal
 
 MineshaftRarity: 0.3
 
-RareBuildingType: disabled
+RareBuildingType: swampHut
 
 
 #######################################################################

@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -190,7 +197,7 @@ CustomObject(OakForestLarge5,OakForestLarge4,OakForestLarge3,OakForestLarge2,Oak
 CustomObject(OakForestMedium2,OakForestMedium1)
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOak7,ShrubOak8,ShrubOak9,ShrubOak10,ShrubOak11,ShrubOak12,ShrubOak13,ShrubOak14,ShrubOak15,ShrubOak16,ShrubOak17,ShrubOak18)
 CustomObject(claydungeon1,claydungeon2,claydungeon3,claydungeon4,claydungeon5)
-CustomStructure(TotemBase,0.1,Bricktowerbranching,0.15,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.25,LargeCave1,0.09,DngStart,0.05,WitchVillageBranching,0.1)
+CustomStructure(TotemBase,0.1,Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.1,LargeCave1,0.09,DngStart,0.03,WitchVillageBranching,0.1)
 Grass(LONG_GRASS:1,NotGrouped,75,25.0,GRASS,DIRT,DIRT:1)
 Grass(DeadBush,NotGrouped,4,25.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
 CustomObject(OakDead1,OakDead2,OakDead3,OakDead4,OakDead5,OakDead6)

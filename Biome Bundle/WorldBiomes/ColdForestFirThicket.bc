@@ -28,7 +28,7 @@ ReplaceToBiomeName: Extreme Hills
 # Isle biomes only #
 ####################
 
-IsleInBiome: Cold Plains, Alpine
+IsleInBiome: Cold Plains
 
 BiomeSizeWhenIsle: 8
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -190,7 +197,7 @@ Plant(RoseBush,4,5.0,0,139,GRASS,DIRT)
 Plant(Peony,2,5.0,0,139,GRASS,DIRT)
 Plant(RedMushroom,3,5.0,0,139,GRASS,DIRT)
 Plant(BrownMushroom,3,5.0,0,139,GRASS,DIRT)
-CustomStructure(DngStart,0.05,GravelOreT1,1.0,CastleBranching,0.25,DecorativeRuins0,0.1)
+CustomStructure(DngStart,0.03,GravelOreT1,1.0,CastleBranching,0.1)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS,DIRT,SAND)

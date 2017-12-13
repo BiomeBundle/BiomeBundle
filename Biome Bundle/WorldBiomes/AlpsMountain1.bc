@@ -51,9 +51,9 @@ BiomeSizeWhenBorder: 9
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -0.46
+BiomeHeight: -0.4
 
-BiomeVolatility: 0.8
+BiomeVolatility: 1.5
 
 SmoothRadius: 4
 
@@ -63,7 +63,7 @@ MaxAverageDepth: 0.0
 
 Volatility1: -0.5
 
-Volatility2: -0.1
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -138,9 +138,9 @@ CooledLavaBlock: STATIONARY_LAVA
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeTemperature: 0.2
+BiomeTemperature: 0.0
 
-BiomeWetness: 0.5
+BiomeWetness: 0.1
 
 SkyColor: #7BA5FF
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -186,8 +193,8 @@ Ore(GRAVEL,10,40,100.0,111,255,STONE:0)
 Ore(STONE,10,80,75.0,111,255,GRASS)
 Plant(SNOW,80,90.0,86,255,GRASS,DIRT,STONE:0,GRAVEL)
 Plant(SNOW,80,45.0,86,255,GRASS,DIRT,STONE:0,GRAVEL)
-Plant(SNOW,40,25.0,63,85,GRASS,DIRT,STONE:0,GRAVEL)
-CustomStructure(GravelOreT1,1.0,JaggedCliffs1,100.0)
+Plant(SNOW,40,25.0,75,85,GRASS,DIRT,STONE:0,GRAVEL)
+CustomStructure(GravelOreT1,1.0,JaggedCliffs1,5.0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

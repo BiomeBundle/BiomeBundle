@@ -18,7 +18,7 @@ ResourceInheritance: true
 
 BiomeSize: 11
 
-BiomeRarity: 97
+BiomeRarity: 94
 
 BiomeColor: #9D9D9D
 
@@ -51,19 +51,19 @@ BiomeSizeWhenBorder: 11
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -0.46
+BiomeHeight: -0.4
 
-BiomeVolatility: 0.7
+BiomeVolatility: 1.5
 
 SmoothRadius: 4
 
-MaxAverageHeight: -0.2
+MaxAverageHeight: 0.0
 
-MaxAverageDepth: -0.2
+MaxAverageDepth: 0.0
 
 Volatility1: -0.5
 
-Volatility2: -0.1
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -138,9 +138,9 @@ CooledLavaBlock: STATIONARY_LAVA
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeTemperature: 0.2
+BiomeTemperature: 0.0
 
-BiomeWetness: 0.5
+BiomeWetness: 0.1
 
 SkyColor: #7BA5FF
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -175,10 +182,10 @@ CustomObject(StoneMountain01,StoneMountain02,StoneMountain03,StoneMountain04,Sto
 Ore(STONE,25,40,75.0,111,255,GRASS)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
-CustomStructure(JaggedCliffs1,100.0,GravelOreT1,1.0)
+CustomStructure(JaggedCliffs1,2.0,GravelOreT1,1.0)
 Plant(SNOW,80,90.0,86,255,GRASS,DIRT,STONE:0)
 Plant(SNOW,80,45.0,86,255,GRASS,DIRT,STONE:0)
-Plant(SNOW,40,25.0,63,85,GRASS,DIRT,STONE:0)
+Plant(SNOW,40,25.0,75,85,GRASS,DIRT,STONE:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

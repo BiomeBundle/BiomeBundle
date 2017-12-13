@@ -28,7 +28,7 @@ ReplaceToBiomeName: Roofed Forest
 # Isle biomes only #
 ####################
 
-IsleInBiome: Roofed Forest, Swampland M
+IsleInBiome: Roofed Forest, Swampland M, RoofedForestFlat
 
 BiomeSizeWhenIsle: 7
 
@@ -65,9 +65,9 @@ Volatility1: -1.0
 
 Volatility2: -1.5
 
-VolatilityWeight1: 1.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 1.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -174,7 +181,7 @@ SmallLake(LAVA,6,33.0,1,8)
 CustomObject(BrownCapMedium1,BrownCapMedium2,BrownCapSmall1,RedCapMedium2,RedCapSmall1,RedCapLarge1,RedCapLarge2,BrownCapLarge2,BrownCapLarge1)
 CustomObject(BrownCapMedium1,BrownCapMedium2,BrownCapSmall1,RedCapMedium2,RedCapSmall1,RedCapLarge1,RedCapLarge2,BrownCapLarge2,BrownCapLarge1)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-CustomStructure(DngStart,0.05,Bricktowerbranching,0.15,GravelOreT1,1.0,RedbrickHouseBranching,0.25)
+CustomStructure(DngStart,0.03,Bricktowerbranching,0.1,GravelOreT1,1.0,RedbrickHouseBranching,0.1)
 Tree(5,HugeMushroom,11,DarkOak,44,Birch,22,Tree,22)
 CustomObject(ShortDarkOakTree1,ShortDarkOakTree2,ShortDarkOakTree3,ShortDarkOakTree4)
 CustomObject(TallWideDarkOakTree1,TallWideDarkOakTree2,TallWideDarkOakTree3,TallWideDarkOakTree4)

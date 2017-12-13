@@ -40,7 +40,7 @@ BiomeRarityWhenIsle: 98
 
 BiomeIsBorder: IcyMountains
 
-NotBorderNear: IcyMountainPeak1, IcyMountainPeak2, Snowy Cliffs, SnowyExtremeHills, SnowyMesa, Cold Plains, Arctic, Ice Plains, SnowyMountains, ColdForestFirThicket, Cold Taiga, Frozen Forest, SnowyPlainsM, SnowyLonePeak, Glacier, SnowyCliff, SnowyCliffM
+NotBorderNear: IcyMountainPeak1, IcyMountainPeak2, SnowyMesa, Cold Plains, Arctic, Ice Plains, SnowyMountains, ColdForestFirThicket, Cold Taiga, Frozen Forest, SnowyPlainsM, SnowyLonePeak, Glacier
 
 BiomeSizeWhenBorder: 10
 
@@ -65,9 +65,9 @@ Volatility1: -1.0
 
 Volatility2: -1.0
 
-VolatilityWeight1: 1.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 1.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: false
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -237,13 +244,13 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: []
 
-SpawnCreatures: [{"mob": "sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "pig", "weight": 10, "min": 4, "max": 4}, {"mob": "chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "cow", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: []
 
-SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: []
 
-SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
+SpawnAmbientCreatures: []
 
 BiomeDictId: 
 

@@ -51,9 +51,9 @@ BiomeSizeWhenBorder: 10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.46
+BiomeHeight: -1.8
 
-BiomeVolatility: 0.1
+BiomeVolatility: 0.5
 
 SmoothRadius: 4
 
@@ -61,9 +61,9 @@ MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -0.1
+Volatility1: -0.5
 
-Volatility2: -0.1
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -138,9 +138,9 @@ CooledLavaBlock: STATIONARY_LAVA
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeTemperature: 0.2
+BiomeTemperature: 0.0
 
-BiomeWetness: 0.5
+BiomeWetness: 0.1
 
 SkyColor: #7BA5FF
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -179,7 +186,7 @@ CustomObject(SpruceFirSmall3,SpruceFirSmall2,SpruceFirSmall1,SpruceFirSmall15,Sp
 CustomObject(SpruceFirSmall3,SpruceFirSmall2,SpruceFirSmall1,SpruceFirSmall15,SpruceFirSmall14,SpruceFirSmall13,SpruceFirSmall12,SpruceFirSmall11,SpruceFirSmall10,SpruceFirSmall9,SpruceFirSmall8,SpruceFirSmall7,SpruceFirSmall6,SpruceFirSmall5,SpruceFirSmall4)
 CustomObject(boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
-CustomStructure(DngStart,0.05,Bricktowerbranching,0.15,RedbrickHouseBranching,0.25,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.25,LargeCave1,0.09)
+CustomStructure(DngStart,0.03,Bricktowerbranching,0.1,RedbrickHouseBranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.1,LargeCave1,0.09)
 Ore(STONE,10,75,75.0,101,161,GRASS)
 Ore(STONE,10,80,75.0,86,101,GRASS)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
@@ -191,7 +198,7 @@ Plant(AzureBluet,10,75.0,41,139,GRASS,DIRT)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
 Plant(SNOW,80,90.0,86,255,GRASS,DIRT,LEAVES)
 Plant(SNOW,80,45.0,86,255,GRASS,DIRT,LEAVES)
-Plant(SNOW,40,25.0,63,85,GRASS,DIRT,LEAVES)
+Plant(SNOW,40,25.0,75,85,GRASS,DIRT,LEAVES)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

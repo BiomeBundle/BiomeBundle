@@ -51,24 +51,23 @@ BiomeSizeWhenBorder: 6
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+BiomeHeight: -1.75
 
-BiomeHeight: -1.56
+BiomeVolatility: -0.1
 
-BiomeVolatility: 0.25
-
-SmoothRadius: 8
+SmoothRadius: 4
 
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -0.5
+Volatility1: -1.0
 
-Volatility2: 0.1
+Volatility2: -1.0
 
-VolatilityWeight1: 2.0
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 2.0
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -163,6 +162,13 @@ FoliageColorIsMultiplier: false
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -181,7 +187,7 @@ Plant(PUMPKIN,1,3.0,0,139,GRASS)
 Plant(WEB,5,20.0,0,139,GRASS,LOG)
 Ore(STONE,5,25,100.0,71,76,GRASS)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-CustomStructure(RiverRocks,0.5,GravelOreT1,1.0,DngStart,0.05,WitchVillageBranching,0.1,DecorativeRuins0,0.1)
+CustomStructure(RiverRocks,0.5,GravelOreT1,1.0,DngStart,0.03,WitchVillageBranching,0.1)
 CustomObject(ShrubDark1,ShrubDark2,ShrubDark3,ShrubDark4,ShrubDark5,ShrubDark6,ShrubDark7)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
@@ -223,7 +229,7 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: wood
 
 MineshaftType: normal
 

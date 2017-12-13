@@ -39,13 +39,13 @@ Frequency: 1
 Rarity: 100.0
 
 # If you set this to true, the BO3 will be placed with a random rotation.
-RotateRandomly: false
+RotateRandomly: true
 
 # The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 0
+MinHeight: 62
 
 MaxHeight: 111
 
@@ -65,7 +65,7 @@ ExcludedBiomes: All
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-# The block(s) the BO3 should spawn in.
+# The B(s) the BO3 should spawn in.
 SourceBlocks: AIR
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
@@ -83,9 +83,9 @@ OutsideSourceBlock: placeAnyway
 #######################################################################
 
 # All the blocks used in the BO3 are listed here. Possible blocks:
-# Block(x,y,z,id[.data][,nbtfile.nbt)
-# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+# B(x,y,z,id[.data][,nbtfile.nbt)
+# RB(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+# So RB(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
 
@@ -130,4 +130,4 @@ OutsideSourceBlock: placeAnyway
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,-1,0,HobbitHole1,NORTH,25,HobbitHole2,NORTH,25,Campsite1,NORTH,10,Campsite2,NORTH,10,TotemBase,NORTH,15,RedbrickHouse1,NORTH,5,RedbrickHouse2,NORTH,5,RedbrickHouse3,NORTH,5,100)
+WeightedBranch(0,-1,0,HobbitHole1,NORTH,20,HobbitHole2,NORTH,20,Campsite1,NORTH,10,Campsite2,NORTH,10,TotemBase,NORTH,10,RedbrickHouse1,NORTH,5,RedbrickHouse2,NORTH,5,RedbrickHouse3,NORTH,5,DarkLogHouse1,NORTH,5,DarkLogHouse2,NORTH,5,DarkLogHouse3,NORTH,5,100)

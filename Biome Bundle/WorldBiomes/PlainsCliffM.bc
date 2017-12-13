@@ -53,17 +53,17 @@ BiomeSizeWhenBorder: 7
 
 BiomeHeight: 0.04
 
-BiomeVolatility: 0.2
+BiomeVolatility: 0.8
 
-SmoothRadius: 6
+SmoothRadius: 4
 
-MaxAverageHeight: 0.1
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
 Volatility1: -2.0
 
-Volatility2: -1.0
+Volatility2: -2.0
 
 VolatilityWeight1: 2.5
 
@@ -71,7 +71,7 @@ VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -5.0, -10.0, -20.0, -30.0, -40.0, -50.0, -60.0, -70.0, -80.0, -90.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0, -100.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomStructure()
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -182,7 +189,7 @@ UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 Boulder(STONE,2,30.0,0,255,GRASS,DIRT,STONE:0)
-Tree(5,BigTree,5,GroundBush,10,Tree,10)
+Tree(5,BigTree,5,GroundBush,10,Tree,10,SkinnyPine1,2,SkinnyPine2,2,SkinnyPine3,2,SkinnyPine4,2,SkinnyPine5,2,SkinnyPine6,2,SkinnyPine7,2,SkinnyPine8,2)
 Grass(Fern,NotGrouped,10,100.0,GRASS,DIRT)
 
 #######################################################################

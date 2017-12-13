@@ -30,7 +30,6 @@ RotateRandomly: true
 
 SpawnHeight: highestSolidBlock
 
-
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0
@@ -67,6 +66,68 @@ SourceBlocks: STONE:1,STONE:3,STONE:5,DIRT:1,DIRT,SAND,GRASS,DIRT:2,STATIONARY_W
 MaxPercentageOutsideSourceBlock: 0
 
 OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
 
 
 #######################################################################
@@ -3961,7 +4022,28 @@ BlockCheck(0,-1,0,GRASS)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
-# |                         EntityFunctions                         | #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
 

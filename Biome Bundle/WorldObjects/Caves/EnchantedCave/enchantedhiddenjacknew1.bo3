@@ -30,7 +30,6 @@ RotateRandomly: true
 
 SpawnHeight: randomY
 
-
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0
@@ -75,21 +74,21 @@ OutsideSourceBlock: placeAnyway
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(-1,0,-1,LEAVES:0)
-Block(-1,0,0,LEAVES:0)
-Block(-1,1,0,LEAVES:0)
-Block(0,0,-1,LEAVES:0)
-Block(0,0,0,LOG)
-Block(0,0,1,LEAVES:0)
-Block(0,1,-1,LEAVES:0)
-Block(0,1,0,JACK_O_LANTERN)
-Block(0,1,1,LEAVES:0)
-Block(0,2,0,LEAVES:0)
-Block(1,0,-1,LEAVES:0)
-Block(1,0,0,LEAVES:0)
-Block(1,0,1,LEAVES:0)
-Block(1,1,0,LEAVES:0)
-Block(2,0,0,LEAVES:0)
+B(-1,0,-1,LEAVES:0)
+B(-1,0,0,LEAVES:0)
+B(-1,1,0,LEAVES:0)
+B(0,0,-1,LEAVES:0)
+B(0,0,0,LOG)
+B(0,0,1,LEAVES:0)
+B(0,1,-1,LEAVES:0)
+B(0,1,0,JACK_O_LANTERN)
+B(0,1,1,LEAVES:0)
+B(0,2,0,LEAVES:0)
+B(1,0,-1,LEAVES:0)
+B(1,0,0,LEAVES:0)
+B(1,0,1,LEAVES:0)
+B(1,1,0,LEAVES:0)
+B(2,0,0,LEAVES:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

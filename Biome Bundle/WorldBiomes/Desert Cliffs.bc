@@ -65,13 +65,13 @@ Volatility1: -2.0
 
 Volatility2: -2.5
 
-VolatilityWeight1: 2.0
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 2.5
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -5.0, -10.0, -10.0, -10.0, -5.0, -750.0, -750.0, -500.0, -500.0, -500.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -5.0, -10.0, -10.0, -10.0, -5.0, -750.0, -750.0, -500.0, -500.0, -500.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -106,7 +106,6 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 #######################################################################
 
 StoneBlock: STONE
-
 
 SurfaceBlock: SAND:1
 
@@ -162,8 +161,14 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
 SmallLake(LAVA,6,33.0,1,8)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
@@ -171,7 +176,7 @@ Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
 Ore(GRASS,20,100,50.0,107,108,SAND)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-CustomStructure(Bricktowerbranching,0.15,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.25,LargeCave1,0.09,DngStart,0.05,WitchVillageBranching,0.1)
+CustomStructure(Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.1,LargeCave1,0.09,DngStart,0.03,WitchVillageBranching,0.1)
 CustomObject(rockyhole1,rockyhole2,rockyhole3,rockyhole4,rockyhole5)
 UnderGroundLake(25,60,2,5.0,0,50)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
@@ -209,7 +214,6 @@ Plant(BrownMushroom,1,10.0,0,139,GRASS,DIRT)
 CustomObject(SandOasis1,SandOasis2,SandOasis3,SandOasis4,SandOasis5)
 CustomObject(SandSmallLake1,SandSmallLake2,SandSmallLake3,SandSmallLake4,SandSmallLake5,SandSmallLake6,SandSmallLake7,SandSmallLake8,SandSmallLake9,SandSmallLake10,SandSmallLake11,SandSmallLake12)
 
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                         Sapling resource                        | #
@@ -239,7 +243,6 @@ WoodLandMansionsEnabled: false
 OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
-
 
 VillageType: savanna
 

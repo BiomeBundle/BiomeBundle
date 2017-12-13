@@ -28,7 +28,7 @@ ReplaceToBiomeName: Plains
 # Isle biomes only #
 ####################
 
-IsleInBiome: TemperatePlains, Forest, ForestHills, TemperatePlainsM, TemperateLowlands, Plains, Sunflower Plains, Ocean Island, Flower Forest, Redwood Forest, RockyPlains, ForestGrandFir, TemperatePlainsMeadow, TemperatePlainsMeadowM, ForestFir
+IsleInBiome: TemperatePlains, Forest, TemperatePlainsM, TemperateLowlands, Plains, Sunflower Plains, Ocean Island, Flower Forest, Redwood Forest, RockyPlains, ForestGrandFir, TemperatePlainsMeadow, TemperatePlainsMeadowM, ForestFir
 
 BiomeSizeWhenIsle: 10
 
@@ -51,11 +51,11 @@ BiomeSizeWhenBorder: 10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.46
+BiomeHeight: -1.6
 
-BiomeVolatility: 0.1
+BiomeVolatility: -0.1
 
-SmoothRadius: 2
+SmoothRadius: 4
 
 MaxAverageHeight: 0.0
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -175,7 +182,10 @@ SmallLake(LAVA,6,33.0,1,8)
 UnderGroundLake(25,60,2,5.0,0,50)
 Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
-CustomStructure(ArchStoneGrass,5.0,RiverRocks,2.0,GravelOreT1,1.0,JaggedCliffs1,10.0,patchyrock,5.0,patchyrockrotated,5.0,patchyrocksmall,5.0,patchyrockfinal,5.0,patchyrocklarge,5.0)
+CustomStructure(ArchStoneGrass,5.0,GravelOreT1,1.0,patchyrock,1.0,patchyrocksmall,1.0,CastleBranching,0.2)
+CustomObject(giantboulder1,giantboulder2,giantboulder3,giantboulder4,giantboulder5,giantboulder6,giantboulder7,giantboulder8,giantboulder9)
+CustomObject(giantboulder1,giantboulder2,giantboulder3,giantboulder4,giantboulder5,giantboulder6,giantboulder7,giantboulder8,giantboulder9)
+CustomObject(giantboulder1,giantboulder2,giantboulder3,giantboulder4,giantboulder5,giantboulder6,giantboulder7,giantboulder8,giantboulder9)
 CustomObject(rockyhole1,rockyhole2,rockyhole3,rockyhole4,rockyhole5)
 CustomObject(OakFallenTree1,OakFallenTree2,OakFallenTree3,OakFallenTree4)
 CustomObject(OakForestSmall9,OakForestSmall8,OakForestSmall6,OakForestSmall5,OakForestSmall4,OakForestSmall3,OakForestSmall2,OakForestSmall13,OakForestSmall12,OakForestSmall11,OakForestSmall10,OakForestSmall1)

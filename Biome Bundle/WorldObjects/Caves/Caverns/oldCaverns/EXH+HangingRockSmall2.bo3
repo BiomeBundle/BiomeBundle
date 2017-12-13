@@ -30,7 +30,6 @@ RotateRandomly: true
 
 SpawnHeight: randomY
 
-
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0
@@ -75,25 +74,25 @@ OutsideSourceBlock: placeAnyway
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(-1,-3,1,STONE)
-Block(-1,-2,1,STONE)
-Block(-1,-1,1,STONE)
-Block(-1,0,1,STONE)
-Block(-1,1,0,STONE)
-Block(0,-1,-1,STONE)
-Block(0,-1,0,STONE)
-Block(0,0,-1,STONE)
-Block(0,0,0,STONE)
-Block(0,1,-1,STONE)
-Block(0,1,0,STONE)
-Block(0,1,1,STONE)
-Block(0,2,0,STONE)
-Block(1,-4,0,STONE)
-Block(1,-3,0,STONE)
-Block(1,-2,0,STONE)
-Block(1,-1,0,STONE)
-Block(1,0,0,STONE)
-Block(1,1,0,STONE)
+B(-1,-3,1,STONE)
+B(-1,-2,1,STONE)
+B(-1,-1,1,STONE)
+B(-1,0,1,STONE)
+B(-1,1,0,STONE)
+B(0,-1,-1,STONE)
+B(0,-1,0,STONE)
+B(0,0,-1,STONE)
+B(0,0,0,STONE)
+B(0,1,-1,STONE)
+B(0,1,0,STONE)
+B(0,1,1,STONE)
+B(0,2,0,STONE)
+B(1,-4,0,STONE)
+B(1,-3,0,STONE)
+B(1,-2,0,STONE)
+B(1,-1,0,STONE)
+B(1,0,0,STONE)
+B(1,1,0,STONE)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

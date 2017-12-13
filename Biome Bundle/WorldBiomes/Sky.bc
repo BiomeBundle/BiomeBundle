@@ -63,9 +63,9 @@ Volatility1: 0.0
 
 Volatility2: 0.0
 
-VolatilityWeight1: 0.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 0.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -159,8 +159,6 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Dungeon(8,100.0,0,160)
-CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 SmallLake(LAVA,2,1.0,19,131)
 UnderGroundLake(25,60,2,5.0,0,61)
 Ore(DIRT,32,20,100.0,0,139,STONE:0)

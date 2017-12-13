@@ -30,7 +30,6 @@ RotateRandomly: true
 
 SpawnHeight: randomY
 
-
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0
@@ -75,17 +74,17 @@ OutsideSourceBlock: placeAnyway
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(0,1,0,HUGE_MUSHROOM_1:10)
-Block(0,0,0,HUGE_MUSHROOM_1:10)
-Block(0,2,1,HUGE_MUSHROOM_2)
-Block(0,2,0,HUGE_MUSHROOM_2)
-Block(0,2,-1,HUGE_MUSHROOM_2)
-Block(1,2,-1,HUGE_MUSHROOM_2)
-Block(-1,2,-1,HUGE_MUSHROOM_2)
-Block(1,2,1,HUGE_MUSHROOM_2)
-Block(1,2,0,HUGE_MUSHROOM_2)
-Block(-1,2,1,HUGE_MUSHROOM_2)
-Block(-1,2,0,HUGE_MUSHROOM_2)
+B(0,1,0,HUGE_MUSHROOM_1:10)
+B(0,0,0,HUGE_MUSHROOM_1:10)
+B(0,2,1,HUGE_MUSHROOM_2)
+B(0,2,0,HUGE_MUSHROOM_2)
+B(0,2,-1,HUGE_MUSHROOM_2)
+B(1,2,-1,HUGE_MUSHROOM_2)
+B(-1,2,-1,HUGE_MUSHROOM_2)
+B(1,2,1,HUGE_MUSHROOM_2)
+B(1,2,0,HUGE_MUSHROOM_2)
+B(-1,2,1,HUGE_MUSHROOM_2)
+B(-1,2,0,HUGE_MUSHROOM_2)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

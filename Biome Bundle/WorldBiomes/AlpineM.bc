@@ -22,7 +22,7 @@ BiomeRarity: 98
 
 BiomeColor: #364416
 
-ReplaceToBiomeName: Extreme Hills
+ReplaceToBiomeName: Cold Taiga
 
 ####################
 # Isle biomes only #
@@ -51,9 +51,9 @@ BiomeSizeWhenBorder: 10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.56
+BiomeHeight: -1.66
 
-BiomeVolatility: 0.3
+BiomeVolatility: 1.0
 
 SmoothRadius: 4
 
@@ -61,9 +61,9 @@ MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -1.0
+Volatility1: -0.5
 
-Volatility2: -1.0
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -115,7 +115,6 @@ SurfaceAndGroundControl:
 
 ReplacedBlocks: (DIRT,STONE,116,211),(AIR,LAVA,1,10)
 
-
 ################################
 # Water / Lava & Frozen States #
 ################################
@@ -139,9 +138,9 @@ CooledLavaBlock: STATIONARY_LAVA
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeTemperature: 0.2
+BiomeTemperature: 0.0
 
-BiomeWetness: 0.25
+BiomeWetness: 0.1
 
 SkyColor: #7BA5FF
 
@@ -163,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -176,7 +182,7 @@ UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS,GRAVEL)
 UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS,GRAVEL)
 Ore(STONE,10,100,100.0,75,139,GRASS,GRAVEL)
-Tree(1,Taiga1,10,Taiga2,10)
+CustomObject(LargeSpruce1,LargeSpruce2,LargeSpruce3,LargeSparseSpruce1,LargeSparseSpruce2,LargeSparseSpruce3,LargeDeadSpruce1,LargeDeadSpruce2,LargeDeadSpruce3,LargeDeadSpruce4)
 Liquid(WATER,40,100.0,19,161,STONE:0)
 Grass(Tallgrass,NotGrouped,15,100.0,GRASS,DIRT)
 Plant(LargeFern,10,90.0,41,139,GRASS,DIRT)
@@ -187,9 +193,7 @@ Plant(YELLOW_FLOWER,2,100.0,61,255,GRASS,DIRT,SOIL)
 Plant(OxeyeDaisy,10,75.0,41,139,GRASS,DIRT)
 Plant(AzureBluet,10,75.0,41,139,GRASS,DIRT)
 SmallLake(ICE,2,1.0,16,31)
-CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5)
-CustomStructure(Bricktowerbranching,0.15,RedbrickHouseBranching,0.25,GravelOreT1,1.0,CaveMine1,0.09,LargeCave1,0.09,DecorativeRuins0,0.1)
-Tree(1,HugeTaiga2,8,HugeTaiga1,30,Taiga1,33,Taiga2,100)
+CustomStructure(Bricktowerbranching,0.1,RedbrickHouseBranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,LargeCave1,0.09)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

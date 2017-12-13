@@ -28,7 +28,7 @@ ReplaceToBiomeName: Plains
 # Isle biomes only #
 ####################
 
-IsleInBiome: TemperatePlains, TemperatePlainsHeathland, Forest, Birch Forest, WoodlandBorder, TemperatePlainsM, Sunflower Plains, ForestGrandFir, Redwood Forest
+IsleInBiome: TemperatePlains, TemperatePlainsHeathland, Forest, Birch Forest, WoodlandBorder, TemperatePlainsM, Sunflower Plains, ForestGrandFir, Redwood Forest, RoofedForestFlat
 
 BiomeSizeWhenIsle: 9
 
@@ -53,21 +53,21 @@ BiomeSizeWhenBorder: 9
 
 BiomeHeight: -1.465
 
-BiomeVolatility: 0.15
+BiomeVolatility: -0.1
 
-SmoothRadius: 12
+SmoothRadius: 4
 
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -0.1
+Volatility1: -1.0
 
-Volatility2: -0.1
+Volatility2: -1.0
 
-VolatilityWeight1: 1.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 1.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -169,7 +176,7 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
-CustomStructure(DngStart,0.05,Bricktowerbranching,0.15,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.25,LargeCave1,0.09)
+CustomStructure(DngStart,0.03,Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.1,LargeCave1,0.09)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
 SmallLake(LAVA,6,33.0,1,8)
 CustomObject(rockyhole1,rockyhole2,rockyhole3,rockyhole4,rockyhole5)
@@ -177,8 +184,10 @@ UnderGroundLake(25,60,2,5.0,0,61)
 Ore(DIRT,32,20,100.0,0,255,STONE:0)
 Ore(GRAVEL,32,10,100.0,0,255,STONE:0)
 Tree(100,OakCypress1,1,OakCypress2,1,OakCypress3,1,OakCypress4,1,OakCypress5,1)
+Tree(100,OakCypress1,1,OakCypress2,1,OakCypress3,1,OakCypress4,1,OakCypress5,1)
 CustomObject(plainsrock4,plainsrock3,plainsrock2,plainsrock1,boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
+CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6,ShrubOak7,ShrubOak16,ShrubOak17,ShrubOak18)
 Plant(Poppy,2,100.0,0,255,GRASS,DIRT,SOIL)
 Plant(Dandelion,2,100.0,0,255,GRASS,DIRT,SOIL)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
@@ -216,7 +225,7 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: wood
 
 MineshaftType: normal
 

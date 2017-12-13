@@ -18,7 +18,7 @@ ResourceInheritance: true
 
 BiomeSize: 5
 
-BiomeRarity: 98
+BiomeRarity: 99
 
 BiomeColor: #056621
 
@@ -51,19 +51,19 @@ BiomeSizeWhenBorder: 5
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.76
+BiomeHeight: -1.75
 
-BiomeVolatility: 0.35
+BiomeVolatility: 0.3
 
-SmoothRadius: 8
+SmoothRadius: 3
 
 MaxAverageHeight: 0.0
 
-MaxAverageDepth: 0.0
+MaxAverageDepth: -0.2
 
-Volatility1: -0.4
+Volatility1: -0.7
 
-Volatility2: 0.0
+Volatility2: -0.7
 
 VolatilityWeight1: 2.5
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: false
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -176,6 +183,7 @@ CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cav
 SmallLake(LAVA,6,33.0,1,8)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 CustomObject(rockyhole1,rockyhole2,rockyhole3,rockyhole4,rockyhole5)
+Tree(4,SpruceFir1,1,SpruceFir2,1,SpruceFir3,1,SpruceFir4,1,SpruceFir5,1,SpruceFir6,1,SpruceFir7,1,SpruceFir8,1,SpruceFir9,1,SpruceFir10,1,SpruceFir11,1,SpruceFir12,1,SpruceFir13,1,SpruceFir14,1,SpruceFir15,1,SpruceFir16,1,SpruceFir17,1,SpruceFir18,1,SpruceFir19,1,SpruceFir20,1,SpruceFir21,1,SkinnyPine1,1,SkinnyPine2,1,SkinnyPine3,1,SkinnyPine4,1,SkinnyPine5,1,SkinnyPine6,1,SkinnyPine7,1,SkinnyPine8,1,LargeDeadSpruce1,1,LargeDeadSpruce2,1,LargeDeadSpruce3,1,LargeDeadSpruce4,1,LargeSparseSpruce1,2,LargeSparseSpruce2,2,LargeSparseSpruce3,2,SmallDeadSpruceTree1,1,SmallDeadSpruceTree2,1,SmallSparseSpruce1,2,SmallSparseSpruce2,2,LargeSpruce1,2,LargeSpruce2,2,LargeSpruce3,2)
 Ore(DIRT:2,20,35,50.0,71,81,GRASS)
 UnderGroundLake(25,60,2,5.0,0,61)
 Ore(DIRT,32,20,100.0,0,139,STONE:0)
@@ -190,13 +198,11 @@ Grass(Fern,NotGrouped,20,100.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
 Plant(LargeFern,10,100.0,41,139,GRASS,DIRT)
 Plant(OxeyeDaisy,10,100.0,41,139,GRASS,DIRT)
-CustomStructure(TotemBase,0.1,Bricktowerbranching,0.15,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.25,LargeCave1,0.09,DngStart,0.05,WitchVillageBranching,0.1,proceduralrocks0,10.0,CastleBranching,0.25)
+CustomStructure(TotemBase,0.1,Bricktowerbranching,0.1,GravelOreT1,1.0,CaveMine1,0.09,RedbrickHouseBranching,0.1,LargeCave1,0.09,DngStart,0.03,WitchVillageBranching,0.1,proceduralrocks0,1.0,CastleBranching,0.1)
 CustomObject(boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
 CustomObject(forestrock1,forestrock2,forestrock3,forestrock4)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
 CustomObject(ShrubSpruce1,ShrubSpruce2,ShrubSpruce3,ShrubSpruce4,ShrubSpruce5,ShrubSpruce6,ShrubSpruce7)
-CustomObject(SpruceFirDead2,SpruceFirDead1,SpruceFir9,SpruceFir8,SpruceFir7,SpruceFir6,SpruceFir5,SpruceFir4,SpruceFir3,SpruceFir21,SpruceFir20,SpruceFir2,SpruceFir19,SpruceFir18,SpruceFir17,SpruceFir16,SpruceFir15,SpruceFir14,SpruceFir13,SpruceFir12,SpruceFir11,SpruceFir10,SpruceFir1)
-CustomObject(SpruceFirSmall3,SpruceFirSmall2,SpruceFirSmall1,SpruceFirSmall15,SpruceFirSmall14,SpruceFirSmall13,SpruceFirSmall12,SpruceFirSmall11,SpruceFirSmall10,SpruceFirSmall9,SpruceFirSmall8,SpruceFirSmall7,SpruceFirSmall6,SpruceFirSmall5,SpruceFirSmall4)
 CustomObject(boulderoverhang1,boulderoverhang2,boulderoverhang3)
 
 #######################################################################

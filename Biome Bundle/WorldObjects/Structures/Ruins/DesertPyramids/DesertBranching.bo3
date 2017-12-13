@@ -39,8 +39,7 @@ Frequency: 1
 Rarity: 100.0
 
 # If you set this to true, the BO3 will be placed with a random rotation.
-RotateRandomly: false
-
+RotateRandomly: true
 # The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
 SpawnHeight: highestSolidBlock
 
@@ -65,7 +64,7 @@ ExcludedBiomes: All
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-# The block(s) the BO3 should spawn in.
+# The B(s) the BO3 should spawn in.
 SourceBlocks: AIR
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
@@ -83,9 +82,9 @@ OutsideSourceBlock: placeAnyway
 #######################################################################
 
 # All the blocks used in the BO3 are listed here. Possible blocks:
-# Block(x,y,z,id[.data][,nbtfile.nbt)
-# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+# B(x,y,z,id[.data][,nbtfile.nbt)
+# RB(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+# So RB(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
 
@@ -127,6 +126,6 @@ OutsideSourceBlock: placeAnyway
 # IndividualChance - The chance each branch has to spawn, assumed to be 100 when left blank
 
 # Weighted Branches spawn branches with a dependent chance of spawning.
-# WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
+# WBR(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,SmallPyramid1,NORTH,14,SmallPyramid2,SOUTH,14,SmallPyramid3,EAST,14,SmallPyramid3A,WEST,14,SmallPyramid3B,NORTH,14,SmallPyramid3C,NORTH,14,BrickTowerBaseSandstone1,NORTH,16,100)
+WBR(0,0,0,SmallPyramid1,NORTH,15,SmallPyramid2,SOUTH,15,SmallPyramid3,EAST,15,SmallPyramid3A,WEST,15,SmallPyramid3B,NORTH,15,SmallPyramid3C,NORTH,15,BrickTowerBaseSandstone1,NORTH,10,100)

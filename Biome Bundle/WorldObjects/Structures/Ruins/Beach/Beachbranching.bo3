@@ -45,7 +45,7 @@ RotateRandomly: true
 SpawnHeight: highestBlock
 
 # The height limits for the BO3.
-MinHeight: 62
+MinHeight: 0
 
 MaxHeight: 63
 
@@ -130,5 +130,4 @@ OutsideSourceBlock: placeAnyway
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,Longhouse1,NORTH,8,Longhouse2,NORTH,8,BeachHut1,NORTH,8,BeachHut,NORTH,8,BeachHutWest8x11,NORTH,8,BeachHutWest9x8,NORTH,8,BeachHutWest10x8,NORTH,8,Longhouse1,WEST,8,Longhouse2,WEST,8,BeachHut1,WEST,7,BeachHut,WEST,7,BeachHutWest8x11,WEST,7,BeachHutWest9x8,WEST,7,BeachHutWest10x8,WEST,7,100)
-WeightedBranch(14,0,-14,VikingShip1,NORTH,16,VikingShip2,NORTH,16,VikingShip3,NORTH,17,VikingShip1,WEST,17,VikingShip2,WEST,17,VikingShip3,WEST,17,100)
+WeightedBranch(0,0,0,BeachHut,NORTH,100,100)

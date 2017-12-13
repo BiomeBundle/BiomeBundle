@@ -61,13 +61,13 @@ MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -3.0
+Volatility1: -2.0
 
-Volatility2: 3.0
+Volatility2: -1.0
 
 VolatilityWeight1: 2.5
 
-VolatilityWeight2: 3.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -180,7 +187,7 @@ UnderGroundLake(25,60,2,5.0,0,50)
 Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-CustomStructure(Bricktowerbranching,0.15,GravelOreT1,1.0,RedbrickHouseBranching,0.25,DngStart,0.05,WitchVillageBranching,0.1)
+CustomStructure(Bricktowerbranching,0.1,GravelOreT1,1.0,RedbrickHouseBranching,0.1,DngStart,0.03,WitchVillageBranching,0.1)
 CustomObject(rockyhole1,rockyhole2,rockyhole3,rockyhole4,rockyhole5)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)

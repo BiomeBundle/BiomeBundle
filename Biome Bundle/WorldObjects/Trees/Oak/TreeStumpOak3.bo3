@@ -38,7 +38,6 @@ SpawnHeightVariance: 0
 # Height Limits for the BO3. #
 ##############################
 
-
 MinHeight: 56
 
 MaxHeight: 71
@@ -67,6 +66,68 @@ SourceBlocks: STONE:1,STONE:3,STONE:5,DIRT:1,DIRT,SAND,GRASS,DIRT:2,STATIONARY_W
 MaxPercentageOutsideSourceBlock: 25
 
 OutsideSourceBlock: placeAnyway
+
+IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
 
 
 #######################################################################
@@ -217,7 +278,6 @@ Block(-4,-6,5,LOG)
 Block(-4,-5,-3,AIR)
 Block(-4,-5,-2,AIR)
 Block(-4,-5,-1,AIR)
-RandomBlock(-4,-5,0,MOB_SPAWNER,../../Structures/nbt/Spawner/Skeleton.nbt,50,MOB_SPAWNER,../../Structures/nbt/Spawner/Zombie.nbt,100)
 Block(-4,-5,1,AIR)
 Block(-4,-5,2,AIR)
 Block(-4,-5,3,AIR)
@@ -1411,7 +1471,6 @@ Block(6,-6,-1,GRASS)
 Block(6,-6,0,DIRT:1)
 Block(6,-6,1,LOG)
 Block(6,-5,-8,LOG)
-RandomBlock(6,-5,-7,CHEST,../../Structures/nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../Structures/nbt/VanillaLoot/stronghold_crossing.nbt,100)
 Block(6,-5,-6,AIR)
 Block(6,-5,-5,LONG_GRASS:1)
 Block(6,-5,-4,AIR)
@@ -1774,7 +1833,28 @@ Block(11,-1,-2,LOG:12)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
-# |                         EntityFunctions                         | #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
 

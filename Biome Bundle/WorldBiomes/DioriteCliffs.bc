@@ -51,10 +51,9 @@ BiomeSizeWhenBorder: 6
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-
 BiomeHeight: -0.86
 
-BiomeVolatility: 0.3
+BiomeVolatility: 0.8
 
 SmoothRadius: 4
 
@@ -62,13 +61,13 @@ MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -1.0
+Volatility1: -0.5
 
-Volatility2: -1.0
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
-VolatilityWeight2: 3.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -163,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
 SmallLake(LAVA,6,33.0,1,8)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)

@@ -28,7 +28,7 @@ ReplaceToBiomeName: Plains
 # Isle biomes only #
 ####################
 
-IsleInBiome: Birch Forest, TemperatePlains, Forest, TemperatePlainsM, TemperateLowlands, Plains, Sunflower Plains, Ocean Island, Flower Forest, Redwood Forest, RockyPlains, ForestGrandFir, TemperatePlainsMeadow, TemperatePlainsMeadowM, RockyHills
+IsleInBiome: Birch Forest, TemperatePlains, Forest, TemperatePlainsM, TemperateLowlands, Plains, Sunflower Plains, Ocean Island, Flower Forest, Redwood Forest, RockyPlains, ForestGrandFir, TemperatePlainsMeadow, TemperatePlainsMeadowM, RockyHills, RoofedForestFlat
 
 BiomeSizeWhenIsle: 10
 
@@ -51,17 +51,17 @@ BiomeSizeWhenBorder: 10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.56
+BiomeHeight: -1.765
 
-BiomeVolatility: 0.03
+BiomeVolatility: -0.1
 
-SmoothRadius: 1
+SmoothRadius: 4
 
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -2.0
+Volatility1: -1.0
 
 Volatility2: -1.0
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -178,7 +185,7 @@ UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,8,1,100.0,DIRT,STONE:0)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4)
-CustomStructure(DngStart,0.05,Bricktowerbranching,0.15,GravelOreT1,1.0,BrickRuinsPath1,0.5,StandingStonesBranching,0.2,CastleBranching,0.255,RedbrickHouseBranching,0.5)
+CustomStructure(DngStart,0.03,Bricktowerbranching,0.1,GravelOreT1,1.0,BrickRuinsPath1,0.5,StandingStonesBranching,0.2,CastleBranching,0.15,RedbrickHouseBranching,0.1)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 Plant(Poppy,2,100.0,0,255,GRASS,DIRT,SOIL)

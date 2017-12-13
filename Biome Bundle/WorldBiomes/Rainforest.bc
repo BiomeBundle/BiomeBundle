@@ -18,7 +18,7 @@ ResourceInheritance: true
 
 BiomeSize: 5
 
-BiomeRarity: 98
+BiomeRarity: 99
 
 BiomeColor: #307444
 
@@ -94,7 +94,6 @@ RiverHeight: -2.0
 
 RiverVolatility: 0.1
 
-
 RiverWaterLevel: 63
 
 RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
@@ -163,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -178,7 +184,7 @@ Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
 CustomObject(boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
-CustomStructure(DngStart,0.05,GravelOreT1,1.0,JaggedCliffs1,5.0,RuinsPath1,0.1,JungleBranching,0.2,OvergrownDungeonBranching,0.2)
+CustomStructure(DngStart,0.03,GravelOreT1,1.0,JaggedCliffs1,5.0,RuinsPath1,0.1,JungleBranching,0.2,OvergrownDungeonBranching,0.1)
 CustomObject(Geode2,Geode3,Geode4,Geode5,Geode6)
 Ore(STONE,12,75,100.0,75,255,GRAVEL)
 Ore(GRAVEL,12,75,100.0,101,161,GRAVEL)
@@ -238,7 +244,7 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: wood
 
 MineshaftType: normal
 

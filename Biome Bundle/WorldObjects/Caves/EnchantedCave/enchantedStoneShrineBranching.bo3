@@ -65,7 +65,7 @@ ExcludedBiomes: All
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-# The block(s) the BO3 should spawn in.
+# The B(s) the BO3 should spawn in.
 SourceBlocks: AIR
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
@@ -83,9 +83,9 @@ OutsideSourceBlock: placeAnyway
 #######################################################################
 
 # All the blocks used in the BO3 are listed here. Possible blocks:
-# Block(x,y,z,id[.data][,nbtfile.nbt)
-# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-# So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+# B(x,y,z,id[.data][,nbtfile.nbt)
+# RB(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+# So RB(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 # the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 # fails, a 100% percent chance to have the contents of anotherchest.nbt.
 
@@ -131,7 +131,7 @@ LightCheck(0,0,0,0,2)
 # IndividualChance - The chance each branch has to spawn, assumed to be 100 when left blank
 
 # Weighted Branches spawn branches with a dependent chance of spawning.
-# WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
+# WBR(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(-8,0,0,StoneShrine1,NORTH,25,StoneShrine2,NORTH,25,StoneShrine3,NORTH,25,ECPathCENTRE,NORTH,25,100)
-WeightedBranch(0,0,0,Spores1,NORTH,17,Spores2,NORTH,17,Spores3,NORTH,17,Spores4,NORTH,17,Spores5,NORTH,17,Spores6,NORTH,15,100)
+WBR(-8,0,0,StoneShrine1,NORTH,25,StoneShrine2,NORTH,25,StoneShrine3,NORTH,25,ECPathCENTRE,NORTH,25,100)
+WBR(0,0,0,Spores1,NORTH,17,Spores2,NORTH,17,Spores3,NORTH,17,Spores4,NORTH,17,Spores5,NORTH,17,Spores6,NORTH,15,100)

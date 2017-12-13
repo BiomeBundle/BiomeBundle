@@ -38,7 +38,7 @@ BiomeRarityWhenIsle: 98
 
 BiomeIsBorder: Ocean
 
-NotBorderNear: Glacier, FloatingPlains, JungleEdge, OceanDesertIsland, OceanIslandDesert, OceanRocks, OceanRocksM, RiverWetland, ForestBaldCypress, Alpine, RiverAlpine, FrozenOcean, Beach, Tundra, TemperateLowlands, FlyingForest, ForestBaldCypress, ForestWetlandM, Forest Wetland, IsleRiver, River, Deep Ocean, Cold Beach, MushroomIsland, MushroomIslandShore, TemperatePlainsM, TemperatePlains, Roofed Forest, SavannaEdge, RainforestTropical, Archipelago, ArchipelagoMid, ArchipelagoHigh, RiverForest, Forest, Swampland, SwamplandLarge, Birch Forest, DesertRed, DesertHills, DesertSmall, DesertLowlands, DesertTropical, DesertFlats, Desert M, Mesa Small, FrozenRiver, GlacierM, Pumpkin Plains, TemperatePlainsMeadow, TemperatePlainsMeadowM, TemperatePlainsOakgrove, SnowyExtremeHills, SnowyMesa, Cold Plains, Arctic, SnowyPlains, Alpine, IcyMountains, Ice Plains, SnowyMountains, ColdForestFirThicket, Cold Taiga, Frozen Forest, OceanForestHighlands, SwamplandBorder, Desert Cliffs, Desert Cliffs Edge, OceanCoral, ForestPeak, Desert, Mesa Sandstone, Mesa Sandstone Edge, GiantMushroomIsland
+NotBorderNear: Glacier, FloatingPlains, JungleEdge, OceanDesertIsland, OceanIslandDesert, OceanRocks, OceanRocksM, RiverWetland, ForestBaldCypress, Alpine, RiverAlpine, FrozenOcean, Beach, Tundra, TemperateLowlands, FlyingForest, ForestBaldCypress, ForestWetlandM, Forest Wetland, IsleRiver, River, Deep Ocean, Cold Beach, MushroomIsland, MushroomIslandShore, TemperatePlainsM, TemperatePlains, Roofed Forest, SavannaEdge, RainforestTropical, Archipelago, ArchipelagoMid, ArchipelagoHigh, RiverForest, Forest, Swampland, SwamplandLarge, Birch Forest, DesertRed, DesertHills, DesertSmall, DesertLowlands, DesertTropical, DesertFlats, Desert M, Mesa Small, FrozenRiver, GlacierM, Pumpkin Plains, TemperatePlainsMeadow, TemperatePlainsMeadowM, TemperatePlainsOakgrove, SnowyMesa, Cold Plains, Arctic, SnowyPlains, Alpine, IcyMountains, Ice Plains, SnowyMountains, ColdForestFirThicket, Cold Taiga, Frozen Forest, OceanForestHighlands, SwamplandBorder, Desert Cliffs, Desert Cliffs Edge, OceanCoral, ForestPeak, Desert, Mesa Sandstone, Mesa Sandstone Edge, GiantMushroomIsland, Beach Desert, TemperatePlainsAutumnal
 
 BiomeSizeWhenBorder: 10
 
@@ -160,6 +160,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -177,7 +184,7 @@ Ore(GRAVEL,32,10,100.0,0,139,STONE:0)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,7,3,100.0,DIRT,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
-CustomStructure(Beachbranching,0.4,DngStart,0.05)
+CustomStructure(Beachbranching,0.4,DngStart,0.03)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 

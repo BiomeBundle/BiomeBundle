@@ -30,7 +30,6 @@ RotateRandomly: true
 
 SpawnHeight: highestSolidBlock
 
-
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0
@@ -41,7 +40,7 @@ SpawnHeightVariance: 0
 
 MinHeight: 63
 
-MaxHeight: 255
+MaxHeight: 256
 
 ######################
 # Extrusion settings #
@@ -75,29 +74,29 @@ OutsideSourceBlock: placeAnyway
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(0,0,1,LEAVES:3)
-Block(0,1,0,LEAVES:3)
-Block(0,0,0,LOG:3)
-Block(0,1,1,LEAVES:3)
-Block(0,2,0,LEAVES:3)
-Block(-2,0,-1,LEAVES:3)
-Block(0,0,-2,LEAVES:3)
-Block(0,1,-1,LEAVES:3)
-Block(0,0,-1,LEAVES:3)
-Block(0,2,-1,LEAVES:3)
-Block(-2,0,-2,LEAVES:3)
-Block(1,0,-1,LEAVES:3)
-Block(-1,1,-2,LEAVES:3)
-Block(-1,0,-2,LEAVES:3)
-Block(-1,1,-1,LEAVES:3)
-Block(-1,0,-1,LEAVES:3)
-Block(-2,0,0,LEAVES:3)
-Block(-1,0,1,LEAVES:3)
-Block(-1,1,0,LEAVES:3)
-Block(-1,0,0,LEAVES:3)
-Block(1,0,1,LEAVES:3)
-Block(1,1,0,LEAVES:3)
-Block(1,0,0,LEAVES:3)
+B(0,0,1,LEAVES:3)
+B(0,1,0,LEAVES:3)
+B(0,0,0,LOG:3)
+B(0,1,1,LEAVES:3)
+B(0,2,0,LEAVES:3)
+B(-2,0,-1,LEAVES:3)
+B(0,0,-2,LEAVES:3)
+B(0,1,-1,LEAVES:3)
+B(0,0,-1,LEAVES:3)
+B(0,2,-1,LEAVES:3)
+B(-2,0,-2,LEAVES:3)
+B(1,0,-1,LEAVES:3)
+B(-1,1,-2,LEAVES:3)
+B(-1,0,-2,LEAVES:3)
+B(-1,1,-1,LEAVES:3)
+B(-1,0,-1,LEAVES:3)
+B(-2,0,0,LEAVES:3)
+B(-1,0,1,LEAVES:3)
+B(-1,1,0,LEAVES:3)
+B(-1,0,0,LEAVES:3)
+B(1,0,1,LEAVES:3)
+B(1,1,0,LEAVES:3)
+B(1,0,0,LEAVES:3)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

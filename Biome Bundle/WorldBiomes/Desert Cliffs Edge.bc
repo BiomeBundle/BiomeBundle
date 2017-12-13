@@ -16,7 +16,6 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-
 BiomeSize: 11
 
 BiomeRarity: 100
@@ -66,9 +65,9 @@ Volatility1: -2.0
 
 Volatility2: -2.5
 
-VolatilityWeight1: 2.0
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 2.5
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -115,7 +114,6 @@ GroundBlock: RED_SANDSTONE
 SurfaceAndGroundControl: 
 
 ReplacedBlocks: (STONE,RED_SANDSTONE,63,250),(SAND,STAINED_CLAY:4,81,84),(RED_SANDSTONE,STAINED_CLAY:4,81,84),(SAND,STAINED_CLAY:4,92,93),(RED_SANDSTONE,STAINED_CLAY:4,92,93),(AIR,LAVA,1,10)
-
 
 ################################
 # Water / Lava & Frozen States #
@@ -164,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomStructure()
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
 SmallLake(LAVA,6,33.0,1,8)
@@ -189,7 +194,6 @@ Liquid(WATER,20,100.0,19,139,STONE:0)
 Plant(BrownMushroom,1,10.0,0,139,GRASS,DIRT)
 CustomObject(SandOasis1,SandOasis2,SandOasis3,SandOasis4,SandOasis5)
 CustomObject(SandSmallLake1,SandSmallLake2,SandSmallLake3,SandSmallLake4,SandSmallLake5,SandSmallLake6,SandSmallLake7,SandSmallLake8,SandSmallLake9,SandSmallLake10,SandSmallLake11,SandSmallLake12)
-
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -51,10 +51,9 @@ BiomeSizeWhenBorder: 10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-
 BiomeHeight: -1.8
 
-BiomeVolatility: 0.9
+BiomeVolatility: 0.8
 
 SmoothRadius: 2
 
@@ -66,9 +65,9 @@ Volatility1: -2.0
 
 Volatility2: -2.5
 
-VolatilityWeight1: 2.0
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 2.5
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
@@ -115,7 +114,6 @@ GroundBlock: RED_SANDSTONE
 SurfaceAndGroundControl: 
 
 ReplacedBlocks: (STONE,RED_SANDSTONE,63,250),(SAND,STAINED_CLAY:4,81,84),(RED_SANDSTONE,STAINED_CLAY:4,81,84),(SAND,STAINED_CLAY:4,92,93),(RED_SANDSTONE,STAINED_CLAY:4,92,93)
-
 
 ################################
 # Water / Lava & Frozen States #
@@ -165,6 +163,13 @@ FoliageColorIsMultiplier: true
 
 CustomStructure()
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -202,7 +207,6 @@ Plant(BrownMushroom,1,10.0,0,139,GRASS,DIRT)
 CustomObject(SandOasis1,SandOasis2,SandOasis3,SandOasis4,SandOasis5)
 CustomObject(SandSmallLake1,SandSmallLake2,SandSmallLake3,SandSmallLake4,SandSmallLake5,SandSmallLake6,SandSmallLake7,SandSmallLake8,SandSmallLake9,SandSmallLake10,SandSmallLake11,SandSmallLake12)
 
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                         Sapling resource                        | #
@@ -233,11 +237,9 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-
 VillageType: savanna
 
 MineshaftType: mesa
-
 
 MineshaftRarity: 0.3
 
@@ -252,16 +254,13 @@ RareBuildingType: disabled
 
 SpawnMonsters: [{"mob": "spider", "weight": 100, "min": 4, "max": 4}, {"mob": "zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "slime", "weight": 100, "min": 4, "max": 4}, {"mob": "enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "witch", "weight": 5, "min": 1, "max": 1}]
 
-
 SpawnCreatures: [{"mob": "rabbit", "weight": 4, "min": 2, "max": 3}]
-
 
 SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
 SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
 BiomeDictId: 
-
 
 InheritMobsBiomeName: Savanna
 

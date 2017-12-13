@@ -63,9 +63,9 @@ Volatility1: 0.0
 
 Volatility2: 0.0
 
-VolatilityWeight1: 0.5
+VolatilityWeight1: 2.5
 
-VolatilityWeight2: 0.45
+VolatilityWeight2: 2.45
 
 DisableBiomeHeight: true
 
@@ -159,7 +159,6 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Dungeon(8,100.0,0,160)
 Ore(DIRT,33,10,100.0,0,255,STONE:0)
 Ore(GRAVEL,33,8,100.0,0,255,STONE:0)
 Ore(STONE:1,33,10,100.0,0,90,STONE:0)

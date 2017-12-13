@@ -57,10 +57,10 @@ SpawnHeightVariance: 0
 ##############################
 
 # When in randomY mode used as the minimum Y or in atMinY mode as the actual Y to spawn this BO3 at.
-MinHeight: 77
+MinHeight: 67
 
 # When in randomY mode used as the maximum Y to spawn this BO3 at.
-MaxHeight: 81
+MaxHeight: 71
 
 ######################
 # Extrusion settings #
@@ -88,7 +88,7 @@ ExcludedBiomes: All
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-# The block(s) the BO3 should spawn in.
+# The B(s) the BO3 should spawn in.
 SourceBlocks: AIR
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
@@ -106,9 +106,9 @@ OutsideSourceBlock: placeAnyway
 #######################################################################
 
 # All the blocks used in the BO3 are listed here. Possible blocks:
-# Block(x,y,z,id[.data][,nbtfile.nbt)
-# RandomBlock(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
-#  So RandomBlock(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
+# B(x,y,z,id[.data][,nbtfile.nbt)
+# RB(x,y,z,id[:data][,nbtfile.nbt],chance[,id[:data][,nbtfile.nbt],chance[,...]])
+#  So RB(0,0,0,CHEST,chest.nbt,50,CHEST,anotherchest.nbt,100) will spawn a chest at
 #  the BO3 origin, and give it a 50% chance to have the contents of chest.nbt, or, if that
 #  fails, a 100% percent chance to have the contents of anotherchest.nbt.
 # MinecraftObject(x,y,z,name)
@@ -154,6 +154,6 @@ OutsideSourceBlock: placeAnyway
 # IndividualChance - The chance each branch has to spawn, assumed to be 100 when left blank
 
 # Weighted Branches spawn branches with a dependent chance of spawning.
-# WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
+# WBR(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,CastleBase-1,NORTH,10,CastleBaseRuined-1,NORTH,10,CastleBaseRuined-2,NORTH,10,FortressBranching,NORTH,10,Castles3Branching,NORTH,60,100)
+WBR(0,6,0,CastleBase-1,NORTH,15,CastleBaseRuined-1,NORTH,15,CastleBaseRuined-2,NORTH,10,FortressBranching,NORTH,15,Castle1,NORTH,15,Castle2,NORTH,15,Castle3,NORTH,15,100)

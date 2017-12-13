@@ -16,9 +16,9 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 7
+BiomeSize: 5
 
-BiomeRarity: 60
+BiomeRarity: 100
 
 BiomeColor: #FFFFFF
 
@@ -49,19 +49,19 @@ BiomeSizeWhenBorder: 7
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.465
+BiomeHeight: -1.8
 
-BiomeVolatility: 0.05
+BiomeVolatility: -0.1
 
-SmoothRadius: 8
+SmoothRadius: 4
 
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -1.2
+Volatility1: -0.5
 
-Volatility2: 0.1
+Volatility2: -0.5
 
 VolatilityWeight1: 2.5
 
@@ -105,11 +105,11 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 StoneBlock: STONE
 
-SurfaceBlock: GRASS
+SurfaceBlock: SNOW_BLOCK
 
-GroundBlock: DIRT
+GroundBlock: PACKED_ICE
 
-SurfaceAndGroundControl: ICE, PACKED_ICE, -0.8 
+SurfaceAndGroundControl: 
 
 ReplacedBlocks: (AIR,LAVA,1,10)
 
@@ -160,6 +160,13 @@ FoliageColorIsMultiplier: false
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -167,10 +174,7 @@ Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
-Ore(SNOW_BLOCK,20,50,50.0,63,139,GRASS)
-Ore(PACKED_ICE,20,60,50.0,63,139,GRASS)
-Ore(ICE,20,100,50.0,63,139,GRASS)
-CustomStructure(LargeCave1,0.09,GravelOreT1,1.0,CaveMine1,0.09,DngStart,0.05,CastleBranching,0.2,IceShrine,1.5)
+CustomStructure(LargeCave1,0.09,GravelOreT1,1.0,CaveMine1,0.09,DngStart,0.03,CastleBranching,0.2,IceShrine,1.5)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
 SmallLake(LAVA,6,33.0,1,8)
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6)
@@ -181,9 +185,6 @@ Boulder(GRAVEL,2,10.0,71,111,GRASS)
 Boulder(SNOW_BLOCK,2,10.0,71,111,GRASS)
 Boulder(ICE,2,10.0,71,111,GRASS,ICE,SNOW_BLOCK)
 Tree(1,GroundBush,10,Tree,2)
-Grass(LONG_GRASS,Grouped,10,100.0,GRASS,DIRT)
-Plant(LargeFern,10,100.0,41,139,GRASS,DIRT)
-Plant(Fern,10,100.0,41,139,GRASS,DIRT)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -215,13 +216,13 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: wood
 
 MineshaftType: normal
 
 MineshaftRarity: 0.3
 
-RareBuildingType: disabled
+RareBuildingType: igloo
 
 
 #######################################################################

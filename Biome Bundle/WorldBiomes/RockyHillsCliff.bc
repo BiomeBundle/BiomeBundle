@@ -53,15 +53,15 @@ BiomeSizeWhenBorder: 10
 
 BiomeHeight: -1.16
 
-BiomeVolatility: 0.5
+BiomeVolatility: 1.0
 
-SmoothRadius: 4
+SmoothRadius: 6
 
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: -0.5
+Volatility1: -1.0
 
 Volatility2: -1.0
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -179,7 +186,10 @@ SmallLake(LAVA,6,33.0,1,8)
 UnderGroundLake(25,60,2,5.0,0,50)
 Liquid(WATER,20,100.0,19,255,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
 Liquid(LAVA,10,100.0,19,65,STONE:0,DIRT,HARD_CLAY,STAINED_CLAY)
-CustomStructure(GravelOreT1,1.0,patchyrock,40.0,patchyrockflat,20.0,patchyrockrotated,40.0,patchyrocksmall,40.0,patchyrocklarge,40.0,JaggedCliffs1,100.0)
+CustomStructure(ArchStoneGrass,5.0,GravelOreT1,1.0,patchyrock,1.0,patchyrockflat,1.0,patchyrockrotated,1.0,patchyrocksmall,2.0,CastleBranching,0.2)
+CustomObject(giantboulder1,giantboulder2,giantboulder3,giantboulder4,giantboulder5,giantboulder6,giantboulder7,giantboulder8,giantboulder9)
+CustomObject(giantboulder1,giantboulder2,giantboulder3,giantboulder4,giantboulder5,giantboulder6,giantboulder7,giantboulder8,giantboulder9)
+CustomObject(giantboulder1,giantboulder2,giantboulder3,giantboulder4,giantboulder5,giantboulder6,giantboulder7,giantboulder8,giantboulder9)
 CustomObject(StoneMountain01,StoneMountain02,StoneMountain03,StoneMountain04,StoneMountain05,StoneMountain06)
 CustomObject(StoneMountain01,StoneMountain02,StoneMountain03,StoneMountain04,StoneMountain05,StoneMountain06)
 CustomObject(StoneMountain01,StoneMountain02,StoneMountain03,StoneMountain04,StoneMountain05,StoneMountain06)

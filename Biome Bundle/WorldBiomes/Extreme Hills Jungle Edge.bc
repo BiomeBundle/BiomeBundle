@@ -53,11 +53,11 @@ BiomeSizeWhenBorder: 9
 
 BiomeHeight: -0.86
 
-BiomeVolatility: 0.4
+BiomeVolatility: 1.4
 
-SmoothRadius: 6
+SmoothRadius: 4
 
-MaxAverageHeight: -0.2
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
@@ -71,7 +71,7 @@ VolatilityWeight2: 2.45
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -500.0, -750.0
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
 #######################################################################
@@ -162,11 +162,17 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 Ore(STONE,24,100,100.0,63,211,GRAVEL)
 Ore(DIRT,12,50,75.0,63,211,GRAVEL)
 Ore(GRASS,12,50,75.0,63,211,GRAVEL)
-CustomObject(HangingRockMedium1V4,HangingRockMedium2V4,HangingRockMedium3V4,HangingRockMedium4V4,HangingRockMedium5V4,HangingRockMedium6V4,HangingRockSmall1V4,HangingRockSmall2V4,HangingRockSmall3V4,HangingRockSmall4V4,HangingRockSmall5V4,HangingRockSmall6V4)
 CustomObject(UndergroundRock1,UndergroundRock2,UndergroundRock3,UndergroundRock4,UndergroundRock5,UndergroundRock6)
 CustomObject(ShrubJungle1,ShrubJungle2,ShrubJungle3,ShrubJungle4,ShrubJungle5)
 IceSpike(STONE,SmallSpike,2,50.0,98,101,GRAVEL)
@@ -231,13 +237,13 @@ OceanMonumentsEnabled: false
 
 NetherFortressesEnabled: false
 
-VillageType: disabled
+VillageType: wood
 
 MineshaftType: normal
 
 MineshaftRarity: 0.3
 
-RareBuildingType: disabled
+RareBuildingType: jungleTemple
 
 
 #######################################################################

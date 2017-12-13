@@ -55,7 +55,7 @@ BiomeHeight: -1.46
 
 BiomeVolatility: 0.0
 
-SmoothRadius: 12
+SmoothRadius: 6
 
 MaxAverageHeight: 0.0
 
@@ -162,6 +162,13 @@ FoliageColorIsMultiplier: true
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -192,7 +199,7 @@ Grass(Fern,NotGrouped,4,50.0,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,4,50.0,GRASS,DIRT)
 Plant(LargeFern,10,90.0,41,139,GRASS,DIRT)
 Tree(5,HugeTaiga2,4,HugeTaiga1,15,Taiga1,16,Taiga2,50)
-CustomStructure(DngStart,0.05)
+CustomStructure(DngStart,0.03)
 CustomObject(MesaRock1,MesaRock2,MesaRock3,MesaRock4,MesaRock5)
 
 #######################################################################
