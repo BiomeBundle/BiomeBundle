@@ -48,9 +48,9 @@ RotateRandomly: false
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 50
+MinHeight: 61
 
-MaxHeight: 110
+MaxHeight: 121
 
 # Objects can have other objects attached to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -131,4 +131,4 @@ OutsideSourceBlock: placeAnyway
 
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,JungleBlue,NORTH,1,JungleBrown,NORTH,1,JungleGreen,NORTH,1,JungleGrey,NORTH,1,JungleYellow,NORTH,1,RuinsBasement1,NORTH,1,RuinsBasement2,NORTH,1,RuinsBasement3,NORTH,1,RuinsBasement4,NORTH,1,cavespiderden1,NORTH,1,MossDungeon1,NORTH,1,MossDungeon2,NORTH,1,MossDungeon3,NORTH,1,MossDungeon4,NORTH,1,MossDungeon5,NORTH,1,HeadBranching,NORTH,1,JungleTemple,NORTH,1,12)
+WeightedBranch(0,0,0,JungleBlue,NORTH,6,JungleBrown,NORTH,6,JungleGreen,NORTH,6,JungleGrey,NORTH,6,JungleYellow,NORTH,6,RuinsBasement1,NORTH,6,RuinsBasement2,NORTH,6,RuinsBasement3,NORTH,6,RuinsBasement4,NORTH,6,cavespiderden1,NORTH,6,MossDungeon1,NORTH,6,MossDungeon2,NORTH,6,MossDungeon3,NORTH,6,MossDungeon4,NORTH,6,MossDungeon5,NORTH,6,HeadBranching,NORTH,4,JungleTemple,NORTH,6,100)

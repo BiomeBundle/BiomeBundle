@@ -47,7 +47,7 @@ SpawnHeight: highestSolidBlock
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 80
+MaxHeight: 91
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -4025,7 +4025,7 @@ Block(-2,-10,-4,SANDSTONE)
 Block(-2,-10,-3,SANDSTONE)
 Block(-2,-10,-2,SANDSTONE:2)
 Block(-2,-10,-1,SANDSTONE:2)
-RandomBlock(-2,-10,0,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
+RandomBlock(-2,-10,0,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
 Block(-2,-10,1,SANDSTONE:2)
 Block(-2,-10,2,SANDSTONE:2)
 Block(-2,-10,3,SANDSTONE)
@@ -4989,11 +4989,11 @@ Block(0,-10,-6,SANDSTONE)
 Block(0,-10,-5,SANDSTONE)
 Block(0,-10,-4,SANDSTONE)
 Block(0,-10,-3,SANDSTONE:2)
-RandomBlock(0,-10,-2,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
+RandomBlock(0,-10,-2,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
 Block(0,-10,-1,AIR)
 Block(0,-10,0,STONE_PLATE)
 Block(0,-10,1,AIR)
-RandomBlock(0,-10,2,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
+RandomBlock(0,-10,2,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
 Block(0,-10,3,SANDSTONE:2)
 Block(0,-10,4,SANDSTONE)
 Block(0,-10,5,SANDSTONE)
@@ -5957,7 +5957,7 @@ Block(2,-10,-4,SANDSTONE)
 Block(2,-10,-3,SANDSTONE)
 Block(2,-10,-2,SANDSTONE:2)
 Block(2,-10,-1,SANDSTONE:2)
-RandomBlock(2,-10,0,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
+RandomBlock(2,-10,0,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
 Block(2,-10,1,SANDSTONE:2)
 Block(2,-10,2,SANDSTONE:2)
 Block(2,-10,3,SANDSTONE)

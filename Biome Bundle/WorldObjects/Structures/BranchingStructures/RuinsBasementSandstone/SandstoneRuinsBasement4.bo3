@@ -45,7 +45,7 @@ RotateRandomly: false
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 52
+MinHeight: 63
 
 MaxHeight: 256
 
@@ -134,7 +134,7 @@ Block(-4,-1,0,128:5)
 RandomBlock(-4,-1,1,24,30,24:1,30,24:2,100)
 RandomBlock(-4,0,-2,24,30,24:1,30,24:2,100)
 RandomBlock(-4,0,-1,24,30,24:1,30,24:2,30,AIR,100)
-RandomBlock(-4,0,0,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
+RandomBlock(-4,0,0,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
 RandomBlock(-4,0,1,24,30,24:1,30,24:2,100)
 RandomBlock(-4,1,-2,24,30,24:1,30,24:2,30,AIR,100)
 Block(-4,1,-1,AIR)
@@ -304,7 +304,7 @@ Block(-1,2,2,AIR)
 Block(-1,2,3,AIR)
 RandomBlock(0,-5,-4,24,30,24:1,30,24:2,100)
 RandomBlock(0,-5,-3,24,30,24:1,30,24:2,100)
-RandomBlock(0,-5,-2,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
+RandomBlock(0,-5,-2,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
 RandomBlock(0,-5,0,24,30,24:1,30,24:2,100)
 Block(0,-5,1,24:1)
 RandomBlock(0,-5,2,24,30,24:1,30,24:2,100)

@@ -45,9 +45,9 @@ RotateRandomly: true
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 52
+MinHeight: 63
 
-MaxHeight: 60
+MaxHeight: 71
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -702,7 +702,7 @@ Block(-1,8,1,LOG)
 Block(-1,8,2,LOG)
 Block(-1,8,3,WOOD_STAIRS:3)
 Block(-1,9,-2,WOOD)
-RandomBlock(-1,9,0,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_library.nbt,100)
+RandomBlock(-1,9,0,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_library.nbt,100)
 Block(-1,9,2,WOOD)
 Block(-1,10,-2,WOOD_STAIRS:2)
 Block(-1,10,1,WEB)
@@ -881,7 +881,7 @@ Block(1,-7,-1,AIR)
 Block(1,-7,0,AIR)
 Block(1,-7,1,AIR)
 Block(1,-7,2,AIR)
-RandomBlock(1,-7,3,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_corridor.nbt,100)
+RandomBlock(1,-7,3,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_corridor.nbt,100)
 Block(1,-7,4,COBBLESTONE)
 Block(1,-7,5,COBBLESTONE)
 Block(1,-6,-5,COBBLESTONE)
@@ -1014,7 +1014,7 @@ Block(2,-8,-2,MOSSY_COBBLESTONE)
 Block(2,-8,-1,MOSSY_COBBLESTONE)
 Block(2,-8,0,MOSSY_COBBLESTONE)
 Block(2,-8,1,MOSSY_COBBLESTONE)
-RandomBlock(2,-8,2,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_library.nbt,100)
+RandomBlock(2,-8,2,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_library.nbt,100)
 Block(2,-8,3,MOSSY_COBBLESTONE)
 Block(2,-8,4,COBBLESTONE)
 Block(2,-8,5,COBBLESTONE)

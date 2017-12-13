@@ -35,7 +35,7 @@ SpawnHeight: highestBlock
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 52
+MaxHeight: 63
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
 # maximum branch depth for this objects.
@@ -183,4 +183,4 @@ Block(2,3,-5,LOG)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,8,VikingShip1,NORTH,1,VikingShip2,NORTH,2,VikingShip3,NORTH,3,3)
+WeightedBranch(0,0,8,VikingShip1,NORTH,33,VikingShip2,NORTH,33,VikingShip3,NORTH,34,100)

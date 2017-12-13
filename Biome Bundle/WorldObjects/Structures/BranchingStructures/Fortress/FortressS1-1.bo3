@@ -60,7 +60,7 @@ SpawnHeightVariance: 0
 MinHeight: 0
 
 # When in randomY mode used as the maximum Y to spawn this BO3 at.
-MaxHeight: 100
+MaxHeight: 111
 
 ######################
 # Extrusion settings #
@@ -2668,7 +2668,7 @@ Block(1,-20,-12,AIR)
 Block(1,-20,-11,AIR)
 Block(1,-20,-10,AIR)
 Block(1,-20,-9,SMOOTH_BRICK)
-Block(1,-20,-8,FURNACE:5)
+RandomBlock(1,-20,-8,FURNACE:4,../../nbt/Misc/Furnace.nbt,30,FURNACE,../../nbt/Misc/Furnace2.nbt,30,FURNACE,../../nbt/Misc/Furnace3.nbt,100)
 Block(1,-20,-7,SMOOTH_BRICK)
 Block(1,-20,-6,AIR)
 Block(1,-20,-5,AIR)
@@ -4698,4 +4698,4 @@ Block(-5,-18,-6,WEB)
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
 Branch(0,0,3,FortressS3-1,NORTH,100)
 Branch(5,-8,-5,FortressWallE-1,NORTH,100)
-Branch(-5,-20,-8,FortressS2-Wall,NORTH,60,FortressS2-Air,NORTH,40,FortressS6-1,NORTH,10,FortressWallW-1,NORTH,100)
+WeightedBranch(-5,-20,-8,FortressS2-Wall,NORTH,60,FortressS2-Air,NORTH,40,FortressS6-1,NORTH,10,FortressWallW-1,NORTH,100,100)

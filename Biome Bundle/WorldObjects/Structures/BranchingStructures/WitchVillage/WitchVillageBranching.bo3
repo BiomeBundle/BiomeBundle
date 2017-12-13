@@ -45,9 +45,9 @@ RotateRandomly: false
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 52
+MinHeight: 63
 
-MaxHeight: 70
+MaxHeight: 81
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -129,4 +129,4 @@ OutsideSourceBlock: placeAnyway
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,PathCENTRE,NORTH,2,GravelOreT1,NORTH,1,StandingStones2,NORTH,1,TotemBase,NORTH,1,RuinsBasement1,NORTH,1,RuinsBasement2,NORTH,1,RuinsBasement3,NORTH,1,RuinsBasement4,NORTH,1,11)
+WeightedBranch(0,0,0,PathCENTRE,NORTH,45,GravelOreT1,NORTH,5,StandingStones2,NORTH,10,TotemBase,NORTH,10,RuinsBasement1,NORTH,5,RuinsBasement2,NORTH,5,RuinsBasement3,NORTH,5,RuinsBasement4,NORTH,5,100)

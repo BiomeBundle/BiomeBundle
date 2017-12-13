@@ -50,7 +50,7 @@ SpawnHeight: highestSolidBlock
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 65
+MaxHeight: 76
 
 # Objects can have other objects attached to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -1338,7 +1338,7 @@ Block(0,-4,0,48)
 Block(0,-4,1,55)
 Block(0,-4,2,48)
 Block(0,-4,3,AIR)
-RandomBlock(0,-4,4,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,50,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,100)
+RandomBlock(0,-4,4,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,50,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
 Block(0,-4,5,AIR)
 Block(0,-4,6,48)
 Block(0,-4,7,4)
@@ -1493,7 +1493,7 @@ Block(1,-4,-7,48)
 Block(1,-4,-6,AIR)
 Block(1,-4,-5,AIR)
 Block(1,-4,-4,48)
-RandomBlock(1,-4,-3,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,50,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,100)
+RandomBlock(1,-4,-3,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,50,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,100)
 Block(1,-4,-2,AIR)
 Block(1,-4,-1,AIR)
 Block(1,-4,0,48)

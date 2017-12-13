@@ -45,9 +45,9 @@ RotateRandomly: false
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 61
+MinHeight: 72
 
-MaxHeight: 63
+MaxHeight: 74
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -352,7 +352,7 @@ Block(3,-5,2,ICE)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(-8,0,0,Igloo1,NORTH,5,IglooRuined1,NORTH,5,10)
-WeightedBranch(16,0,0,IglooDome1,NORTH,10,IglooDome2,NORTH,10,iglooRuined1,NORTH,5,25)
+WeightedBranch(-8,0,0,Igloo1,NORTH,50,IglooRuined1,NORTH,50,100)
+WeightedBranch(16,0,0,IglooDome1,NORTH,33,IglooDome2,NORTH,33,iglooRuined1,NORTH,34,100)
 WeightedBranch(0,0,16,IglooRuined1,NORTH,25,25)
 WeightedBranch(0,0,-16,Igloo2,NORTH,25,25)

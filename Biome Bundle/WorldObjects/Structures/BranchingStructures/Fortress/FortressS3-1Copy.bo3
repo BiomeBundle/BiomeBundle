@@ -60,7 +60,7 @@ SpawnHeightVariance: 0
 MinHeight: 0
 
 # When in randomY mode used as the maximum Y to spawn this BO3 at.
-MaxHeight: 200
+MaxHeight: 211
 
 ######################
 # Extrusion settings #
@@ -1102,6 +1102,6 @@ Block(4,-8,3,SMOOTH_BRICK)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,4,FortressN7-1Copy,NORTH,35,FortressS4-1Copy,NORTH,50,FortressN7-1,NORTH,100)
+WeightedBranch(0,0,4,FortressN7-1Copy,NORTH,35,FortressS4-1Copy,NORTH,50,FortressN7-1,NORTH,100,100)
 Branch(-10,0,0,FortressTorch,NORTH,30)
 Branch(10,0,0,FortressTorch,NORTH,30)

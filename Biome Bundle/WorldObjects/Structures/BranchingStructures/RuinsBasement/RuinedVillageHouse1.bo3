@@ -45,7 +45,7 @@ RotateRandomly: false
 SpawnHeight: highestBlock
 
 # The height limits for the BO3.
-MinHeight: 52
+MinHeight: 63
 
 MaxHeight: 256
 
@@ -294,7 +294,7 @@ Block(-1,-4,3,MOSSY_COBBLESTONE)
 Block(-1,-4,4,MOSSY_COBBLESTONE)
 Block(-1,-3,-4,COBBLESTONE)
 Block(-1,-3,-3,BED_BLOCK:9)
-RandomBlock(-1,-3,-2,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_corridor.nbt,100)
+RandomBlock(-1,-3,-2,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_corridor.nbt,100)
 Block(-1,-3,-1,AIR)
 Block(-1,-3,0,AIR)
 Block(-1,-3,1,AIR)

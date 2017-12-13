@@ -47,7 +47,7 @@ SpawnHeight: highestBlock
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 52
+MaxHeight: 63
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -235,7 +235,7 @@ Block(-5,1,5,WOOD:3)
 Block(-5,2,-2,STAINED_CLAY:13)
 Block(-5,2,0,LADDER:2)
 Block(-5,2,1,WOOD:3)
-RandomBlock(-5,2,2,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
+RandomBlock(-5,2,2,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
 Block(-5,2,4,STAINED_CLAY:13)
 Block(-5,3,-2,STAINED_CLAY:13)
 Block(-5,3,0,LADDER:2)
@@ -516,4 +516,4 @@ Block(0,7,5,WOOD_STEP:3)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,8,VikingShip1,NORTH,1,VikingShip2,NORTH,2,VikingShip3,NORTH,3,3)
+WeightedBranch(0,0,8,VikingShip1,NORTH,33,VikingShip2,NORTH,33,VikingShip3,NORTH,34,100)

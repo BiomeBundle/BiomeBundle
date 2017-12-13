@@ -45,7 +45,7 @@ RotateRandomly: false
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 52
+MinHeight: 63
 
 MaxHeight: 256
 
@@ -1021,21 +1021,4 @@ Branch(2,0,7,RuinsBasementWall1x1,NORTH,90)
 Branch(2,0,8,RuinsBasementWall1x1,NORTH,90)
 Branch(2,0,9,RuinsBasementWall1x1,NORTH,90)
 Branch(2,0,10,RuinsBasementWall1x1,NORTH,90)
-Branch(2,0,11,RuinsBasementWall1x1,NORTH,90)
-Branch(2,0,12,RuinsBasementWall1x1,NORTH,90)
-Branch(2,0,13,RuinsBasementWall1x1,NORTH,90)
-Branch(2,0,14,RuinsBasementWall1x1,NORTH,90)
-Branch(2,0,15,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,3,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,4,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,5,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,6,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,7,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,8,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,9,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,10,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,11,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,12,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,13,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,14,RuinsBasementWall1x1,NORTH,90)
-Branch(-2,0,15,RuinsBasementWall1x1,NORTH,90)
+

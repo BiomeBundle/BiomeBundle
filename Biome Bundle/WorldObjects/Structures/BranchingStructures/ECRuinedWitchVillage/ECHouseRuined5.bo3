@@ -47,7 +47,7 @@ SpawnHeight: randomY
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 20
+MaxHeight: 31
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -228,7 +228,7 @@ Block(1,-1,0,5)
 Block(1,-1,1,5)
 Block(1,-1,2,5)
 Block(1,0,-2,53:6)
-RandomBlock(1,0,-1,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_corridor.nbt,100)
+RandomBlock(1,0,-1,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_corridor.nbt,100)
 Block(1,0,1,AIR)
 Block(1,0,2,53:7)
 Block(1,1,-2,5)

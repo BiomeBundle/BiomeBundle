@@ -342,7 +342,7 @@ Block(0,0,-2,COBBLESTONE)
 Block(0,0,-1,AIR)
 Block(0,0,0,AIR)
 Entity(0,0,0,Witch,1,Witch.txt)
-RandomBlock(0,0,1,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,100)
+RandomBlock(0,0,1,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,100)
 Block(0,0,2,COBBLESTONE)
 Block(0,0,3,AIR)
 Block(0,1,-3,AIR)
@@ -637,7 +637,7 @@ Block(3,5,3,AIR)
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
-BlockCheck(0,-1,0,GRASS,DIRT,GRAVEL,SAND,SANDSTONE,DIRT:1,DIRT:2)
+
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #

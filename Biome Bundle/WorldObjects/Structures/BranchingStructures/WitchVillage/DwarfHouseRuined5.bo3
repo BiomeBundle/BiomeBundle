@@ -45,9 +45,9 @@ RotateRandomly: false
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 52
+MinHeight: 63
 
-MaxHeight: 70
+MaxHeight: 81
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -228,7 +228,7 @@ Block(1,-1,0,SMOOTH_BRICK)
 Block(1,-1,1,AIR)
 Block(1,-1,2,SMOOTH_BRICK)
 Block(1,0,-2,SMOOTH_STAIRS:6)
-RandomBlock(1,0,-1,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_library.nbt,100)
+RandomBlock(1,0,-1,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/stronghold_library.nbt,100)
 Block(1,0,1,AIR)
 Block(1,0,2,SMOOTH_STAIRS:7)
 Block(1,1,-2,SMOOTH_BRICK)

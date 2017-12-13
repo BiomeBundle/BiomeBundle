@@ -47,7 +47,7 @@ SpawnHeight: highestSolidBlock
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 66
+MaxHeight: 77
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -131,4 +131,4 @@ BlockCheck(0,-1,0,GRASS,DIRT,DIRT:2,STONE,GRAVEL)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,SwampBranching,NORTH,1,StoneShrineBranching,NORTH,1,DecorativeRuins0,NORTH,1,RuinsPath1,NORTH,1,4)
+WeightedBranch(0,0,0,SwampBranching,NORTH,25,StoneShrineBranching,NORTH,25,DecorativeRuins0,NORTH,25,RuinsPath1,NORTH,25,100)

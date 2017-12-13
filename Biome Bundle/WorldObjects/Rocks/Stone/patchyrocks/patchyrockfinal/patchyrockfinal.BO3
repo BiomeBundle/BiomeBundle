@@ -48,9 +48,9 @@ RotateRandomly: false
 SpawnHeight: highestBlock
 
 # The height limits for the BO3.
-MinHeight: 30
+MinHeight: 41
 
-MaxHeight: 42
+MaxHeight: 53
 
 # Objects can have other objects attached to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -75,7 +75,7 @@ SourceBlocks: AIR,STATIONARY_WATER
 MaxPercentageOutsideSourceBlock: 100
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
-OutsideSourceBlock: dontPlace
+OutsideSourceBlock: placeAnyway
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

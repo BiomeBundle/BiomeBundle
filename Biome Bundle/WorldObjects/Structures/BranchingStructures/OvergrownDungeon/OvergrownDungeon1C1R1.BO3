@@ -48,9 +48,9 @@ RotateRandomly: false
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 25
+MinHeight: 36
 
-MaxHeight: 29
+MaxHeight: 40
 
 # Objects can have other objects attached to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -545,7 +545,8 @@ Block(-8,28,5,98)
 Block(-8,28,6,4)
 Block(-8,28,7,18:7)
 Block(-8,29,-7,AIR)
-RandomBlock(-8,29,-6,MOB_SPAWNER,../../nbt/Spawner/Zombie.nbt,20,MOB_SPAWNER,../../nbt/Spawner/Skeleton.nbt,20,MOB_SPAWNER,../../nbt/Spawner/Spider.nbt,20,AIR,100)
+Block(-8,29,-6,AIR)
+Entity(-8,29,-6,Zombie,3,Husk.txt)
 Block(-8,29,-5,AIR)
 Block(-8,29,-4,AIR)
 Block(-8,29,-3,AIR)
@@ -5249,7 +5250,7 @@ Block(-2,44,-2,AIR)
 Block(-2,44,-1,AIR)
 Block(-2,44,0,AIR)
 Block(-2,44,1,AIR)
-RandomBlock(-2,44,2,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,50,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,100)
+RandomBlock(-2,44,2,CHEST,../../nbt/VanillaLoot/Simple_Dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/jungle_temple.nbt,100)
 Block(-2,44,3,4)
 Block(-2,44,4,4)
 Block(-2,44,5,106:4)

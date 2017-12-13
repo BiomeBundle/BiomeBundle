@@ -45,9 +45,9 @@ RotateRandomly: true
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 52
+MinHeight: 63
 
-MaxHeight: 120
+MaxHeight: 131
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -510,19 +510,18 @@ Block(5,1,2,STONE)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(9,0,17,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(-7,0,1,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(9,0,9,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(9,0,-21,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(-9,0,9,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(0,0,9,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(-9,0,-9,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(0,0,-9,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(12,0,0,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(-10,0,0,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(12,0,8,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(15,0,-4,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(-10,0,18,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(0,0,8,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(-13,0,-11,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
-WeightedBranch(-2,0,-13,CopyRubble1,NORTH,10,CopyRubble2,NORTH,10,CopyRubble3,NORTH,10,CopyRubble4,NORTH,10,CopyRubble5,NORTH,10,CopyRubble6,NORTH,10,100)
+
+WeightedBranch(-7,0,1,CopyRubble1,NORTH,17,CopyRubble2,NORTH,17,CopyRubble3,NORTH,17,CopyRubble4,NORTH,17,CopyRubble5,NORTH,17,CopyRubble6,NORTH,15,100)
+
+
+WeightedBranch(-9,0,5,CopyRubble1,NORTH,17,CopyRubble2,NORTH,17,CopyRubble3,NORTH,17,CopyRubble4,NORTH,17,CopyRubble5,NORTH,17,CopyRubble6,NORTH,15,100)
+WeightedBranch(0,0,9,CopyRubble1,NORTH,17,CopyRubble2,NORTH,17,CopyRubble3,NORTH,17,CopyRubble4,NORTH,17,CopyRubble5,NORTH,17,CopyRubble6,NORTH,15,100)
+WeightedBranch(-3,0,-9,CopyRubble1,NORTH,17,CopyRubble2,NORTH,17,CopyRubble3,NORTH,17,CopyRubble4,NORTH,17,CopyRubble5,NORTH,17,CopyRubble6,NORTH,15,100)
+WeightedBranch(0,0,-9,CopyRubble1,NORTH,17,CopyRubble2,NORTH,17,CopyRubble3,NORTH,17,CopyRubble4,NORTH,17,CopyRubble5,NORTH,17,CopyRubble6,NORTH,15,100)
+
+
+
+
+
+WeightedBranch(0,0,8,CopyRubble1,NORTH,17,CopyRubble2,NORTH,17,CopyRubble3,NORTH,17,CopyRubble4,NORTH,17,CopyRubble5,NORTH,17,CopyRubble6,NORTH,15,100)
+

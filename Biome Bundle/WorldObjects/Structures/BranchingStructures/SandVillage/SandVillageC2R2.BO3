@@ -48,9 +48,9 @@ RotateRandomly: false
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 44
+MinHeight: 55
 
-MaxHeight: 46
+MaxHeight: 57
 
 # Objects can have other objects attached to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -2274,7 +2274,7 @@ Block(-4,29,2,24)
 Block(-4,29,3,AIR)
 Block(-4,29,4,AIR)
 Block(-4,29,5,AIR)
-RandomBlock(-4,29,6,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
+RandomBlock(-4,29,6,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
 Block(-4,29,7,24)
 Block(-4,29,8,AIR)
 Block(-4,30,-6,AIR)
@@ -2975,7 +2975,7 @@ Block(-3,32,2,24)
 Block(-3,32,3,AIR)
 Block(-3,32,4,AIR)
 Block(-3,32,5,AIR)
-RandomBlock(-3,32,6,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
+RandomBlock(-3,32,6,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
 Block(-3,32,7,24)
 Block(-3,32,8,163:3)
 Block(-3,33,-4,AIR)
@@ -3601,7 +3601,7 @@ Block(-2,29,2,24)
 Block(-2,29,3,AIR)
 Block(-2,29,4,AIR)
 Block(-2,29,5,AIR)
-RandomBlock(-2,29,6,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
+RandomBlock(-2,29,6,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/abandoned_mineshaft.nbt,30,CHEST,../../nbt/VanillaLoot/desert_pyramid.nbt,100)
 Block(-2,29,7,24)
 Block(-2,29,8,AIR)
 Block(-2,30,-6,AIR)

@@ -45,7 +45,7 @@ RotateRandomly: false
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 52
+MinHeight: 63
 
 MaxHeight: 256
 
@@ -1021,15 +1021,4 @@ Branch(3,0,2,RuinsBasementWall1x1,NORTH,90)
 Branch(4,0,-2,RuinsBasementWall1x1,NORTH,90)
 Branch(4,0,2,RuinsBasementWall1x1,NORTH,90)
 Branch(5,0,-2,RuinsBasementWall1x1,NORTH,90)
-Branch(5,0,2,RuinsBasementWall1x1,NORTH,90)
-Branch(6,0,-2,RuinsBasementWall1x1,NORTH,90)
-Branch(6,0,2,RuinsBasementWall1x1,NORTH,90)
-Branch(8,0,2,RuinsBasementWall1x1,NORTH,90)
-Branch(12,0,-2,RuinsBasementWall1x1,NORTH,90)
-Branch(12,0,2,RuinsBasementWall1x1,NORTH,90)
-Branch(13,0,-2,RuinsBasementWall1x1,NORTH,90)
-Branch(13,0,2,RuinsBasementWall1x1,NORTH,90)
-Branch(14,0,-2,RuinsBasementWall1x1,NORTH,90)
-Branch(14,0,2,RuinsBasementWall1x1,NORTH,90)
-Branch(15,0,-2,RuinsBasementWall1x1,NORTH,90)
-Branch(15,0,2,RuinsBasementWall1x1,NORTH,90)
+

@@ -45,7 +45,7 @@ RotateRandomly: false
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 52
+MinHeight: 63
 
 MaxHeight: 256
 
@@ -531,7 +531,7 @@ Block(4,4,4,AIR)
 # rotation - NORTH, SOUTH, EAST or WEST.
 # IndividualChance - The chance each branch has to spawn, assumed to be 100 when left blank
 
-WeightedBranch(0,5,0,BrickTowerFloor3,NORTH,50,BrickTowerTop,NORTH,50,100)
+WeightedBranch(0,5,0,BrickTowerFloor3,NORTH,50,BrickTowerTop,NORTH,100,100)
 
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])

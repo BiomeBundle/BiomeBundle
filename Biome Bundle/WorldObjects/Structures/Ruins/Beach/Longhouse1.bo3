@@ -40,9 +40,9 @@ SpawnHeightVariance: 0
 # Height Limits for the BO3. #
 ##############################
 # When in randomY mode used as the minimum Y or in atMinY mode as the actual Y to spawn this BO3 at.
-MinHeight: 48
+MinHeight: 59
 # When in randomY mode used as the maximum Y to spawn this BO3 at.
-MaxHeight: 52
+MaxHeight: 63
 ######################
 # Extrusion settings #
 ######################
@@ -468,7 +468,7 @@ Block(-2,0,10,WOOD:1)
 Block(-2,0,11,WOOD:1)
 Block(-2,0,12,LOG:5)
 Block(-2,1,-12,SPRUCE_WOOD_STAIRS:6)
-RandomBlock(-2,1,-11,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
+RandomBlock(-2,1,-11,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
 Block(-2,1,-7,BED_BLOCK:9)
 Block(-2,1,-6,SPRUCE_WOOD_STAIRS:7)
 Block(-2,1,6,SPRUCE_WOOD_STAIRS:6)
@@ -550,7 +550,7 @@ Block(-1,0,10,WOOD:1)
 Block(-1,0,11,WOOD:1)
 Block(-1,0,12,LOG:5)
 Block(-1,1,-12,SPRUCE_WOOD_STAIRS:6)
-RandomBlock(-1,1,-11,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
+RandomBlock(-1,1,-11,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
 Block(-1,1,-7,BED_BLOCK:1)
 Block(-1,1,-6,SPRUCE_WOOD_STAIRS:7)
 Block(-1,1,6,SPRUCE_WOOD_STAIRS:6)
@@ -1285,6 +1285,7 @@ Block(3,1,-6,SPRUCE_WOOD_STAIRS:7)
 Block(3,1,1,WOOD_STAIRS:1)
 Block(3,1,4,DARK_OAK_FENCE)
 Entity(3,4,8,Villager,1,ToolSmith.txt)
+Entity(2,4,8,VillagerGolem,1,VillagerGolem.txt)
 Block(3,1,11,DARK_OAK_FENCE)
 Block(3,1,12,LOG:1)
 Block(3,2,-12,LOG:1)
@@ -2140,7 +2141,7 @@ Block(7,6,1,STAINED_CLAY:13)
 Block(7,6,2,STAINED_CLAY:13)
 Block(7,6,4,BOOKSHELF)
 Block(7,6,5,BOOKSHELF)
-RandomBlock(7,6,6,CHEST,../../nbt/VanillaLoot/village_blacksmith.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
+RandomBlock(7,6,6,CHEST,../../nbt/VanillaLoot/simple_dungeon.nbt,50,CHEST,../../nbt/VanillaLoot/stronghold_crossing.nbt,100)
 Block(7,6,9,STAINED_CLAY:13)
 Block(7,6,10,STAINED_CLAY:13)
 Block(7,6,11,STAINED_CLAY:13)
@@ -2245,7 +2246,7 @@ Block(8,1,-7,SPRUCE_WOOD_STAIRS:4)
 Block(8,1,-6,SPRUCE_WOOD_STAIRS:4)
 Block(8,1,-5,JUNGLE_WOOD_STAIRS:4)
 Block(8,1,-4,CAULDRON:3)
-Block(8,1,-3,FURNACE:4)
+RandomBlock(8,1,-3,FURNACE:3,../../nbt/Misc/Furnace.nbt,50,FURNACE:3,../../nbt/Misc/Furnace2.nbt,50,FURNACE:3,../../nbt/Misc/Furnace3.nbt,100)
 Block(8,1,-2,JUNGLE_WOOD_STAIRS:4)
 Block(8,1,-1,JUNGLE_WOOD_STAIRS:4)
 Block(8,1,0,JUNGLE_WOOD_STAIRS:4)

@@ -45,9 +45,9 @@ RotateRandomly: true
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 52
+MinHeight: 63
 
-MaxHeight: 120
+MaxHeight: 131
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -130,11 +130,10 @@ OutsideSourceBlock: placeAnyway
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
 
-Weightedbranch(0,0,16,ArchStoneGrass1,NORTH,10,ArchStoneGrass2,NORTH,10,ArchStoneGrass3,NORTH,10,ArchStoneGrass4,NORTH,10,ArchStoneGrass5,NORTH,10,ArchStoneGrass6,NORTH,10,ArchStoneGrass7,NORTH,10,70)
-Weightedbranch(25,0,1,ArchStoneGrass1,NORTH,10,ArchStoneGrass2,NORTH,10,ArchStoneGrass3,NORTH,10,ArchStoneGrass4,NORTH,10,ArchStoneGrass5,NORTH,10,ArchStoneGrass6,NORTH,10,ArchStoneGrass7,NORTH,10,70)
-Weightedbranch(11,0,35,ArchStoneGrass1,NORTH,10,ArchStoneGrass2,NORTH,10,ArchStoneGrass3,NORTH,10,ArchStoneGrass4,NORTH,10,ArchStoneGrass5,NORTH,10,ArchStoneGrass6,NORTH,10,ArchStoneGrass7,NORTH,10,70)
-Weightedbranch(-19,0,3,ArchStoneGrass1,NORTH,10,ArchStoneGrass2,NORTH,10,ArchStoneGrass3,NORTH,10,ArchStoneGrass4,NORTH,10,ArchStoneGrass5,NORTH,10,ArchStoneGrass6,NORTH,10,ArchStoneGrass7,NORTH,10,70)
-Weightedbranch(21,0,25,ArchStoneGrass1,NORTH,10,ArchStoneGrass2,NORTH,10,ArchStoneGrass3,NORTH,10,ArchStoneGrass4,NORTH,10,ArchStoneGrass5,NORTH,10,ArchStoneGrass6,NORTH,10,ArchStoneGrass7,NORTH,10,70)
-Weightedbranch(-15,0,-16,ArchStoneGrass1,NORTH,10,ArchStoneGrass2,NORTH,10,ArchStoneGrass3,NORTH,10,ArchStoneGrass4,NORTH,10,ArchStoneGrass5,NORTH,10,ArchStoneGrass6,NORTH,10,ArchStoneGrass7,NORTH,10,70)
-Weightedbranch(14,0,-26,ArchStoneGrass1,NORTH,10,ArchStoneGrass2,NORTH,10,ArchStoneGrass3,NORTH,10,ArchStoneGrass4,NORTH,10,ArchStoneGrass5,NORTH,10,ArchStoneGrass6,NORTH,10,ArchStoneGrass7,NORTH,10,70)
-Weightedbranch(-32,0,24,ArchStoneGrass1,NORTH,10,ArchStoneGrass2,NORTH,10,ArchStoneGrass3,NORTH,10,ArchStoneGrass4,NORTH,10,ArchStoneGrass5,NORTH,10,ArchStoneGrass6,NORTH,10,ArchStoneGrass7,NORTH,10,70)
+Weightedbranch(0,0,12,ArchStoneGrass1,NORTH,14,ArchStoneGrass2,NORTH,14,ArchStoneGrass3,NORTH,14,ArchStoneGrass4,NORTH,14,ArchStoneGrass5,NORTH,14,ArchStoneGrass6,NORTH,14,ArchStoneGrass7,NORTH,16,100)
+Weightedbranch(7,0,4,ArchStoneGrass1,NORTH,14,ArchStoneGrass2,NORTH,14,ArchStoneGrass3,NORTH,14,ArchStoneGrass4,NORTH,14,ArchStoneGrass5,NORTH,14,ArchStoneGrass6,NORTH,14,ArchStoneGrass7,NORTH,16,100)
+Weightedbranch(11,0,0,ArchStoneGrass1,NORTH,14,ArchStoneGrass2,NORTH,14,ArchStoneGrass3,NORTH,14,ArchStoneGrass4,NORTH,14,ArchStoneGrass5,NORTH,14,ArchStoneGrass6,NORTH,14,ArchStoneGrass7,NORTH,16,100)
+Weightedbranch(-12,0,3,ArchStoneGrass1,NORTH,14,ArchStoneGrass2,NORTH,14,ArchStoneGrass3,NORTH,14,ArchStoneGrass4,NORTH,14,ArchStoneGrass5,NORTH,14,ArchStoneGrass6,NORTH,14,ArchStoneGrass7,NORTH,16,100)
+Weightedbranch(11,0,8,ArchStoneGrass1,NORTH,14,ArchStoneGrass2,NORTH,14,ArchStoneGrass3,NORTH,14,ArchStoneGrass4,NORTH,14,ArchStoneGrass5,NORTH,14,ArchStoneGrass6,NORTH,14,ArchStoneGrass7,NORTH,16,100)
+Weightedbranch(10,0,-6,ArchStoneGrass1,NORTH,14,ArchStoneGrass2,NORTH,14,ArchStoneGrass3,NORTH,14,ArchStoneGrass4,NORTH,14,ArchStoneGrass5,NORTH,14,ArchStoneGrass6,NORTH,14,ArchStoneGrass7,NORTH,16,100)
+Weightedbranch(-5,0,6,ArchStoneGrass1,NORTH,14,ArchStoneGrass2,NORTH,14,ArchStoneGrass3,NORTH,14,ArchStoneGrass4,NORTH,14,ArchStoneGrass5,NORTH,14,ArchStoneGrass6,NORTH,14,ArchStoneGrass7,NORTH,16,100)
