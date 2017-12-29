@@ -5,7 +5,7 @@
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeExtends: 
+BiomeExtends:
 
 ResourceInheritance: true
 
@@ -20,7 +20,7 @@ BiomeSize: 10
 
 BiomeRarity: 100
 
-BiomeColor: #056621
+BiomeColor: #646605
 
 ReplaceToBiomeName: Savanna
 
@@ -28,7 +28,7 @@ ReplaceToBiomeName: Savanna
 # Isle biomes only #
 ####################
 
-IsleInBiome: 
+IsleInBiome:
 
 BiomeSizeWhenIsle: 10
 
@@ -111,7 +111,7 @@ SurfaceBlock: SAND:1
 
 GroundBlock: RED_SANDSTONE
 
-SurfaceAndGroundControl: 
+SurfaceAndGroundControl:
 
 ReplacedBlocks: (STONE,RED_SANDSTONE,63,250),(SAND,STAINED_CLAY:4,81,84),(RED_SANDSTONE,STAINED_CLAY:4,81,84),(SAND,STAINED_CLAY:4,92,93),(RED_SANDSTONE,STAINED_CLAY:4,92,93),(AIR,LAVA,1,10)
 
@@ -220,7 +220,7 @@ CustomObject(SandSmallLake1,SandSmallLake2,SandSmallLake3,SandSmallLake4,SandSma
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeObjects: 
+BiomeObjects:
 
 
 #######################################################################
@@ -260,7 +260,6 @@ SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
 SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
-BiomeDictId: 
+BiomeDictId:
 
 InheritMobsBiomeName: Savanna
-

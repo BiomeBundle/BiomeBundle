@@ -5,7 +5,7 @@
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeExtends: 
+BiomeExtends:
 
 ResourceInheritance: true
 
@@ -20,15 +20,15 @@ BiomeSize: 6
 
 BiomeRarity: 70
 
-BiomeColor: #ADD917
+BiomeColor: #99BD1D
 
-ReplaceToBiomeName: 
+ReplaceToBiomeName:
 
 ####################
 # Isle biomes only #
 ####################
 
-IsleInBiome: 
+IsleInBiome:
 
 BiomeSizeWhenIsle: 6
 
@@ -38,9 +38,9 @@ BiomeRarityWhenIsle: 70
 # Border biomes only #
 ######################
 
-BiomeIsBorder: 
+BiomeIsBorder:
 
-NotBorderNear: 
+NotBorderNear:
 
 BiomeSizeWhenBorder: 6
 
@@ -111,7 +111,7 @@ SurfaceBlock: GRASS
 
 GroundBlock: DIRT
 
-SurfaceAndGroundControl: 
+SurfaceAndGroundControl:
 
 ReplacedBlocks: (AIR,LAVA,1,10)
 
@@ -210,7 +210,7 @@ Plant(BrownMushroom,1,10.0,0,139,GRASS,DIRT)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeObjects: 
+BiomeObjects:
 
 
 #######################################################################
@@ -253,4 +253,3 @@ SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 BiomeDictId: PLAINS, SPARSE
 
 InheritMobsBiomeName: Plains
-

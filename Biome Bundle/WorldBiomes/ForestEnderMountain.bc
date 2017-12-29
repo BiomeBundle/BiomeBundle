@@ -5,7 +5,7 @@
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeExtends: 
+BiomeExtends:
 
 ResourceInheritance: true
 
@@ -20,7 +20,7 @@ BiomeSize: 10
 
 BiomeRarity: 99
 
-BiomeColor: #9EC4DE
+BiomeColor: #3C1157
 
 ReplaceToBiomeName: ForestEnder
 
@@ -38,9 +38,9 @@ BiomeRarityWhenIsle: 99
 # Border biomes only #
 ######################
 
-BiomeIsBorder: 
+BiomeIsBorder:
 
-NotBorderNear: 
+NotBorderNear:
 
 BiomeSizeWhenBorder: 10
 
@@ -111,7 +111,7 @@ SurfaceBlock: GRASS
 
 GroundBlock: DIRT
 
-SurfaceAndGroundControl: 
+SurfaceAndGroundControl:
 
 ReplacedBlocks: (AIR,LAVA,1,10)
 
@@ -213,7 +213,7 @@ Plant(LargeFern,4,20.0,41,139,GRASS,DIRT)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeObjects: 
+BiomeObjects:
 
 
 #######################################################################
@@ -253,7 +253,6 @@ SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
 SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
-BiomeDictId: 
+BiomeDictId:
 
 InheritMobsBiomeName: ForestEnder
-

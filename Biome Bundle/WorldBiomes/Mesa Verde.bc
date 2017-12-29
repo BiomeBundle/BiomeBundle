@@ -5,7 +5,7 @@
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeExtends: 
+BiomeExtends:
 
 ResourceInheritance: true
 
@@ -20,7 +20,7 @@ BiomeSize: 5
 
 BiomeRarity: 99
 
-BiomeColor: #537B09
+BiomeColor: #C1DD4C
 
 ReplaceToBiomeName: Jungle
 
@@ -28,7 +28,7 @@ ReplaceToBiomeName: Jungle
 # Isle biomes only #
 ####################
 
-IsleInBiome: 
+IsleInBiome:
 
 BiomeSizeWhenIsle: 5
 
@@ -38,9 +38,9 @@ BiomeRarityWhenIsle: 97
 # Border biomes only #
 ######################
 
-BiomeIsBorder: 
+BiomeIsBorder:
 
-NotBorderNear: 
+NotBorderNear:
 
 BiomeSizeWhenBorder: 5
 
@@ -217,7 +217,7 @@ Plant(LargeFern,10,100.0,41,139,GRASS,DIRT)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeObjects: 
+BiomeObjects:
 
 
 #######################################################################
@@ -257,7 +257,6 @@ SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
 SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
-BiomeDictId: 
+BiomeDictId:
 
 InheritMobsBiomeName: Forest
-
