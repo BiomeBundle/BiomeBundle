@@ -5,7 +5,7 @@
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeExtends: 
+BiomeExtends:
 
 ResourceInheritance: true
 
@@ -20,7 +20,7 @@ BiomeSize: 9
 
 BiomeRarity: 100
 
-BiomeColor: #D25F12
+BiomeColor: #C9CEC9
 
 ReplaceToBiomeName: Extreme Hills
 
@@ -28,7 +28,7 @@ ReplaceToBiomeName: Extreme Hills
 # Isle biomes only #
 ####################
 
-IsleInBiome: 
+IsleInBiome:
 
 BiomeSizeWhenIsle: 9
 
@@ -38,7 +38,7 @@ BiomeRarityWhenIsle: 100
 # Border biomes only #
 ######################
 
-BiomeIsBorder: 
+BiomeIsBorder:
 
 NotBorderNear: Snowy Cliffs, SnowyExtremeHills, SnowyMesa, Cold Plains, Arctic, SnowyPlains, IcyMountains, Ice Plains, ColdForestFirThicket, Cold Taiga, Frozen Forest, Glacier
 
@@ -111,7 +111,7 @@ SurfaceBlock: GRASS
 
 GroundBlock: DIRT
 
-SurfaceAndGroundControl: 
+SurfaceAndGroundControl:
 
 ReplacedBlocks: (AIR,LAVA,1,10)
 
@@ -161,14 +161,14 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Dungeon(8,100.0,0,160) 
-Ore(COAL_ORE,17,20,100.0,0,127,STONE:0) 
-Ore(IRON_ORE,9,20,100.0,0,63,STONE:0) 
-Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0) 
-Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0) 
-Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0) 
-Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0) 
-Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0) 
+Dungeon(8,100.0,0,160)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
@@ -209,7 +209,7 @@ Plant(SNOW,60,100.0,63,139,GRASS,DIRT,STONE:0,PACKED_ICE,ICE,LEAVES)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeObjects: 
+BiomeObjects:
 
 
 #######################################################################
@@ -249,7 +249,6 @@ SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
 SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
-BiomeDictId: 
+BiomeDictId:
 
 InheritMobsBiomeName: Extreme Hills
-
