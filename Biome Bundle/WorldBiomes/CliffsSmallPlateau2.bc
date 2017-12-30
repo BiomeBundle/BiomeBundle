@@ -5,7 +5,7 @@
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeExtends: 
+BiomeExtends:
 
 ResourceInheritance: true
 
@@ -20,7 +20,7 @@ BiomeSize: 9
 
 BiomeRarity: 99
 
-BiomeColor: #C2FFAE
+BiomeColor: #ADF097
 
 ReplaceToBiomeName: Jungle
 
@@ -38,9 +38,9 @@ BiomeRarityWhenIsle: 99
 # Border biomes only #
 ######################
 
-BiomeIsBorder: 
+BiomeIsBorder:
 
-NotBorderNear: 
+NotBorderNear:
 
 BiomeSizeWhenBorder: 8
 
@@ -111,7 +111,7 @@ SurfaceBlock: STAINED_CLAY:1
 
 GroundBlock: STONE
 
-SurfaceAndGroundControl: 
+SurfaceAndGroundControl:
 
 ReplacedBlocks: (STONE,STAINED_CLAY:1,63,211),(AIR,LAVA,1,10)
 
@@ -199,7 +199,7 @@ Plant(PUMPKIN,1,3.0,0,139,GRASS)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeObjects: 
+BiomeObjects:
 
 
 #######################################################################
@@ -239,7 +239,6 @@ SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
 SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
-BiomeDictId: 
+BiomeDictId:
 
 InheritMobsBiomeName: Jungle
-
