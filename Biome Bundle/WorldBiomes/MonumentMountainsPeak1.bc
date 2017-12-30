@@ -5,7 +5,7 @@
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeExtends: 
+BiomeExtends:
 
 ResourceInheritance: true
 
@@ -20,7 +20,7 @@ BiomeSize: 9
 
 BiomeRarity: 98
 
-BiomeColor: #C2FFAE
+BiomeColor: #6D9CAC
 
 ReplaceToBiomeName: Uplands
 
@@ -38,9 +38,9 @@ BiomeRarityWhenIsle: 98
 # Border biomes only #
 ######################
 
-BiomeIsBorder: 
+BiomeIsBorder:
 
-NotBorderNear: 
+NotBorderNear:
 
 BiomeSizeWhenBorder: 9
 
@@ -204,7 +204,7 @@ Plant(SNOW,80,90.0,146,255,GRASS,DIRT,STONE:0,LEAVES)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeObjects: 
+BiomeObjects:
 
 
 #######################################################################
@@ -244,7 +244,6 @@ SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
 SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
-BiomeDictId: 
+BiomeDictId:
 
 InheritMobsBiomeName: Extreme Hills
-
