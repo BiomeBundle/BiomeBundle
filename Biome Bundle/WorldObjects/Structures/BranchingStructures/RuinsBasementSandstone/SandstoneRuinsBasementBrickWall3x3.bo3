@@ -133,8 +133,8 @@ RB(1,1,1,24,40,24:2,40,24:1,40)
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
 BlockCheckNot(0,0,0,STATIONARY_WATER) 
 BlockCheckNot(0,0,0,LOG)  
-BlockCheck(0,-1,0,SAND,SANDSTONE)
-#########################################
+BlockCheck(0,-1,0,SAND,SANDSTONE)
+#######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #
 # +-----------------------------------------------------------------+ #
